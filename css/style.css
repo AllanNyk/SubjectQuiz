@@ -157,3 +157,19 @@ body {
         margin-top: 12px;
     }
 }
+
+@media (max-height: 500px) and (orientation: landscape) {
+    #gameCanvas {
+        width: auto;
+        height: calc(100dvh - 20px);
+        aspect-ratio: 800 / 500;
+    }
+
+    #ad-top, #ad-bottom {
+        display: none;
+    }
+
+    #controls {
+        display: none;  /* swipe/keyboard still works */
+    }
+}
