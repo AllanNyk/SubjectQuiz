@@ -1,0 +1,389 @@
+{
+    "subject": "IP Law",
+    "language": "en",
+    "levels": [
+        {
+            "level": 1,
+            "name": "Fundamentals",
+            "questions": [
+                {
+                    "question": "What does 'IP' stand for in IP Law?",
+                    "choices": ["International Policy", "Intellectual Property", "Internal Protocol", "Institutional Practice"],
+                    "correct": 1,
+                    "explanation": "IP stands for Intellectual Property — legal rights over creations of the mind."
+                },
+                {
+                    "question": "How long does a standard patent last from the date of filing?",
+                    "choices": ["10 years", "15 years", "20 years", "Life of the inventor plus 50 years"],
+                    "correct": 2,
+                    "explanation": "Patents generally last 20 years from the filing date, subject to maintenance fees."
+                },
+                {
+                    "question": "Which of the following is NOT a requirement for patentability?",
+                    "choices": ["Novelty", "Inventive step", "Industrial application", "Aesthetic beauty"],
+                    "correct": 3,
+                    "explanation": "The three requirements are novelty, inventive step (non-obviousness), and industrial applicability. Aesthetics is irrelevant."
+                },
+                {
+                    "question": "What does copyright protect?",
+                    "choices": ["Ideas and concepts", "Original works of authorship fixed in a tangible medium", "Business methods", "Domain names"],
+                    "correct": 1,
+                    "explanation": "Copyright protects original expression fixed in a tangible medium, not ideas themselves."
+                },
+                {
+                    "question": "What is a trademark?",
+                    "choices": ["A patent on a brand name", "A sign that distinguishes goods or services of one trader from another", "A license to sell goods", "A registered business name"],
+                    "correct": 1,
+                    "explanation": "A trademark is any sign capable of distinguishing the goods or services of one undertaking from those of others."
+                },
+                {
+                    "question": "What is the general term of copyright protection in the EU?",
+                    "choices": ["25 years after publication", "50 years after creation", "Life of the author plus 70 years", "100 years from creation"],
+                    "correct": 2,
+                    "explanation": "In the EU, copyright lasts for the life of the author plus 70 years."
+                },
+                {
+                    "question": "What does 'prior art' mean in patent law?",
+                    "choices": ["Art created before the Renaissance", "All publicly available information before the patent filing date", "Previous patents by the same inventor", "Artwork related to the invention"],
+                    "correct": 1,
+                    "explanation": "Prior art encompasses all publicly available information before the filing date that may be relevant to novelty and inventive step."
+                },
+                {
+                    "question": "Can a trademark be renewed indefinitely?",
+                    "choices": ["No, trademarks expire after 25 years", "Yes, as long as renewal fees are paid and it remains in use", "Only if the owner is the original registrant", "Only once"],
+                    "correct": 1,
+                    "explanation": "Trademarks can be renewed indefinitely in 10-year periods, provided fees are paid and the mark remains in use."
+                },
+                {
+                    "question": "What is a 'trade secret'?",
+                    "choices": ["A patented formula", "Confidential business information that provides a competitive advantage", "A type of trademark", "A government classification"],
+                    "correct": 1,
+                    "explanation": "Trade secrets are confidential information with commercial value that the holder takes reasonable steps to keep secret."
+                },
+                {
+                    "question": "Which international agreement establishes minimum IP protection standards for WTO members?",
+                    "choices": ["The Berne Convention", "The Paris Convention", "TRIPS Agreement", "The Hague Convention"],
+                    "correct": 2,
+                    "explanation": "TRIPS (Trade-Related Aspects of Intellectual Property Rights) sets minimum IP standards for all WTO members."
+                },
+                {
+                    "question": "Does copyright require registration to exist?",
+                    "choices": ["Yes, always", "No, it arises automatically upon creation", "Only for literary works", "Only in common law countries"],
+                    "correct": 1,
+                    "explanation": "Copyright arises automatically when an original work is fixed in a tangible medium. Registration is optional but can provide benefits."
+                },
+                {
+                    "question": "What is 'fair use' (or 'fair dealing')?",
+                    "choices": ["Using a trademark without permission", "A defense allowing limited use of copyrighted material without permission", "Sharing patents for free", "Trading IP rights on the open market"],
+                    "correct": 1,
+                    "explanation": "Fair use/fair dealing is a legal doctrine permitting limited use of copyrighted works for purposes like criticism, education, or parody."
+                },
+                {
+                    "question": "What is a 'design right'?",
+                    "choices": ["The right to design buildings", "Protection for the visual appearance of a product", "A patent for software", "A right to modify someone else's work"],
+                    "correct": 1,
+                    "explanation": "Design rights protect the appearance (shape, pattern, ornamentation) of a product, not its function."
+                },
+                {
+                    "question": "What is the 'Paris Convention'?",
+                    "choices": ["An agreement on climate change", "An international treaty on industrial property (patents, trademarks)", "A convention on human rights", "A trade agreement between France and the UK"],
+                    "correct": 1,
+                    "explanation": "The Paris Convention (1883) is a foundational treaty on industrial property, establishing priority rights and national treatment."
+                },
+                {
+                    "question": "What are 'moral rights' in copyright law?",
+                    "choices": ["The right to earn money from a work", "Personal rights of the author, including attribution and integrity", "Rights based on ethical standards", "The right to censor offensive content"],
+                    "correct": 1,
+                    "explanation": "Moral rights include the right of attribution (paternity) and the right to object to derogatory treatment of the work (integrity)."
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "name": "Application & Enforcement",
+            "questions": [
+                {
+                    "question": "What is a 'patent claim'?",
+                    "choices": ["A lawsuit for patent infringement", "The part of a patent that legally defines the scope of protection", "A request for a patent extension", "An objection to a patent application"],
+                    "correct": 1,
+                    "explanation": "Patent claims define the boundaries of the patent protection — what is and is not covered by the patent."
+                },
+                {
+                    "question": "What is the 'priority right' under the Paris Convention?",
+                    "choices": ["The right to be the first to use a trademark", "The right to claim the filing date of an earlier application in another country", "The right to priority processing by the patent office", "The right to prevent others from filing similar patents"],
+                    "correct": 1,
+                    "explanation": "Priority right allows an applicant to use the filing date of a first application in one country when filing in another within 12 months (patents) or 6 months (trademarks)."
+                },
+                {
+                    "question": "What is 'patent infringement'?",
+                    "choices": ["Filing a patent application", "Making, using, or selling a patented invention without the patent holder's permission", "Failing to pay patent fees", "Publishing a patent specification"],
+                    "correct": 1,
+                    "explanation": "Patent infringement occurs when someone makes, uses, sells, or imports a patented invention without authorization."
+                },
+                {
+                    "question": "What is the 'doctrine of equivalents' in patent law?",
+                    "choices": ["All patents have equal value", "Infringement can occur even if the infringing product is not identical but performs substantially the same function", "Two patents covering the same invention are equivalent", "Patent fees must be equivalent across countries"],
+                    "correct": 1,
+                    "explanation": "The doctrine of equivalents allows a patent holder to claim infringement even when the accused product doesn't literally fall within the claims but is substantially similar."
+                },
+                {
+                    "question": "What is 'trademark dilution'?",
+                    "choices": ["Mixing trademark chemicals", "Weakening of a famous mark's distinctiveness through unauthorized use", "Reducing the number of trademark classes", "Sharing trademark rights among partners"],
+                    "correct": 1,
+                    "explanation": "Trademark dilution occurs when use of a similar mark weakens the distinctiveness or tarnishes the reputation of a famous mark."
+                },
+                {
+                    "question": "What does the PCT (Patent Cooperation Treaty) facilitate?",
+                    "choices": ["Automatic worldwide patent protection", "A unified international filing procedure for seeking patent protection in multiple countries", "Free licensing of patents", "Standardized patent fees globally"],
+                    "correct": 1,
+                    "explanation": "The PCT provides a single international filing procedure but does NOT grant an international patent — national/regional examination is still required."
+                },
+                {
+                    "question": "What is 'exhaustion of rights' (first sale doctrine) in IP law?",
+                    "choices": ["When an IP right expires", "After the first authorized sale, the IP holder cannot control further distribution of that specific item", "When an inventor runs out of ideas", "When a trademark becomes generic"],
+                    "correct": 1,
+                    "explanation": "Exhaustion means that once an IP-protected product is sold with the rights holder's consent, they cannot restrict its further resale."
+                },
+                {
+                    "question": "What is a 'compulsory license' in patent law?",
+                    "choices": ["A license that must be purchased before using any technology", "A government-authorized license allowing use of a patent without the holder's consent", "A mandatory training certificate for patent attorneys", "A license required to file patent applications"],
+                    "correct": 1,
+                    "explanation": "Compulsory licenses allow governments to authorize production of a patented product without the patent holder's consent, typically for public health reasons."
+                },
+                {
+                    "question": "What is 'secondary meaning' in trademark law?",
+                    "choices": ["A trademark's literal translation", "When a descriptive term acquires distinctiveness through use", "The hidden meaning of a brand name", "A trademark used for a secondary product line"],
+                    "correct": 1,
+                    "explanation": "Secondary meaning (acquired distinctiveness) occurs when consumers associate a descriptive term with a specific source through extensive use."
+                },
+                {
+                    "question": "What is the 'Berne Convention'?",
+                    "choices": ["A patent treaty", "An international copyright treaty ensuring mutual recognition of copyright between member states", "A trade secret protection agreement", "A trademark harmonization treaty"],
+                    "correct": 1,
+                    "explanation": "The Berne Convention (1886) is the principal international copyright treaty, establishing principles like automatic protection and national treatment."
+                },
+                {
+                    "question": "What is a 'cease and desist' letter in IP enforcement?",
+                    "choices": ["A court order to stop infringing activity", "A formal letter demanding that the recipient stop alleged infringing activity", "A patent application withdrawal", "A trademark cancellation request"],
+                    "correct": 1,
+                    "explanation": "A cease and desist letter is a pre-litigation step where the IP holder formally demands the alleged infringer stop the infringing activity."
+                },
+                {
+                    "question": "Can software be patented?",
+                    "choices": ["Never, under any circumstances", "Yes, if it produces a technical effect beyond normal computer interaction", "Only in the United States", "Only if it includes hardware components"],
+                    "correct": 1,
+                    "explanation": "In many jurisdictions, software-implemented inventions can be patented if they produce a further technical effect, though pure software 'as such' may be excluded."
+                },
+                {
+                    "question": "What is 'trademark genericide'?",
+                    "choices": ["When a trademark is used for generic goods", "When a trademark becomes the common name for a product and loses protection", "When a generic product copies a trademark", "When a trademark is translated to another language"],
+                    "correct": 1,
+                    "explanation": "Genericide occurs when a trademark becomes so commonly used as a generic term (e.g., 'aspirin', 'escalator') that it loses its distinctiveness and protection."
+                },
+                {
+                    "question": "What is an 'injunction' in IP litigation?",
+                    "choices": ["A monetary award", "A court order requiring a party to do or refrain from doing something", "A patent claim amendment", "A licensing agreement"],
+                    "correct": 1,
+                    "explanation": "An injunction is a court order that can prohibit ongoing infringement (prohibitory) or compel specific action (mandatory)."
+                },
+                {
+                    "question": "What does WIPO stand for?",
+                    "choices": ["World Intellectual Property Organization", "World International Patent Office", "Western Industrial Property Office", "World Innovation and Progress Organization"],
+                    "correct": 0,
+                    "explanation": "WIPO (World Intellectual Property Organization) is a UN agency that administers international IP treaties and promotes IP protection globally."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "name": "Advanced Topics",
+            "questions": [
+                {
+                    "question": "What is the 'inventive step' (non-obviousness) requirement for patents?",
+                    "choices": ["The invention must be completely new", "The invention must not be obvious to a person skilled in the art", "The invention must be commercially viable", "The invention must be superior to existing products"],
+                    "correct": 1,
+                    "explanation": "Inventive step requires that the invention would not have been obvious to a person with ordinary skill in the relevant field, considering the prior art."
+                },
+                {
+                    "question": "In EU trademark law, what is the 'likelihood of confusion' test?",
+                    "choices": ["Whether consumers are confused about IP law", "Whether the average consumer might believe goods/services come from the same or related source", "Whether two trademarks look identical", "Whether a product is confusingly designed"],
+                    "correct": 1,
+                    "explanation": "Likelihood of confusion assesses whether the average consumer, considering all circumstances, might believe the goods/services originate from the same undertaking."
+                },
+                {
+                    "question": "What is the 'three-step test' in copyright law?",
+                    "choices": ["A test for originality", "A framework for permissible exceptions: special cases, no conflict with normal exploitation, no unreasonable prejudice", "A filing procedure for copyright", "A test for determining authorship"],
+                    "correct": 1,
+                    "explanation": "The three-step test (Berne Convention Art. 9(2), TRIPS Art. 13) limits copyright exceptions to: (1) special cases, (2) not conflicting with normal exploitation, (3) not unreasonably prejudicing the author's interests."
+                },
+                {
+                    "question": "What is 'claim construction' in patent litigation?",
+                    "choices": ["Building a patent application", "The judicial interpretation of the meaning and scope of patent claims", "Drafting new patent claims", "Constructing prior art arguments"],
+                    "correct": 1,
+                    "explanation": "Claim construction is the process by which a court interprets the terms and scope of patent claims to determine what is protected."
+                },
+                {
+                    "question": "What is a 'Supplementary Protection Certificate' (SPC)?",
+                    "choices": ["An additional patent for improvements", "An extension of patent protection for pharmaceutical/plant protection products to compensate for regulatory approval delays", "A certificate of authenticity", "A supplementary trademark registration"],
+                    "correct": 1,
+                    "explanation": "SPCs extend patent protection for up to 5 years for medicinal/plant protection products to compensate for the time spent obtaining regulatory approval."
+                },
+                {
+                    "question": "What is 'contributory infringement' in patent law?",
+                    "choices": ["Directly infringing a patent", "Supplying a component or material that is especially suited for use in a patented invention", "Filing a competing patent", "Failing to cite prior art"],
+                    "correct": 1,
+                    "explanation": "Contributory infringement occurs when a party supplies a component with no substantial non-infringing use, knowing it will be used to infringe a patent."
+                },
+                {
+                    "question": "What is the 'database right' in EU law?",
+                    "choices": ["Copyright in software databases", "A sui generis right protecting the investment in obtaining, verifying, or presenting database contents", "A right to access government databases", "A patent on database technology"],
+                    "correct": 1,
+                    "explanation": "The EU Database Directive creates a sui generis right protecting substantial investment in obtaining, verifying, or presenting database contents, separate from copyright."
+                },
+                {
+                    "question": "What is 'patent trolling'?",
+                    "choices": ["Searching for patents online", "An entity acquiring patents primarily to extract licensing fees through litigation rather than using the patented technology", "Filing multiple patent applications", "Criticizing the patent system"],
+                    "correct": 1,
+                    "explanation": "Patent trolls (non-practicing entities) acquire patents not to produce goods but to generate revenue through licensing demands and infringement lawsuits."
+                },
+                {
+                    "question": "What is 'FRAND' licensing?",
+                    "choices": ["Free and non-discriminatory licensing", "Fair, Reasonable, and Non-Discriminatory licensing terms for standard-essential patents", "Franchise and distribution licensing", "Federal registration and national disclosure"],
+                    "correct": 1,
+                    "explanation": "FRAND (Fair, Reasonable, and Non-Discriminatory) terms are commitments made by holders of standard-essential patents to license on equitable terms."
+                },
+                {
+                    "question": "What is the 'originality' threshold for copyright protection in EU law after the Infopaq decision?",
+                    "choices": ["The work must be commercially successful", "The work must be the author's own intellectual creation", "The work must be registered with a national office", "The work must demonstrate artistic merit"],
+                    "correct": 1,
+                    "explanation": "The CJEU in Infopaq (C-5/08) established that copyright subsists when a work is the 'author's own intellectual creation,' harmonizing the originality standard across the EU."
+                },
+                {
+                    "question": "What is 'patent prosecution'?",
+                    "choices": ["Criminal proceedings for patent fraud", "The process of negotiating with a patent office to obtain a patent grant", "Suing someone for patent infringement", "Cancelling an existing patent"],
+                    "correct": 1,
+                    "explanation": "Patent prosecution is the interaction between an applicant and the patent office during examination, responding to objections and amending claims to secure a grant."
+                },
+                {
+                    "question": "What is the principle of 'national treatment' in IP treaties?",
+                    "choices": ["Each country can set its own IP laws without restriction", "Foreign nationals must receive the same IP protection as domestic nationals", "IP rights only apply within the granting nation", "National governments control all IP licensing"],
+                    "correct": 1,
+                    "explanation": "National treatment (a cornerstone of the Paris and Berne Conventions) requires member states to grant foreign nationals the same IP protection as their own citizens."
+                },
+                {
+                    "question": "What is 'patent claim dependency'?",
+                    "choices": ["A patent that relies on another patent", "A dependent claim that refers back to and further limits an independent claim", "When a company is dependent on its patent portfolio", "The relationship between filing and examination"],
+                    "correct": 1,
+                    "explanation": "A dependent claim incorporates all limitations of the claim it depends on and adds further narrowing features, creating a hierarchy of protection."
+                },
+                {
+                    "question": "What are 'orphan works' in copyright law?",
+                    "choices": ["Works created by minors", "Works whose copyright holder cannot be identified or located despite diligent search", "Works in the public domain", "Unpublished manuscripts"],
+                    "correct": 1,
+                    "explanation": "Orphan works are copyrighted works whose rights holders cannot be found, creating challenges for digitization and reuse projects."
+                },
+                {
+                    "question": "What is the 'unitary patent' system in Europe?",
+                    "choices": ["A single patent valid in all EU member states without individual validation", "A patent that can only cover one invention", "The standard European Patent Office procedure", "A patent valid only in one country"],
+                    "correct": 0,
+                    "explanation": "The Unitary Patent (effective 2023) provides patent protection across participating EU member states through a single registration, reducing costs and complexity."
+                }
+            ]
+        }
+    ],
+    "cases": [
+        {
+            "level": 1,
+            "title": "FreshBrew v. MermaidBeans",
+            "context": "FreshBrew Coffee Ltd. has operated a chain of coffee shops since 2015 under a registered trademark featuring a green mermaid logo. In early 2024, a new competitor called MermaidBeans opened several locations using a nearly identical green mermaid logo with only minor stylistic differences. FreshBrew has filed suit alleging trademark infringement.",
+            "questions": [
+                {
+                    "question": "What type of intellectual property right is primarily at issue in this dispute?",
+                    "choices": ["Patent right", "Trademark right", "Copyright", "Trade secret"],
+                    "correct": 1,
+                    "explanation": "The dispute centers on a registered trademark — a distinctive sign (the green mermaid logo) used to identify the source of goods and services."
+                },
+                {
+                    "question": "Which factor is MOST important in assessing whether MermaidBeans infringes FreshBrew's trademark?",
+                    "choices": ["Whether MermaidBeans sells the same type of coffee beans", "Whether there is a likelihood of confusion among average consumers", "Whether MermaidBeans registered their logo first", "Whether FreshBrew's logo is aesthetically superior"],
+                    "correct": 1,
+                    "explanation": "Likelihood of confusion is the central test in trademark infringement — whether consumers might believe the goods come from the same or a related source."
+                },
+                {
+                    "question": "What is the first legal remedy FreshBrew should seek to stop MermaidBeans from using the logo immediately?",
+                    "choices": ["Criminal prosecution", "An interim injunction (preliminary injunction)", "Filing a new patent application", "Requesting arbitration"],
+                    "correct": 1,
+                    "explanation": "An interim injunction can quickly prohibit the infringing use while the full case proceeds, preventing ongoing harm to the brand."
+                },
+                {
+                    "question": "From whose perspective is the likelihood of confusion assessed?",
+                    "choices": ["The trademark examiner", "The average consumer of the relevant goods or services", "The trademark owner's legal team", "An IP law professor"],
+                    "correct": 1,
+                    "explanation": "Likelihood of confusion is assessed from the perspective of the average consumer who is reasonably well-informed and reasonably observant."
+                }
+            ]
+        },
+        {
+            "level": 2,
+            "title": "NovaPharma v. GeneriCure",
+            "context": "NovaPharma holds a patent for a novel cancer drug delivery mechanism using lipid nanoparticles. The patent was granted in 2018 and contains claims covering the specific particle size range and coating method. GeneriCure has developed a similar drug using a slightly different molecular arrangement but achieving the same therapeutic effect through a substantially similar mechanism.",
+            "questions": [
+                {
+                    "question": "What is the first step a court must take to determine whether GeneriCure's drug infringes the patent?",
+                    "choices": ["Compare the prices of both drugs", "Perform claim construction to interpret the scope of NovaPharma's patent claims", "Ask NovaPharma's scientists for their opinion", "Check whether GeneriCure filed any patents of its own"],
+                    "correct": 1,
+                    "explanation": "Claim construction — the judicial interpretation of patent claim terms and scope — must precede any infringement analysis."
+                },
+                {
+                    "question": "Even though GeneriCure uses a 'slightly different molecular arrangement,' NovaPharma might still prevail under which legal doctrine?",
+                    "choices": ["Fair use doctrine", "Doctrine of equivalents", "Exhaustion of rights", "First-to-file principle"],
+                    "correct": 1,
+                    "explanation": "The doctrine of equivalents extends patent protection to products that perform substantially the same function, in substantially the same way, to achieve substantially the same result."
+                },
+                {
+                    "question": "GeneriCure argues it began testing its drug solely to prepare a regulatory submission. Which exemption might protect this activity?",
+                    "choices": ["Fair use defense", "The Bolar exemption (regulatory use exemption)", "Compulsory license", "Prior user right"],
+                    "correct": 1,
+                    "explanation": "The Bolar exemption allows generic manufacturers to conduct experiments and tests necessary for regulatory approval before a patent expires, without constituting infringement."
+                },
+                {
+                    "question": "If NovaPharma wins, how are damages typically calculated in pharmaceutical patent cases?",
+                    "choices": ["Fixed statutory amount per pill sold", "Lost profits or a reasonable royalty based on the infringer's sales", "The total R&D cost of the original drug", "A percentage of the infringer's total company revenue"],
+                    "correct": 1,
+                    "explanation": "Damages are typically calculated as the patent holder's lost profits or, alternatively, a reasonable royalty that would have been agreed in a hypothetical negotiation."
+                }
+            ]
+        },
+        {
+            "level": 3,
+            "title": "The Digital Canvas Dispute",
+            "context": "Digital artist Elara Voss used an AI image generation tool to create a series of surrealist artworks, which she then refined with manual editing. She registered copyright in the works and licensed them to a gallery for commercial prints. Photographer Marcus Chen later discovered that several of his copyrighted photographs were part of the AI tool's training dataset, and elements of his distinctive style appear in Elara's AI-generated pieces.",
+            "questions": [
+                {
+                    "question": "What is the central question regarding copyright in Elara's AI-generated artworks?",
+                    "choices": ["Whether digital art can ever be copyrighted", "Whether there is sufficient human authorship and creative control to qualify for copyright protection", "Whether the AI tool company owns all generated images", "Whether Elara paid the correct licensing fee"],
+                    "correct": 1,
+                    "explanation": "Copyright requires human authorship. The key question is whether Elara exercised sufficient creative choices (prompts, selection, editing) to constitute authorship, or whether the output is primarily machine-generated."
+                },
+                {
+                    "question": "If Marcus claims Elara's works are unauthorized derivatives of his photographs, what must he prove?",
+                    "choices": ["That his photos are more aesthetically pleasing", "That Elara's works incorporate substantial protectable expression from his photographs", "That any AI-generated image using training data is automatically infringing", "That he filed his copyright registration before Elara"],
+                    "correct": 1,
+                    "explanation": "For a derivative work claim, Marcus must show that protectable expression — not just style or ideas — from his photographs was copied and incorporated into the new works."
+                },
+                {
+                    "question": "What rights does Marcus have regarding the use of his photographs in the AI's training dataset?",
+                    "choices": ["None, because posting photos online grants universal permission", "Potentially a reproduction right claim, unless a text and data mining exception applies", "He can only claim rights if he registered a patent on his photos", "His only option is to sue the AI company for defamation"],
+                    "correct": 1,
+                    "explanation": "Feeding copyrighted works into training datasets involves reproduction. Marcus may have a claim unless a statutory exception (such as the EU's text and data mining exception) applies."
+                },
+                {
+                    "question": "The AI tool company argues that training on copyrighted images is permissible. Under EU law, which provision is most relevant to this defense?",
+                    "choices": ["The right of parody under the Copyright Directive", "The text and data mining (TDM) exceptions in Articles 3 and 4 of the DSM Directive", "The database right under the Database Directive", "The safe harbor provision for internet service providers"],
+                    "correct": 1,
+                    "explanation": "Articles 3 and 4 of the EU Digital Single Market Directive provide TDM exceptions — Article 3 for research organizations and Article 4 for commercial TDM (unless rights holders have opted out)."
+                }
+            ]
+        }
+    ]
+}

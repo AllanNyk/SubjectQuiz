@@ -1,0 +1,156 @@
+import { TILE_WALL, TILE_FLOOR, TILE_BOSS_DOOR, TILE_STAIRS, DIR_S } from './config.js';
+
+// Handcrafted level data
+// 1 = wall, 0 = floor
+const LEVELS = [
+    {
+        name: 'The Archives',
+        grid: [
+            [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+            [1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1],
+            [1,0,1,1,1,0,1,0,1,1,1,1,1,1,0,1],
+            [1,0,1,0,0,0,0,0,0,1,0,0,0,0,0,1],
+            [1,0,1,0,1,1,1,1,0,1,0,1,1,1,0,1],
+            [1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1],
+            [1,1,0,1,1,1,0,1,1,1,1,0,1,1,0,1],
+            [1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1],
+            [1,0,1,1,0,1,0,1,1,1,0,1,1,1,0,1],
+            [1,0,0,1,0,0,0,0,0,1,0,0,0,0,0,1],
+            [1,1,0,1,1,1,1,0,1,1,1,1,0,1,1,1],
+            [1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1],
+            [1,0,1,1,1,0,1,2,1,1,0,1,1,1,0,1],
+            [1,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1],
+            [1,0,1,0,1,0,1,0,1,0,1,1,0,1,0,1],
+            [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+        ],
+        start: { x: 1, y: 1, facing: DIR_S },
+        enemies: [
+            {x:4, y:1},  {x:13, y:1},
+            {x:8, y:3},  {x:14, y:3},
+            {x:3, y:5},  {x:10, y:5},
+            {x:3, y:7},  {x:12, y:7},
+            {x:7, y:9},  {x:14, y:9},
+            {x:5, y:11}, {x:14, y:13},
+        ],
+        boss: { x: 7, y: 13 },
+        bossDoor: { x: 7, y: 12 },
+        stairs: { x: 7, y: 14 },
+    },
+    {
+        name: 'The Courthouse',
+        grid: [
+            [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+            [1,0,0,0,1,0,0,0,0,0,1,0,0,0,0,1],
+            [1,1,1,0,1,0,1,0,1,0,1,0,1,1,0,1],
+            [1,0,0,0,0,0,1,0,1,0,0,0,0,1,0,1],
+            [1,0,1,1,1,1,1,0,1,1,1,0,1,1,0,1],
+            [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
+            [1,0,1,0,1,1,1,1,1,1,0,1,1,0,1,1],
+            [1,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1],
+            [1,0,1,1,1,0,1,0,1,0,1,0,1,1,0,1],
+            [1,0,0,0,0,0,1,0,1,0,1,0,0,0,0,1],
+            [1,1,1,0,1,1,1,0,1,0,1,1,1,0,1,1],
+            [1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1],
+            [1,0,1,1,2,1,1,1,1,1,1,0,1,1,0,1],
+            [1,0,0,1,0,1,0,0,0,0,0,0,0,1,0,1],
+            [1,1,0,1,0,1,0,1,0,1,0,1,0,0,0,1],
+            [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+        ],
+        start: { x: 1, y: 1, facing: DIR_S },
+        enemies: [
+            {x:2, y:1},  {x:8, y:1},
+            {x:3, y:3},  {x:14, y:3},
+            {x:6, y:5},  {x:13, y:5},
+            {x:5, y:7},  {x:14, y:7},
+            {x:3, y:9},  {x:13, y:9},
+            {x:5, y:11}, {x:14, y:13},
+        ],
+        boss: { x: 4, y: 13 },
+        bossDoor: { x: 4, y: 12 },
+        stairs: { x: 4, y: 14 },
+    },
+    {
+        name: 'The Supreme Court',
+        grid: [
+            [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+            [1,0,0,1,0,0,0,1,0,0,0,1,0,0,0,1],
+            [1,1,0,1,0,1,0,0,0,1,0,1,0,1,0,1],
+            [1,0,0,0,0,1,1,1,0,1,0,0,0,1,0,1],
+            [1,0,1,1,0,0,0,1,0,0,0,1,1,1,0,1],
+            [1,0,0,1,1,1,0,1,0,1,0,0,0,0,0,1],
+            [1,1,0,0,0,0,0,0,0,1,1,1,0,1,1,1],
+            [1,0,0,1,1,1,1,0,1,0,0,0,0,0,0,1],
+            [1,0,1,0,0,0,1,0,1,0,1,1,1,1,0,1],
+            [1,0,1,0,1,0,0,0,0,0,0,0,0,1,0,1],
+            [1,0,0,0,1,0,1,1,1,1,0,1,0,0,0,1],
+            [1,1,1,0,1,0,0,0,0,1,0,1,1,0,1,1],
+            [1,0,0,0,0,0,1,1,0,0,0,0,2,0,0,1],
+            [1,0,1,1,0,1,0,0,0,1,1,0,1,0,1,1],
+            [1,0,0,0,0,1,0,1,0,0,0,0,1,0,1,1],
+            [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],
+        ],
+        start: { x: 1, y: 1, facing: DIR_S },
+        enemies: [
+            {x:4, y:1},  {x:9, y:1},
+            {x:4, y:3},  {x:12, y:3},
+            {x:6, y:5},  {x:14, y:5},
+            {x:7, y:7},  {x:14, y:7},
+            {x:5, y:9},  {x:12, y:9},
+            {x:3, y:11}, {x:8, y:13},
+        ],
+        boss: { x: 13, y: 13 },
+        bossDoor: { x: 13, y: 12 },
+        stairs: { x: 13, y: 14 },
+    },
+];
+
+export class GameMap {
+    constructor(levelIndex) {
+        const level = LEVELS[Math.min(levelIndex, LEVELS.length - 1)];
+        this.grid = level.grid.map(row => [...row]);
+        this.name = level.name;
+        this.width = this.grid[0].length;
+        this.height = this.grid.length;
+        this.startPos = { ...level.start };
+        this.enemyPositions = level.enemies.map(e => ({ ...e }));
+        this.bossPos = level.boss ? { ...level.boss } : null;
+        this.bossDoorPos = level.bossDoor ? { ...level.bossDoor } : null;
+        this.stairsPos = level.stairs ? { ...level.stairs } : null;
+    }
+
+    isWall(x, y) {
+        if (x < 0 || x >= this.width || y < 0 || y >= this.height) return true;
+        return this.grid[y][x] === TILE_WALL || this.grid[y][x] === TILE_BOSS_DOOR;
+    }
+
+    isFloor(x, y) {
+        if (x < 0 || x >= this.width || y < 0 || y >= this.height) return false;
+        return this.grid[y][x] === TILE_FLOOR;
+    }
+
+    isBossDoor(x, y) {
+        if (x < 0 || x >= this.width || y < 0 || y >= this.height) return false;
+        return this.grid[y][x] === TILE_BOSS_DOOR;
+    }
+
+    isStairs(x, y) {
+        if (x < 0 || x >= this.width || y < 0 || y >= this.height) return false;
+        return this.grid[y][x] === TILE_STAIRS;
+    }
+
+    openBossDoor() {
+        if (this.bossDoorPos) {
+            this.grid[this.bossDoorPos.y][this.bossDoorPos.x] = TILE_FLOOR;
+        }
+    }
+
+    revealStairs() {
+        if (this.stairsPos) {
+            this.grid[this.stairsPos.y][this.stairsPos.x] = TILE_STAIRS;
+        }
+    }
+
+    static totalLevels() {
+        return LEVELS.length;
+    }
+}

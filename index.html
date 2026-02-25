@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subject Quiz — A Dungeon of Knowledge</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="page-wrapper">
+
+        <!-- Ad slot: top banner -->
+        <div id="ad-top" class="ad-slot">
+            <!-- Google AdSense banner code goes here -->
+        </div>
+
+        <div id="game-row">
+
+            <!-- Ad slot: left sidebar -->
+            <div id="ad-left" class="ad-slot ad-sidebar">
+                <!-- Google AdSense sidebar code goes here -->
+            </div>
+
+            <!-- Game container -->
+            <div id="game-container">
+                <canvas id="gameCanvas"></canvas>
+
+                <!-- On-screen controls (mobile-friendly) -->
+                <div id="controls">
+                    <button class="ctrl-btn" id="btn-left" title="Turn Left (A)">&#x25C0;</button>
+                    <div id="controls-mid">
+                        <button class="ctrl-btn" id="btn-fwd" title="Forward (W)">&#x25B2;</button>
+                        <button class="ctrl-btn" id="btn-back" title="Backward (S)">&#x25BC;</button>
+                    </div>
+                    <button class="ctrl-btn" id="btn-right" title="Turn Right (D)">&#x25B6;</button>
+                </div>
+            </div>
+
+            <!-- Ad slot: right sidebar -->
+            <div id="ad-right" class="ad-slot ad-sidebar">
+                <!-- Google AdSense sidebar code goes here -->
+            </div>
+
+        </div>
+
+        <!-- Ad slot: bottom banner -->
+        <div id="ad-bottom" class="ad-slot">
+            <!-- Google AdSense banner code goes here -->
+        </div>
+
+    </div>
+
+    <!-- On-screen button wiring -->
+    <script type="module">
+        import { InputHandler } from './js/input.js';
+
+        // Wire on-screen buttons to push synthetic actions
+        // The InputHandler instance is created inside main.js, so we use a
+        // simple event-based bridge: buttons dispatch a custom event that
+        // main.js can also listen to — but to keep it simpler, we directly
+        // import and use a thin shim that posts to the same queue.
+        // For the prototype we just simulate keypresses.
+
+        function simKey(code) {
+            document.dispatchEvent(new KeyboardEvent('keydown', { code }));
+            setTimeout(() => {
+                document.dispatchEvent(new KeyboardEvent('keyup', { code }));
+            }, 80);
+        }
+
+        function wireButton(id, code) {
+            const btn = document.getElementById(id);
+            btn.addEventListener('click', () => simKey(code));
+            btn.addEventListener('touchstart', (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                simKey(code);
+            }, { passive: false });
+        }
+
+        wireButton('btn-fwd',   'KeyW');
+        wireButton('btn-back',  'KeyS');
+        wireButton('btn-left',  'KeyA');
+        wireButton('btn-right', 'KeyD');
+    </script>
+
+    <!-- Game entry point -->
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

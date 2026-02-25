@@ -1,0 +1,153 @@
+/* ── Reset & base ─────────────────────────────────────────────────── */
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0a12;
+    color: #ccc;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* ── Page layout ──────────────────────────────────────────────────── */
+
+#page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 10px;
+}
+
+#game-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+}
+
+/* ── Game container ───────────────────────────────────────────────── */
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#gameCanvas {
+    display: block;
+    width: 800px;
+    height: 500px;
+    border: 2px solid #2a2a4a;
+    border-radius: 4px;
+    background: #0d0d1a;
+    cursor: default;
+    image-rendering: pixelated;
+    touch-action: none;
+}
+
+/* ── On-screen controls ───────────────────────────────────────────── */
+
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    user-select: none;
+}
+
+#controls-mid {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.ctrl-btn {
+    width: 50px;
+    height: 50px;
+    background: #1a1a2e;
+    color: #8888cc;
+    border: 1px solid #3a3a5a;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, border-color 0.15s;
+}
+
+.ctrl-btn:hover {
+    background: #2a2a4a;
+    border-color: #6666aa;
+}
+
+.ctrl-btn:active {
+    background: #3a3a6a;
+}
+
+/* ── Ad slots ─────────────────────────────────────────────────────── */
+
+.ad-slot {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20px;
+}
+
+#ad-top, #ad-bottom {
+    width: 100%;
+    max-width: 728px;
+    min-height: 90px;
+    margin: 6px 0;
+}
+
+.ad-sidebar {
+    width: 160px;
+    min-height: 500px;
+    flex-shrink: 0;
+}
+
+/* ── Responsive ───────────────────────────────────────────────────── */
+
+@media (max-width: 1100px) {
+    .ad-sidebar {
+        display: none;  /* hide side ads on smaller screens */
+    }
+}
+
+@media (max-width: 840px) {
+    #gameCanvas {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 800 / 500;
+    }
+
+    #ad-top, #ad-bottom {
+        max-width: 100%;
+        min-height: 50px;
+    }
+
+    .ctrl-btn {
+        width: 56px;
+        height: 56px;
+        font-size: 22px;
+    }
+
+    #controls {
+        gap: 12px;
+        margin-top: 12px;
+    }
+}
