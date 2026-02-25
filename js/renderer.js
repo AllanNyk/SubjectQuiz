@@ -752,6 +752,83 @@ export class Renderer {
         ctx.fill();
     }
 
+    // ── Big minimap overlay ──────────────────────────────────────────
+
+    renderBigMap(ctx, map, player, enemies, visited) {
+        // Dim background
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.85)';
+        ctx.fillRect(0, 0, CANVAS_W, CANVAS_H);
+
+        const mapSize = Math.min(CANVAS_W, CANVAS_H) - 60;
+        const ox = (CANVAS_W - mapSize) / 2;
+        const oy = (CANVAS_H - mapSize) / 2;
+        const cellW = mapSize / map.width;
+        const cellH = mapSize / map.height;
+
+        // Border
+        ctx.strokeStyle = '#4a4a6a';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(ox - 2, oy - 2, mapSize + 4, mapSize + 4);
+
+        for (let y = 0; y < map.height; y++) {
+            for (let x = 0; x < map.width; x++) {
+                const px = ox + x * cellW;
+                const py = oy + y * cellH;
+
+                if (!visited[y][x]) {
+                    ctx.fillStyle = '#111';
+                    ctx.fillRect(px, py, cellW + 0.5, cellH + 0.5);
+                    continue;
+                }
+
+                if (map.isBossDoor(x, y)) {
+                    ctx.fillStyle = '#cc9944';
+                } else if (map.isStairs(x, y)) {
+                    ctx.fillStyle = '#ffffff';
+                } else if (map.isWall(x, y)) {
+                    ctx.fillStyle = '#444';
+                } else {
+                    ctx.fillStyle = '#8a8a6a';
+                }
+                ctx.fillRect(px, py, cellW + 0.5, cellH + 0.5);
+            }
+        }
+
+        // Enemies
+        for (const enemy of enemies.getAlive()) {
+            if (!visited[enemy.y]?.[enemy.x]) continue;
+            ctx.fillStyle = enemy.isBoss ? '#ff00ff' : '#ff3333';
+            const dotSize = enemy.isBoss ? Math.max(4, cellW * 0.4) : Math.max(3, cellW * 0.3);
+            ctx.beginPath();
+            ctx.arc(
+                ox + enemy.x * cellW + cellW / 2,
+                oy + enemy.y * cellH + cellH / 2,
+                dotSize, 0, Math.PI * 2
+            );
+            ctx.fill();
+        }
+
+        // Player arrow
+        const pcx = ox + player.x * cellW + cellW / 2;
+        const pcy = oy + player.y * cellH + cellH / 2;
+        const pr = Math.max(5, cellW * 0.4);
+
+        ctx.fillStyle = '#00ee55';
+        ctx.beginPath();
+        const angle = (player.facing - 1) * Math.PI / 2;
+        ctx.moveTo(pcx + Math.cos(angle) * pr, pcy + Math.sin(angle) * pr);
+        ctx.lineTo(pcx + Math.cos(angle + 2.4) * pr * 0.7, pcy + Math.sin(angle + 2.4) * pr * 0.7);
+        ctx.lineTo(pcx + Math.cos(angle - 2.4) * pr * 0.7, pcy + Math.sin(angle - 2.4) * pr * 0.7);
+        ctx.closePath();
+        ctx.fill();
+
+        // Dismiss hint
+        ctx.fillStyle = '#777788';
+        ctx.font = '13px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText('Press any key, click, or tap to close', CANVAS_W / 2, oy + mapSize + 25);
+    }
+
     // ── Overlays ───────────────────────────────────────────────────────
 
     drawDamageFlash(alpha) {

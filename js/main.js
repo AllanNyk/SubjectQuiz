@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE } from './config.js';
+import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN } from './config.js';
 import { GameMap } from './map.js';
 import { Player } from './player.js';
 import { EnemyManager } from './enemy.js';
@@ -9,6 +9,7 @@ import { InputHandler } from './input.js';
 import { UI } from './ui.js';
 import { StatsManager } from './stats.js';
 import { TextureLoader } from './textureLoader.js';
+import { t } from './i18n.js';
 
 // ── Game states ────────────────────────────────────────────────────
 
@@ -69,6 +70,13 @@ class Game {
         this.flyingKey = null;              // { elapsed, startX, startY }
         this.hudKeyGlow = 0;                // remaining glow ms
         this._pendingKeyIncrement = false;  // delay correctAnswers++ until arrival
+
+        // Popup message
+        this.popupMessage = null;           // { text, elapsed }
+        this.popupDuration = 1500;          // ms to show
+
+        // Enlarged minimap
+        this.showBigMap = false;
 
         // Canvas click/hover
         this.canvas.addEventListener('click', (e) => this._onClick(e));
@@ -133,6 +141,14 @@ class Game {
         }
         if (this.hudKeyGlow > 0) {
             this.hudKeyGlow = Math.max(0, this.hudKeyGlow - dt);
+        }
+
+        // Popup message decay
+        if (this.popupMessage) {
+            this.popupMessage.elapsed += dt;
+            if (this.popupMessage.elapsed >= this.popupDuration) {
+                this.popupMessage = null;
+            }
         }
 
         switch (this.state) {
@@ -208,6 +224,16 @@ class Game {
                 if (this.hudKeyGlow > 0) {
                     const glowAlpha = 0.8 * (this.hudKeyGlow / FLYING_KEY_GLOW_MS);
                     this.ui.drawKeyIconScaled(ctx, 118, CANVAS_H - 24, 1.0, glowAlpha);
+                }
+
+                // Popup message
+                if (this.popupMessage) {
+                    this._renderPopup(ctx);
+                }
+
+                // Big minimap overlay
+                if (this.showBigMap) {
+                    this.renderer.renderBigMap(ctx, this.map, this.player, this.enemies, this.visited);
                 }
                 break;
             }
@@ -320,6 +346,8 @@ class Game {
         this.flyingKey = null;
         this.hudKeyGlow = 0;
         this._pendingKeyIncrement = false;
+        this.popupMessage = null;
+        this.showBigMap = false;
 
         // Fog of war
         this.visited = Array.from({ length: this.map.height }, () =>
@@ -356,15 +384,30 @@ class Game {
         const action = this.input.poll();
         if (!action) return;
 
+        // Big minimap — any input dismisses, or M toggles
+        if (this.showBigMap) {
+            this.showBigMap = false;
+            this.input.flush();
+            return;
+        }
+        if (action === 'MINIMAP') {
+            this.showBigMap = true;
+            return;
+        }
+
         if (action === 'FORWARD') {
             const pos = this.player.getForwardPos();
 
             // Boss door check
             if (this.map.isBossDoor(pos.x, pos.y)) {
+                const lang = this.questionLoader.getLanguage();
                 if (this.correctAnswers >= CORRECT_ANSWERS_TO_WIN) {
                     this.map.openBossDoor();
                     this.flashType = 'correct';
                     this.flashAlpha = 0.3;
+                    this.popupMessage = { text: t('door.opened', lang), elapsed: 0 };
+                } else {
+                    this.popupMessage = { text: t('door.locked', lang), elapsed: 0 };
                 }
                 return;
             }
@@ -593,6 +636,30 @@ class Game {
         this.ui.drawKeyIconScaled(ctx, x, y, scale, trailAlpha);
     }
 
+    // ── Popup message ─────────────────────────────────────────────────
+
+    _renderPopup(ctx) {
+        const msg = this.popupMessage;
+        const alpha = Math.min(1, 1 - (msg.elapsed - this.popupDuration * 0.6) / (this.popupDuration * 0.4));
+        if (alpha <= 0) return;
+
+        ctx.save();
+        ctx.globalAlpha = Math.max(0, alpha);
+        ctx.font = 'bold 20px "Palatino Linotype", "Book Antiqua", Palatino, serif';
+        ctx.textAlign = 'center';
+        const tw = ctx.measureText(msg.text).width + 40;
+        const bx = (CANVAS_W - tw) / 2;
+        const by = CANVAS_H / 2 - 40;
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.8)';
+        ctx.fillRect(bx, by, tw, 40);
+        ctx.strokeStyle = '#4a4a6a';
+        ctx.lineWidth = 1;
+        ctx.strokeRect(bx, by, tw, 40);
+        ctx.fillStyle = '#e8e0d0';
+        ctx.fillText(msg.text, CANVAS_W / 2, by + 27);
+        ctx.restore();
+    }
+
     // ── State: VICTORY / GAME_OVER ─────────────────────────────────────
 
     _updateEndScreen() {
@@ -767,6 +834,20 @@ class Game {
                 this.input.flush();
             } else if (result.type === 'timer') {
                 this.timedMode = !this.timedMode;
+            }
+
+        } else if (this.state === STATE_EXPLORING) {
+            // Big map dismiss on click/tap
+            if (this.showBigMap) {
+                this.showBigMap = false;
+                return;
+            }
+            // Click on minimap area to enlarge
+            const mmX = CANVAS_W - MINIMAP_SIZE - MINIMAP_MARGIN - 3;
+            const mmY = MINIMAP_MARGIN - 3;
+            const mmS = MINIMAP_SIZE + 6;
+            if (x >= mmX && x <= mmX + mmS && y >= mmY && y <= mmY + mmS) {
+                this.showBigMap = true;
             }
 
         } else if (this.state === STATE_COMBAT && this.combat.active) {

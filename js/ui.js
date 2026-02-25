@@ -41,12 +41,12 @@ export class UI {
         ctx.fillStyle = allKeys ? '#cc9944' : '#cccc88';
         ctx.font = '14px monospace';
         ctx.textAlign = 'left';
-        ctx.fillText(`${t('hud.keys', lang)} ${correctAnswers}/${CORRECT_ANSWERS_TO_WIN}`, 128, CANVAS_H - 18);
+        ctx.fillText(`${t('hud.keys', lang)} ${correctAnswers}/${CORRECT_ANSWERS_TO_WIN}`, 132, CANVAS_H - 18);
 
         // Level info
         ctx.fillStyle = '#8888bb';
         ctx.textAlign = 'center';
-        ctx.fillText(`${t('hud.level', lang)} ${levelNum} — ${levelName}`, CANVAS_W / 2, CANVAS_H - 18);
+        ctx.fillText(`${t('hud.level', lang)} ${levelNum}`, CANVAS_W / 2, CANVAS_H - 18);
 
         // Score and streak (right side)
         ctx.fillStyle = '#cc9944';
@@ -66,6 +66,13 @@ export class UI {
         ctx.fillStyle = '#777';
         ctx.textAlign = 'left';
         ctx.fillText(controlsText, 8, 16);
+
+        // Compass direction (bottom bar, after keys)
+        const dirs = ['N', 'E', 'S', 'W'];
+        ctx.fillStyle = '#8888bb';
+        ctx.font = 'bold 14px monospace';
+        ctx.textAlign = 'left';
+        ctx.fillText(dirs[player.facing], 250, CANVAS_H - 18);
     }
 
     _drawHeart(ctx, x, y, size, color) {
@@ -137,15 +144,10 @@ export class UI {
         ctx.textAlign = 'center';
         ctx.fillText('Subject Quiz', CANVAS_W / 2, 100);
 
-        // Subtitle
-        ctx.fillStyle = '#8877aa';
-        ctx.font = `italic 18px ${SERIF}`;
-        ctx.fillText('A Dungeon of Knowledge', CANVAS_W / 2, 132);
-
         // Author credit
         ctx.fillStyle = '#555577';
         ctx.font = `13px ${SERIF}`;
-        ctx.fillText('Made by Allan Sj\u00F8lin', CANVAS_W / 2, 152);
+        ctx.fillText('Made by Allan Sj\u00F8lin', CANVAS_W / 2, 132);
 
         // Subject selection label
         ctx.fillStyle = '#aaaacc';

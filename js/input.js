@@ -39,6 +39,7 @@ export class InputHandler {
             case 'KeyL': return 'LOG';
             case 'KeyB': return 'LEADERBOARD';
             case 'KeyT': return 'TOGGLE_TIMER';
+            case 'KeyM': return 'MINIMAP';
             case 'Backspace': return 'BACK';
             case 'F1': return 'DEBUG_LEVEL1';
             case 'F2': return 'DEBUG_LEVEL2';

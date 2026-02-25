@@ -12,16 +12,20 @@ const STRINGS = {
         'hud.controls':        'WASD/Arrows to move & turn',
 
         // Combat
-        'combat.foeChallenge':    'A foe challenges your knowledge!',
+        'combat.foeChallenge':    'Your knowledge is challenged!',
         'combat.bossQuestion':    'Question',
         'combat.bossQuestionOf':  'of',
         'combat.caseHeading':     '\u2014 CASE \u2014',
         'combat.pressToBegin':    'Press any key, click, or tap to begin...',
-        'combat.correct':         'Correct! The foe is vanquished!',
+        'combat.correct':         'Correct!',
         'combat.wrong':           'Wrong! You take damage!',
         'combat.correctAnswer':   'Correct answer:',
         'combat.pressToContinue': 'Press any key, click, or tap to continue...',
         'combat.timerSuffix':     's',
+
+        // Door messages
+        'door.locked':            'You don\'t have enough keys!',
+        'door.opened':            'The door is opened!',
 
         // Log
         'log.title':       'The Log',
@@ -61,7 +65,7 @@ const STRINGS = {
 
         // Game Over
         'gameover.title':      'Defeated!',
-        'gameover.subtitle':   'The dungeon has bested you... this time.',
+        'gameover.subtitle':   'Better luck next time.',
         'gameover.answered':   'You answered',
         'gameover.correctly':  'questions correctly.',
         'gameover.finalScore': 'Final Score:',
@@ -73,20 +77,24 @@ const STRINGS = {
         'hud.keys':            'N\u00F8gler:',
         'hud.level':           'Niveau',
         'hud.score':           'Score:',
-        'hud.streak':          'R\u00E6kke:',
+        'hud.streak':          'Streak:',
         'hud.controls':        'WASD/pile for at bev\u00E6ge & dreje',
 
         // Combat
-        'combat.foeChallenge':    'En fjende udfordrer din viden!',
+        'combat.foeChallenge':    'Din viden udfordres!',
         'combat.bossQuestion':    'Sp\u00F8rgsm\u00E5l',
         'combat.bossQuestionOf':  'af',
         'combat.caseHeading':     '\u2014 SAG \u2014',
         'combat.pressToBegin':    'Tryk p\u00E5 en tast, klik eller tap for at begynde...',
-        'combat.correct':         'Korrekt! Fjenden er besejret!',
+        'combat.correct':         'Korrekt!',
         'combat.wrong':           'Forkert! Du tager skade!',
         'combat.correctAnswer':   'Korrekt svar:',
         'combat.pressToContinue': 'Tryk p\u00E5 en tast, klik eller tap for at forts\u00E6tte...',
         'combat.timerSuffix':     's',
+
+        // Door messages
+        'door.locked':            'Du har ikke nok n\u00F8gler!',
+        'door.opened':            'D\u00F8ren er \u00E5bnet!',
 
         // Log
         'log.title':       'Loggen',
@@ -126,7 +134,7 @@ const STRINGS = {
 
         // Game Over
         'gameover.title':      'Besejret!',
-        'gameover.subtitle':   'Fangehullet har overvundet dig... denne gang.',
+        'gameover.subtitle':   'Bedre held n\u00E6ste gang.',
         'gameover.answered':   'Du svarede korrekt p\u00E5',
         'gameover.correctly':  'sp\u00F8rgsm\u00E5l.',
         'gameover.finalScore': 'Endelig score:',
