@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, PLAYER_MAX_HP, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, TIMER_PRESETS } from './config.js';
+import { CANVAS_W, CANVAS_H, PLAYER_MAX_HP, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, TIMER_PRESETS, LEVEL_DISPLAY_NAMES } from './config.js';
 import { t } from './i18n.js';
 
 const SERIF = '"Palatino Linotype", "Book Antiqua", Palatino, serif';
@@ -260,7 +260,7 @@ export class UI {
 
     // ── Settings screen ────────────────────────────────────────────────
 
-    renderSettings(timedMode, timerDurationMs, lang = 'en') {
+    renderSettings(timedMode, timerDurationMs, lang = 'en', startLevel = 1, maxLevel = 7) {
         const ctx = this.ctx;
 
         // Background
@@ -366,8 +366,67 @@ export class UI {
             ctx.fillText('[W/S]', CANVAS_W / 2, rowY + btnSize + 14);
         }
 
+        // Level selector row
+        const levelRowY = timedMode ? 330 : 260;
+        const levelBtnSize = 44;
+        const levelDisplayW = 300;
+        const levelDisplayH = 44;
+        const levelTotalW = levelBtnSize + 10 + levelDisplayW + 10 + levelBtnSize;
+        const levelRowStartX = (CANVAS_W - levelTotalW) / 2;
+
+        const atMinLevel = startLevel <= 1;
+        const atMaxLevel = startLevel >= maxLevel;
+
+        // Label
+        ctx.fillStyle = '#aaaacc';
+        ctx.font = `bold 15px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText(t('settings.startLevel', lang), CANVAS_W / 2, levelRowY - 8);
+
+        // Minus button
+        const levelMinusX = levelRowStartX;
+        ctx.fillStyle = atMinLevel ? '#151520' : '#1a1a2e';
+        ctx.fillRect(levelMinusX, levelRowY, levelBtnSize, levelBtnSize);
+        ctx.strokeStyle = atMinLevel ? '#2a2a3a' : '#4a4a6a';
+        ctx.lineWidth = 1;
+        ctx.strokeRect(levelMinusX, levelRowY, levelBtnSize, levelBtnSize);
+        ctx.fillStyle = atMinLevel ? '#444455' : '#aaaacc';
+        ctx.font = `bold 24px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText('\u2212', levelMinusX + levelBtnSize / 2, levelRowY + 31);
+
+        // Level display
+        const levelDispX = levelMinusX + levelBtnSize + 10;
+        ctx.fillStyle = '#1c1c2e';
+        ctx.fillRect(levelDispX, levelRowY, levelDisplayW, levelDisplayH);
+        ctx.strokeStyle = '#4a4a6a';
+        ctx.lineWidth = 1;
+        ctx.strokeRect(levelDispX, levelRowY, levelDisplayW, levelDisplayH);
+        const levelName = LEVEL_DISPLAY_NAMES[startLevel] || `Level ${startLevel}`;
+        ctx.fillStyle = '#cc9944';
+        ctx.font = `bold 18px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText(`${startLevel}: ${levelName}`, levelDispX + levelDisplayW / 2, levelRowY + 29);
+
+        // Plus button
+        const levelPlusX = levelDispX + levelDisplayW + 10;
+        ctx.fillStyle = atMaxLevel ? '#151520' : '#1a1a2e';
+        ctx.fillRect(levelPlusX, levelRowY, levelBtnSize, levelBtnSize);
+        ctx.strokeStyle = atMaxLevel ? '#2a2a3a' : '#4a4a6a';
+        ctx.lineWidth = 1;
+        ctx.strokeRect(levelPlusX, levelRowY, levelBtnSize, levelBtnSize);
+        ctx.fillStyle = atMaxLevel ? '#444455' : '#aaaacc';
+        ctx.font = `bold 24px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText('+', levelPlusX + levelBtnSize / 2, levelRowY + 31);
+
+        // [A/D] hint
+        ctx.fillStyle = '#666688';
+        ctx.font = '11px monospace';
+        ctx.fillText('[A/D]', CANVAS_W / 2, levelRowY + levelBtnSize + 14);
+
         // Bottom buttons: Start Game and Back
-        const bottomY = 380;
+        const bottomY = levelRowY + levelBtnSize + 36;
         const startW = 200;
         const startH = 44;
         const backW = 120;
@@ -403,10 +462,10 @@ export class UI {
         ctx.fillStyle = '#444466';
         ctx.font = '12px monospace';
         ctx.textAlign = 'center';
-        ctx.fillText(t('settings.hintKeys', lang), CANVAS_W / 2, 450);
+        ctx.fillText(t('settings.hintKeys', lang), CANVAS_W / 2, bottomY + startH + 20);
     }
 
-    // Returns { type: 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'start' | 'back' } or null
+    // Returns { type: 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'level_minus' | 'level_plus' | 'start' | 'back' } or null
     getSettingsClickedAction(canvasX, canvasY, timedMode) {
         // Timer toggle button
         const toggleW = 220;
@@ -440,8 +499,27 @@ export class UI {
             }
         }
 
+        // Level selector row
+        const levelRowY = timedMode ? 330 : 260;
+        const levelBtnSize = 44;
+        const levelDisplayW = 300;
+        const levelTotalW = levelBtnSize + 10 + levelDisplayW + 10 + levelBtnSize;
+        const levelRowStartX = (CANVAS_W - levelTotalW) / 2;
+
+        const levelMinusX = levelRowStartX;
+        if (canvasX >= levelMinusX && canvasX <= levelMinusX + levelBtnSize &&
+            canvasY >= levelRowY && canvasY <= levelRowY + levelBtnSize) {
+            return { type: 'level_minus' };
+        }
+
+        const levelPlusX = levelMinusX + levelBtnSize + 10 + levelDisplayW + 10;
+        if (canvasX >= levelPlusX && canvasX <= levelPlusX + levelBtnSize &&
+            canvasY >= levelRowY && canvasY <= levelRowY + levelBtnSize) {
+            return { type: 'level_plus' };
+        }
+
         // Bottom buttons
-        const bottomY = 380;
+        const bottomY = levelRowY + levelBtnSize + 36;
         const startW = 200;
         const startH = 44;
         const backW = 120;

@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN, DEFAULT_TIMER_MS, TIMER_PRESETS } from './config.js';
+import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN, DEFAULT_TIMER_MS, TIMER_PRESETS, LEVEL_DISPLAY_NAMES } from './config.js';
 import { GameMap } from './map.js';
 import { Player } from './player.js';
 import { EnemyManager } from './enemy.js';
@@ -47,6 +47,7 @@ class Game {
         this.correctAnswers = 0;
         this.timedMode = false;
         this.timerDurationMs = DEFAULT_TIMER_MS;
+        this.startLevel = 1;
         this.subjects = [];
         this.selectedSubject = 0;
 
@@ -192,7 +193,7 @@ class Game {
 
             case STATE_SETTINGS: {
                 const lang = this.subjects[this.selectedSubject]?.lang || 'en';
-                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang);
+                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, GameMap.totalLevels());
                 break;
             }
 
@@ -343,6 +344,10 @@ class Game {
                 if (this.timedMode) this._adjustTimerDuration(1);
             } else if (action === 'BACKWARD') {
                 if (this.timedMode) this._adjustTimerDuration(-1);
+            } else if (action === 'TURN_LEFT') {
+                this._adjustStartLevel(-1);
+            } else if (action === 'TURN_RIGHT') {
+                this._adjustStartLevel(1);
             } else if (action === 'CONFIRM') {
                 this._startGame();
                 return;
@@ -353,6 +358,11 @@ class Game {
             }
             action = this.input.poll();
         }
+    }
+
+    _adjustStartLevel(direction) {
+        const maxLevel = GameMap.totalLevels();
+        this.startLevel = Math.max(1, Math.min(maxLevel, this.startLevel + direction));
     }
 
     _adjustTimerDuration(direction) {
@@ -368,7 +378,7 @@ class Game {
             console.error('Failed to load questions:', err);
             return;
         }
-        this.currentLevel = 1;
+        this.currentLevel = this.startLevel;
         this.correctAnswers = 0;
         this.stats.startSession(this.subjects[this.selectedSubject].id);
         this._initLevel();
@@ -497,8 +507,8 @@ class Game {
             this.player.turnRight();
             this._startTween(-TWEEN_TURN_PX, 0, TWEEN_TURN_MS);
 
-        } else if (action === 'DEBUG_LEVEL1' || action === 'DEBUG_LEVEL2' || action === 'DEBUG_LEVEL3') {
-            const target = action === 'DEBUG_LEVEL1' ? 1 : action === 'DEBUG_LEVEL2' ? 2 : 3;
+        } else if (action.startsWith('DEBUG_LEVEL')) {
+            const target = parseInt(action.replace('DEBUG_LEVEL', ''));
             if (this.questionLoader.hasLevel(target)) {
                 this.currentLevel = target;
                 this._initLevel();
@@ -882,6 +892,10 @@ class Game {
                 this._adjustTimerDuration(-1);
             } else if (result.type === 'timer_plus') {
                 this._adjustTimerDuration(1);
+            } else if (result.type === 'level_minus') {
+                this._adjustStartLevel(-1);
+            } else if (result.type === 'level_plus') {
+                this._adjustStartLevel(1);
             } else if (result.type === 'start') {
                 this._startGame();
             } else if (result.type === 'back') {

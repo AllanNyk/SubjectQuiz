@@ -66,6 +66,7 @@ const STRINGS = {
         // Settings
         'settings.title':      'Game Settings',
         'settings.objective':  'Answer questions in the maze and collect keys on correct answers. Keys unlock the door to a harder case and the next level.',
+        'settings.startLevel': 'Start level',
         'settings.seconds':    'seconds',
         'settings.start':      'Start Game',
         'settings.back':       'Back',
@@ -143,6 +144,7 @@ const STRINGS = {
         // Settings
         'settings.title':      'Spilindstillinger',
         'settings.objective':  'Besvar sp\u00F8rgsm\u00E5l i labyrinten og saml n\u00F8gler ved korrekte svar. N\u00F8glerne \u00E5bner d\u00F8ren til en sv\u00E6rere sag og n\u00E6ste niveau.',
+        'settings.startLevel': 'Startniveau',
         'settings.seconds':    'sekunder',
         'settings.start':      'Start spil',
         'settings.back':       'Tilbage',

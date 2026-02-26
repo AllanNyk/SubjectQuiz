@@ -86,6 +86,17 @@ export const ENEMY_COLORS = [
     { robe: '#1a1a1a', hood: '#0d0d0d', eyes: '#ff0000' },  // level 3 — The Judge
 ];
 
+// Level display names (for level selector UI)
+export const LEVEL_DISPLAY_NAMES = {
+    1: 'Generel viden',
+    2: 'Generel viden',
+    3: 'Generel viden',
+    4: 'Kapitel 1 - Indledning',
+    5: 'Kapitel 2 - Domstolssystemets opbygning',
+    6: 'Kapitel 3 - EMK',
+    7: 'Kapitel 4 - EU-ret',
+};
+
 // Boss colors per level
 export const BOSS_COLORS = [
     { robe: '#4a0e4a', hood: '#2d082d', eyes: '#ff00ff', crown: '#cc9944' },
