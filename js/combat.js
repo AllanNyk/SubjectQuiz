@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, RESULT_DISPLAY_MS, COMBAT_TIMER_MS } from './config.js';
+import { CANVAS_W, CANVAS_H, RESULT_DISPLAY_MS, DEFAULT_TIMER_MS } from './config.js';
 import { t } from './i18n.js';
 
 export class CombatSystem {
@@ -16,6 +16,7 @@ export class CombatSystem {
         // Timer mode
         this.timedMode = false;
         this.timerStart = 0;
+        this.timerDurationMs = DEFAULT_TIMER_MS;
 
         // Boss mode
         this.isBossMode = false;
@@ -25,7 +26,7 @@ export class CombatSystem {
         this.showingCaseIntro = true;
     }
 
-    start(question, enemy, level, timedMode = false, lang = 'en') {
+    start(question, enemy, level, timedMode = false, lang = 'en', timerDurationMs = DEFAULT_TIMER_MS) {
         this.active = true;
         this.question = question;
         this.enemy = enemy;
@@ -38,10 +39,11 @@ export class CombatSystem {
         this._dismissed = false;
         this.timedMode = timedMode;
         this.timerStart = Date.now();
+        this.timerDurationMs = timerDurationMs;
         this.lang = lang;
     }
 
-    startBoss(bossCase, enemy, level, timedMode = false, lang = 'en') {
+    startBoss(bossCase, enemy, level, timedMode = false, lang = 'en', timerDurationMs = DEFAULT_TIMER_MS) {
         this.active = true;
         this.enemy = enemy;
         this.level = level || 1;
@@ -58,6 +60,7 @@ export class CombatSystem {
         this._dismissed = false;
         this.timedMode = timedMode;
         this.timerStart = 0;
+        this.timerDurationMs = timerDurationMs;
         this.lang = lang;
     }
 
@@ -98,7 +101,7 @@ export class CombatSystem {
     update() {
         // Timer expiry — auto-submit as wrong if time runs out
         if (this.timedMode && this.result === null && this.timerStart > 0 &&
-            Date.now() - this.timerStart >= COMBAT_TIMER_MS) {
+            Date.now() - this.timerStart >= this.timerDurationMs) {
             this.result = 'wrong';
             this.selectedAnswer = -1;
             this.resultStartTime = Date.now();
@@ -419,8 +422,8 @@ export class CombatSystem {
 
     _drawCountdownBar(ctx, panelX, panelY, panelW) {
         const elapsed = Date.now() - this.timerStart;
-        const remaining = Math.max(0, COMBAT_TIMER_MS - elapsed);
-        const fraction = remaining / COMBAT_TIMER_MS;
+        const remaining = Math.max(0, this.timerDurationMs - elapsed);
+        const fraction = remaining / this.timerDurationMs;
 
         const barX = panelX + 10;
         const barY = panelY + 6;

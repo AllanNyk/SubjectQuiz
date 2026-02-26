@@ -51,7 +51,8 @@ export const MINIMAP_MARGIN = 10;
 // Combat UI
 export const COMBAT_OVERLAY_ALPHA = 0.88;
 export const RESULT_DISPLAY_MS = 10000;
-export const COMBAT_TIMER_MS = 10000;
+export const DEFAULT_TIMER_MS = 10000;
+export const TIMER_PRESETS = [5000, 10000, 15000, 20000, 30000];
 
 // Scoring
 export const SCORE_BASE = 100;

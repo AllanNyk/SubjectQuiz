@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, PLAYER_MAX_HP, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE } from './config.js';
+import { CANVAS_W, CANVAS_H, PLAYER_MAX_HP, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, TIMER_PRESETS } from './config.js';
 import { t } from './i18n.js';
 
 const SERIF = '"Palatino Linotype", "Book Antiqua", Palatino, serif';
@@ -68,11 +68,11 @@ export class UI {
         ctx.fillText(controlsText, 8, 16);
 
         // Compass direction (bottom bar, after keys)
-        const dirs = ['N', 'E', 'S', 'W'];
+        const arrows = ['\u25B2', '\u25B6', '\u25BC', '\u25C0']; // N E S W
         ctx.fillStyle = '#8888bb';
-        ctx.font = 'bold 14px monospace';
+        ctx.font = 'bold 16px monospace';
         ctx.textAlign = 'left';
-        ctx.fillText(dirs[player.facing], 250, CANVAS_H - 18);
+        ctx.fillText(arrows[player.facing], 250, CANVAS_H - 17);
     }
 
     _drawHeart(ctx, x, y, size, color) {
@@ -123,7 +123,7 @@ export class UI {
 
     // ── Menu screen ────────────────────────────────────────────────────
 
-    renderMenu(subjects, selectedIndex, timedMode = false) {
+    renderMenu(subjects, selectedIndex) {
         const ctx = this.ctx;
 
         // Background
@@ -208,26 +208,6 @@ export class UI {
             ctx.fillText(`[${actions[i].key}]`, ax + actionBtnW / 2, actionY + 34);
         }
 
-        // Timer toggle button
-        const timerY = actionY + actionBtnH + 16;
-        const timerBtnW = 180;
-        const timerBtnH = 34;
-        const timerX = (CANVAS_W - timerBtnW) / 2;
-
-        ctx.fillStyle = timedMode ? '#2a2a1a' : '#1a1a2e';
-        ctx.fillRect(timerX, timerY, timerBtnW, timerBtnH);
-        ctx.strokeStyle = timedMode ? '#cc9944' : '#3a3a5a';
-        ctx.lineWidth = timedMode ? 2 : 1;
-        ctx.strokeRect(timerX, timerY, timerBtnW, timerBtnH);
-
-        ctx.fillStyle = timedMode ? '#cc9944' : '#777788';
-        ctx.font = `bold 14px ${SERIF}`;
-        ctx.textAlign = 'center';
-        ctx.fillText(timedMode ? 'Timer: ON' : 'Timer: OFF', CANVAS_W / 2, timerY + 16);
-        ctx.fillStyle = '#666688';
-        ctx.font = '11px monospace';
-        ctx.fillText('[T]', CANVAS_W / 2, timerY + 30);
-
         // Controls hint
         ctx.fillStyle = '#444466';
         ctx.font = '12px monospace';
@@ -275,14 +255,204 @@ export class UI {
             }
         }
 
-        // Check timer toggle button
-        const timerY = actionY + actionBtnH + 16;
-        const timerBtnW = 180;
-        const timerBtnH = 34;
-        const timerX = (CANVAS_W - timerBtnW) / 2;
-        if (canvasX >= timerX && canvasX <= timerX + timerBtnW &&
-            canvasY >= timerY && canvasY <= timerY + timerBtnH) {
-            return { type: 'timer' };
+        return null;
+    }
+
+    // ── Settings screen ────────────────────────────────────────────────
+
+    renderSettings(timedMode, timerDurationMs) {
+        const ctx = this.ctx;
+
+        // Background
+        ctx.fillStyle = '#0d0d1a';
+        ctx.fillRect(0, 0, CANVAS_W, CANVAS_H);
+
+        // Decorative border
+        ctx.strokeStyle = '#3a3a5a';
+        ctx.lineWidth = 3;
+        ctx.strokeRect(20, 20, CANVAS_W - 40, CANVAS_H - 40);
+        ctx.strokeStyle = '#2a2a4a';
+        ctx.lineWidth = 1;
+        ctx.strokeRect(25, 25, CANVAS_W - 50, CANVAS_H - 50);
+
+        // Title
+        ctx.fillStyle = '#cc9944';
+        ctx.font = `bold 36px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText('Game Settings', CANVAS_W / 2, 90);
+
+        // Timer toggle button
+        const toggleW = 220;
+        const toggleH = 44;
+        const toggleX = (CANVAS_W - toggleW) / 2;
+        const toggleY = 155;
+
+        ctx.fillStyle = timedMode ? '#2a2a1a' : '#1a1a2e';
+        ctx.fillRect(toggleX, toggleY, toggleW, toggleH);
+        ctx.strokeStyle = timedMode ? '#cc9944' : '#3a3a5a';
+        ctx.lineWidth = timedMode ? 2 : 1;
+        ctx.strokeRect(toggleX, toggleY, toggleW, toggleH);
+
+        ctx.fillStyle = timedMode ? '#cc9944' : '#aaaacc';
+        ctx.font = `bold 18px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText(timedMode ? 'Timer: ON' : 'Timer: OFF', CANVAS_W / 2, toggleY + 29);
+
+        // [T] hint
+        ctx.fillStyle = '#666688';
+        ctx.font = '11px monospace';
+        ctx.fillText('[T]', CANVAS_W / 2, toggleY + toggleH + 14);
+
+        // Duration row (only when timer is ON)
+        if (timedMode) {
+            const rowY = 240;
+            const btnSize = 44;
+            const displayW = 140;
+            const displayH = 44;
+            const totalRowW = btnSize + 10 + displayW + 10 + btnSize;
+            const rowStartX = (CANVAS_W - totalRowW) / 2;
+
+            // Current preset index
+            const presetIdx = TIMER_PRESETS.indexOf(timerDurationMs);
+            const atMin = presetIdx <= 0;
+            const atMax = presetIdx >= TIMER_PRESETS.length - 1;
+
+            // Minus button
+            const minusX = rowStartX;
+            ctx.fillStyle = atMin ? '#151520' : '#1a1a2e';
+            ctx.fillRect(minusX, rowY, btnSize, btnSize);
+            ctx.strokeStyle = atMin ? '#2a2a3a' : '#4a4a6a';
+            ctx.lineWidth = 1;
+            ctx.strokeRect(minusX, rowY, btnSize, btnSize);
+            ctx.fillStyle = atMin ? '#444455' : '#aaaacc';
+            ctx.font = `bold 24px ${SERIF}`;
+            ctx.textAlign = 'center';
+            ctx.fillText('\u2212', minusX + btnSize / 2, rowY + 31);
+
+            // Duration display
+            const dispX = minusX + btnSize + 10;
+            ctx.fillStyle = '#1c1c2e';
+            ctx.fillRect(dispX, rowY, displayW, displayH);
+            ctx.strokeStyle = '#4a4a6a';
+            ctx.lineWidth = 1;
+            ctx.strokeRect(dispX, rowY, displayW, displayH);
+            const secs = timerDurationMs / 1000;
+            ctx.fillStyle = '#cc9944';
+            ctx.font = `bold 20px ${SERIF}`;
+            ctx.textAlign = 'center';
+            ctx.fillText(`${secs} seconds`, dispX + displayW / 2, rowY + 29);
+
+            // Plus button
+            const plusX = dispX + displayW + 10;
+            ctx.fillStyle = atMax ? '#151520' : '#1a1a2e';
+            ctx.fillRect(plusX, rowY, btnSize, btnSize);
+            ctx.strokeStyle = atMax ? '#2a2a3a' : '#4a4a6a';
+            ctx.lineWidth = 1;
+            ctx.strokeRect(plusX, rowY, btnSize, btnSize);
+            ctx.fillStyle = atMax ? '#444455' : '#aaaacc';
+            ctx.font = `bold 24px ${SERIF}`;
+            ctx.textAlign = 'center';
+            ctx.fillText('+', plusX + btnSize / 2, rowY + 31);
+
+            // [W/S] hint
+            ctx.fillStyle = '#666688';
+            ctx.font = '11px monospace';
+            ctx.fillText('[W/S]', CANVAS_W / 2, rowY + btnSize + 14);
+        }
+
+        // Bottom buttons: Start Game and Back
+        const bottomY = 360;
+        const startW = 200;
+        const startH = 44;
+        const backW = 120;
+        const backH = 44;
+        const gap = 20;
+        const totalBtnW = startW + gap + backW;
+        const btnStartX = (CANVAS_W - totalBtnW) / 2;
+
+        // Start Game button (green-tinted)
+        ctx.fillStyle = '#2a3a2a';
+        ctx.fillRect(btnStartX, bottomY, startW, startH);
+        ctx.strokeStyle = '#55aa55';
+        ctx.lineWidth = 2;
+        ctx.strokeRect(btnStartX, bottomY, startW, startH);
+        ctx.fillStyle = '#88dd88';
+        ctx.font = `bold 18px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText('Start Game', btnStartX + startW / 2, bottomY + 29);
+
+        // Back button
+        const backX = btnStartX + startW + gap;
+        ctx.fillStyle = '#1a1a2e';
+        ctx.fillRect(backX, bottomY, backW, backH);
+        ctx.strokeStyle = '#4a4a6a';
+        ctx.lineWidth = 1;
+        ctx.strokeRect(backX, bottomY, backW, backH);
+        ctx.fillStyle = '#aaaacc';
+        ctx.font = `bold 16px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText('Back', backX + backW / 2, bottomY + 29);
+
+        // Keyboard hints
+        ctx.fillStyle = '#444466';
+        ctx.font = '12px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText('Enter to start  |  ESC to go back', CANVAS_W / 2, 430);
+    }
+
+    // Returns { type: 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'start' | 'back' } or null
+    getSettingsClickedAction(canvasX, canvasY, timedMode) {
+        // Timer toggle button
+        const toggleW = 220;
+        const toggleH = 44;
+        const toggleX = (CANVAS_W - toggleW) / 2;
+        const toggleY = 155;
+
+        if (canvasX >= toggleX && canvasX <= toggleX + toggleW &&
+            canvasY >= toggleY && canvasY <= toggleY + toggleH) {
+            return { type: 'toggle_timer' };
+        }
+
+        // Duration row (only when timer is ON)
+        if (timedMode) {
+            const rowY = 240;
+            const btnSize = 44;
+            const displayW = 140;
+            const totalRowW = btnSize + 10 + displayW + 10 + btnSize;
+            const rowStartX = (CANVAS_W - totalRowW) / 2;
+
+            const minusX = rowStartX;
+            if (canvasX >= minusX && canvasX <= minusX + btnSize &&
+                canvasY >= rowY && canvasY <= rowY + btnSize) {
+                return { type: 'timer_minus' };
+            }
+
+            const plusX = minusX + btnSize + 10 + displayW + 10;
+            if (canvasX >= plusX && canvasX <= plusX + btnSize &&
+                canvasY >= rowY && canvasY <= rowY + btnSize) {
+                return { type: 'timer_plus' };
+            }
+        }
+
+        // Bottom buttons
+        const bottomY = 360;
+        const startW = 200;
+        const startH = 44;
+        const backW = 120;
+        const backH = 44;
+        const gap = 20;
+        const totalBtnW = startW + gap + backW;
+        const btnStartX = (CANVAS_W - totalBtnW) / 2;
+
+        if (canvasX >= btnStartX && canvasX <= btnStartX + startW &&
+            canvasY >= bottomY && canvasY <= bottomY + startH) {
+            return { type: 'start' };
+        }
+
+        const backX = btnStartX + startW + gap;
+        if (canvasX >= backX && canvasX <= backX + backW &&
+            canvasY >= bottomY && canvasY <= bottomY + backH) {
+            return { type: 'back' };
         }
 
         return null;

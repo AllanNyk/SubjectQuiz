@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN } from './config.js';
+import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN, DEFAULT_TIMER_MS, TIMER_PRESETS } from './config.js';
 import { GameMap } from './map.js';
 import { Player } from './player.js';
 import { EnemyManager } from './enemy.js';
@@ -21,6 +21,7 @@ const STATE_VICTORY      = 'VICTORY';
 const STATE_GAME_OVER    = 'GAME_OVER';
 const STATE_LOG          = 'LOG';
 const STATE_LEADERBOARD  = 'LEADERBOARD';
+const STATE_SETTINGS     = 'SETTINGS';
 
 class Game {
     constructor() {
@@ -45,6 +46,7 @@ class Game {
         this.currentLevel = 1;
         this.correctAnswers = 0;
         this.timedMode = false;
+        this.timerDurationMs = DEFAULT_TIMER_MS;
         this.subjects = [];
         this.selectedSubject = 0;
 
@@ -174,6 +176,9 @@ class Game {
             case STATE_LEADERBOARD:
                 this._updateLeaderboard();
                 break;
+            case STATE_SETTINGS:
+                this._updateSettings();
+                break;
         }
     }
 
@@ -182,7 +187,11 @@ class Game {
 
         switch (this.state) {
             case STATE_MENU:
-                this.ui.renderMenu(this.subjects, this.selectedSubject, this.timedMode);
+                this.ui.renderMenu(this.subjects, this.selectedSubject);
+                break;
+
+            case STATE_SETTINGS:
+                this.ui.renderSettings(this.timedMode, this.timerDurationMs);
                 break;
 
             case STATE_EXPLORING: {
@@ -306,7 +315,8 @@ class Game {
             } else if (action === 'BACKWARD') {
                 this.selectedSubject = Math.min(this.subjects.length - 1, this.selectedSubject + 1);
             } else if (action === 'CONFIRM') {
-                this._startGame();
+                this.state = STATE_SETTINGS;
+                this.input.flush();
                 return;
             } else if (action === 'LOG') {
                 this.logPage = 0;
@@ -317,11 +327,36 @@ class Game {
                 this.state = STATE_LEADERBOARD;
                 this.input.flush();
                 return;
-            } else if (action === 'TOGGLE_TIMER') {
-                this.timedMode = !this.timedMode;
             }
             action = this.input.poll();
         }
+    }
+
+    _updateSettings() {
+        let action = this.input.poll();
+        while (action) {
+            if (action === 'TOGGLE_TIMER') {
+                this.timedMode = !this.timedMode;
+            } else if (action === 'FORWARD') {
+                if (this.timedMode) this._adjustTimerDuration(1);
+            } else if (action === 'BACKWARD') {
+                if (this.timedMode) this._adjustTimerDuration(-1);
+            } else if (action === 'CONFIRM') {
+                this._startGame();
+                return;
+            } else if (action === 'ESCAPE' || action === 'BACK') {
+                this.state = STATE_MENU;
+                this.input.flush();
+                return;
+            }
+            action = this.input.poll();
+        }
+    }
+
+    _adjustTimerDuration(direction) {
+        const idx = TIMER_PRESETS.indexOf(this.timerDurationMs);
+        const newIdx = Math.max(0, Math.min(TIMER_PRESETS.length - 1, idx + direction));
+        this.timerDurationMs = TIMER_PRESETS[newIdx];
     }
 
     async _startGame() {
@@ -484,7 +519,7 @@ class Game {
             console.error('No questions available!');
             return;
         }
-        this.combat.start(question, enemy, this.currentLevel, this.timedMode, this.questionLoader.getLanguage());
+        this.combat.start(question, enemy, this.currentLevel, this.timedMode, this.questionLoader.getLanguage(), this.timerDurationMs);
         this.state = STATE_COMBAT;
         this.input.flush();
     }
@@ -547,7 +582,7 @@ class Game {
             console.error('No boss case available for level', this.currentLevel);
             return;
         }
-        this.combat.startBoss(bossCase, enemy, this.currentLevel, this.timedMode, this.questionLoader.getLanguage());
+        this.combat.startBoss(bossCase, enemy, this.currentLevel, this.timedMode, this.questionLoader.getLanguage(), this.timerDurationMs);
         this.state = STATE_BOSS_COMBAT;
         this.input.flush();
     }
@@ -824,7 +859,8 @@ class Game {
             if (result.type === 'subject') {
                 this.selectedSubject = result.index;
             } else if (result.type === 'start') {
-                this._startGame();
+                this.state = STATE_SETTINGS;
+                this.input.flush();
             } else if (result.type === 'log') {
                 this.logPage = 0;
                 this.state = STATE_LOG;
@@ -832,8 +868,23 @@ class Game {
             } else if (result.type === 'leaderboard') {
                 this.state = STATE_LEADERBOARD;
                 this.input.flush();
-            } else if (result.type === 'timer') {
+            }
+
+        } else if (this.state === STATE_SETTINGS) {
+            const result = this.ui.getSettingsClickedAction(x, y, this.timedMode);
+            if (!result) return;
+
+            if (result.type === 'toggle_timer') {
                 this.timedMode = !this.timedMode;
+            } else if (result.type === 'timer_minus') {
+                this._adjustTimerDuration(-1);
+            } else if (result.type === 'timer_plus') {
+                this._adjustTimerDuration(1);
+            } else if (result.type === 'start') {
+                this._startGame();
+            } else if (result.type === 'back') {
+                this.state = STATE_MENU;
+                this.input.flush();
             }
 
         } else if (this.state === STATE_EXPLORING) {
