@@ -9,8 +9,8 @@ export class QuestionLoader {
     async loadSubjectList() {
         // Hardcoded list — extend this when adding new subjects
         this.availableSubjects = [
-            { id: 'civilprocesret', name: '🇩🇰 Civilprocesret', file: 'data/questions/civilprocesret.json' },
-            { id: 'ip-law',         name: '🇬🇧 IP Law',         file: 'data/questions/ip-law.json' },
+            { id: 'civilprocesret', name: '🇩🇰 Civilprocesret', file: 'data/questions/civilprocesret.json', lang: 'da' },
+            { id: 'ip-law',         name: '🇬🇧 IP Law',         file: 'data/questions/ip-law.json',         lang: 'en' },
         ];
         return this.availableSubjects;
     }

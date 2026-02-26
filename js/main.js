@@ -190,9 +190,11 @@ class Game {
                 this.ui.renderMenu(this.subjects, this.selectedSubject);
                 break;
 
-            case STATE_SETTINGS:
-                this.ui.renderSettings(this.timedMode, this.timerDurationMs);
+            case STATE_SETTINGS: {
+                const lang = this.subjects[this.selectedSubject]?.lang || 'en';
+                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang);
                 break;
+            }
 
             case STATE_EXPLORING: {
                 // Accumulate offsets from shake + tween

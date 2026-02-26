@@ -63,6 +63,14 @@ const STRINGS = {
         'victory.returnMenu': 'Press ENTER to return to menu',
         'victory.continue':   'Press ENTER to continue to the next level',
 
+        // Settings
+        'settings.title':      'Game Settings',
+        'settings.objective':  'Answer questions in the maze and collect keys on correct answers. Keys unlock the door to a harder case and the next level.',
+        'settings.seconds':    'seconds',
+        'settings.start':      'Start Game',
+        'settings.back':       'Back',
+        'settings.hintKeys':   'Enter to start  |  ESC to go back',
+
         // Game Over
         'gameover.title':      'Defeated!',
         'gameover.subtitle':   'Better luck next time.',
@@ -131,6 +139,14 @@ const STRINGS = {
         'victory.mastered':   'Du har mestret alle niveauer!',
         'victory.returnMenu': 'Tryk ENTER for at vende tilbage til menuen',
         'victory.continue':   'Tryk ENTER for at forts\u00E6tte til n\u00E6ste niveau',
+
+        // Settings
+        'settings.title':      'Spilindstillinger',
+        'settings.objective':  'Besvar sp\u00F8rgsm\u00E5l i labyrinten og saml n\u00F8gler ved korrekte svar. N\u00F8glerne \u00E5bner d\u00F8ren til en sv\u00E6rere sag og n\u00E6ste niveau.',
+        'settings.seconds':    'sekunder',
+        'settings.start':      'Start spil',
+        'settings.back':       'Tilbage',
+        'settings.hintKeys':   'Enter for start  |  ESC for tilbage',
 
         // Game Over
         'gameover.title':      'Besejret!',

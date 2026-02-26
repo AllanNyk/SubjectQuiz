@@ -260,7 +260,7 @@ export class UI {
 
     // ── Settings screen ────────────────────────────────────────────────
 
-    renderSettings(timedMode, timerDurationMs) {
+    renderSettings(timedMode, timerDurationMs, lang = 'en') {
         const ctx = this.ctx;
 
         // Background
@@ -279,13 +279,19 @@ export class UI {
         ctx.fillStyle = '#cc9944';
         ctx.font = `bold 36px ${SERIF}`;
         ctx.textAlign = 'center';
-        ctx.fillText('Game Settings', CANVAS_W / 2, 90);
+        ctx.fillText(t('settings.title', lang), CANVAS_W / 2, 90);
+
+        // Objective description
+        ctx.fillStyle = '#8888aa';
+        ctx.font = `14px ${SERIF}`;
+        ctx.textAlign = 'center';
+        this._wrapText(ctx, t('settings.objective', lang), CANVAS_W / 2, 118, CANVAS_W - 100, 18);
 
         // Timer toggle button
         const toggleW = 220;
         const toggleH = 44;
         const toggleX = (CANVAS_W - toggleW) / 2;
-        const toggleY = 155;
+        const toggleY = 175;
 
         ctx.fillStyle = timedMode ? '#2a2a1a' : '#1a1a2e';
         ctx.fillRect(toggleX, toggleY, toggleW, toggleH);
@@ -305,7 +311,7 @@ export class UI {
 
         // Duration row (only when timer is ON)
         if (timedMode) {
-            const rowY = 240;
+            const rowY = 260;
             const btnSize = 44;
             const displayW = 140;
             const displayH = 44;
@@ -340,7 +346,7 @@ export class UI {
             ctx.fillStyle = '#cc9944';
             ctx.font = `bold 20px ${SERIF}`;
             ctx.textAlign = 'center';
-            ctx.fillText(`${secs} seconds`, dispX + displayW / 2, rowY + 29);
+            ctx.fillText(`${secs} ${t('settings.seconds', lang)}`, dispX + displayW / 2, rowY + 29);
 
             // Plus button
             const plusX = dispX + displayW + 10;
@@ -361,7 +367,7 @@ export class UI {
         }
 
         // Bottom buttons: Start Game and Back
-        const bottomY = 360;
+        const bottomY = 380;
         const startW = 200;
         const startH = 44;
         const backW = 120;
@@ -379,7 +385,7 @@ export class UI {
         ctx.fillStyle = '#88dd88';
         ctx.font = `bold 18px ${SERIF}`;
         ctx.textAlign = 'center';
-        ctx.fillText('Start Game', btnStartX + startW / 2, bottomY + 29);
+        ctx.fillText(t('settings.start', lang), btnStartX + startW / 2, bottomY + 29);
 
         // Back button
         const backX = btnStartX + startW + gap;
@@ -391,13 +397,13 @@ export class UI {
         ctx.fillStyle = '#aaaacc';
         ctx.font = `bold 16px ${SERIF}`;
         ctx.textAlign = 'center';
-        ctx.fillText('Back', backX + backW / 2, bottomY + 29);
+        ctx.fillText(t('settings.back', lang), backX + backW / 2, bottomY + 29);
 
         // Keyboard hints
         ctx.fillStyle = '#444466';
         ctx.font = '12px monospace';
         ctx.textAlign = 'center';
-        ctx.fillText('Enter to start  |  ESC to go back', CANVAS_W / 2, 430);
+        ctx.fillText(t('settings.hintKeys', lang), CANVAS_W / 2, 450);
     }
 
     // Returns { type: 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'start' | 'back' } or null
@@ -406,7 +412,7 @@ export class UI {
         const toggleW = 220;
         const toggleH = 44;
         const toggleX = (CANVAS_W - toggleW) / 2;
-        const toggleY = 155;
+        const toggleY = 175;
 
         if (canvasX >= toggleX && canvasX <= toggleX + toggleW &&
             canvasY >= toggleY && canvasY <= toggleY + toggleH) {
@@ -415,7 +421,7 @@ export class UI {
 
         // Duration row (only when timer is ON)
         if (timedMode) {
-            const rowY = 240;
+            const rowY = 260;
             const btnSize = 44;
             const displayW = 140;
             const totalRowW = btnSize + 10 + displayW + 10 + btnSize;
@@ -435,7 +441,7 @@ export class UI {
         }
 
         // Bottom buttons
-        const bottomY = 360;
+        const bottomY = 380;
         const startW = 200;
         const startH = 44;
         const backW = 120;
@@ -781,5 +787,23 @@ export class UI {
         ctx.fillStyle = '#888';
         ctx.font = '16px monospace';
         ctx.fillText(t('gameover.returnMenu', lang), CANVAS_W / 2, 350);
+    }
+
+    // ── Helpers ───────────────────────────────────────────────────────
+
+    _wrapText(ctx, text, x, y, maxWidth, lineHeight) {
+        const words = text.split(' ');
+        let line = '';
+        for (const word of words) {
+            const test = line ? line + ' ' + word : word;
+            if (ctx.measureText(test).width > maxWidth && line) {
+                ctx.fillText(line, x, y);
+                line = word;
+                y += lineHeight;
+            } else {
+                line = test;
+            }
+        }
+        if (line) ctx.fillText(line, x, y);
     }
 }
