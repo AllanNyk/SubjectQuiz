@@ -44,6 +44,10 @@ export class InputHandler {
             case 'F1': return 'DEBUG_LEVEL1';
             case 'F2': return 'DEBUG_LEVEL2';
             case 'F3': return 'DEBUG_LEVEL3';
+            case 'F4': return 'DEBUG_LEVEL4';
+            case 'F5': return 'DEBUG_LEVEL5';
+            case 'F6': return 'DEBUG_LEVEL6';
+            case 'F7': return 'DEBUG_LEVEL7';
             default: return null;
         }
     }

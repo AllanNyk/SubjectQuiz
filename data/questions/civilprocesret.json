@@ -289,6 +289,390 @@
                     "explanation": "Nova er nye faktiske omstændigheder, beviser eller anbringender, der fremføres under anken."
                 }
             ]
+        },
+        {
+            "level": 4,
+            "name": "Indledning og emneafgrænsning",
+            "questions": [
+                {
+                    "question": "Hvad er retsplejelovens to hovedområder inden for den civile retspleje?",
+                    "choices": ["Straffesager og civile sager", "Tvistløsning og tvangsfuldbyrdelse", "Forvaltningsret og privatret", "Appel og genoptagelse"],
+                    "correct": 1,
+                    "explanation": "Den civile retspleje omfatter to hovedfunktioner: tvistløsning (domstolsbehandling af civile tvister) og tvangsfuldbyrdelse (gennemtvingelse af krav via fogedretten)."
+                },
+                {
+                    "question": "Hvad er den civile retsplejes primære konfliktløsningsfunktion?",
+                    "choices": ["At straffe lovovertrædere", "At afgøre privatretlige tvister mellem parter", "At rådgive borgere om deres rettigheder", "At føre tilsyn med advokater"],
+                    "correct": 1,
+                    "explanation": "Den civile retsplejes kernefunktion er at afgøre tvister mellem private parter (og mellem private og det offentlige) på en retfærdig og autoritativ måde."
+                },
+                {
+                    "question": "Hvilket organ blev nedsat i 1961 til løbende at modernisere retsplejeloven?",
+                    "choices": ["Domstolsstyrelsen", "Retsplejerådet", "Procesbevillingsnævnet", "Justitsministeriet"],
+                    "correct": 1,
+                    "explanation": "Retsplejerådet blev nedsat i 1961 som et permanent udvalg, der løbende udarbejder forslag til reformer af retsplejeloven."
+                },
+                {
+                    "question": "Hvad indebærer princippet 'iura novit curia'?",
+                    "choices": ["Parterne skal kende loven", "Retten kender retten — dommeren anvender juraen af egen drift", "Alle love skal offentliggøres", "Uvidenhed om loven fritager ikke for ansvar"],
+                    "correct": 1,
+                    "explanation": "Iura novit curia (retten kender retten) betyder, at dommeren selv finder og anvender de relevante retsregler, uanset om parterne har påberåbt dem."
+                },
+                {
+                    "question": "Hvad er kontradiktion i civilprocessen?",
+                    "choices": ["At parterne modsiger hinanden", "At begge parter har ret til at udtale sig om modpartens synspunkter og beviser", "At dommeren stiller kritiske spørgsmål", "At vidner krydses"],
+                    "correct": 1,
+                    "explanation": "Kontradiktionsprincippet sikrer, at hver part har mulighed for at kende til og udtale sig om modpartens anbringender og beviser, før retten træffer afgørelse."
+                },
+                {
+                    "question": "Hvad er Grundlovens § 3's betydning for den civile retspleje?",
+                    "choices": ["Den fastsætter antallet af domstole", "Den fastslår magtens tredeling, herunder den dømmende magts uafhængighed", "Den regulerer advokaternes rettigheder", "Den bestemmer ankefristens længde"],
+                    "correct": 1,
+                    "explanation": "Grundlovens § 3 fastsætter magtens tredeling og sikrer den dømmende magts uafhængighed af den lovgivende og udøvende magt."
+                },
+                {
+                    "question": "Hvad er alternativ konfliktløsning (ADR)?",
+                    "choices": ["En særlig domstolsprocedure", "Tvistløsningsmetoder uden for de ordinære domstole, fx mediation og voldgift", "En forkortelse for 'automatisk domsresolution'", "En EU-forordning om retshåndhævelse"],
+                    "correct": 1,
+                    "explanation": "ADR (Alternative Dispute Resolution) dækker over tvistløsningsmetoder som mediation, mægling og voldgift, der er alternativer til den traditionelle domstolsbehandling."
+                },
+                {
+                    "question": "Hvad indebærer offentlighedsprincippet i den civile retspleje?",
+                    "choices": ["Staten betaler alle sagsomkostninger", "Retssager er som udgangspunkt offentligt tilgængelige", "Domme skal offentliggøres i aviser", "Alle kan intervenere i enhver retssag"],
+                    "correct": 1,
+                    "explanation": "Offentlighedsprincippet indebærer, at retssager som udgangspunkt er åbne for offentligheden, hvilket sikrer transparens og kontrol med domstolene."
+                },
+                {
+                    "question": "Hvad er toinstansprincippet?",
+                    "choices": ["En sag skal behandles af to dommere", "En part har som udgangspunkt ret til at få sin sag prøvet i to instanser", "En sag skal afgøres inden for to måneder", "Begge parter skal møde personligt"],
+                    "correct": 1,
+                    "explanation": "Toinstansprincippet sikrer, at enhver part som udgangspunkt kan få prøvet sin sag i to instanser — typisk byretten og derefter landsretten ved anke."
+                },
+                {
+                    "question": "Hvad er formålet med den civile retsplejes retssikkerhedsfunktion?",
+                    "choices": ["At skaffe staten indtægter via retsafgifter", "At sikre borgernes tillid til retsstaten gennem uafhængige og upartiske domstole", "At uddanne nye jurister", "At forebygge kriminalitet"],
+                    "correct": 1,
+                    "explanation": "Retssikkerhedsfunktionen handler om, at borgerne kan stole på, at tvister afgøres af uafhængige og upartiske domstole efter en retfærdig procedure."
+                },
+                {
+                    "question": "Hvad betyder umiddelbarhedsprincippet (bevisumiddelbarhed)?",
+                    "choices": ["Beviser skal fremlægges med det samme", "Den dømmende ret skal selv have direkte adgang til beviserne", "Beviserne skal være umiddelbart forståelige", "Beviser skal indleveres før hovedforhandlingen"],
+                    "correct": 1,
+                    "explanation": "Umiddelbarhedsprincippet indebærer, at den ret, der afsiger dommen, selv skal overvære bevisførelsen direkte, fx vidneforklaringer."
+                },
+                {
+                    "question": "Hvilken international konvention har særlig betydning for den civile retsplejes krav om retfærdig rettergang?",
+                    "choices": ["FN's Verdenserklæring om Menneskerettigheder", "Den Europæiske Menneskerettighedskonvention (EMRK), art. 6", "Genèvekonventionerne", "Haagerkonventionen om international privatret"],
+                    "correct": 1,
+                    "explanation": "EMRK art. 6 garanterer retten til en retfærdig rettergang (fair trial), herunder upartisk domstol, offentlighed og afgørelse inden for rimelig tid."
+                },
+                {
+                    "question": "Hvad er forbuddet mod 'ne bis in idem' i civilprocessen?",
+                    "choices": ["Man må ikke anke mere end én gang", "Man må ikke anlægge ny sag om det samme krav, der allerede er retskraftigt afgjort", "Man må ikke stille det samme spørgsmål til et vidne", "Man må ikke fremlægge det samme bevis to gange"],
+                    "correct": 1,
+                    "explanation": "Ne bis in idem (ikke to gange om det samme) forhindrer, at en part anlægger ny sag om et krav, der allerede er retskraftigt afgjort ved dom."
+                },
+                {
+                    "question": "Hvilken rolle spiller retspraksis som retskilde i den civile retspleje?",
+                    "choices": ["Retspraksis er uden betydning", "Domstolsafgørelser bidrager til fortolkning og udfyldning af retsplejeloven", "Kun Højesterets afgørelser tæller som retskilde", "Retspraksis erstatter lovgivningen"],
+                    "correct": 1,
+                    "explanation": "Retspraksis — navnlig fra Højesteret og landsretterne — er en vigtig retskilde, der bidrager til fortolkning og udfyldning af retsplejelovens bestemmelser."
+                },
+                {
+                    "question": "Hvad er procesretlig retsmisbrug?",
+                    "choices": ["At en advokat tager for høje salærer", "At en part bruger processuelle regler i strid med deres formål for at chikanere modparten", "At dommeren afviser en sag uden begrundelse", "At en sag trækker ud i mange år"],
+                    "correct": 1,
+                    "explanation": "Procesretlig retsmisbrug foreligger, når en part anvender processuelle regler i strid med deres formål, fx for at trække en sag i langdrag eller chikanere modparten."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "name": "Domstolssystemet og aktører",
+            "questions": [
+                {
+                    "question": "Hvor mange byretter er der i Danmark?",
+                    "choices": ["12", "24", "36", "48"],
+                    "correct": 1,
+                    "explanation": "Der er 24 byretter i Danmark, fordelt over hele landet, som behandler civile sager og straffesager i første instans."
+                },
+                {
+                    "question": "Hvor mange landsretter er der, og hvad hedder de?",
+                    "choices": ["To: Vestre og Østre Landsret", "Tre: Nord, Midt og Syd", "Fire: en for hver landsdel", "Én: Danmarks Landsret"],
+                    "correct": 0,
+                    "explanation": "Danmark har to landsretter: Vestre Landsret (i Viborg) og Østre Landsret (i København)."
+                },
+                {
+                    "question": "Hvilken særlig domstol behandler bl.a. sager om varemærker, patenter og søretlige tvister?",
+                    "choices": ["Boligretten", "Sø- og Handelsretten", "Højesteret", "Fogedretten"],
+                    "correct": 1,
+                    "explanation": "Sø- og Handelsretten behandler bl.a. sager om immaterialrettigheder (varemærker, patenter, design), søretlige tvister og visse erhvervsretlige sager."
+                },
+                {
+                    "question": "Hvad er en boligret?",
+                    "choices": ["En selvstændig domstol for ejendomshandler", "En afdeling af byretten der behandler huslejesager med lægdommere", "En mæglingsinstans for nabotvister", "En ret der kun behandler sager om ejerlejligheder"],
+                    "correct": 1,
+                    "explanation": "Boligretten er en afdeling af byretten, der behandler sager efter lejeloven og boligreguleringsloven, typisk med medvirken af lægdommere."
+                },
+                {
+                    "question": "Hvem udnævner dommere i Danmark?",
+                    "choices": ["Folketinget", "Dronningen/kongen efter indstilling fra Dommerudnævnelsesrådet", "Justitsministeren alene", "De eksisterende dommere ved den pågældende ret"],
+                    "correct": 1,
+                    "explanation": "Dommere udnævnes formelt af monarken (regeringen), men efter indstilling fra Dommerudnævnelsesrådet, som vurderer kandidaterne."
+                },
+                {
+                    "question": "Hvad er en dommerfuldmægtig?",
+                    "choices": ["En dommerassistent uden juridisk uddannelse", "En jurist under uddannelse til dommer, ansat ved en domstol", "En advokat der midlertidigt fungerer som dommer", "En dommer der er suspenderet"],
+                    "correct": 1,
+                    "explanation": "Dommerfuldmægtige er jurister, der er ansat ved domstolene som led i uddannelsen til at blive udnævnt dommer. De kan i visse sager fungere som dommer."
+                },
+                {
+                    "question": "Hvornår foreligger der inhabilitet for en dommer?",
+                    "choices": ["Når dommeren er under 30 år", "Når dommeren har en personlig eller økonomisk interesse i sagens udfald", "Når dommeren ikke har tilstrækkelig erfaring", "Når dommeren er ansat på prøve"],
+                    "correct": 1,
+                    "explanation": "En dommer er inhabil, hvis vedkommende har en personlig, økonomisk eller anden interesse i sagens udfald, der kan rejse tvivl om dommerens upartiskhed."
+                },
+                {
+                    "question": "Hvad er processuel partsevne?",
+                    "choices": ["Evnen til at gennemføre en retssag hurtigt", "Evnen til at være part i en retssag — at kunne sagsøge og blive sagsøgt", "Evnen til at afgive forklaring i retten", "Evnen til at betale sagsomkostninger"],
+                    "correct": 1,
+                    "explanation": "Processuel partsevne er evnen til at optræde som part (sagsøger eller sagsøgte) i en retssag. Fysiske personer, juridiske personer og visse andre enheder har partsevne."
+                },
+                {
+                    "question": "Hvad er proceshabilitet?",
+                    "choices": ["Kompetence til at afsige dom", "Evnen til selv at føre sin sag i retten (processuelt myndighed)", "En advokats ret til at møde i retten", "En domstols saglige kompetence"],
+                    "correct": 1,
+                    "explanation": "Proceshabilitet er evnen til selv at handle i en retssag, dvs. råde over processuelle handlinger. Umyndige og personer under værgemål mangler proceshabilitet."
+                },
+                {
+                    "question": "Hvad er advokaternes møderetsmonopol?",
+                    "choices": ["Kun advokater kan deltage i retsmøder", "Kun advokater (eller rettergangsfuldmægtige med tilladelse) kan repræsentere parter for retten", "Advokater har eneret på at skrive kontrakter", "Kun advokater kan klage over domme"],
+                    "correct": 1,
+                    "explanation": "Advokaterne har som udgangspunkt eneret (møderetsmonopol) på at repræsentere parter i retssager ved domstolene, jf. retsplejelovens regler om rettergangsfuldmægtige."
+                },
+                {
+                    "question": "Hvem kan være rettergangsfuldmægtig i en civil sag?",
+                    "choices": ["Kun en beskikket advokat", "Bl.a. familiemedlemmer, ansatte eller organisationsrepræsentanter med rettens tilladelse", "Enhver dansk statsborger over 18 år", "Kun jurister med bestået advokateksamen"],
+                    "correct": 1,
+                    "explanation": "Ud over advokater kan visse personer optræde som rettergangsfuldmægtig, herunder nærtstående familiemedlemmer, husstandsmedlemmer, ansatte og repræsentanter fra branche- eller interesseorganisationer."
+                },
+                {
+                    "question": "Hvad er Domstolsstyrelsens opgave?",
+                    "choices": ["At afsige domme", "At varetage domstolenes administration, økonomi og personale", "At udnævne dommere", "At føre tilsyn med politiet"],
+                    "correct": 1,
+                    "explanation": "Domstolsstyrelsen er en uafhængig institution, der varetager de administrative forhold for domstolene, herunder økonomi, IT og personaleforhold."
+                },
+                {
+                    "question": "Hvad kræves for at opnå advokatbeskikkelse i Danmark?",
+                    "choices": ["Kun en juridisk kandidateksamen", "Juridisk kandidateksamen, praktisk uddannelse, advokateksamen og retssagsprøve", "10 års erfaring som dommerfuldmægtig", "Indstilling fra Advokatrådet alene"],
+                    "correct": 1,
+                    "explanation": "Advokatbeskikkelse kræver en juridisk kandidateksamen, en praktisk uddannelsesperiode, bestået advokateksamen samt bestået retssagsprøve."
+                },
+                {
+                    "question": "Hvad er Advokatsamfundets (Advokatrådet) primære funktion?",
+                    "choices": ["At uddanne nye dommere", "At føre tilsyn med advokater og varetage standens interesser", "At fastsætte retsafgifter", "At behandle civile sager"],
+                    "correct": 1,
+                    "explanation": "Advokatsamfundet (med Advokatrådet som øverste organ) fører tilsyn med advokaternes virke, behandler klager og varetager advokatstandens interesser."
+                },
+                {
+                    "question": "Hvad er processuel succession?",
+                    "choices": ["At en dommer afløser en anden under sagen", "At en parts processuelle rettigheder og pligter overgår til en anden, fx ved dødsbo eller virksomhedsoverdragelse", "At en sag flyttes fra én domstol til en anden", "At nye beviser fremkommer under sagen"],
+                    "correct": 1,
+                    "explanation": "Processuel succession indebærer, at en parts processuelle stilling overtages af en anden, fx når en part dør og dødsboet indtræder, eller ved overdragelse af det omtvistede krav."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "name": "EMK og retsgarantier",
+            "questions": [
+                {
+                    "question": "Hvornår blev Den Europæiske Menneskerettighedskonvention (EMK) inkorporeret i dansk ret?",
+                    "choices": ["1953", "1972", "1992", "2001"],
+                    "correct": 2,
+                    "explanation": "EMK blev inkorporeret i dansk ret i 1992, hvilket betyder, at konventionens bestemmelser gælder som dansk lov og kan påberåbes direkte for danske domstole."
+                },
+                {
+                    "question": "Hvad indebærer formodningsprincippet i forholdet mellem EMK og retsplejeloven?",
+                    "choices": ["EMK har altid forrang over dansk lov", "Det formodes, at lovgiver ikke har haft til hensigt at lovgive i strid med konventionen", "Retsplejeloven har altid forrang over EMK", "Domstolene kan frit vælge, hvilken lov der skal anvendes"],
+                    "correct": 1,
+                    "explanation": "Formodningsprincippet indebærer, at det formodes, at lovgiver ikke har villet lovgive i strid med EMK, og retsplejelovens bestemmelser skal derfor så vidt muligt fortolkes i overensstemmelse med konventionen."
+                },
+                {
+                    "question": "Hvad er kravet om udtømning af nationale retsmidler (EMK art. 35, stk. 1)?",
+                    "choices": ["Klageren skal betale alle sagsomkostninger", "Klageren skal have udnyttet alle nationale retsmidler, før sagen kan indbringes for EMD", "Klageren skal have fået afslag på fri proces", "Klageren skal have klaget til Folketingets Ombudsmand"],
+                    "correct": 1,
+                    "explanation": "EMK art. 35, stk. 1, kræver, at klageren har udtømt alle nationale retsmidler — dvs. udnyttet mulighederne for appel, herunder ansøgt om tredjeinstansbevilling — før sagen kan indbringes for EMD."
+                },
+                {
+                    "question": "Hvad er klagefristen for at indbringe en sag for Menneskerettighedsdomstolen (EMD)?",
+                    "choices": ["1 måned", "4 måneder", "6 måneder", "1 år"],
+                    "correct": 1,
+                    "explanation": "En klage til EMD skal efter EMK art. 35, stk. 1, indgives inden fire måneder fra den endelige nationale afgørelse. Fristen afbrydes ved fremsendelse af den officielle klageformular."
+                },
+                {
+                    "question": "Hvad betyder det, at en klage til EMD er 'åbenbart ugrundet' (manifestly ill-founded)?",
+                    "choices": ["Klageren har ikke betalt retsafgift", "Klagen afvises efter EMK art. 35(3a), fordi den åbenbart ikke indeholder en krænkelse", "Klageren har ikke udtømt nationale retsmidler", "Klagen vedrører en straffesag"],
+                    "correct": 1,
+                    "explanation": "En klage kan afvises som åbenbart ugrundet (manifestly ill-founded) efter EMK art. 35(3a), hvis den efter en summarisk prøvelse åbenbart ikke indeholder en konventionskrænkelse. Langt de fleste klager afvises på dette grundlag."
+                },
+                {
+                    "question": "Hvad indebærer princippet om 'access to court' efter EMK art. 6?",
+                    "choices": ["Alle har ret til gratis advokatbistand", "Enhver har ret til at anlægge og få prøvet en sag ved en domstol", "Domstolene skal behandle sager inden 30 dage", "Kun statsborgere har adgang til domstolene"],
+                    "correct": 1,
+                    "explanation": "Princippet om 'access to court' indebærer, at enhver har en reel og effektiv ret til at anlægge sag og få den prøvet ved en domstol. Retten er ikke absolut, men begrænsninger skal være proportionale."
+                },
+                {
+                    "question": "Hvad indebærer princippet om 'equality of arms' i EMK art. 6?",
+                    "choices": ["Begge parter skal have lige mange advokater", "Hver part skal have rimelig mulighed for at føre sin sag uden at være væsentligt ringere stillet end modparten", "Parterne skal have lige store formuer", "Parterne skal have lige mange vidner"],
+                    "correct": 1,
+                    "explanation": "Equality of arms (ligestillingsprincippet) kræver, at hver part skal have rimelig mulighed for at fremlægge sin sag — herunder beviser — under vilkår, der ikke stiller vedkommende væsentligt ringere end modparten."
+                },
+                {
+                    "question": "Hvad er den objektive test for dommerinhabilitet efter EMD's praksis?",
+                    "choices": ["Om dommeren personligt er forudindtaget", "Om der er konkrete omstændigheder, der giver en objektivt set rimelig grund til at frygte manglende upartiskhed", "Om dommeren kender parterne privat", "Om dommeren har afsagt mange domme det pågældende år"],
+                    "correct": 1,
+                    "explanation": "Den objektive test bygger på princippet 'justice must not only be done, it must also be seen to be done' — det afgørende er, om der er omstændigheder, der objektivt set kan rejse rimelig tvivl om dommerens upartiskhed."
+                },
+                {
+                    "question": "Hvad kræver EMK art. 6 om sagsbehandlingstiden i civile sager?",
+                    "choices": ["Sagen skal afgøres inden 1 år", "Sagen skal behandles inden en rimelig frist", "Sagen skal afgøres inden 3 måneder", "Der er ingen tidsmæssige krav"],
+                    "correct": 1,
+                    "explanation": "EMK art. 6 kræver, at sager behandles inden en rimelig frist. EMD foretager en konkret helhedsvurdering, der inddrager sagens karakter, kompleksitet, domstolens og parternes adfærd."
+                },
+                {
+                    "question": "Kan en afgørelse om afvisning af en klage ved EMD appelleres?",
+                    "choices": ["Ja, til Storkammeret", "Nej, en afgørelse om afvisning er endelig", "Ja, til Den Internationale Domstol i Haag", "Ja, inden for 30 dage"],
+                    "correct": 1,
+                    "explanation": "En afgørelse om afvisning af en klage er endelig og kan ikke appelleres. Klageren kan således ikke anke en afgørelse om, at klagen er uegnet til påkendelse."
+                },
+                {
+                    "question": "Hvad er Storkammerets rolle ved EMD?",
+                    "choices": ["Det behandler alle klager i første omgang", "Det behandler sager med væsentlige fortolkningsspørgsmål eller generel vigtighed, med 17 dommere", "Det er en administrativ afdeling", "Det behandler kun straffesager"],
+                    "correct": 1,
+                    "explanation": "Storkammeret (Grand Chamber) med 17 dommere behandler sager, der omfatter væsentlige fortolkningsspørgsmål eller emner af generel vigtighed, jf. EMK art. 43, stk. 2."
+                },
+                {
+                    "question": "Hvad er forbuddet mod selvinkriminering i EMK art. 6?",
+                    "choices": ["Man må ikke anklage sig selv ved domstolene", "En person har ret til at forholde sig tavs og ikke bidrage til sin egen domfældelse", "Man må ikke vidne i sin egen sag", "Man skal altid tilstå, hvis man er skyldig"],
+                    "correct": 1,
+                    "explanation": "Forbuddet mod selvinkriminering — indfortolket i EMK art. 6 — indebærer retten til at forholde sig tavs og ikke tvinges til at bidrage til sin egen domfældelse. Princippet knytter sig primært til straffesager."
+                },
+                {
+                    "question": "Hvad er EMD's rolle i forhold til nationale domstoles materielle afgørelser?",
+                    "choices": ["EMD kan ændre nationale domme", "EMD er ikke en appelinstans — den prøver kun, om de processuelle retsgarantier i art. 6 er overholdt", "EMD kan pålægge domstolene at genoptage sager", "EMD tager stilling til, om den nationale dom er rigtig"],
+                    "correct": 1,
+                    "explanation": "EMD er ikke en traditionel appelinstans. Den tager ikke stilling til sagens materielle indhold, men påser alene, om de processuelle retsgarantier i EMK art. 6 er overholdt."
+                },
+                {
+                    "question": "Hvad indebærer offentlighedskravet i EMK art. 6 for civile sager?",
+                    "choices": ["Alle retssager skal livestreames", "Retssager skal som udgangspunkt afgøres efter en offentligt tilgængelig mundtlig forhandling", "Dommen skal offentliggøres i aviser", "Alle dokumenter i sagen skal være offentligt tilgængelige"],
+                    "correct": 1,
+                    "explanation": "Offentlighedskravet i EMK art. 6 indebærer, at retssager som udgangspunkt skal afgøres efter en mundtlig forhandling, som offentligheden har adgang til. Dørlukning kan dog ske under bestemte betingelser."
+                },
+                {
+                    "question": "Hvilke grader af omhu opererer EMD med, når den vurderer sagsbehandlingstiden?",
+                    "choices": ["Lav, middel og høj", "Omhu (diligence), særlig omhu (special diligence) og ekstraordinær omhu (exceptional diligence)", "Normal og forhøjet", "Der skelnes ikke mellem grader"],
+                    "correct": 1,
+                    "explanation": "EMD opererer med tre grader: omhu (diligence), særlig omhu (special diligence) og ekstraordinær omhu (exceptional diligence). Fx kræves ekstraordinær omhu ved uhelbredeligt syge personers erstatningssager."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "name": "EU-ret og civilproces",
+            "questions": [
+                {
+                    "question": "Hvad er princippet om processuel autonomi i EU-retten?",
+                    "choices": ["EU-Domstolen fastsætter alle procesregler", "Medlemsstaterne kan som udgangspunkt følge egne processuelle regler, når EU-retten ikke regulerer området", "Nationale domstole kan ignorere EU-retten", "Processuelle regler er harmoniseret i hele EU"],
+                    "correct": 1,
+                    "explanation": "Processuel autonomi indebærer, at medlemsstaterne som udgangspunkt kan anvende deres egne processuelle regler, selv om sagen berører EU-retlige spørgsmål — med visse begrænsninger."
+                },
+                {
+                    "question": "Hvad er et præjudicielt spørgsmål efter TEUF art. 267?",
+                    "choices": ["En anke af en EU-Domstolsafgørelse", "Et fortolkningsspørgsmål forelagt EU-Domstolen af en national ret", "En klage fra en borger til EU-Kommissionen", "En afgørelse truffet af EU-Domstolen på eget initiativ"],
+                    "correct": 1,
+                    "explanation": "En national ret kan (og i visse tilfælde skal) forelægge EU-Domstolen et præjudicielt spørgsmål om fortolkningen af EU-retten. Svaret indgår derefter i grundlaget for den nationale rets afgørelse."
+                },
+                {
+                    "question": "Hvornår er en national domstol forpligtet til at forelægge et præjudicielt spørgsmål for EU-Domstolen?",
+                    "choices": ["Altid når EU-retten berøres", "Når rettens afgørelse ikke kan appelleres (sidsteinstansdomstole)", "Kun når parterne anmoder om det", "Aldrig — det er altid frivilligt"],
+                    "correct": 1,
+                    "explanation": "En national ret, hvis afgørelse ikke kan appelleres, er som udgangspunkt forpligtet til at forelægge fortolkningsspørgsmål for EU-Domstolen, jf. TEUF art. 267, stk. 3."
+                },
+                {
+                    "question": "Hvad er princippet om acte éclairé?",
+                    "choices": ["At EU-retten altid har forrang", "At forelæggelsespligten bortfalder, når EU-Domstolen allerede har afklaret retstilstanden i en tilsvarende sag", "At nationale domme automatisk anerkendes i hele EU", "At EU-Domstolen kan afvise at besvare spørgsmål"],
+                    "correct": 1,
+                    "explanation": "Acte éclairé-princippet indebærer, at en sidsteinstansdomstol ikke behøver forelægge et spørgsmål, hvis EU-Domstolen allerede har klargjort retstilstanden i en anden sag om et tilsvarende spørgsmål."
+                },
+                {
+                    "question": "Hvad er princippet om acte clair?",
+                    "choices": ["At EU-retten kun gælder i klare tilfælde", "At forelæggelsespligten bortfalder, når der ikke er rimelig tvivl om den rette fortolkning", "At nationale domstole frit kan fortolke EU-retten", "At EU-Domstolen altid afgiver klare svar"],
+                    "correct": 1,
+                    "explanation": "Acte clair-princippet indebærer, at forelæggelsespligten bortfalder, når den rette fortolkning af EU-retten er så klar, at der ikke er rimelig tvivl — under hensyntagen til alle sprogversioner og EU-rettens kontekst (jf. CILFIT-dommen)."
+                },
+                {
+                    "question": "Hvad indebærer ækvivalensprincippet (ligebehandlingsprincippet) i EU-processuel sammenhæng?",
+                    "choices": ["Alle EU-borgere er lige for loven", "Nationale procesregler for EU-retlige krav må ikke være mindre gunstige end regler for tilsvarende nationale krav", "Alle domstole i EU skal anvende samme procesregler", "EU-Domstolens domme har samme gyldighed som nationale domme"],
+                    "correct": 1,
+                    "explanation": "Ækvivalensprincippet kræver, at de nationale processuelle regler for håndhævelse af EU-retlige krav ikke må være mindre gunstige end reglerne for tilsvarende nationale krav."
+                },
+                {
+                    "question": "Hvad indebærer effektivitetsprincippet i EU-processuel sammenhæng?",
+                    "choices": ["Domstolene skal arbejde hurtigere", "Nationale procesregler må ikke gøre det praktisk umuligt eller uforholdsmæssigt vanskeligt at håndhæve EU-retlige rettigheder", "EU-retten skal gennemføres inden for et år", "Kun de mest effektive retsmidler er gyldige"],
+                    "correct": 1,
+                    "explanation": "Effektivitetsprincippet kræver, at nationale procesregler ikke i praksis gør det umuligt eller uforholdsmæssigt vanskeligt at udøve de rettigheder, som EU-retten tillægger borgerne."
+                },
+                {
+                    "question": "Hvad er EUC art. 47's betydning for den civile procesret?",
+                    "choices": ["Den regulerer kun straffesager", "Den fastslår retten til effektiv domstolsbeskyttelse, en retfærdig rettergang og retshjælp", "Den giver EU-Domstolen kompetence i alle civile sager", "Den forbyder voldgift inden for EU"],
+                    "correct": 1,
+                    "explanation": "EU's Charter om grundlæggende rettigheder art. 47 fastslår retten til effektive retsmidler og en retfærdig rettergang, herunder ret til en uafhængig domstol, offentlighed, afgørelse inden rimelig tid og retshjælp."
+                },
+                {
+                    "question": "Hvad har Danmark gjort i forhold til EU's civilretlige samarbejde?",
+                    "choices": ["Danmark deltager fuldt ud", "Danmark har taget forbehold, men deltager i visse retsakter via parallelaftaler", "Danmark har helt forladt samarbejdet", "Danmark har kun forbehold for straffesager"],
+                    "correct": 1,
+                    "explanation": "Danmark har taget forbehold for det civilretlige samarbejde, men deltager i visse retsakter (fx forkyndelses- og domsforordningen) via parallelaftaler indgået mellem EU og Danmark."
+                },
+                {
+                    "question": "Hvad er Van Schijndel-testen?",
+                    "choices": ["En test for dommerinhabilitet", "En proportionalitetstest der afvejer EU-rettens effektivitet mod nationale processuelle principper som kontradiktion og retssikkerhed", "En test for om en voldgiftsaftale er gyldig", "En test for om en sag kan ankes"],
+                    "correct": 1,
+                    "explanation": "Van Schijndel-testen (fra sag C-430/93) afvejer hensynet til EU-rettens effektivitet mod nationale processuelle principper som kontradiktionsprincippet, retssikkerhedsprincippet og hensigtsmæssig sagsbehandling."
+                },
+                {
+                    "question": "Kan en privat voldgiftsret stille præjudicielle spørgsmål til EU-Domstolen?",
+                    "choices": ["Ja, alle retter kan forelægge spørgsmål", "Nej, men den kan anmode de almindelige domstole om at stille spørgsmålet på dens vegne", "Ja, men kun med parternes samtykke", "Nej, og der er ingen alternative muligheder"],
+                    "correct": 1,
+                    "explanation": "En privat voldgiftsret er ikke en 'ret' i TEUF art. 267's forstand og kan ikke selv forelægge spørgsmål. Men efter voldgiftslovens § 27, stk. 2, kan den anmode de almindelige domstole om at forelægge på dens vegne."
+                },
+                {
+                    "question": "Hvad er konsekvensen, hvis en sidsteinstansdomstol undlader at forelægge et påkrævet præjudicielt spørgsmål?",
+                    "choices": ["Ingen konsekvens", "Medlemsstaten kan pådrage sig erstatningsansvar for åbenbar tilsidesættelse af EU-retten", "Dommen bliver automatisk ugyldig", "EU-Kommissionen kan omgøre dommen"],
+                    "correct": 1,
+                    "explanation": "En medlemsstat kan pådrage sig erstatningsansvar, hvis en sidsteinstansdomstol åbenbart tilsidesætter EU-retten, herunder forelæggelsespligten, jf. Köbler-dommen (sag C-224/01)."
+                },
+                {
+                    "question": "Hvad er forholdet mellem EUC art. 47 og EMK art. 6?",
+                    "choices": ["De er helt identiske", "De overlapper i vid udstrækning, men EUC art. 47 kan beskytte rettigheder i videre omfang end EMK", "EMK art. 6 har altid forrang", "De regulerer helt forskellige områder"],
+                    "correct": 1,
+                    "explanation": "EUC art. 47 og EMK art. 6 overlapper i vid udstrækning og skal som udgangspunkt fortolkes ens, men chartret kan beskytte en rettighed i videre omfang end EMK, jf. EUC art. 52, stk. 3."
+                },
+                {
+                    "question": "Hvad fastslog EU-Domstolen i DEB-sagen (C-279/09) om retshjælp til juridiske personer?",
+                    "choices": ["Juridiske personer har aldrig ret til fri proces", "Retten til effektiv domstolsbeskyttelse (EUC art. 47) kan omfatte fri proces for juridiske personer under visse betingelser", "Kun fysiske personer kan påberåbe sig EUC art. 47", "Retshjælp gives altid automatisk til juridiske personer"],
+                    "correct": 1,
+                    "explanation": "EU-Domstolen fastslog i DEB-sagen, at EUC art. 47 kan påberåbes af juridiske personer, og at fri proces under visse betingelser kan omfatte fritagelse for retsafgift og advokatbistand."
+                },
+                {
+                    "question": "Hvad er TEUF art. 18's betydning for processuelle regler?",
+                    "choices": ["Den regulerer retsafgiftens størrelse", "Den forbyder diskrimination begrundet i nationalitet, hvilket kan begrænse fx krav om sikkerhedsstillelse for EU-borgere", "Den giver EU-borgere gratis adgang til alle domstole", "Den pålægger alle medlemsstater at anvende samme procesregler"],
+                    "correct": 1,
+                    "explanation": "TEUF art. 18 forbyder diskrimination begrundet i nationalitet. Fx blev RPL § 321 om sikkerhedsstillelse ændret, så sagsøgere med bopæl i EU blev undtaget, fordi kravet ellers kunne stride mod dette princip."
+                }
+            ]
         }
     ],
     "cases": [
@@ -382,6 +766,130 @@
                     "choices": ["De danske domstole ville behandle sagen alligevel", "De danske domstole skulle afvise sagen, da en gyldig voldgiftsaftale udelukker domstolsbehandling", "Voldgiftsklausulen er ugyldig i EU", "Kun Højesteret kan tage stilling til voldgiftsklausulens gyldighed"],
                     "correct": 1,
                     "explanation": "En gyldig voldgiftsaftale medfører, at de ordinære domstole som udgangspunkt skal afvise sagen og henvise parterne til voldgift, jf. voldgiftsloven og New York-konventionen."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Lejeren og den lukkede dør — Retssikkerhed i praksis",
+            "context": "Sofie Larsen lejer en lejlighed i Aarhus. Hendes udlejer, Jeppe Holm, har uden varsel udskiftet låsen og nægter hende adgang til lejligheden, fordi han mener, at hun skylder tre måneders husleje. Sofie bestrider huslejekravet og hævder, at hun har betalt via MobilePay. Sofie overvejer at gå til fogedretten, men hendes ven foreslår i stedet mediation. Hun er i tvivl om sine rettigheder og mulighederne i det danske retssystem.",
+            "questions": [
+                {
+                    "question": "Hvilken af retsplejelovens to hovedfunktioner er mest relevant for Sofies situation, hvis hun ønsker at få genindsat i lejligheden?",
+                    "choices": ["Tvistløsning — afgøre uenigheden om huslejen ved dom", "Tvangsfuldbyrdelse — gennemtvinge sin ret til at bruge lejligheden via fogedretten", "Strafferetlig retsforfølgning — anmelde udlejeren", "Lovgivningsfunktionen — ændre lejeloven"],
+                    "correct": 1,
+                    "explanation": "Sofies primære behov er at gennemtvinge sin besiddelsesret — det hører under tvangsfuldbyrdelse via fogedretten, som er den ene af retsplejelovens to hovedfunktioner."
+                },
+                {
+                    "question": "Sofies ven anbefaler mediation (ADR) i stedet for retssag. Hvad er en korrekt beskrivelse af forholdet mellem ADR og domstolene?",
+                    "choices": ["ADR erstatter domstolene fuldstændigt", "ADR er et frivilligt supplement til domstolene, men parterne kan altid vælge domstolsbehandling", "ADR er kun for erhvervsdrivende", "ADR-afgørelser har samme retskraft som domme"],
+                    "correct": 1,
+                    "explanation": "ADR (alternativ konfliktløsning) som mediation er frivilligt og supplerer — men erstatter ikke — domstolene. Sofie kan altid vælge at anlægge sag ved domstolene."
+                },
+                {
+                    "question": "Sofie påberåber sig EMRK art. 6 og mener, at hun har krav på en retfærdig rettergang. Hvad garanterer EMRK art. 6 blandt andet?",
+                    "choices": ["Gratis advokatbistand i alle sager", "Retten til en upartisk domstol, offentlig rettergang og afgørelse inden for rimelig tid", "At staten altid betaler sagsomkostningerne", "At sagen altid kan prøves i tre instanser"],
+                    "correct": 1,
+                    "explanation": "EMRK art. 6 garanterer bl.a. retten til en retfærdig og offentlig rettergang ved en upartisk domstol inden for rimelig tid."
+                },
+                {
+                    "question": "Under retssagen hævder Jeppe Holm, at han har ret til at foretage selvtægt. Retten afviser dette og påpeger et grundlæggende retsprincip. Hvilket?",
+                    "choices": ["Dispositionsprincippet", "Forbuddet mod selvtægt — tvister skal løses via retssystemet, ikke ved selvhjælp", "Mundtlighedsprincippet", "Iura novit curia"],
+                    "correct": 1,
+                    "explanation": "Et grundlæggende princip i den civile retspleje er forbuddet mod selvtægt: tvister skal løses via domstolene eller fogedretten, ikke ved at tage retten i egen hånd."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Den inhabile dommer — Habilitet og partsevne",
+            "context": "Virksomheden GreenTech ApS sagsøger en konkurrent, BlueWave A/S, for krænkelse af et patent ved Sø- og Handelsretten. Under forberedelsen opdager GreenTechs advokat, at den udpegede dommer ejer aktier i BlueWave A/S' moderselskab. Samtidig rejser BlueWave spørgsmål om, hvorvidt GreenTech ApS overhovedet har processuel partsevne, da selskabet er under tvangsopløsning. GreenTechs bestyrelsesformand ønsker selv at føre sagen uden advokat.",
+            "questions": [
+                {
+                    "question": "Dommerens aktiebesiddelse i BlueWaves moderselskab udgør et habilitetsproblem. Hvilken form for inhabilitet er der tale om?",
+                    "choices": ["Inhabilitet pga. slægtskab", "Inhabilitet pga. økonomisk interesse i sagens udfald", "Inhabilitet pga. tidligere beskæftigelse som advokat", "Inhabilitet pga. forudindtagethed udtrykt i medierne"],
+                    "correct": 1,
+                    "explanation": "Når en dommer har en økonomisk interesse — her via aktiebesiddelse i en parts moderselskab — foreligger der inhabilitet pga. økonomisk interesse i sagens udfald, jf. RPL § 60."
+                },
+                {
+                    "question": "BlueWave betvivler GreenTech ApS' processuelle partsevne under tvangsopløsning. Hvad er korrekt?",
+                    "choices": ["Et selskab under tvangsopløsning mister al partsevne", "Et selskab under tvangsopløsning bevarer som udgangspunkt sin partsevne, indtil det er endeligt opløst", "Kun fysiske personer har partsevne", "Partsevnen afhænger af selskabets omsætning"],
+                    "correct": 1,
+                    "explanation": "Et selskab under tvangsopløsning bevarer sin processuelle partsevne, indtil det er endeligt opløst og slettet fra Erhvervsstyrelsen. Likvidator kan føre sager på selskabets vegne."
+                },
+                {
+                    "question": "GreenTechs bestyrelsesformand vil selv føre sagen uden advokat. Er dette muligt ved Sø- og Handelsretten?",
+                    "choices": ["Ja, alle kan frit repræsentere sig selv ved enhver domstol", "Nej, advokaterne har møderetsmonopol, og et selskab kan ikke selv 'møde' — det kræver en rettergangsfuldmægtig eller advokat", "Ja, men kun hvis bestyrelsesformanden er jurist", "Nej, kun Advokatrådet kan give tilladelse"],
+                    "correct": 1,
+                    "explanation": "Et selskab (juridisk person) kan ikke selv møde i retten som en fysisk person kan. Det kræver repræsentation ved advokat eller en rettergangsfuldmægtig med rettens tilladelse."
+                },
+                {
+                    "question": "Sagen er anlagt ved Sø- og Handelsretten. Hvad er korrekt om denne domstols kompetence i patentsager?",
+                    "choices": ["Sø- og Handelsretten har ingen kompetence i patentsager", "Sø- og Handelsretten behandler bl.a. sager om patenter og andre immaterialrettigheder som specialdomstol", "Patentsager kan kun behandles ved Højesteret", "Patentsager behandles altid ved byretten"],
+                    "correct": 1,
+                    "explanation": "Sø- og Handelsretten fungerer som specialdomstol for bl.a. immaterialretlige sager, herunder patentsager, varemærkesager og designsager."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Den langsomme retssag — EMK art. 6 i praksis",
+            "context": "Maria Sørensen anlagde for tre år siden en erstatningssag mod sin tidligere arbejdsgiver, DataSoft A/S, ved byretten. Sagen har trukket ud pga. gentagne udsættelser: først ventede retten på en sagkyndig erklæring fra Retslægerådet i 14 måneder, dernæst blev hovedforhandlingen udsat to gange pga. dommerens sygdom. Maria har nu ventet over tre år uden dom. Hendes advokat opdager desuden, at den nye dommer, der er sat på sagen, tidligere har været bestyrelsesmedlem i DataSofts moderselskab. Maria overvejer at klage til Menneskerettighedsdomstolen.",
+            "questions": [
+                {
+                    "question": "Maria overvejer at klage til EMD over den lange sagsbehandlingstid. Kan hun klage, selv om sagen endnu ikke er afsluttet ved de danske domstole?",
+                    "choices": ["Nej, hun skal altid afvente endelig dom", "Ja, klager over lang sagsbehandlingstid kan som udgangspunkt indbringes, selv om sagen ikke er afsluttet — forudsat at RPL § 152a er udnyttet", "Ja, men kun hvis sagen har varet over 10 år", "Nej, kun Folketingets Ombudsmand kan behandle sådanne klager"],
+                    "correct": 1,
+                    "explanation": "Klager over lang sagsbehandlingstid kan indbringes for EMD, selv om sagen endnu verserer. Klageren skal dog formentlig først have udnyttet RPL § 152a (begæring om berammelse af hovedforhandling)."
+                },
+                {
+                    "question": "Marias advokat opdager dommerens tidligere bestyrelsespost i DataSofts moderselskab. Hvilken test vil EMD anvende for at vurdere inhabilitet?",
+                    "choices": ["Kun den subjektive test — om dommeren personligt er forudindtaget", "Både en subjektiv og en objektiv test — hvor den objektive test vurderer, om der er rimelig grund til at frygte manglende upartiskhed", "Kun en formel test — om dommeren er slægtning til en part", "EMD prøver ikke habilitetsspørgsmål"],
+                    "correct": 1,
+                    "explanation": "EMD anvender både en subjektiv test (personlig forudindtagethed) og en objektiv test (om omstændighederne giver rimelig grund til at frygte upartiskhed). Den objektive test spiller i praksis størst rolle."
+                },
+                {
+                    "question": "Hvilken grad af omhu vil EMD sandsynligvis kræve af de danske domstole i Marias sag, hvis hun er alvorligt syg som følge af arbejdsskaden?",
+                    "choices": ["Almindelig omhu (diligence)", "Særlig omhu (special diligence)", "Ekstraordinær omhu (exceptional diligence)", "EMD stiller ingen krav til omhu"],
+                    "correct": 2,
+                    "explanation": "EMD kræver ekstraordinær omhu (exceptional diligence) i sager, der har særlig betydning for klageren — herunder erstatningssager anlagt af uhelbredeligt syge personer."
+                },
+                {
+                    "question": "Hvis Maria klager til EMD, og Domstolen finder, at EMK art. 6 er krænket, hvad er konsekvensen?",
+                    "choices": ["EMD ændrer den danske byretsdom", "EMD kan dømme den danske stat for krænkelse og tilkende Maria kompensation", "EMD sender sagen tilbage til byretten med pålæg om ny behandling", "EMD kan afsætte den danske dommer"],
+                    "correct": 1,
+                    "explanation": "EMD kan fastslå, at den danske stat har krænket EMK, og tilkende klageren kompensation (just satisfaction). EMD kan ikke ændre nationale domme eller pålægge domstolene at genoptage sager."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Gasselskabet og den manglende forelæggelse",
+            "context": "Det danske energiselskab NordGas A/S har anlagt sag mod den danske stat ved Østre Landsret. NordGas hævder, at statens implementering af et EU-gasdirektiv er mangelfuld og har påført selskabet et tab på 45 mio. kr. i mistet adgang til gasnettet. Under sagen opstår spørgsmål om fortolkningen af direktivet. NordGas anmoder landsretten om at forelægge et præjudicielt spørgsmål for EU-Domstolen, men landsretten afslår med henvisning til, at fortolkningen er klar. NordGas kærer afgørelsen til Højesteret og overvejer desuden at søge om fri proces, da selskabet er i økonomiske vanskeligheder.",
+            "questions": [
+                {
+                    "question": "Landsretten afslår at forelægge et præjudicielt spørgsmål med henvisning til, at fortolkningen er klar. Hvilket EU-retligt princip påberåber landsretten sig?",
+                    "choices": ["Princippet om processuel autonomi", "Princippet om acte clair — at der ikke er rimelig tvivl om den rette fortolkning", "Princippet om ækvivalens", "Princippet om effektiv domstolsbeskyttelse"],
+                    "correct": 1,
+                    "explanation": "Acte clair-princippet (fra CILFIT-dommen) indebærer, at forelæggelsespligten bortfalder, når den rette fortolkning er så klar, at der ikke er rimelig tvivl — men den nationale domstol skal tage alle sprogversioner og EU-rettens kontekst i betragtning."
+                },
+                {
+                    "question": "Hvis Højesteret som sidsteinstans også afslår forelæggelse og anvender direktivet forkert, hvad kan konsekvensen være for den danske stat?",
+                    "choices": ["Ingen konsekvens — domstole er suveræne", "Staten kan pådrage sig erstatningsansvar over for NordGas for åbenbar tilsidesættelse af EU-retten", "EU-Kommissionen kan omgøre Højesterets dom", "NordGas kan klage direkte til EU-Domstolen"],
+                    "correct": 1,
+                    "explanation": "En medlemsstat kan pådrage sig erstatningsansvar, hvis en sidsteinstansdomstol åbenbart tilsidesætter gældende EU-ret, herunder forelæggelsespligten, jf. Köbler-dommen (sag C-224/01)."
+                },
+                {
+                    "question": "NordGas er i økonomiske vanskeligheder og søger om fri proces. Kan et selskab påberåbe sig retten til retshjælp efter EUC art. 47?",
+                    "choices": ["Nej, kun fysiske personer kan få fri proces efter EU-retten", "Ja, EU-Domstolen har i DEB-sagen fastslået, at EUC art. 47 kan påberåbes af juridiske personer under visse betingelser", "Kun selskaber med under 10 ansatte", "Kun hvis EU-Kommissionen giver tilladelse"],
+                    "correct": 1,
+                    "explanation": "EU-Domstolen fastslog i DEB-sagen (C-279/09), at EUC art. 47 kan påberåbes af juridiske personer, og at fri proces under visse betingelser kan omfatte fritagelse for retsafgift og advokatbistand — den nationale ret skal foretage en konkret proportionalitetsvurdering."
+                },
+                {
+                    "question": "NordGas hævder, at den danske gennemførelseslov behandler EU-retlige krav ringere end tilsvarende nationale krav. Hvilket EU-retligt princip er relevant?",
+                    "choices": ["Princippet om direkte virkning", "Ækvivalensprincippet — nationale regler for EU-retlige krav må ikke være mindre gunstige end for tilsvarende nationale krav", "Princippet om acte éclairé", "Subsidiaritetsprincippet"],
+                    "correct": 1,
+                    "explanation": "Ækvivalensprincippet kræver, at nationale processuelle regler for håndhævelse af EU-retlige krav ikke er mindre gunstige end reglerne for tilsvarende nationale krav."
                 }
             ]
         }
