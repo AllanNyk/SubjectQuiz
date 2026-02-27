@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN, DEFAULT_TIMER_MS, TIMER_PRESETS, LEVEL_DISPLAY_NAMES } from './config.js';
+import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, CASE_SCORE_MULTIPLIER, HARD_KEYS_TO_WIN, HARD_REGULAR_COUNT, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN, DEFAULT_TIMER_MS, TIMER_PRESETS, LEVEL_DISPLAY_NAMES } from './config.js';
 import { GameMap } from './map.js';
 import { Player } from './player.js';
 import { EnemyManager } from './enemy.js';
@@ -47,6 +47,8 @@ class Game {
         this.correctAnswers = 0;
         this.timedMode = false;
         this.timerDurationMs = DEFAULT_TIMER_MS;
+        this.difficulty = 'normal';
+        this.keysToWin = CORRECT_ANSWERS_TO_WIN;
         this.startLevel = 1;
         this.subjects = [];
         this.selectedSubject = 0;
@@ -193,7 +195,7 @@ class Game {
 
             case STATE_SETTINGS: {
                 const lang = this.subjects[this.selectedSubject]?.lang || 'en';
-                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, GameMap.totalLevels());
+                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, GameMap.totalLevels(), this.difficulty);
                 break;
             }
 
@@ -226,7 +228,8 @@ class Game {
                     this.map.name,
                     this.stats.currentScore,
                     this.stats.currentStreak,
-                    this.questionLoader.getLanguage()
+                    this.questionLoader.getLanguage(),
+                    this.keysToWin
                 );
 
                 if (needsTransform) { ctx.restore(); }
@@ -338,7 +341,9 @@ class Game {
     _updateSettings() {
         let action = this.input.poll();
         while (action) {
-            if (action === 'TOGGLE_TIMER') {
+            if (action === 'TOGGLE_DIFFICULTY') {
+                this.difficulty = this.difficulty === 'normal' ? 'hard' : 'normal';
+            } else if (action === 'TOGGLE_TIMER') {
                 this.timedMode = !this.timedMode;
             } else if (action === 'FORWARD') {
                 if (this.timedMode) this._adjustTimerDuration(1);
@@ -388,7 +393,18 @@ class Game {
         this.map = new GameMap(this.currentLevel - 1); // 0-indexed
         const sp = this.map.startPos;
         this.player = new Player(sp.x, sp.y, sp.facing);
-        this.enemies = new EnemyManager(this.map.enemyPositions, this.map.bossPos);
+
+        if (this.difficulty === 'hard') {
+            const allPos = this.map.enemyPositions;
+            const regularPos = allPos.slice(0, HARD_REGULAR_COUNT);
+            const casePos = allPos.slice(HARD_REGULAR_COUNT);
+            this.enemies = new EnemyManager(regularPos, this.map.bossPos, casePos);
+            this.keysToWin = HARD_KEYS_TO_WIN;
+        } else {
+            this.enemies = new EnemyManager(this.map.enemyPositions, this.map.bossPos);
+            this.keysToWin = CORRECT_ANSWERS_TO_WIN;
+        }
+
         this.correctAnswers = 0;
         this.flyingKey = null;
         this.hudKeyGlow = 0;
@@ -448,7 +464,7 @@ class Game {
             // Boss door check
             if (this.map.isBossDoor(pos.x, pos.y)) {
                 const lang = this.questionLoader.getLanguage();
-                if (this.correctAnswers >= CORRECT_ANSWERS_TO_WIN) {
+                if (this.correctAnswers >= this.keysToWin) {
                     this.map.openBossDoor();
                     this.flashType = 'correct';
                     this.flashAlpha = 0.3;
@@ -465,6 +481,8 @@ class Game {
             if (enemy) {
                 if (enemy.isBoss) {
                     this._startBossCombat(enemy);
+                } else if (enemy.isCase) {
+                    this._startCaseCombat(enemy);
                 } else {
                     this._startCombat(enemy);
                 }
@@ -599,6 +617,18 @@ class Game {
         this.input.flush();
     }
 
+    _startCaseCombat(enemy) {
+        this.tween = null;
+        const bossCase = this.questionLoader.getBossCase(this.currentLevel);
+        if (!bossCase) {
+            console.error('No case available for level', this.currentLevel);
+            return;
+        }
+        this.combat.startBoss(bossCase, enemy, this.currentLevel, this.timedMode, this.questionLoader.getLanguage(), this.timerDurationMs);
+        this.state = STATE_BOSS_COMBAT;
+        this.input.flush();
+    }
+
     _updateBossCombat() {
         const action = this.input.poll();
         if (action) {
@@ -619,14 +649,27 @@ class Game {
     }
 
     _resolveBossCombat(result) {
+        const enemy = this.combat.enemy;
+        const isCase = enemy.isCase;
+
         if (result === 'boss_defeated') {
-            this.enemies.kill(this.combat.enemy);
-            this.map.revealStairs();
+            this.enemies.kill(enemy);
+
+            if (isCase) {
+                // Case enemy: award key + case score bonus
+                this._pendingKeyIncrement = true;
+                this._startFlyingKey();
+                const bonus = SCORE_BASE * this.currentLevel * CASE_SCORE_MULTIPLIER;
+                this.stats.addScore(bonus);
+            } else {
+                // Actual boss: reveal stairs + boss score bonus
+                this.map.revealStairs();
+                const bonus = SCORE_BASE * this.currentLevel * BOSS_SCORE_MULTIPLIER;
+                this.stats.addScore(bonus);
+            }
+
             this.flashType = 'correct';
             this.flashAlpha = 0.5;
-            // Bonus score for boss
-            const bonus = SCORE_BASE * this.currentLevel * BOSS_SCORE_MULTIPLIER;
-            this.stats.addScore(bonus);
             this.state = STATE_EXPLORING;
             this.input.flush();
         } else if (result === 'boss_failed') {
@@ -886,7 +929,9 @@ class Game {
             const result = this.ui.getSettingsClickedAction(x, y, this.timedMode);
             if (!result) return;
 
-            if (result.type === 'toggle_timer') {
+            if (result.type === 'toggle_difficulty') {
+                this.difficulty = this.difficulty === 'normal' ? 'hard' : 'normal';
+            } else if (result.type === 'toggle_timer') {
                 this.timedMode = !this.timedMode;
             } else if (result.type === 'timer_minus') {
                 this._adjustTimerDuration(-1);

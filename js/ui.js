@@ -11,7 +11,7 @@ export class UI {
 
     // ── HUD (drawn during EXPLORING state) ─────────────────────────────
 
-    renderHUD(player, correctAnswers, levelNum, subjectName, levelName, score, streak, lang = 'en') {
+    renderHUD(player, correctAnswers, levelNum, subjectName, levelName, score, streak, lang = 'en', keysToWin = CORRECT_ANSWERS_TO_WIN) {
         const ctx = this.ctx;
 
         // Bottom bar background
@@ -37,11 +37,11 @@ export class UI {
 
         // Keys progress
         this.drawKeyIcon(ctx, 110, CANVAS_H - 24);
-        const allKeys = correctAnswers >= CORRECT_ANSWERS_TO_WIN;
+        const allKeys = correctAnswers >= keysToWin;
         ctx.fillStyle = allKeys ? '#cc9944' : '#cccc88';
         ctx.font = '14px monospace';
         ctx.textAlign = 'left';
-        ctx.fillText(`${t('hud.keys', lang)} ${correctAnswers}/${CORRECT_ANSWERS_TO_WIN}`, 132, CANVAS_H - 18);
+        ctx.fillText(`${t('hud.keys', lang)} ${correctAnswers}/${keysToWin}`, 132, CANVAS_H - 18);
 
         // Level info
         ctx.fillStyle = '#8888bb';
@@ -260,7 +260,7 @@ export class UI {
 
     // ── Settings screen ────────────────────────────────────────────────
 
-    renderSettings(timedMode, timerDurationMs, lang = 'en', startLevel = 1, maxLevel = 7) {
+    renderSettings(timedMode, timerDurationMs, lang = 'en', startLevel = 1, maxLevel = 7, difficulty = 'normal') {
         const ctx = this.ctx;
 
         // Background
@@ -287,11 +287,35 @@ export class UI {
         ctx.textAlign = 'center';
         this._wrapText(ctx, t('settings.objective', lang), CANVAS_W / 2, 118, CANVAS_W - 100, 18);
 
+        // Difficulty toggle button
+        const diffW = 280;
+        const diffH = 36;
+        const diffX = (CANVAS_W - diffW) / 2;
+        const diffY = 160;
+        const isHard = difficulty === 'hard';
+
+        ctx.fillStyle = isHard ? '#2a1a2a' : '#1a1a2e';
+        ctx.fillRect(diffX, diffY, diffW, diffH);
+        ctx.strokeStyle = isHard ? '#cc44cc' : '#3a3a5a';
+        ctx.lineWidth = isHard ? 2 : 1;
+        ctx.strokeRect(diffX, diffY, diffW, diffH);
+
+        const diffLabel = isHard ? t('settings.diffHard', lang) : t('settings.diffNormal', lang);
+        ctx.fillStyle = isHard ? '#cc88cc' : '#aaaacc';
+        ctx.font = `bold 15px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText(`${t('settings.difficulty', lang)} ${diffLabel}`, CANVAS_W / 2, diffY + 24);
+
+        // [G] hint
+        ctx.fillStyle = '#666688';
+        ctx.font = '11px monospace';
+        ctx.fillText('[G]', CANVAS_W / 2, diffY + diffH + 12);
+
         // Timer toggle button
         const toggleW = 220;
         const toggleH = 44;
         const toggleX = (CANVAS_W - toggleW) / 2;
-        const toggleY = 175;
+        const toggleY = 220;
 
         ctx.fillStyle = timedMode ? '#2a2a1a' : '#1a1a2e';
         ctx.fillRect(toggleX, toggleY, toggleW, toggleH);
@@ -311,7 +335,7 @@ export class UI {
 
         // Duration row (only when timer is ON)
         if (timedMode) {
-            const rowY = 260;
+            const rowY = 300;
             const btnSize = 44;
             const displayW = 140;
             const displayH = 44;
@@ -367,7 +391,7 @@ export class UI {
         }
 
         // Level selector row
-        const levelRowY = timedMode ? 330 : 260;
+        const levelRowY = timedMode ? 370 : 300;
         const levelBtnSize = 44;
         const levelDisplayW = 300;
         const levelDisplayH = 44;
@@ -426,11 +450,11 @@ export class UI {
         ctx.fillText('[A/D]', CANVAS_W / 2, levelRowY + levelBtnSize + 14);
 
         // Bottom buttons: Start Game and Back
-        const bottomY = levelRowY + levelBtnSize + 36;
+        const bottomY = levelRowY + levelBtnSize + 26;
         const startW = 200;
-        const startH = 44;
+        const startH = 40;
         const backW = 120;
-        const backH = 44;
+        const backH = 40;
         const gap = 20;
         const totalBtnW = startW + gap + backW;
         const btnStartX = (CANVAS_W - totalBtnW) / 2;
@@ -444,7 +468,7 @@ export class UI {
         ctx.fillStyle = '#88dd88';
         ctx.font = `bold 18px ${SERIF}`;
         ctx.textAlign = 'center';
-        ctx.fillText(t('settings.start', lang), btnStartX + startW / 2, bottomY + 29);
+        ctx.fillText(t('settings.start', lang), btnStartX + startW / 2, bottomY + 27);
 
         // Back button
         const backX = btnStartX + startW + gap;
@@ -456,7 +480,7 @@ export class UI {
         ctx.fillStyle = '#aaaacc';
         ctx.font = `bold 16px ${SERIF}`;
         ctx.textAlign = 'center';
-        ctx.fillText(t('settings.back', lang), backX + backW / 2, bottomY + 29);
+        ctx.fillText(t('settings.back', lang), backX + backW / 2, bottomY + 27);
 
         // Keyboard hints
         ctx.fillStyle = '#444466';
@@ -465,13 +489,24 @@ export class UI {
         ctx.fillText(t('settings.hintKeys', lang), CANVAS_W / 2, bottomY + startH + 20);
     }
 
-    // Returns { type: 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'level_minus' | 'level_plus' | 'start' | 'back' } or null
+    // Returns { type: 'toggle_difficulty' | 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'level_minus' | 'level_plus' | 'start' | 'back' } or null
     getSettingsClickedAction(canvasX, canvasY, timedMode) {
+        // Difficulty toggle button
+        const diffW = 280;
+        const diffH = 36;
+        const diffX = (CANVAS_W - diffW) / 2;
+        const diffY = 160;
+
+        if (canvasX >= diffX && canvasX <= diffX + diffW &&
+            canvasY >= diffY && canvasY <= diffY + diffH) {
+            return { type: 'toggle_difficulty' };
+        }
+
         // Timer toggle button
         const toggleW = 220;
         const toggleH = 44;
         const toggleX = (CANVAS_W - toggleW) / 2;
-        const toggleY = 175;
+        const toggleY = 220;
 
         if (canvasX >= toggleX && canvasX <= toggleX + toggleW &&
             canvasY >= toggleY && canvasY <= toggleY + toggleH) {
@@ -480,7 +515,7 @@ export class UI {
 
         // Duration row (only when timer is ON)
         if (timedMode) {
-            const rowY = 260;
+            const rowY = 300;
             const btnSize = 44;
             const displayW = 140;
             const totalRowW = btnSize + 10 + displayW + 10 + btnSize;
@@ -500,7 +535,7 @@ export class UI {
         }
 
         // Level selector row
-        const levelRowY = timedMode ? 330 : 260;
+        const levelRowY = timedMode ? 370 : 300;
         const levelBtnSize = 44;
         const levelDisplayW = 300;
         const levelTotalW = levelBtnSize + 10 + levelDisplayW + 10 + levelBtnSize;
@@ -519,11 +554,11 @@ export class UI {
         }
 
         // Bottom buttons
-        const bottomY = levelRowY + levelBtnSize + 36;
+        const bottomY = levelRowY + levelBtnSize + 26;
         const startW = 200;
-        const startH = 44;
+        const startH = 40;
         const backW = 120;
-        const backH = 44;
+        const backH = 40;
         const gap = 20;
         const totalBtnW = startW + gap + backW;
         const btnStartX = (CANVAS_W - totalBtnW) / 2;

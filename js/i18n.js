@@ -71,6 +71,9 @@ const STRINGS = {
         'settings.start':      'Start Game',
         'settings.back':       'Back',
         'settings.hintKeys':   'Enter to start  |  ESC to go back',
+        'settings.difficulty': 'Difficulty:',
+        'settings.diffNormal': 'Normal',
+        'settings.diffHard':   'Hard \u2014 More Cases',
 
         // Game Over
         'gameover.title':      'Defeated!',
@@ -149,6 +152,9 @@ const STRINGS = {
         'settings.start':      'Start spil',
         'settings.back':       'Tilbage',
         'settings.hintKeys':   'Enter for start  |  ESC for tilbage',
+        'settings.difficulty': 'Sv\u00E6rhedsgrad:',
+        'settings.diffNormal': 'Normal',
+        'settings.diffHard':   'Sv\u00E6r \u2014 Flere sager',
 
         // Game Over
         'gameover.title':      'Besejret!',

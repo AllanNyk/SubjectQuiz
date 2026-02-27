@@ -75,8 +75,10 @@ export class QuestionLoader {
 
     getBossCase(level) {
         if (!this.data?.cases) return null;
-        const c = this.data.cases.find(c => c.level === level);
-        return c ? { title: c.title, context: c.context, questions: c.questions.map(q => this._shuffleChoices({...q})) } : null;
+        const matching = this.data.cases.filter(c => c.level === level);
+        if (!matching.length) return null;
+        const c = matching[Math.floor(Math.random() * matching.length)];
+        return { title: c.title, context: c.context, questions: c.questions.map(q => this._shuffleChoices({...q})) };
     }
 
     // Shuffle choices and update correct index to match

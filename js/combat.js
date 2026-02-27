@@ -288,7 +288,21 @@ export class CombatSystem {
     }
 
     _drawEnemyPortrait(ctx, cx, cy) {
-        if (this.isBossMode) {
+        if (this.isBossMode && this.enemy?.isCase) {
+            // Cyan question mark for case enemies
+            ctx.save();
+            ctx.shadowColor = 'rgba(68, 204, 204, 0.6)';
+            ctx.shadowBlur = 14;
+            ctx.font = 'bold 56px Georgia, serif';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.strokeStyle = 'rgba(0, 30, 30, 0.7)';
+            ctx.lineWidth = 3;
+            ctx.strokeText('?', cx, cy);
+            ctx.fillStyle = '#44cccc';
+            ctx.fillText('?', cx, cy);
+            ctx.restore();
+        } else if (this.isBossMode) {
             // Golden question mark (larger than regular)
             ctx.save();
             ctx.shadowColor = 'rgba(204, 153, 68, 0.6)';

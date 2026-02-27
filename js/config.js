@@ -62,6 +62,11 @@ export const LOG_PER_PAGE = 4;
 // Boss system
 export const BOSS_CASE_QUESTIONS = 4;
 export const BOSS_SCORE_MULTIPLIER = 3;
+export const CASE_SCORE_MULTIPLIER = 2;
+
+// Hard mode ("More Cases")
+export const HARD_KEYS_TO_WIN = 6;
+export const HARD_REGULAR_COUNT = 6;
 
 // Flying key animation
 export const FLYING_KEY_MS       = 450;   // flight duration

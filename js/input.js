@@ -40,6 +40,7 @@ export class InputHandler {
             case 'KeyB': return 'LEADERBOARD';
             case 'KeyT': return 'TOGGLE_TIMER';
             case 'KeyM': return 'MINIMAP';
+            case 'KeyG': return 'TOGGLE_DIFFICULTY';
             case 'Backspace': return 'BACK';
             case 'F1': return 'DEBUG_LEVEL1';
             case 'F2': return 'DEBUG_LEVEL2';

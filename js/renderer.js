@@ -299,6 +299,8 @@ export class Renderer {
             if (enemy) {
                 if (enemy.isBoss) {
                     this._drawBossEnemy(ctx, d, player.facing);
+                } else if (enemy.isCase) {
+                    this._drawCaseEnemy(ctx, d, player.facing);
                 } else {
                     this._drawEnemy(ctx, d, player.facing);
                 }
@@ -529,6 +531,46 @@ export class Renderer {
         ctx.restore();
     }
 
+    // ── Case enemy drawing (cyan question mark) ────────────────────────
+
+    _drawCaseEnemy(ctx, depth, _facing) {
+        const t = this._t;
+        const f = FRAMES[depth];
+        const cx = (f.l + f.r) / 2;
+        const h = (f.b - f.t) * 0.75;
+        const w = h * 0.5;
+
+        const sway = Math.sin(t * 1.8 + depth * 2.1) * h * 0.012;
+        const cy = (f.t + f.b) / 2 + sway;
+
+        // Shadow on floor
+        ctx.fillStyle = 'rgba(0,0,0,0.3)';
+        ctx.beginPath();
+        ctx.ellipse(cx, f.b - h * 0.05, w * 0.4, h * 0.05, 0, 0, Math.PI * 2);
+        ctx.fill();
+
+        const pulse = 0.7 + 0.3 * Math.sin(t * 2.5 + depth * 1.7);
+        const fontSize = Math.max(12, h * 0.7);
+
+        ctx.save();
+        ctx.shadowColor = `rgba(68, 204, 204, ${0.5 * pulse})`;
+        ctx.shadowBlur = Math.max(6, h * 0.08);
+
+        ctx.font = `bold ${fontSize}px Georgia, serif`;
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+
+        ctx.strokeStyle = 'rgba(0, 30, 30, 0.7)';
+        ctx.lineWidth = Math.max(2, fontSize * 0.05);
+        ctx.strokeText('?', cx, cy);
+
+        const b = 170 + (34 * pulse) | 0;
+        ctx.fillStyle = `rgb(68, ${b}, ${b})`;
+        ctx.fillText('?', cx, cy);
+
+        ctx.restore();
+    }
+
     // ── Boss door drawing ─────────────────────────────────────────────
 
     _drawBossDoor(ctx, depth) {
@@ -722,10 +764,10 @@ export class Renderer {
             }
         }
 
-        // Enemies (red dots, boss = magenta larger dot)
+        // Enemies (red dots, boss = magenta, case = cyan)
         for (const enemy of enemies.getAlive()) {
             if (!visited[enemy.y]?.[enemy.x]) continue;
-            ctx.fillStyle = enemy.isBoss ? '#ff00ff' : '#ff3333';
+            ctx.fillStyle = enemy.isBoss ? '#ff00ff' : enemy.isCase ? '#44cccc' : '#ff3333';
             const dotSize = enemy.isBoss ? Math.max(3, cellW * 0.5) : Math.max(2, cellW * 0.35);
             ctx.beginPath();
             ctx.arc(
@@ -797,7 +839,7 @@ export class Renderer {
         // Enemies
         for (const enemy of enemies.getAlive()) {
             if (!visited[enemy.y]?.[enemy.x]) continue;
-            ctx.fillStyle = enemy.isBoss ? '#ff00ff' : '#ff3333';
+            ctx.fillStyle = enemy.isBoss ? '#ff00ff' : enemy.isCase ? '#44cccc' : '#ff3333';
             const dotSize = enemy.isBoss ? Math.max(4, cellW * 0.4) : Math.max(3, cellW * 0.3);
             ctx.beginPath();
             ctx.arc(
