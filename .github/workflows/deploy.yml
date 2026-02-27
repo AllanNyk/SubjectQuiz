@@ -11,6 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: Deploy via SFTP
         run: |
-          sudo apt-get install -y sshpass
-          sshpass -p "${{ secrets.FTP_PASSWORD }}" ssh -o StrictHostKeyChecking=no "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}" "mkdir -p webroots/www/subjectquiz"
-          sshpass -p "${{ secrets.FTP_PASSWORD }}" scp -o StrictHostKeyChecking=no -r index.html css js data assets "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:webroots/www/subjectquiz/"
+          sshpass -p "${{ secrets.FTP_PASSWORD }}" sftp -o StrictHostKeyChecking=no "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}" <<'SFTP'
+          -mkdir webroots/www/subjectquiz
+          -mkdir webroots/www/subjectquiz/css
+          -mkdir webroots/www/subjectquiz/js
+          -mkdir webroots/www/subjectquiz/data
+          -mkdir webroots/www/subjectquiz/data/questions
+          -mkdir webroots/www/subjectquiz/assets
+          -mkdir webroots/www/subjectquiz/assets/textures
+          put index.html webroots/www/subjectquiz/index.html
+          put css/style.css webroots/www/subjectquiz/css/style.css
+          put js/*.js webroots/www/subjectquiz/js/
+          put data/questions/*.json webroots/www/subjectquiz/data/questions/
+          put assets/textures/*.png webroots/www/subjectquiz/assets/textures/
+          bye
+          SFTP
