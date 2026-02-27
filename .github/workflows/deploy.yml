@@ -11,4 +11,4 @@ jobs:
       - uses: actions/checkout@v4
       - name: List remote directory
         run: |
-          sshpass -p "${{ secrets.FTP_PASSWORD }}" ssh -o StrictHostKeyChecking=no -p 22 "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}" "ls -la && pwd"
+          sshpass -p "${{ secrets.FTP_PASSWORD }}" ssh -o StrictHostKeyChecking=no -p 22 "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}" "ls -la webroots/ && ls -la webroots/*/"
