@@ -1,10 +1,10 @@
 # Subject Quiz Development Roadmap
 
-## Phase 1: Core Prototype (Current)
+## Phase 1: Core Prototype (Complete)
 - [x] Project structure and documentation
 - [x] Depth-based dungeon renderer (Canvas 2D)
 - [x] Grid-based player movement (WASD + arrows)
-- [x] Map system with handcrafted levels
+- [x] Map system with handcrafted levels (7 levels)
 - [x] Enemy placement and visibility in dungeon view
 - [x] Quiz combat system (multiple choice overlay)
 - [x] JSON question loading with subject selection
@@ -53,43 +53,50 @@
 - [x] Procedural fallback when textures not loaded
 - [x] Depth dimming + torch flicker overlay on textures
 
-## Phase 5: Timed Mode (Complete)
+## Phase 5: Timed Mode & Settings (Complete)
 - [x] Menu toggle: [T] key or click "Timer: OFF/ON" button
-- [x] 10-second countdown bar per question (green → yellow → red)
+- [x] Configurable timer duration (5/10/15/20/30 seconds)
+- [x] Countdown bar per question (green → yellow → red)
 - [x] Timer expiry auto-submits as wrong answer
 - [x] Timer resets per boss question; does not tick during case intro
+- [x] Level selector in settings screen
+- [x] Localized settings UI (EN/DA)
+- [x] Dynamic font sizing for combat answer buttons
+
+## Phase 6: Hard Mode (Complete)
+- [x] Difficulty toggle in settings: Normal / Hard — More Cases ([G] key or click)
+- [x] Hard mode: 6 regular enemies + 6 case enemies + 1 boss
+- [x] Case enemies: cyan question marks, multi-question case combat (same flow as boss)
+- [x] Case enemy score bonus (×2), distinct from boss bonus (×3)
+- [x] Cyan minimap dots for case enemies (distinct from red regular and magenta boss)
+- [x] Cyan portrait in combat UI for case enemies
+- [x] Localized difficulty labels (EN/DA)
+
+## Phase 7: Deployment (Complete)
+- [x] Hosted on one.com (allansjoelin.com/subjectquiz)
+- [x] GitHub Actions auto-deploy via SFTP on push to main
+- [x] Manual deploy trigger (workflow_dispatch)
+- [x] Subdomain alias (subjectquiz.allansjoelin.com)
 
 ## Future Ideas
 - [ ] More question sets (contract law, criminal law, constitutional law, etc.)
 - [ ] Question set editor (web-based tool for professors)
 - [ ] Community-submitted question packs
-- [ ] 5+ handcrafted dungeon levels
 - [ ] Procedural dungeon generation (infinite replayability)
 - [ ] Lore/flavor text for dungeon areas
 - [ ] Achievement system
 - [ ] Health potions hidden in dungeon
 - [ ] Treasure chests with bonus questions
 - [ ] Multiple enemy types with different behaviors
-- [ ] Difficulty selector (casual / normal / hard)
-- [ ] Smooth movement transitions (lerp between cells)
-- [ ] Smooth turn animation
 - [ ] Canvas-drawn environmental details (cracks, cobwebs, runes)
-
-## Phase 6: Monetization & Deployment
 - [ ] Google AdSense integration (banner + sidebar ads)
-- [ ] Responsive layout for ad placement
-- [ ] Mobile-friendly controls (touch input, virtual d-pad)
 - [ ] PWA support (offline play)
+- [ ] Mobile testing on real devices
 - [ ] Analytics (track popular subjects, drop-off points)
-- [ ] Custom domain and hosting setup
-- [ ] SEO optimization
-
-## Phase 6: Polish & Launch
+- [ ] Social sharing (share scores)
+- [ ] Landing page with instructions
 - [ ] Cross-browser testing
 - [ ] Performance optimization
 - [ ] Accessibility (keyboard-only, screen reader hints)
-- [ ] Localization support (UI in multiple languages)
-- [ ] Landing page with instructions
-- [ ] Social sharing (share scores)
 - [ ] Feedback mechanism for question quality
 - [ ] Beta testing with law students
