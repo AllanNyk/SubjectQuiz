@@ -383,6 +383,126 @@
                     "choices": ["At en advokat tager for høje salærer", "At en part bruger processuelle regler i strid med deres formål for at chikanere modparten", "At dommeren afviser en sag uden begrundelse", "At en sag trækker ud i mange år"],
                     "correct": 1,
                     "explanation": "Procesretlig retsmisbrug foreligger, når en part anvender processuelle regler i strid med deres formål, fx for at trække en sag i langdrag eller chikanere modparten."
+                },
+                {
+                    "question": "Hvornår blev retsplejeloven i sin oprindelige form vedtaget?",
+                    "choices": ["1849", "1901", "1916", "1953"],
+                    "correct": 2,
+                    "explanation": "Retsplejeloven blev i sin oprindelige form vedtaget i 1916 efter et omfattende arbejde i tre proceskommissioner med færdige lovudkast i 1877 og 1899."
+                },
+                {
+                    "question": "Hvordan er retsplejeloven overordnet opbygget?",
+                    "choices": ["I kapitler og artikler", "I bøger, hvor 1. bog omhandler domstolsordning og 2.-4. bog kompetence og virke", "I dele og underafsnit", "I titler og sektioner"],
+                    "correct": 1,
+                    "explanation": "Rpl er inddelt i 'bøger': 1. bog regulerer de almindelige domstoles ordning og aktører, 2., 3. og 4. bog indeholder regler om kompetence og virke, og 5. bog indeholder slutnings- og overgangsbestemmelser."
+                },
+                {
+                    "question": "Hvad er fogedsager?",
+                    "choices": ["Sager om politiets magtanvendelse", "Sager om tvangsfuldbyrdelse behandlet i fogedretten", "Sager om strafferetlige bøder", "Sager om forvaltningsretlige klager"],
+                    "correct": 1,
+                    "explanation": "Fogedsager er sager om tvangsfuldbyrdelse, der behandles i fogedretten. De giver mulighed for at gennemtvinge retskrav, om nødvendigt ved anvendelse af statslig magt."
+                },
+                {
+                    "question": "Hvad indebærer delegationsforbuddet i Grundlovens § 61, 2. pkt.?",
+                    "choices": ["At domstolene ikke kan delegere afgørelser til nævn", "At retsplejeloven kun i begrænset omfang kan suppleres af administrative forskrifter", "At Folketinget ikke kan ændre retsplejeloven", "At dommere ikke kan delegere opgaver til dommerfuldmægtige"],
+                    "correct": 1,
+                    "explanation": "Delegationsforbuddet i Grl § 61, 2. pkt., indebærer, at retsplejeloven kun i begrænset omfang kan suppleres af administrative forskrifter, hvilket begrænser den udøvende magts regulering af retsplejen."
+                },
+                {
+                    "question": "Hvilken af følgende er en 'særlig domstol' og IKKE en af de almindelige domstole i Rpl § 1?",
+                    "choices": ["Sø- og Handelsretten", "Østre Landsret", "Arbejdsretten", "Tinglysningsretten"],
+                    "correct": 2,
+                    "explanation": "Arbejdsretten er en 'særlig domstol' oprettet ved anden lovgivning. De almindelige domstole efter Rpl § 1 er Højesteret, landsretterne, byretterne, Sø- og Handelsretten samt Tinglysningsretten."
+                },
+                {
+                    "question": "Hvad er et betalingspåkrav i relation til den civile retspleje?",
+                    "choices": ["En strafferetlig bøde", "Et alternativ til civilt søgsmål for ubestridte pengekrav, jf. Rpl kap. 44a", "En form for arrest i skyldnerens aktiver", "En begæring om fri proces"],
+                    "correct": 1,
+                    "explanation": "Betalingspåkrav (Rpl kap. 44a) er et forenklet alternativ til en civil retssag, hvor kreditor kan få et fundament for tvangsfuldbyrdelse af ubestridte pengekrav."
+                },
+                {
+                    "question": "Hvad er voldgift?",
+                    "choices": ["En offentlig domstolsprocedure", "En privat tvistløsningsform, hvor parterne aftaler, at tvisten afgøres af en voldgiftsret", "En form for retsmægling ved byretten", "En administrativ klageinstans"],
+                    "correct": 1,
+                    "explanation": "Voldgift er en privat tvistløsningsform, hvor parterne ved aftale overlader tvistens afgørelse til en privat voldgiftsret i stedet for de almindelige domstole."
+                },
+                {
+                    "question": "Hvad regulerer New York-konventionen fra 1958?",
+                    "choices": ["Menneskerettigheder", "Anerkendelse og fuldbyrdelse af voldgiftskendelser", "International strafferet", "Fuldbyrdelse af domme inden for EU"],
+                    "correct": 1,
+                    "explanation": "New York-konventionen fra 1958 regulerer anerkendelse og fuldbyrdelse af udenlandske voldgiftskendelser og er ratificeret af mere end 160 lande, herunder Danmark."
+                },
+                {
+                    "question": "Hvad indebærer det, at mange af Rpl's regler overlader domstolene et betydeligt skøn?",
+                    "choices": ["At dommeren kan afgøre sagen uden lovgrundlag", "At processen kan tilpasses de konkrete sager og parternes behov", "At parterne ingen indflydelse har på processen", "At alle sager behandles ens"],
+                    "correct": 1,
+                    "explanation": "De skønsmæssige regler afspejler en retspolitisk målsætning om fleksibilitet, som giver domstolene mulighed for at tilpasse processen til de konkrete sager og imødekomme parternes ønsker og behov."
+                },
+                {
+                    "question": "Hvad er den civile retsplejes retsbeskyttelsesfunktion?",
+                    "choices": ["At staten beskytter dommere mod afskedigelse", "At enhver kan få domstolenes bistand til at gennemtvinge rettigheder, der følger af den materielle ret", "At advokater har eneret på at yde retshjælp", "At domstolene beskytter den lovgivende magt"],
+                    "correct": 1,
+                    "explanation": "Retsbeskyttelsesfunktionen indebærer, at domme kan tvangsfuldbyrdes, jf. Rpl § 478, stk. 1, nr. 1, så enhver kan få domstolenes bistand til at nyde de rettigheder, som følger af den materielle rets regler."
+                },
+                {
+                    "question": "Hvilken rolle spiller Højesteret i forhold til den civile retsplejes præjudikatfunktion?",
+                    "choices": ["Højesteret har ingen særlig rolle", "Højesteret har en særlig rolle i at skabe præjudikater, der bidrager til afklaring og udvikling af retten", "Højesteret behandler kun straffesager", "Højesterets afgørelser er kun vejledende"],
+                    "correct": 1,
+                    "explanation": "Højesteret har en særlig rolle i den civile retsplejes præjudikatfunktion, idet Højesterets afgørelser bidrager til afklaring og løbende udvikling af retten."
+                },
+                {
+                    "question": "Hvilken form for domstolskontrol giver den civile retspleje mulighed for?",
+                    "choices": ["Kontrol med domstolenes økonomi", "Kontrol med den udøvende magt og i et vist omfang den lovgivende magt", "Kontrol med advokaternes salærer", "Kontrol med mediernes dækning af retssager"],
+                    "correct": 1,
+                    "explanation": "Den civile retspleje giver mulighed for domstolskontrol med den udøvende magt (prøvelse af forvaltningsakter) og i et vist omfang med den lovgivende magt."
+                },
+                {
+                    "question": "Hvad er Haagerkonferencen om International Privatret?",
+                    "choices": ["Et EU-organ under EU-Domstolen", "En international organisation, der udarbejder konventioner om internationale civilprocesretlige spørgsmål", "En nordisk samarbejdsorganisation", "Et FN-organ for strafferet"],
+                    "correct": 1,
+                    "explanation": "Haagerkonferencen er en international organisation, der har stået bag udarbejdelsen af en lang række konventioner om internationale civilprocesretlige spørgsmål. Danmark har ratificeret 13 af disse."
+                },
+                {
+                    "question": "Hvad bygger den danske voldgiftslov (VL) på?",
+                    "choices": ["New York-konventionen", "UNCITRAL's Modellov for international handelsvoldgift", "EU's Bruxelles I-forordning", "Retsplejelovens 3. bog"],
+                    "correct": 1,
+                    "explanation": "Den danske voldgiftslov bygger på UNCITRAL's Modellov for international handelsvoldgift, som er et soft law-instrument, der har fået stor praktisk betydning."
+                },
+                {
+                    "question": "Hvad regulerer Rpl kap. 57a?",
+                    "choices": ["Anke til Højesteret", "Bevissikring i sager om immaterialrettigheder m.v.", "Fri proces", "Strafferetsplejen"],
+                    "correct": 1,
+                    "explanation": "Rpl kap. 57a regulerer bevissikring i sager om immaterialrettigheder m.v. og supplerer den civile retsplejes regler om bevisanskaffelse."
+                },
+                {
+                    "question": "Hvor mange proceskommissioner arbejdede med udformningen af retsplejeloven?",
+                    "choices": ["Én", "To", "Tre", "Fire"],
+                    "correct": 2,
+                    "explanation": "Retsplejeloven var resultatet af et omfattende arbejde i tre proceskommissioner. Færdige lovudkast med bemærkninger forelå i 1877 og 1899."
+                },
+                {
+                    "question": "Hvad er virkningen af, at en afgørelse fra et klage- eller ankenævn indbringes for domstolene?",
+                    "choices": ["Nævnsafgørelsen er endelig og kan aldrig prøves af domstolene", "Domstolene kan prøve sagen, da nævnsafgørelser kan indbringes for domstolene", "Kun Højesteret kan prøve nævnsafgørelser", "Nævnsafgørelsen skal godkendes af Justitsministeriet"],
+                    "correct": 1,
+                    "explanation": "Afgørelser fra klage- og ankenævn kan indbringes for domstolene, hvilket understreger domstolenes centrale rolle som tvistløser, selv når der først er anvendt alternativ konfliktløsning."
+                },
+                {
+                    "question": "Hvad er den civile retsplejes adfærdsregulerende funktion?",
+                    "choices": ["At retten instruerer parterne i, hvordan de skal opføre sig", "At domstolsafgørelser bidrager til, at den materielle lovgivning gennemføres og efterleves i samfundet", "At advokater er underlagt etiske regler", "At dommere uddannes i konflikthåndtering"],
+                    "correct": 1,
+                    "explanation": "Domstolenes afgørelser kan have en adfærdsregulerende og holdningsdannende effekt, der bidrager til, at den materielle lovgivning gennemføres og efterleves."
+                },
+                {
+                    "question": "Hvad tilsiger reale hensyn i den civile retspleje bl.a.?",
+                    "choices": ["At sager altid skal afgøres hurtigt", "At man normalt bør undgå retsanvendelse, der fører til retstab af formelle grunde", "At økonomiske hensyn altid vejer tungest", "At parterne selv afgør, hvilken lov der finder anvendelse"],
+                    "correct": 1,
+                    "explanation": "Reale hensyn spiller en væsentlig rolle i retsanvendelsen og tilsiger fx, at man normalt bør undgå en retsanvendelse, der fører til retstab af formelle grunde."
+                },
+                {
+                    "question": "Hvad vedrører Singapore-konventionen fra 2018?",
+                    "choices": ["International handelsret generelt", "Mediation i kommercielle sager", "Anerkendelse af voldgiftskendelser", "Maritime tvister"],
+                    "correct": 1,
+                    "explanation": "Singapore-konventionen fra 2018 vedrører mediation (mægling) i internationale kommercielle sager. Danmark har ikke underskrevet konventionen."
                 }
             ]
         },
@@ -479,6 +599,126 @@
                     "choices": ["At en dommer afløser en anden under sagen", "At en parts processuelle rettigheder og pligter overgår til en anden, fx ved dødsbo eller virksomhedsoverdragelse", "At en sag flyttes fra én domstol til en anden", "At nye beviser fremkommer under sagen"],
                     "correct": 1,
                     "explanation": "Processuel succession indebærer, at en parts processuelle stilling overtages af en anden, fx når en part dør og dødsboet indtræder, eller ved overdragelse af det omtvistede krav."
+                },
+                {
+                    "question": "Procesbevillingsnævnet behandler ansøgninger om appeltilladelser. Hvem sidder i nævnet?",
+                    "choices": ["Tre dommere fra Højesteret", "Fem medlemmer: en højesteretsdommer, en landsdommer, en byretsdommer, en advokat og en universitetslærer", "Syv dommere fra forskellige retter", "To advokater og to dommere"],
+                    "correct": 1,
+                    "explanation": "Procesbevillingsnævnet består af fem medlemmer: en højesteretsdommer (formand), en landsdommer, en byretsdommer, en advokat med møderet for Højesteret og en universitetslærer i retsvidenskab, jf. Rpl § 23."
+                },
+                {
+                    "question": "Hvor mange medlemmer har Dommerudnævnelsesrådet?",
+                    "choices": ["Tre", "Fire", "Seks", "Otte"],
+                    "correct": 2,
+                    "explanation": "Dommerudnævnelsesrådet består af seks personer: en højesteretsdommer (formand), en landsdommer, en byretsdommer, en advokat og to repræsentanter for offentligheden, jf. Rpl § 43 b."
+                },
+                {
+                    "question": "Hvad er den særlige betingelse for at blive udnævnt til højesteretsdommer?",
+                    "choices": ["Mindst 20 års erfaring som dommer", "At den pågældende har godtgjort sin dygtighed ved prøvevotering i mindst fire højesteretssager", "At den pågældende er indstillet af Folketinget", "At den pågældende har været landsdommer i mindst 10 år"],
+                    "correct": 1,
+                    "explanation": "Udnævnelse som højesteretsdommer kræver prøvevotering i mindst fire højesteretssager, hvoraf mindst én skal være en civil sag, jf. Rpl § 42, stk. 5. Det er ikke et krav, at personen tidligere har fungeret som dommer."
+                },
+                {
+                    "question": "Hvad indebærer Grundlovens § 64 for dommere?",
+                    "choices": ["At dommere skal vælges af Folketinget", "At dommere i vidt omfang er beskyttet mod afskedigelse, suspension og forflyttelse", "At dommere skal have juridisk kandidateksamen", "At dommere skal have dansk indfødsret"],
+                    "correct": 1,
+                    "explanation": "Grl § 64 og Rpl §§ 49-50 beskytter dommere i vidt omfang mod afskedigelse, suspension og forflyttelse for at sikre domstolenes uafhængighed af de øvrige statsmagter."
+                },
+                {
+                    "question": "Hvornår afskediges (pensioneres) en dommer som følge af alder?",
+                    "choices": ["Ved det 60. år", "Ved det 65. år", "Fra udgangen af den måned, hvori dommeren fylder 70 år", "Der er ingen aldersgrænse"],
+                    "correct": 2,
+                    "explanation": "En dommer pensioneres fra udgangen af den måned, hvori dommeren fylder 70 år, jf. tjenestemandslovens § 34, stk. 2, men kan dog færdigbehandle sager, hvor den mundtlige forhandling er påbegyndt, jf. Rpl § 51."
+                },
+                {
+                    "question": "Hvad er sagkyndige dommere, og hvordan beskikkes de?",
+                    "choices": ["Udnævnte dommere med særlig faglig baggrund", "Personer med indgående kendskab til et sagsområde, beskikket for en 4-årig periode efter Rpl §§ 92 ff.", "Advokater der midlertidigt fungerer som dommere", "Dommerfuldmægtige med særlig erfaring"],
+                    "correct": 1,
+                    "explanation": "Sagkyndige dommere er personer med indgående og tidssvarende kendskab til et sagsområde. De beskikkes for en 4-årig periode af den relevante retspræsident efter indstilling fra godkendte organisationer, jf. Rpl §§ 92 ff."
+                },
+                {
+                    "question": "Hvad sker der, hvis alle dommere ved den ret, hvor en sag er anlagt, er inhabile?",
+                    "choices": ["Sagen afvises", "Der beskikkes en sættedommer fra en anden retskreds, jf. Rpl § 46", "Sagen flyttes til Højesteret", "Parterne skal vælge en ny dommer"],
+                    "correct": 1,
+                    "explanation": "Hvis alle dommere ved den pågældende ret er inhabile, beskikkes en sættedommer fra en anden retskreds til at behandle sagen, jf. Rpl § 46."
+                },
+                {
+                    "question": "Hvem har søgsmålsimmunitet i dansk ret?",
+                    "choices": ["Alle offentlige myndigheder", "Regenten, øvrige medlemmer af kongehuset samt fremmede stater og internationale organisationer med eksterritorialitet", "Kun Folketingets medlemmer", "Dommere og advokater"],
+                    "correct": 1,
+                    "explanation": "Søgsmålsimmunitet tilkommer Regenten (Grl § 13) og øvrige medlemmer af kongehuset (kongelovens § 25) samt fremmede stater, internationale organisationer med eksterritorialitet og deres repræsentanter."
+                },
+                {
+                    "question": "Hvornår opnår et kapitalselskab (ApS/A/S) processuel partsevne?",
+                    "choices": ["Når stiftelsesdokumentet er underskrevet", "Ved registrering i Erhvervsstyrelsens it-system", "Når selskabet har en omsætning over 500.000 kr.", "Når bestyrelsen er valgt"],
+                    "correct": 1,
+                    "explanation": "Et kapitalselskab opnår først retsevne og processuel partsevne ved registrering i Erhvervsstyrelsens it-system, jf. selskabslovens § 41, stk. 1."
+                },
+                {
+                    "question": "Hvad er minimumskravet for, at en ikke-erhvervsdrivende forening har processuel partsevne?",
+                    "choices": ["Foreningen skal have mindst 100 medlemmer", "Foreningen skal have en tilstrækkelig organisatorisk struktur med organer, der kan binde helheden", "Foreningen skal være registreret i Erhvervsstyrelsen", "Foreningen skal have eksisteret i mindst 5 år"],
+                    "correct": 1,
+                    "explanation": "Der stilles minimumskrav til en forenings struktur for at anerkende processuel partsevne. En persongruppe med for løs en struktur kan mangle partsevne, jf. U 1976.1010 Ø om 'Fristaden Christiania'."
+                },
+                {
+                    "question": "Hvad indebærer et advokatpålæg efter Rpl § 259?",
+                    "choices": ["At advokaten pålægges at nedlægge sagen", "At retten pålægger en part at lade sig repræsentere af advokat, hvis sagen ikke kan behandles hensigtsmæssigt uden advokatbistand", "At modparten skal betale for partens advokat", "At retten udpeger en bestemt advokat til sagen"],
+                    "correct": 1,
+                    "explanation": "Retten kan pålægge en part at antage advokat, hvis retten ikke anser det for muligt at behandle sagen hensigtsmæssigt uden advokatbistand, jf. Rpl § 259, stk. 2. Efterkommer parten ikke pålægget, anses parten for udeblevet."
+                },
+                {
+                    "question": "Hvad kræves for at opnå møderet for landsretten og Sø- og Handelsretten?",
+                    "choices": ["Mindst 10 års erfaring som advokat", "At advokaten har bestået en procedureprøve bestående af to retssager inden for højst 5 år", "At Advokatrådet giver tilladelse", "At advokaten har en juridisk ph.d.-grad"],
+                    "correct": 1,
+                    "explanation": "Møderet for landsretten kræver, at advokaten har bestået en procedureprøve ved tilfredsstillende udførelse af to retssager inden for højst 5 år, jf. Rpl § 133. Advokaten anvender herefter betegnelsen 'Advokat (L)'."
+                },
+                {
+                    "question": "Hvad kræves for at opnå møderet for Højesteret?",
+                    "choices": ["Mindst 2 års erfaring som advokat", "Mindst 5 års virksomhed som advokat med møderet for landsret og en øvethedserklæring", "Bestået en skriftlig eksamen ved Højesteret", "Indstilling fra Justitsministeriet"],
+                    "correct": 1,
+                    "explanation": "Møderet for Højesteret kræver mindst 5 års virksomhed som advokat med møderet for landsret og en øvethedserklæring fra vedkommende landsret, jf. Rpl § 134. Advokaten anvender betegnelsen 'Advokat (H)'."
+                },
+                {
+                    "question": "Hvad omfatter den 'almindelige procesfuldmagt'?",
+                    "choices": ["Alle handlinger, herunder forlig og anke", "Alle proceshandlinger der angår sagens udførelse, men ikke dispositioner over sagens genstand som forlig eller anke", "Kun ret til at give møde i retten", "Kun ret til at indgive processkrifter"],
+                    "correct": 1,
+                    "explanation": "Den almindelige procesfuldmagt legitimerer rettergangsfuldmægtigen til alle proceshandlinger der angår sagens udførelse, men ikke til dispositioner over sagens genstand som forlig, anke eller ankefkald."
+                },
+                {
+                    "question": "Hvad er en biintervenient?",
+                    "choices": ["En part der indtræder i sagen med egne krav", "En tredjemand der indtræder til støtte for en part, hvis vedkommende har retlig interesse i sagens udfald", "En dommer der bistår med sagens behandling", "En advokat der repræsenterer begge parter"],
+                    "correct": 1,
+                    "explanation": "En biintervenient er en tredjemand, der kan indtræde til støtte for en part i en civil retssag, hvis vedkommende har retlig interesse i sagens udfald, jf. Rpl § 252. En biintervenient bliver ikke selv part i sagen."
+                },
+                {
+                    "question": "Hvad er en uddannelseskonstitution ved en landsret?",
+                    "choices": ["En permanent udnævnelse som landsdommer", "En tidsbegrænset konstitution, typisk 9 måneder, hvor en dommerfuldmægtig gør tjeneste som landsdommer for at få sin egnethed bedømt", "En teoretisk eksamen for dommere", "En uddannelse i jura ved universitetet"],
+                    "correct": 1,
+                    "explanation": "En uddannelseskonstitution ved en landsret er typisk en 9 måneders tidsbegrænset ansættelse, jf. Rpl § 44 b, hvor den pågældende gør tjeneste som landsdommer, hvorefter landsretspræsidenten afgiver en egnethedserklæring."
+                },
+                {
+                    "question": "Hvad er Advokatnævnets rolle?",
+                    "choices": ["At udnævne nye advokater", "At behandle disciplinærklager og salærklager mod advokater", "At føre tilsyn med domstolene", "At fastsætte procesregler"],
+                    "correct": 1,
+                    "explanation": "Advokatnævnet behandler klager over advokaters tilsidesættelse af deres pligter (disciplinærklager) og klager over advokaters salærer (salærklager), jf. Rpl kap. 15a-15b. Nævnets afgørelser kan indbringes for domstolene."
+                },
+                {
+                    "question": "Hvad er det dobbelte formål med inhabilitetsreglen i Rpl § 61?",
+                    "choices": ["At beskytte dommeren og advokaterne", "At undgå reel risiko for påvirkning af uvedkommende hensyn OG at undgå, at der opstår mistillid til dommerens upartiskhed", "At sikre hurtig sagsbehandling og lave omkostninger", "At beskytte parterne mod høje sagsomkostninger"],
+                    "correct": 1,
+                    "explanation": "Rpl § 61 har et dobbelt formål: dels at undgå en reel risiko for, at afgørelsen påvirkes af uvedkommende hensyn, dels at undgå, at der hos parterne eller omverdenen opstår mistillid til dommerens upartiskhed (appearance-hensyn)."
+                },
+                {
+                    "question": "Hvad kræver Rpl §§ 56 og 56a om dommeres fremtræden?",
+                    "choices": ["At dommere skal bære slips", "At dommere ikke i retsmøder må tilkendegive politisk/religiøst tilhørsforhold, og at de skal bære kappe under hovedforhandlingen", "At dommere skal bære parykker som i England", "At dommere frit kan udtrykke deres holdninger i retten"],
+                    "correct": 1,
+                    "explanation": "Dommere må ikke i retsmøder fremtræde på en måde, der tilkendegiver politisk eller religiøst tilhørsforhold, og skal bære kappe under hovedforhandlingen, jf. Rpl §§ 56 og 56a. Kravene skal sikre domstolenes neutralitet."
+                },
+                {
+                    "question": "Kan en dommer, der har foretaget forligsmægling efter Rpl § 268, efterfølgende dømme i sagen?",
+                    "choices": ["Ja, altid uden undtagelse", "Ja, som udgangspunkt, medmindre dommeren har udtalt sig med sådan bestemthed om sagens udfald, at det medfører inhabilitet", "Nej, aldrig", "Kun med parternes samtykke"],
+                    "correct": 1,
+                    "explanation": "Forligsmægling gør som udgangspunkt ikke dommeren inhabil, heller ikke ved forligsforslag med passende forbehold. Men en håndfast forhåndsvurdering kan medføre inhabilitet efter Rpl § 61, jf. fx U 2008.2378/1 Ø."
                 }
             ]
         },
@@ -575,6 +815,132 @@
                     "choices": ["Lav, middel og høj", "Omhu (diligence), særlig omhu (special diligence) og ekstraordinær omhu (exceptional diligence)", "Normal og forhøjet", "Der skelnes ikke mellem grader"],
                     "correct": 1,
                     "explanation": "EMD opererer med tre grader: omhu (diligence), særlig omhu (special diligence) og ekstraordinær omhu (exceptional diligence). Fx kræves ekstraordinær omhu ved uhelbredeligt syge personers erstatningssager."
+                },
+                {
+                    "question": "Hvad indebærer domstolenes ex officio-pligt i forhold til EMK's processuelle krav?",
+                    "choices": ["Domstolene kan vælge at ignorere EMK", "Domstolene skal på eget initiativ påse, at konventionens krav til sagens behandling overholdes", "Domstolene skal kun anvende EMK, hvis parterne påberåber sig den", "Domstolene skal forelægge alle sager for EMD"],
+                    "correct": 1,
+                    "explanation": "Danske domstole har en selvstændig forpligtelse til ex officio at påse, at EMK's processuelle krav overholdes, jf. U 1999.495 Ø: 'Det påhviler enhver ret på embeds vegne at påse, at bestemmelserne i menneskerettighedskonventionen ikke krænkes.'"
+                },
+                {
+                    "question": "Hvad kan retten have pligt til via den materielle procesledelse (Rpl § 339), når en privat part har sagsøgt det offentlige?",
+                    "choices": ["At afvise sagen", "At gøre parterne opmærksom på EMK's betydning for deres retsstilling", "At udpege en advokat for det offentlige", "At oversende sagen til EMD"],
+                    "correct": 1,
+                    "explanation": "Retten skal efter omstændighederne gennem den materielle procesledelse, jf. Rpl § 339, gøre parterne opmærksom på konventionens betydning for deres retsstilling — navnlig når en privat part har sagsøgt det offentlige."
+                },
+                {
+                    "question": "Hvad illustrerer U 1990.13 H om danske domstoles tilgang til konflikter mellem retsplejeloven og EMK?",
+                    "choices": ["At EMK altid tilsidesætter retsplejeloven", "At domstolene kan strække retsplejelovens bestemmelser meget langt — i sagen bortfortolkedes ordet 'alene' — for at skabe overensstemmelse med EMK", "At retsplejeloven altid har forrang", "At domstolene ikke kan løse sådanne konflikter"],
+                    "correct": 1,
+                    "explanation": "I U 1990.13 H bortfortolkede Højesteret ordet 'alene' i den dagældende Rpl § 762, stk. 2, for at skabe overensstemmelse med EMK. Domstolene strækker retsplejelovens bestemmelser ganske langt via formodningsprincippet."
+                },
+                {
+                    "question": "Hvad fastslog Højesteret i U 1994.536 H om spørgsmålet, hvorvidt konstituerede dommere opfyldte EMK art. 6's krav om uafhængighed?",
+                    "choices": ["At konstituerede dommere altid er inhabile", "At en generel afklaring af spørgsmålet bør ske gennem lovgivning, da det har meget indgribende følger for domstolsorganisationen", "At konstituerede dommere fuldt ud opfylder EMK's krav", "At EMK art. 6 ikke finder anvendelse på konstituerede dommere"],
+                    "correct": 1,
+                    "explanation": "Højesteret henskød spørgsmålet til lovgivningsmagten, da 'en fortolkning, der i væsentlig grad afskærer anvendelse af konstituerede dommere, vil have meget indgribende følger for domstolsorganisationen.' Sagen blev afgjort ud fra den konkrete dommers forhold."
+                },
+                {
+                    "question": "Hvad er afgørende for, om klagefristen til EMD er overholdt — fremsendelsen eller modtagelsen af klageformularen?",
+                    "choices": ["Datoen for EMD's modtagelse", "Datoen for fremsendelse af den udfyldte officielle klageformular", "Datoen for den nationale doms afsigelse", "Datoen for advokatens underskrift"],
+                    "correct": 1,
+                    "explanation": "Det er datoen for fremsendelsen af den udfyldte klageformular til EMD — ikke tidspunktet for modtagelsen — der er afgørende for, om klagefristen er overholdt. EMD påser ex officio fristens overholdelse og kan ikke dispensere."
+                },
+                {
+                    "question": "Hvad kræves af klageren for at EMD kan realitetsbehandle en klage om en dansk lovs strid med EMK?",
+                    "choices": ["Klageren skal være dansk statsborger", "Den danske lov skal konkret have krænket klageren — han skal være 'offer' — abstrakte klager afvises", "Klageren skal være juridisk uddannet", "Klageren skal have klaget til Folketingets Ombudsmand først"],
+                    "correct": 1,
+                    "explanation": "EMD kan ikke tage stilling til abstrakte klager om, at en dansk lov generelt er i strid med EMK. Loven skal konkret have krænket klageren — han skal være 'offer'. Der er tale om et selvstændigt menneskeretligt begreb."
+                },
+                {
+                    "question": "Hvad kan EMD afvise efter EMK art. 35(3b)?",
+                    "choices": ["Klager fra juridiske personer", "Klager over krænkelser, der ikke har påført klageren en 'significant disadvantage' (væsentlig ulempe)", "Klager over straffesager", "Klager fra stater"],
+                    "correct": 1,
+                    "explanation": "EMK art. 35(3b) giver EMD hjemmel til at afvise klager over krænkelser, der ikke har påført klageren en 'significant disadvantage'. Bestemmelsen skal ses i sammenhæng med det store antal klager, som EMD modtager."
+                },
+                {
+                    "question": "Hvem kan foretage den indledende prøvelse (admissibility) af en klage ved EMD?",
+                    "choices": ["Kun Storkammeret", "En enkeltdommer, et kollegium på tre dommere eller et kammer på syv dommere", "Kun den indklagede stats dommer", "Et udvalg af fem dommere"],
+                    "correct": 1,
+                    "explanation": "Den indledende prøvelse foretages af en enkeltdommer, et kollegium på tre dommere eller et kammer på syv dommere. Et kammer kan efter en indgående prøvelse — evt. med dissens — afvise klagen."
+                },
+                {
+                    "question": "Er det i strid med EMK art. 6, at national lovgivning indeholder formkrav og frister, der kan afskære domstolsprøvelse?",
+                    "choices": ["Ja, alle formkrav strider mod EMK", "Nej, men sådanne regler kan efter en konkret proportionalitetsvurdering undtagelsesvist føre til en krænkelse", "Nej, nationale procesregler kan aldrig stride mod EMK", "Kun frister, der er kortere end 30 dage, er i strid med EMK"],
+                    "correct": 1,
+                    "explanation": "Det er ikke i sig selv i strid med 'access to court', at lovgivningen indeholder formkrav og frister. Men efter EMD's proportionalitetsvurdering kan sådanne regler i konkrete tilfælde — undtagelsesvist — føre til en krænkelse af art. 6."
+                },
+                {
+                    "question": "Hvad forstås ved 'excessive formalism' (overdreven formalisme) i EMD's praksis om 'access to court'?",
+                    "choices": ["At domstolene bruger for mange juridiske termer", "At en sag afvises på rent formalistisk grundlag, når parten reelt har forsøgt at udøve sin ret til domstolsprøvelse", "At processkrifter skal være for detaljerede", "At retsafgifterne er for høje"],
+                    "correct": 1,
+                    "explanation": "Overdreven formalisme foreligger, når nationale domstole afviser en sag på formelt grundlag under omstændigheder, hvor parten reelt har forsøgt at udøve sin ret. Jf. fx Xavier Lucas v. France, hvor afvisning pga. manglende digital indgivelse var en krænkelse."
+                },
+                {
+                    "question": "Har staterne efter EMK art. 6 en pligt til at fjerne økonomiske forhindringer for domstolsprøvelse?",
+                    "choices": ["Nej, det er parternes eget ansvar", "Ja, i et vist omfang — fx kan meget høje retsafgifter stride mod 'access to court', og der kan i særlige tilfælde være pligt til at sikre fri proces", "Kun for straffesager", "Kun hvis sagen vedrører mere end 1 mio. kr."],
+                    "correct": 1,
+                    "explanation": "Det er ikke tilstrækkeligt, at der efter loven er mulighed for domstolsprøvelse, hvis borgeren i praksis ikke kan benytte den. Staterne har i et vist omfang pligt til at fjerne økonomiske forhindringer, fx meget høje retsafgifter, og kan have pligt til at sikre fri proces."
+                },
+                {
+                    "question": "Hvilke krav stiller EMD til et afkald på domstolsprøvelse gennem en voldgiftsaftale?",
+                    "choices": ["Ingen særlige krav", "Afkaldet skal være 'free, lawful and unequivocal' (frit, lovligt og utvetydigt)", "Begge parter skal have advokat", "Voldgiftsaftalen skal være godkendt af en domstol"],
+                    "correct": 1,
+                    "explanation": "EMD har anerkendt, at voldgift kan være hensigtsmæssig, men stiller krav om, at afkaldet på domstolsprøvelse skal være 'free, lawful and unequivocal', jf. Tabbane v. Switzerland."
+                },
+                {
+                    "question": "Hvad fastslog EMD i Mutu and Pechstein v. Switzerland om en voldgiftsaftale, som parten var 'tvunget ind i'?",
+                    "choices": ["At tvungne voldgiftsaftaler altid er ugyldige", "At voldgiftsretten i så fald skal sikre retssikkerhedsgarantierne i EMK art. 6", "At tvungen voldgift er uproblematisk", "At parten kan anlægge sag ved de ordinære domstole sideløbende"],
+                    "correct": 1,
+                    "explanation": "I Mutu and Pechstein fastslog EMD, at når en part er 'tvunget ind i' voldgiftsaftalen (fx en sportsudøver, der kun kan konkurrere ved at acceptere den), skal voldgiftsretten sikre retssikkerhedsgarantierne i EMK art. 6."
+                },
+                {
+                    "question": "Hvad indebærer princippet om kontradiktion efter EMK art. 6 mere præcist?",
+                    "choices": ["Parterne skal modsige hinanden", "En part skal have mulighed for at gøre sig bekendt med og kommentere alle bemærkninger og beviser fremført med henblik på at påvirke rettens afgørelse", "Dommeren skal stille spørgsmål til begge parter", "Parterne skal føre lige mange vidner"],
+                    "correct": 1,
+                    "explanation": "Kontradiktionsprincippet kræver, at enhver part skal kunne 'have knowledge of and comment on all evidence adduced or observations filed with a view to influencing the court's decision.'"
+                },
+                {
+                    "question": "Er det afgørende for kontradiktionsprincippet, om modpartens bemærkninger eller beviser faktisk har indflydelse på rettens afgørelse?",
+                    "choices": ["Ja, kun relevante beviser er omfattet", "Nej, det er op til parten selv at vurdere, om bemærkningerne eller beviserne skal kommenteres", "Ja, dommeren afgør, hvad der er relevant", "Nej, men kun hvis parten har advokat"],
+                    "correct": 1,
+                    "explanation": "Det er ifølge EMD's praksis ikke afgørende, om bemærkningerne eller beviserne har nogen indflydelse på rettens afgørelse, eller i øvrigt indeholder noget nyt. Det er op til parten selv at vurdere, om de skal kommenteres."
+                },
+                {
+                    "question": "Hvordan håndteres konflikten mellem fortrolige dokumenter (fx lægeerklæringer) og kontradiktionsprincippet?",
+                    "choices": ["Fortrolighed trumfer altid kontradiktion", "Der foretages en afvejning set i forhold til den samlede proces — fx kan en uafhængig ekspert gennemgå de fortrolige dokumenter", "Kontradiktion trumfer altid fortrolighed", "EMD tager ikke stilling til sådanne konflikter"],
+                    "correct": 1,
+                    "explanation": "Der foretages en afvejning set i forhold til den samlede proces. I Eternit mod Frankrig (2012) var det ikke en krænkelse, at arbejdsgiveren ikke fik adgang til lægejournalen, da han kunne få udpeget en uafhængig ekspert til at gennemgå erklæringen."
+                },
+                {
+                    "question": "Hvad har EMD fastslået om retten til fuldbyrdelse som en del af 'the right to a court'?",
+                    "choices": ["Fuldbyrdelse er ikke beskyttet af EMK", "Det er en krænkelse, hvis en part har fået dom, men ikke efterfølgende kan få dommen tvangsfuldbyrdet", "Kun pengekrav kan fuldbyrdes under EMK", "Retten til fuldbyrdelse gælder kun i straffesager"],
+                    "correct": 1,
+                    "explanation": "EMD har fastslået, at 'the right to a court' omfatter ret til fuldbyrdelse. Domstolsprøvelse bliver illusorisk, hvis en dom ikke kan tvangsfuldbyrdes. EMD har fx statueret krænkelse i sager mod Italien, hvor udlejere ikke kunne få udsættelsesdomme fuldbyrdet."
+                },
+                {
+                    "question": "Kan klageren få retshjælp til at føre sin sag for EMD?",
+                    "choices": ["Nej, klageren skal altid selv betale", "Ja, der er mulighed for retshjælp, og klageren skal som udgangspunkt være repræsenteret ved advokat", "Kun statsborgere i den indklagede stat kan få retshjælp", "Retshjælp gives kun i straffesager"],
+                    "correct": 1,
+                    "explanation": "Klageren har mulighed for at få retshjælp, bl.a. efter lov om retshjælp til klagesager for internationale klageorganer. Under sagens realitetsbehandling skal klageren som udgangspunkt være repræsenteret ved advokat, medmindre kammerets præsident dispenserer."
+                },
+                {
+                    "question": "Kan andre end sagens parter deltage i en sag for EMD?",
+                    "choices": ["Nej, kun klageren og den indklagede stat kan deltage", "Ja, tredjeparter som organisationer og andre stater kan med rettens tilladelse fremkomme med skriftlige indlæg og deltage i eventuel mundtlig høring", "Kun EU-institutioner kan intervenere", "Tredjeparter kan kun deltage i Storkammersager"],
+                    "correct": 1,
+                    "explanation": "Tredjeparter — fx organisationer og andre stater — kan med rettens tilladelse fremkomme med skriftlige indlæg og deltage i en eventuel mundtlig høring for EMD."
+                },
+                {
+                    "question": "Hvad indebærer EMD's princip om helhedsvurdering ('proceedings as a whole') i forbindelse med retten til en retfærdig rettergang?",
+                    "choices": ["Hvert enkelt forhold vurderes isoleret", "Et enkelt forhold kan indebære en krænkelse set sammen med andre forhold, og omvendt kan andre forhold reparere et forhold, der isoleret set ville udgøre en krænkelse", "Kun det endelige resultat er relevant", "Helhedsvurderingen gælder kun i straffesager"],
+                    "correct": 1,
+                    "explanation": "EMD foretager en helhedsvurdering af 'the proceedings in their entirety' (jf. Ankerl mod Schweiz, præmis 38). Et forhold kan udgøre en krænkelse set sammen med andre forhold, mens andre forhold kan reparere en isoleret krænkelse."
+                },
+                {
+                    "question": "Hvad betyder begrebet 'døde perioder' i EMD's vurdering af sagsbehandlingstiden?",
+                    "choices": ["Perioder hvor domstolene holder ferie", "Perioder med inaktivitet, som kan bebrejdes de nationale domstole — fx perioder uden sagsfremskridt", "Perioder hvor parterne forhandler forlig", "Perioder hvor bevisoptagelse foregår"],
+                    "correct": 1,
+                    "explanation": "EMD vurderer de nationale domstoles adfærd på sagens forskellige stadier og tillægger det særligt betydning, om der foreligger 'døde perioder' — dvs. perioder med uforklarlig inaktivitet, der kan bebrejdes domstolen."
                 }
             ]
         },
@@ -671,6 +1037,126 @@
                     "choices": ["Den regulerer retsafgiftens størrelse", "Den forbyder diskrimination begrundet i nationalitet, hvilket kan begrænse fx krav om sikkerhedsstillelse for EU-borgere", "Den giver EU-borgere gratis adgang til alle domstole", "Den pålægger alle medlemsstater at anvende samme procesregler"],
                     "correct": 1,
                     "explanation": "TEUF art. 18 forbyder diskrimination begrundet i nationalitet. Fx blev RPL § 321 om sikkerhedsstillelse ændret, så sagsøgere med bopæl i EU blev undtaget, fordi kravet ellers kunne stride mod dette princip."
+                },
+                {
+                    "question": "Hvad er formålet med den præjudicielle forelæggelsesprocedure i TEUF art. 267?",
+                    "choices": ["At give EU-Domstolen kompetence til at afgøre nationale sager", "At forhindre, at der i en medlemsstat udvikler sig en retspraksis, som ikke er i overensstemmelse med EU-retten", "At erstatte nationale appelprocedurer", "At give borgere direkte klageadgang til EU-Domstolen"],
+                    "correct": 1,
+                    "explanation": "Formålet med den præjudicielle procedure er bl.a. at forhindre, at der i en medlemsstat udvikler sig en retspraksis, som ikke er i overensstemmelse med EU-retten, jf. sag C-393/98 (Gomes Valente), præmis 17."
+                },
+                {
+                    "question": "Hvilke organer kan stille præjudicielle spørgsmål til EU-Domstolen efter TEUF art. 267?",
+                    "choices": ["Kun Højesteret", "Alle almindelige retter — fra byret til Højesteret — og specialdomstole som boligretten", "Kun landsretterne og Højesteret", "Alle offentlige myndigheder"],
+                    "correct": 1,
+                    "explanation": "Samtlige almindelige retter i en medlemsstat — fra byret til Højesteret — og specialdomstole som boligretten kan stille præjudicielle spørgsmål. Det fastlægges efter en samlet vurdering, om et organ er 'en ret'."
+                },
+                {
+                    "question": "Hvad er EU-Domstolens rolle, når den besvarer et præjudicielt spørgsmål?",
+                    "choices": ["Den afgør den konkrete sag", "Den træffer ikke afgørelse i sagen, men 'hjælper' den nationale domstol ved at besvare fortolkningsspørgsmålet", "Den omgør den nationale doms resultat", "Den pålægger den nationale domstol et bestemt udfald"],
+                    "correct": 1,
+                    "explanation": "EU-Domstolen træffer ikke afgørelse i den konkrete sag. Den besvarer fortolkningsspørgsmålet, og svaret indgår herefter i grundlaget for den nationale domstols afgørelse."
+                },
+                {
+                    "question": "Hvilke momenter kan den nationale ret inddrage i sin helhedsvurdering af, om et præjudicielt spørgsmål bør forelægges?",
+                    "choices": ["Kun parternes ønsker", "EU-Domstolens sagsbehandlingstider, parternes ønsker og fortolkningsspørgsmålets betydning for andre sager", "Kun sagens værdi", "Kun om EU-retten er berørt"],
+                    "correct": 1,
+                    "explanation": "Den nationale ret foretager en helhedsvurdering, der bl.a. kan inddrage EU-Domstolens sagsbehandlingstider (der er ganske lange), parternes ønsker og det omhandlede fortolkningsspørgsmåls betydning for andre sager."
+                },
+                {
+                    "question": "Kan en byrets afgørelse om at forelægge et præjudicielt spørgsmål kæres af modparten med henblik på at stoppe forelæggelsen?",
+                    "choices": ["Ja, kæremål kan altid stoppe forelæggelsen", "Nej, afgørelsen kan ikke kæres med henblik på at forpligte byretten til at ændre, undlade eller tilbagekalde forelæggelsen", "Ja, men kun med Procesbevillingsnævnets tilladelse", "Nej, præjudicielle afgørelser kan aldrig kæres"],
+                    "correct": 1,
+                    "explanation": "Jf. U 2010.1389 H (baseret på EU-Domstolens sag C-210/06, Cartesio) kan en afgørelse om forelæggelse ikke kæres med henblik på at ændre, undlade eller tilbagekalde den. Men en afgørelse om IKKE at forelægge kan kæres, og der kan kæres for at stille yderligere spørgsmål."
+                },
+                {
+                    "question": "Hvornår kan en national rets afgørelse 'ikke appelleres' i TEUF art. 267's forstand, således at forelæggelsespligten indtræder?",
+                    "choices": ["Kun Højesterets afgørelser", "Når appel kun kan ske med Procesbevillingsnævnets tilladelse — da kan afgørelsen i denne forstand ikke appelleres", "Kun når ankefristen er udløbet", "Aldrig — forelæggelsespligten gælder alle retter"],
+                    "correct": 1,
+                    "explanation": "En afgørelse kan ikke appelleres, når det kun kan ske med Procesbevillingsnævnets tilladelse. Forelæggelsespligten gælder dermed ikke kun Højesteret, men også landsretten i sager, hvor anke kræver tredjeinstansbevilling."
+                },
+                {
+                    "question": "Hvad skal den nationale domstol tage i betragtning ved vurderingen af acte clair efter CILFIT-dommen?",
+                    "choices": ["Kun den danske sprogversion", "At alle sprogversioner er autentiske, at EU-retten anvender autonome begreber, og at reglerne skal fortolkes i lyset af EU-rettens bestemmelser som helhed", "Kun EU-Domstolens seneste dom", "Kun den materielle EU-ret"],
+                    "correct": 1,
+                    "explanation": "CILFIT-dommen kræver, at den nationale domstol tager i betragtning, at alle sprogversioner er autentiske, at EU-retten anvender autonome begreber, og at reglerne skal fortolkes i lyset af EU-rettens bestemmelser som helhed og udviklingstrin."
+                },
+                {
+                    "question": "Har danske domstole i praksis fortolket begrænsningerne i forelæggelsespligten (acte clair/éclairé) snævert eller bredt?",
+                    "choices": ["Snævert — danske domstole forelægger næsten altid", "Forholdsvis bredt — ligesom de fleste andre lande undlader danske domstole ofte at forelægge", "Der er ingen dansk praksis herom", "Domstolene anvender ikke begrænsningerne"],
+                    "correct": 1,
+                    "explanation": "De fleste lande, herunder Danmark, har fortolket principperne om acte clair og acte éclairé forholdsvis bredt. Det harmonerer ikke altid med den snævre begrænsning, som CILFIT-dommen lægger op til."
+                },
+                {
+                    "question": "Hvad er 'Johnston-linjen' i EU-Domstolens praksis?",
+                    "choices": ["En regel om præjudicielle spørgsmål", "Et princip om effektiv domstolsbeskyttelse, udviklet i EU-Domstolens praksis bl.a. baseret på principper i EMK", "En regel om retskraft", "En regel om voldgift"],
+                    "correct": 1,
+                    "explanation": "Johnston-linjen — udviklet i bl.a. sag C-222/84 (Johnston), C-222/86 (Heylens) og C-97/91 (Borelli) — er et EU-retligt princip om effektiv domstolsbeskyttelse, bl.a. baseret på principper i EMK."
+                },
+                {
+                    "question": "Hvad er 'Rewe-linjen' i EU-Domstolens praksis?",
+                    "choices": ["En regel om fri bevisbedømmelse", "Retningslinjer for de nationale domstoles pligt til at fjerne processuelle hindringer for EU-rettens håndhævelse — herunder principperne om ækvivalens og effektivitet", "En regel om annullationssøgsmål", "En regel om retsmægling"],
+                    "correct": 1,
+                    "explanation": "Rewe-linjen — fra sag 33/76 (Rewe) — udviklede retningslinjer for de nationale domstoles pligt til at fjerne processuelle hindringer for EU-rettens håndhævelse, herunder principperne om ækvivalens (ligebehandling) og effektivitet."
+                },
+                {
+                    "question": "Hvornår finder EU's Charter om grundlæggende rettigheder (EUC) anvendelse ifølge art. 51?",
+                    "choices": ["Altid i alle nationale sager", "Kun når medlemsstaterne gennemfører EU-retten — dvs. handler inden for EU-rettens anvendelsesområde", "Kun i sager for EU-Domstolen", "Kun i grænseoverskridende sager"],
+                    "correct": 1,
+                    "explanation": "EUC finder ifølge art. 51, stk. 1, kun anvendelse, når medlemsstaterne gennemfører EU-retten. EU-Domstolen har i sag C-617/10 (Åkerberg Fransson) fortolket dette bredt: Det afgørende er, om der handles inden for EU-rettens anvendelsesområde."
+                },
+                {
+                    "question": "Hvad indebærer EUC art. 52, stk. 1, for rettighederne i art. 47?",
+                    "choices": ["At rettighederne er absolutte", "At rettighederne kan begrænses, hvis begrænsningen er lovfæstet, respekterer rettighedens væsentligste indhold og er proportional i forhold til et legitimt formål", "At rettighederne kun gælder for EU-borgere", "At rettighederne ikke kan påberåbes for nationale domstole"],
+                    "correct": 1,
+                    "explanation": "Rettighederne i EUC art. 47 er ikke absolutte. De kan begrænses efter kriterierne i art. 52, stk. 1: Begrænsningen skal være lovfæstet, respektere rettighedens væsentligste indhold og forfølge et legitimt formål med proportionale midler."
+                },
+                {
+                    "question": "Hvad fastslog EU-Domstolen i Puskár-sagen om kravet om administrativ rekurs forud for domstolsprøvelse?",
+                    "choices": ["At krav om administrativ rekurs altid er i strid med art. 47", "At det begrænser retten til et effektivt retsmiddel, men kan opretholdes efter en proportionalitetsvurdering — det må fx ikke medføre væsentlig forsinkelse eller betydelige udgifter", "At administrativ rekurs er uproblematisk", "At EU-Domstolen ikke tager stilling til nationale procesregler"],
+                    "correct": 1,
+                    "explanation": "I Puskár-sagen fastslog EU-Domstolen, at krav om administrativ rekurs forud for domstolsprøvelse begrænser retten til effektive retsmidler (art. 47, stk. 1), men kan opretholdes efter art. 52, stk. 1, forudsat bl.a. at det ikke medfører væsentlig forsinkelse eller betydelige udgifter."
+                },
+                {
+                    "question": "Hvad fastslog EU-Domstolen i Eco Swiss-sagen om ækvivalensprincippets rækkevidde i forhold til voldgiftskendelser?",
+                    "choices": ["At voldgiftskendelser er undtaget fra EU-retten", "At nationale domstole under en tilsidesættelsessag skal prøve, om kendelsen strider mod EU-konkurrenceretlige regler, hvis de efter nationale regler prøver nationale ufravigelige retsprincipper", "At voldgiftskendelser altid skal prøves af EU-Domstolen", "At ækvivalensprincippet ikke gælder for voldgift"],
+                    "correct": 1,
+                    "explanation": "I Eco Swiss strakte EU-Domstolen ækvivalensprincippet langt: Nationale domstole skal under en tilsidesættelsessag prøve voldgiftskendelsen mod præceptive EU-konkurrenceretlige regler, hvis de efter nationale regler prøver mod nationale ufravigelige retsprincipper."
+                },
+                {
+                    "question": "Hvad er EU-Domstolens holdning til nationale regler om retskraft i forhold til EU-retten?",
+                    "choices": ["Retskraft skal altid vige for EU-retten", "Nationale domstole er som udgangspunkt ikke forpligtede til at tilsidesætte retskraft, da den sikrer stabil retstilstand og stabile retlige relationer", "Retskraft gælder ikke i EU-retlige sager", "Kun Højesteret kan tilsidesætte retskraft"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-69/14 (Tarsia) er nationale domstole som udgangspunkt ikke forpligtede til at undlade at anvende regler om retskraft, idet de bl.a. 'sikrer en stabil retstilstand og stabile retlige relationer'."
+                },
+                {
+                    "question": "Hvad fastslog EU-Domstolen i Unibet-sagen om kravet om retlig interesse i EU-retlige sager?",
+                    "choices": ["At der altid skal være adgang til abstrakt anerkendelsessøgsmål", "At effektivitetsprincippet ikke kræver et abstrakt anerkendelsessøgsmål, men at EU-retlige spørgsmål skal kunne prøves på en anden måde — og man må ikke tvinges til at begå en strafbar handling for at opnå prøvelse", "At retlig interesse ikke er relevant i EU-retten", "At kun EU-institutioner kan anlægge søgsmål"],
+                    "correct": 1,
+                    "explanation": "I Unibet fastslog EU-Domstolen, at effektivitetsprincippet ikke kræver et abstrakt anerkendelsessøgsmål, forudsat at spørgsmålet kan prøves på anden vis. Men det eneste retsmiddel må ikke være at udsætte sig for risiko for strafferetlige sanktioner."
+                },
+                {
+                    "question": "Hvad er den EU-retlige betydning af princippet om processuel ligestilling?",
+                    "choices": ["At alle EU-borgere har lige mange advokater", "At begge parter skal have rimelig mulighed for at fremlægge sin sag under betingelser, der ikke stiller den ene i en situation til vedkommendes ugunst i forhold til modparten", "At alle procesregler er harmoniseret i EU", "At parterne selv kan vælge, hvilket lands procesregler der gælder"],
+                    "correct": 1,
+                    "explanation": "Det EU-retlige princip om processuel ligestilling sikrer ligheden mellem parternes rettigheder og forpligtelser, jf. sag C-169/14 (Morcillo): begge parter skal have rimelig mulighed for at fremlægge sin sag under betingelser, der ikke er til ugunst for den ene part."
+                },
+                {
+                    "question": "Hvad fastslog EU-Domstolen i Banif Plus Bank-sagen om kontradiktionsprincippets rækkevidde?",
+                    "choices": ["At kontradiktion kun gælder parternes egne anbringender", "At kontradiktion også gælder indsigelser, som retten af egen drift har rejst — parterne har ret til at få kendskab til og kommentere retlige anbringender, retten agter at basere sin afgørelse på", "At kontradiktion ikke gælder i forbrugersager", "At kontradiktion kun gælder bevisførelse"],
+                    "correct": 1,
+                    "explanation": "I Banif Plus Bank udstrakte EU-Domstolen kontradiktionsprincippet til det retlige grundlag: Parterne har ret til at få kendskab til og kontradiktorisk drøfte 'såvel de faktiske som de retlige forhold, der er afgørende for udfaldet af proceduren' — også indsigelser rejst ex officio af retten."
+                },
+                {
+                    "question": "Hvad kræves af en domstols afgørelse efter EU-retten med hensyn til begrundelse?",
+                    "choices": ["Ingen begrundelseskrav i EU-retten", "Afgørelsen skal være begrundet, så parterne kan forstå den med henblik på eventuelt at appellere", "Kun Højesterets domme skal begrundes", "Begrundelseskravet gælder kun i straffesager"],
+                    "correct": 1,
+                    "explanation": "Det er et led i en retfærdig rettergang efter EUC art. 47, at rettens afgørelse skal være begrundet, så parterne kan forstå afgørelsen med henblik på eventuelt at appellere den, jf. sag C-619/10 (Trade Agency Ltd), præmis 53."
+                },
+                {
+                    "question": "Hvad indebærer EU-Domstolens krav til domstoles uafhængighed — den 'eksterne' og den 'interne' betingelse?",
+                    "choices": ["Ekstern: at domstolen har eget budget; intern: at dommerne er fastansatte", "Ekstern: at organet ikke modtager ordrer eller instrukser udefra; intern: at der foreligger objektivitet og fuldstændig mangel på interesse i sagens udfald", "Ekstern: at domstolen er offentlig; intern: at dommerne har juridisk uddannelse", "Der er kun én betingelse for uafhængighed"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-503/15 (Margarit Panicello): Den eksterne betingelse er, at organet ikke modtager ordrer eller instrukser udefra. Den interne betingelse hænger sammen med upartiskhed — der skal foreligge objektivitet og fuldstændig mangel på interesse i sagens udfald."
                 }
             ]
         }
@@ -801,6 +1287,285 @@
             ]
         },
         {
+            "level": 4,
+            "title": "Håndværkerens dilemma — Tvistløsning eller tvangsfuldbyrdelse",
+            "context": "Tømrermester Lars Møller har udført renovering af et badeværelse for privatpersonen Anne Frederiksen til en pris af 78.000 kr. Anne nægter at betale, fordi hun mener, at arbejdet er mangelfuldt — fliserne sidder skævt, og afløbet har dårligt fald. Lars har sendt tre rykkere uden resultat. Han overvejer sine muligheder: skal han anlægge civilt søgsmål, sende et betalingspåkrav eller forsøge mediation?",
+            "questions": [
+                {
+                    "question": "Lars overvejer at sende et betalingspåkrav i stedet for at anlægge retssag. Hvornår er et betalingspåkrav hensigtsmæssigt?",
+                    "choices": ["Når kravet er bestridt og kræver bevisførelse", "Når kravet er ubestridt og skyldneren blot ikke betaler", "Når kravet overstiger 500.000 kr.", "Når der er aftalt voldgift"],
+                    "correct": 1,
+                    "explanation": "Betalingspåkrav (Rpl kap. 44a) er hensigtsmæssigt for ubestridte pengekrav. Da Anne aktivt bestrider kravet med henvisning til mangler, er betalingspåkrav formentlig ikke den rette vej."
+                },
+                {
+                    "question": "Anne bestrider kravet med henvisning til mangelfuldt arbejde. Hvilken af retsplejelovens to hovedfunktioner er mest relevant for at afklare, om arbejdet er mangelfuldt?",
+                    "choices": ["Tvangsfuldbyrdelse via fogedretten", "Tvistløsning — afgørelse af den konkrete retstvist ved dom", "Strafferetlig forfølgning", "Administrativ klagebehandling"],
+                    "correct": 1,
+                    "explanation": "Når der er en reel tvist om kravet (om arbejdet er mangelfuldt), er det den civile retsplejes tvistløsningsfunktion, der er relevant — retten skal tage stilling til parternes uenighed."
+                },
+                {
+                    "question": "Lars' advokat foreslår, at parterne forsøger mediation. Hvad er korrekt om forholdet mellem mediation og domstolsbehandling?",
+                    "choices": ["Mediation erstatter domstolsbehandling permanent", "Mediation er frivilligt, og hvis det mislykkes, kan sagen altid indbringes for domstolene", "Mediation er kun muligt efter rettens tilladelse", "En mediationsaftale har altid samme virkning som en dom"],
+                    "correct": 1,
+                    "explanation": "Mediation er en frivillig tvistløsningsform. Hvis parterne ikke når til enighed, kan sagen indbringes for domstolene. Enhver forligsforhandling har som udgangspunkt, at alternativet er domstolsbehandling."
+                },
+                {
+                    "question": "Hvis Lars opnår en dom, der tilkender ham 78.000 kr., men Anne stadig nægter at betale, hvad kan Lars da gøre?",
+                    "choices": ["Han kan selv beslaglægge Annes ejendele", "Han kan begære dommen tvangsfuldbyrdet via fogedretten, jf. Rpl § 478", "Han kan kun henvende sig til politiet", "Han må acceptere situationen"],
+                    "correct": 1,
+                    "explanation": "En dom kan tvangsfuldbyrdes via fogedretten, jf. Rpl § 478, stk. 1, nr. 1. Dette er udtryk for den civile retsplejes retsbeskyttelsesfunktion — Lars kan få domstolenes bistand til at gennemtvinge sit krav."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "IT-kontrakten med voldgiftsklausul",
+            "context": "Virksomheden DataStream A/S har indgået en kontrakt med softwareleverandøren CodeHouse ApS om udvikling af et kundestyringssystem til 1,2 mio. kr. Kontrakten indeholder en voldgiftsklausul, der bestemmer, at enhver tvist skal afgøres ved voldgift efter reglerne i den danske voldgiftslov. Da systemet ikke fungerer efter specifikationerne, vil DataStream anlægge sag ved byretten i stedet for at anvende voldgift.",
+            "questions": [
+                {
+                    "question": "DataStream anlægger sag ved byretten trods voldgiftsklausulen. Hvad vil byretten sandsynligvis gøre?",
+                    "choices": ["Behandle sagen, da domstolene altid har forrang", "Afvise sagen, da en gyldig voldgiftsaftale udelukker domstolsbehandling", "Sende sagen til landsretten", "Ignorere voldgiftsklausulen, da den er ugyldig"],
+                    "correct": 1,
+                    "explanation": "En gyldig voldgiftsaftale udelukker som udgangspunkt domstolsbehandling. Byretten vil derfor afvise sagen og henvise parterne til at løse tvisten ved voldgift."
+                },
+                {
+                    "question": "Hvilken lov regulerer voldgift i Danmark?",
+                    "choices": ["Retsplejeloven", "Voldgiftsloven (VL)", "Grundloven", "Forvaltningsloven"],
+                    "correct": 1,
+                    "explanation": "Voldgift i Danmark reguleres af voldgiftsloven (VL), som bygger på UNCITRAL's Modellov for international handelsvoldgift."
+                },
+                {
+                    "question": "Kan domstolene spille nogen rolle i forhold til voldgiftssagen, selv om tvisten afgøres ved voldgift?",
+                    "choices": ["Nej, voldgift er fuldstændig uafhængig af domstolene", "Ja, domstolene kan bl.a. bistå med bevisoptagelse og kontrollere voldgiftskendelsen", "Kun Højesteret kan kontrollere voldgiftskendelser", "Domstolene kan kun bistå, hvis begge parter samtykker"],
+                    "correct": 1,
+                    "explanation": "Domstolene kan have en væsentlig rolle i forhold til at kontrollere og understøtte voldgiftssager, bl.a. ved at bistå med bevisoptagelse og ved at prøve voldgiftskendelsens gyldighed."
+                },
+                {
+                    "question": "Hvad er en væsentlig fordel ved voldgift sammenlignet med domstolsbehandling?",
+                    "choices": ["Voldgift er altid gratis", "Voldgift kan sikre fortrolighed og sagkyndige voldgiftsdommere med branchekendskab", "Voldgiftskendelser kan altid ankes", "Voldgift er hurtigere end alle andre tvistløsningsformer"],
+                    "correct": 1,
+                    "explanation": "Voldgift kan bl.a. sikre fortrolighed (sagen er ikke offentlig som ved domstolene) og mulighed for at vælge voldgiftsdommere med særlig branchekendskab."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Forbrugerklagen — Fra nævn til domstol",
+            "context": "Forbrugeren Karen Holm har købt en ny sofa til 15.000 kr. fra møbelforretningen SofaLux. Sofaen begynder at knirke efter to uger, og betrækket falmer hurtigt. Karen har klaget til Forbrugerklagenævnet, som har givet SofaLux medhold i, at sofaen ikke var mangelfuld. Karen er utilfreds med nævnets afgørelse og overvejer at gå til domstolene. SofaLux mener, at nævnets afgørelse er endelig.",
+            "questions": [
+                {
+                    "question": "Kan Karen indbringe Forbrugerklagenævnets afgørelse for domstolene?",
+                    "choices": ["Nej, nævnsafgørelser er altid endelige", "Ja, afgørelser fra klage- og ankenævn kan indbringes for domstolene", "Kun hvis sagen vedrører mere end 50.000 kr.", "Kun med nævnets tilladelse"],
+                    "correct": 1,
+                    "explanation": "Afgørelser fra klage- og ankenævn kan indbringes for domstolene, hvilket sikrer, at domstolene fungerer som den endelige tvistløser."
+                },
+                {
+                    "question": "Hvad illustrerer domstolenes mulighed for at prøve nævnsafgørelser om den civile retsplejes funktioner?",
+                    "choices": ["Den civile retsplejes strafferetlige funktion", "Den civile retsplejes tvistløsningsfunktion og rolle som ultimativt konfliktløsningsorgan", "Den civile retsplejes lovgivningsfunktion", "Den civile retsplejes uddannelsesfunktion"],
+                    "correct": 1,
+                    "explanation": "Domstolenes mulighed for at prøve nævnsafgørelser illustrerer den civile retsplejes tvistløsningsfunktion og domstolenes rolle som det ultimative organ for konfliktløsning i retsstaten."
+                },
+                {
+                    "question": "Hvad er det generelle princip om pligt til at benytte domstolene som tvistløsningsorgan?",
+                    "choices": ["Alle tvister skal afgøres af domstolene", "Der gælder ingen generel pligt til at benytte domstolene — parterne kan vælge ADR", "Domstolene kan kun benyttes efter forudgående nævnsbehandling", "Kun erhvervsdrivende kan vælge ADR"],
+                    "correct": 1,
+                    "explanation": "Der gælder ingen generel pligt til at benytte domstolene som tvistløsningsorgan. Parterne kan frit vælge alternative konfliktløsningsformer som nævn, voldgift eller mediation."
+                },
+                {
+                    "question": "Hvilken betydning har domstolenes tilstedeværelse for Karens forligsforhandlinger med SofaLux?",
+                    "choices": ["Ingen betydning — forlig er uafhængigt af domstolene", "Muligheden for domstolsbehandling giver forhandlingerne et udgangspunkt, da alternativet til forlig typisk er domstolsafgørelse", "Domstolene deltager aktivt i forligsforhandlingerne", "Forligsforhandlinger kan kun ske under en verserende retssag"],
+                    "correct": 1,
+                    "explanation": "Enhver forligsforhandling har som sit udgangspunkt, at såfremt det ikke lykkes at nå til enighed, kan sagen indbringes for domstolene. Muligheden for domstolsbehandling styrker dermed forhandlingspositionen."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Patentkrænkelsen — Bevissikring inden sagsanlæg",
+            "context": "Virksomheden BioTech Solutions A/S opdager, at konkurrenten PharmaCopy ApS tilsyneladende fremstiller et produkt, der krænker BioTechs patent på en ny type medicinsk sensor. BioTech frygter, at PharmaCopy vil destruere produktionsdokumentation og lagerbeholdning, hvis de opdager, at der er en sag på vej. BioTechs advokat anbefaler at søge om bevissikring, inden der anlægges sag.",
+            "questions": [
+                {
+                    "question": "Hvilken bestemmelse i retsplejeloven hjemler bevissikring i sager om immaterialrettigheder?",
+                    "choices": ["Rpl kap. 29a", "Rpl kap. 57a", "Rpl kap. 44a", "Rpl kap. 42"],
+                    "correct": 1,
+                    "explanation": "Rpl kap. 57a regulerer bevissikring i sager om immaterialrettigheder m.v. og giver mulighed for at sikre beviser, inden de eventuelt destrueres."
+                },
+                {
+                    "question": "Hvad er forholdet mellem Rpl kap. 57a og den øvrige civile retspleje?",
+                    "choices": ["Kap. 57a erstatter den civile retsplejes almindelige bevisregler", "Kap. 57a supplerer den civile retsplejes regler om bevisanskaffelse i immaterialretlige sager", "Kap. 57a gælder kun i straffesager", "Kap. 57a er ophævet"],
+                    "correct": 1,
+                    "explanation": "Rpl kap. 57a supplerer den civile retsplejes almindelige regler om bevisanskaffelse med særlige regler om bevissikring i immaterialretlige sager."
+                },
+                {
+                    "question": "Ved hvilken domstol skal BioTech anlægge selve sagen om patentkrænkelse?",
+                    "choices": ["Byretten i BioTechs retskreds", "Sø- og Handelsretten, som er en af de almindelige domstole med kompetence i immaterialretlige sager", "Landsretten som førsteinstans", "Arbejdsretten"],
+                    "correct": 1,
+                    "explanation": "Sø- og Handelsretten er en af de almindelige domstole nævnt i Rpl § 1 og behandler bl.a. sager om immaterialrettigheder, herunder patentsager."
+                },
+                {
+                    "question": "Rpl kap. 29a indeholder også særlige regler om bevisanskaffelse i immaterialretlige sager. Hvad er disse reglers karakter?",
+                    "choices": ["Generelle regler, der gælder for alle sager", "Særlige procesregler, der kun finder anvendelse i visse typer af tvister", "Forvaltningsretlige regler", "Straffeprocessuelle regler"],
+                    "correct": 1,
+                    "explanation": "Rpl kap. 29a er et eksempel på særlige procesregler i retsplejeloven, som kun finder anvendelse i visse typer af tvister — her sager om immaterialrettigheder m.v."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Huslejetvisten — Fra huslejenævn til boligret",
+            "context": "Lejeren Morten Berg bor til leje i en etageejendom i København. Udlejeren varsler en huslejestigning på 25 %, som Morten finder urimelig. Morten indbringer sagen for huslejenævnet, som reducerer stigningen til 10 %. Udlejeren, Henrik Skov, er utilfreds og vil have sagen prøvet ved domstolene. Morten er usikker på, hvilken domstol der er den rette.",
+            "questions": [
+                {
+                    "question": "Hvilken domstol behandler tvister om husleje, der indbringes fra huslejenævnet?",
+                    "choices": ["Byretten i almindelighed", "Boligretten", "Landsretten", "Sø- og Handelsretten"],
+                    "correct": 1,
+                    "explanation": "Sager efter lejeloven og boligreguleringsloven behandles ved boligretten, som er en afdeling af byretten med medvirken af lægdommere."
+                },
+                {
+                    "question": "Er boligretten en selvstændig domstol eller en del af det almindelige domstolssystem?",
+                    "choices": ["En selvstændig specialdomstol uden for det almindelige system", "En 'særlig domstol' oprettet ved boliglovgivningen, men fungerer som en afdeling af byretten", "En del af landsretten", "En uafhængig klageinstans"],
+                    "correct": 1,
+                    "explanation": "Boligretterne er 'særlige domstole' oprettet ved anden lovgivning end retsplejeloven, men de fungerer som afdelinger af byretten."
+                },
+                {
+                    "question": "Hvad er forholdet mellem huslejenævnet og boligretten?",
+                    "choices": ["Huslejenævnet er en del af boligretten", "Huslejenævnet er en administrativ klageinstans, og dets afgørelser kan indbringes for boligretten", "Huslejenævnets afgørelser er endelige", "Boligretten kan kun prøve huslejenævnets afgørelser med nævnets tilladelse"],
+                    "correct": 1,
+                    "explanation": "Huslejenævnet er en administrativ klageinstans. Dets afgørelser kan indbringes for boligretten, som derved sikrer domstolsprøvelse af huslejetvister."
+                },
+                {
+                    "question": "Boligforholdsloven indeholder de vigtige regler om huslejenævn og boligret. Hvad er dette et eksempel på?",
+                    "choices": ["Generelle procesregler i retsplejeloven", "Særlige procesregler i den materielle lovgivning", "Strafferetlige procesregler", "EU-retlige procesregler"],
+                    "correct": 1,
+                    "explanation": "Boligforholdsloven er et eksempel på særlige procesregler i den materielle lovgivning, som supplerer retsplejelovens almindelige procesregler for bestemte typer af sager."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Retsmæglingen — Parterne søger forlig",
+            "context": "Under en verserende erstatningssag ved byretten om 200.000 kr. i forbindelse med en trafikskade foreslår dommeren, at parterne deltager i retsmægling. Sagsøgeren, Thomas Winther, er interesseret, men sagsøgte, forsikringsselskabet TrygSikker A/S, er skeptisk og mener, at retsmægling er spild af tid. Under mæglingen finder parterne overraskende en løsning og ønsker at indgå forlig.",
+            "questions": [
+                {
+                    "question": "Hvad er retsmægling i forhold til den civile retspleje?",
+                    "choices": ["En bindende afgørelse truffet af dommeren", "En frivillig mægling faciliteret af retten som led i den civile retsplejes sagsbehandling", "En obligatorisk procesforudsætning", "En privat voldgiftsform"],
+                    "correct": 1,
+                    "explanation": "Retsmægling er en form for mægling, som finder sted i forbindelse med domstolenes sagsbehandling. Det er frivilligt for parterne at deltage."
+                },
+                {
+                    "question": "Hvilket grundlæggende princip giver parterne ret til at forlige sagen i stedet for at lade den afgøre ved dom?",
+                    "choices": ["Mundtlighedsprincippet", "Dispositionsprincippet — parterne råder over sagens genstand", "Umiddelbarhedsprincippet", "Offentlighedsprincippet"],
+                    "correct": 1,
+                    "explanation": "Dispositionsprincippet indebærer, at parterne råder over sagens genstand, herunder muligheden for at afslutte sagen ved forlig."
+                },
+                {
+                    "question": "Hvad er virkningen af det indgåede forlig, hvis det indgås for retten (retsforlig)?",
+                    "choices": ["Forliget er kun en uforpligtende hensigtserklæring", "Et retsforlig har bindende virkning og kan tvangsfuldbyrdes som en dom", "Forliget skal godkendes af Justitsministeriet", "Forliget gælder kun i ét år"],
+                    "correct": 1,
+                    "explanation": "Et retsforlig har bindende virkning og kan tvangsfuldbyrdes ligesom en dom, jf. Rpl § 478. Det er derfor et attraktivt alternativ til at afvente domstolens afgørelse."
+                },
+                {
+                    "question": "Hvis retsmæglingen var mislykket, hvad ville alternativet have været?",
+                    "choices": ["Sagen ville blive afvist", "Sagen ville fortsætte ved domstolen med henblik på dom", "Parterne ville være tvunget til at anvende voldgift", "Sagen ville blive henvist til et klagenævn"],
+                    "correct": 1,
+                    "explanation": "Enhver forligsforhandling eller mægling har som sit udgangspunkt, at såfremt det ikke lykkes at nå til enighed, fortsætter sagen ved domstolene med henblik på dom."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Retsplejerådets reformforslag — Fleksibilitet på spil",
+            "context": "Retsplejerådet har afgivet en ny betænkning med forslag om at forenkle den civile retspleje for sager under 250.000 kr. ved at indføre stramme procesfrister og begrænse antallet af processkrifter. En gruppe advokater er bekymret for, at reformen vil gøre processen for rigid og fjerne domstolenes mulighed for at tilpasse behandlingen til den enkelte sag. Justitsministeriet overvejer at gennemføre forslaget ved lov.",
+            "questions": [
+                {
+                    "question": "Hvad er Retsplejerådets rolle i reformprocessen?",
+                    "choices": ["Retsplejerådet vedtager lovændringer direkte", "Retsplejerådet er et stående udvalg under Justitsministeriet, der udarbejder betænkninger med forslag til reform af retsplejeloven", "Retsplejerådet er en domstol", "Retsplejerådet er en del af Folketinget"],
+                    "correct": 1,
+                    "explanation": "Retsplejerådet er et stående udvalg under Justitsministeriet, nedsat i 1961, der løbende udarbejder betænkninger med forslag til reformer af retsplejeloven."
+                },
+                {
+                    "question": "Advokaterne er bekymret for, at reformen vil fjerne fleksibiliteten. Hvad er den retspolitiske målsætning om fleksibilitet i den civile retspleje?",
+                    "choices": ["At alle sager skal behandles ens", "At domstolene skal have mulighed for at tilpasse processen til de konkrete sager og parternes behov", "At parterne selv kan vælge procesregler", "At lovgiveren kan ændre reglerne uden lovændring"],
+                    "correct": 1,
+                    "explanation": "Fleksibiliteten i den civile retspleje er en retspolitisk målsætning, der giver domstolene mulighed for at tilpasse processen til de konkrete sager, som kan være ganske forskelligartede."
+                },
+                {
+                    "question": "Hvorfor kan Justitsministeriet ikke blot gennemføre reformen ved en bekendtgørelse i stedet for en lov?",
+                    "choices": ["Fordi Justitsministeriet ikke har kompetence", "Fordi Grundlovens § 61 indeholder et delegationsforbud, der begrænser administrative forskrifter om retsplejen", "Fordi bekendtgørelser ikke eksisterer i dansk ret", "Fordi domstolene skal godkende bekendtgørelser"],
+                    "correct": 1,
+                    "explanation": "Delegationsforbuddet i Grl § 61, 2. pkt., indebærer, at retsplejeloven kun i begrænset omfang kan suppleres af administrative forskrifter. Reformer af retsplejen kræver derfor som udgangspunkt lovændring."
+                },
+                {
+                    "question": "Advokaterne påpeger, at de skønsmæssige regler giver domstolene en vigtig mulighed. Hvad er det?",
+                    "choices": ["At lovgiver aldrig behøver at ændre loven", "At retsanvendelsen kan tilpasses den øvrige rets- og samfundsudvikling uden behov for lovændringer", "At dommere kan ignorere lovgivningen", "At parterne kan bestemme udfaldet"],
+                    "correct": 1,
+                    "explanation": "De skønsmæssige regler giver domstolene mulighed for løbende at tilpasse retsanvendelsen til den øvrige rets- og samfundsudvikling uden behov for lovændringer."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Den internationale handelstvist — Konventioner i spil",
+            "context": "Det danske rederi NordicShipping A/S har en tvist med en schweizisk speditør, AlpenLogistik AG, om en fragtskade på 3 mio. DKK. Kontrakten indeholder en værnetingsaftale om danske domstole, men ingen voldgiftsklausul. AlpenLogistik hævder, at sagen bør afgøres i Schweiz, og påberåber sig Værnetingsaftalekonventionen. NordicShipping overvejer, om Lugano-konventionen kan spille ind, da Schweiz ikke er EU-medlem.",
+            "questions": [
+                {
+                    "question": "Hvad er Værnetingsaftalekonventionen?",
+                    "choices": ["En EU-forordning", "En konvention udarbejdet af Haagerkonferencen om International Privatret", "En del af retsplejeloven", "En FN-konvention om menneskerettigheder"],
+                    "correct": 1,
+                    "explanation": "Værnetingsaftalekonventionen er en konvention udarbejdet af Haagerkonferencen om International Privatret, som Danmark har ratificeret. Den regulerer bl.a. anerkendelse af værnetingsaftaler."
+                },
+                {
+                    "question": "Lugano-konventionen nævnes som potentielt relevant. Hvad er dens betydning for den civile retspleje?",
+                    "choices": ["Den regulerer kun straffesager", "Den er en international konvention med retskildemæssig betydning for internationale kompetenceregler", "Den regulerer kun voldgiftssager", "Den er ophævet"],
+                    "correct": 1,
+                    "explanation": "Lugano-konventionen er en international konvention, der kan have retskildemæssig betydning for den civile retspleje, navnlig i forhold til international kompetence og fuldbyrdelse af domme i forholdet til EFTA-lande som Schweiz."
+                },
+                {
+                    "question": "Schweiz er ikke EU-medlem. Hvad er betydningen for de internationale procesretlige regler?",
+                    "choices": ["Det har ingen betydning — EU-reglerne gælder for alle lande", "Bruxelles I-forordningen gælder ikke direkte, men Lugano-konventionen kan regulere kompetence og fuldbyrdelse", "Schweiz er underlagt retsplejeloven", "Der gælder ingen internationale procesregler for tvister med Schweiz"],
+                    "correct": 1,
+                    "explanation": "Da Schweiz ikke er EU-medlem, gælder Bruxelles I-forordningen ikke. Til gengæld kan Lugano-konventionen, som både Danmark og Schweiz er parter i, regulere spørgsmål om kompetence og fuldbyrdelse."
+                },
+                {
+                    "question": "Hvad illustrerer denne sag om den civile retsplejes retskilder?",
+                    "choices": ["At retsplejeloven er den eneste retskilde", "At internationale konventioner kan have retskildemæssig betydning for den civile retspleje", "At retspraksis er uden betydning", "At kun EU-retten påvirker den civile retspleje"],
+                    "correct": 1,
+                    "explanation": "Sagen illustrerer, at den civile retsplejes retskilder ikke kun omfatter retsplejeloven, men også internationale konventioner som Lugano-konventionen og Værnetingsaftalekonventionen."
+                }
+            ]
+        },
+        {
+            "level": 4,
+            "title": "Entreprenøren og trappestigen — ADR i flere lag",
+            "context": "Byggeselskabet SolidBuild A/S har udført et byggeprojekt for boligforeningen GrønneHjem. Der opstår tvist om mangler til en værdi af 450.000 kr. Kontrakten indeholder en 'trappestige-klausul': tvister skal først søges løst ved mediation, dernæst ved Voldgiftsnævnet for Byggeri og Anlæg, og kun i sidste instans ved de almindelige domstole. GrønneHjem vil springe mediation over og gå direkte til domstolene.",
+            "questions": [
+                {
+                    "question": "Kan GrønneHjem springe mediationsklausulen over og gå direkte til domstolene?",
+                    "choices": ["Ja, man kan altid frit vælge domstolene uden konsekvenser", "En aftale om mediation kan have procesretlig betydning, og domstolene kan evt. udsætte sagen for at respektere aftalen", "Nej, mediationsklausuler er altid ugyldige", "Kun hvis SolidBuild samtykker"],
+                    "correct": 1,
+                    "explanation": "Aftaler om mediation (konfliktmægling) kan have procesretlig betydning. Den civile retspleje anerkender, at parternes procesretlige aftaler, herunder om mediation, kan påvirke domstolenes sagsbehandling."
+                },
+                {
+                    "question": "Kontrakten henviser til Voldgiftsnævnet for Byggeri og Anlæg. Hvad er dette?",
+                    "choices": ["En afdeling af byretten", "En faglig voldgiftsret, der afgør tvister inden for bygge- og anlægsområdet", "Et offentligt tilsynsorgan", "En del af Domstolsstyrelsen"],
+                    "correct": 1,
+                    "explanation": "Voldgiftsnævnet for Byggeri og Anlæg er en faglig voldgiftsret, der afgør bygge- og anlægsretlige tvister. Det er et eksempel på voldgift som alternativ til domstolsbehandling."
+                },
+                {
+                    "question": "Hvis tvisten afgøres ved voldgift, og GrønneHjem er utilfreds med kendelsen, kan den da ankes til domstolene?",
+                    "choices": ["Ja, voldgiftskendelser kan altid ankes", "Nej, voldgiftskendelser kan ikke ankes, men domstolene kan i visse tilfælde prøve kendelsens gyldighed", "Kun til Højesteret", "Ja, inden for 4 uger"],
+                    "correct": 1,
+                    "explanation": "Voldgiftskendelser kan ikke ankes til domstolene. Domstolene kan dog kontrollere voldgiftskendelsens gyldighed — dette er et eksempel på domstolenes rolle i at kontrollere voldgiftssager."
+                },
+                {
+                    "question": "Hvad illustrerer kontraktens trappestige-system om den civile retsplejes placering?",
+                    "choices": ["At domstolene er irrelevante, når der er aftalt ADR", "At domstolene er den ultimative tvistløser, som ADR-formerne relaterer sig til", "At voldgift altid er bedre end domstolsbehandling", "At mediation er obligatorisk i dansk ret"],
+                    "correct": 1,
+                    "explanation": "Den civile retspleje er det ultimative tvistløsningsforum. Fordele og ulemper ved ADR (voldgift, mediation) kan kun vurderes med kendskab til domstolsreglerne, og domstolene bevarer en kontrolfunktion."
+                }
+            ]
+        },
+        {
             "level": 5,
             "title": "Den inhabile dommer — Habilitet og partsevne",
             "context": "Virksomheden GreenTech ApS sagsøger en konkurrent, BlueWave A/S, for krænkelse af et patent ved Sø- og Handelsretten. Under forberedelsen opdager GreenTechs advokat, at den udpegede dommer ejer aktier i BlueWave A/S' moderselskab. Samtidig rejser BlueWave spørgsmål om, hvorvidt GreenTech ApS overhovedet har processuel partsevne, da selskabet er under tvangsopløsning. GreenTechs bestyrelsesformand ønsker selv at føre sagen uden advokat.",
@@ -828,6 +1593,285 @@
                     "choices": ["Sø- og Handelsretten har ingen kompetence i patentsager", "Sø- og Handelsretten behandler bl.a. sager om patenter og andre immaterialrettigheder som specialdomstol", "Patentsager kan kun behandles ved Højesteret", "Patentsager behandles altid ved byretten"],
                     "correct": 1,
                     "explanation": "Sø- og Handelsretten fungerer som specialdomstol for bl.a. immaterialretlige sager, herunder patentsager, varemærkesager og designsager."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Foreningens dag i retten — Har gruppen partsevne?",
+            "context": "En gruppe beboere i et kvarter i Odense har dannet 'Beboergruppen Grønne Veje' for at protestere mod et kommunalt vejprojekt. Gruppen har ikke vedtægter, ingen bestyrelse og ingen formel struktur — de kommunikerer via en Facebook-gruppe. De ønsker at sagsøge kommunen for at standse projektet. Kommunens advokat bestrider, at gruppen har processuel partsevne.",
+            "questions": [
+                {
+                    "question": "Har Beboergruppen Grønne Veje processuel partsevne?",
+                    "choices": ["Ja, enhver gruppe af personer kan sagsøge", "Formentlig ikke — en forening skal have en tilstrækkelig organisatorisk struktur for at have partsevne", "Ja, hvis de har mere end 10 medlemmer", "Kun Højesteret kan afgøre dette"],
+                    "correct": 1,
+                    "explanation": "Der stilles minimumskrav til en forenings struktur for at anerkende partsevne. En persongruppe med for løs en struktur kan mangle partsevne, jf. U 1976.1010 Ø om 'Fristaden Christiania', hvor der ikke kunne peges på organer, der kunne binde helheden."
+                },
+                {
+                    "question": "Hvad skal gruppen gøre for at opnå processuel partsevne?",
+                    "choices": ["Registrere sig i Erhvervsstyrelsen", "Etablere en formel foreningsstruktur med vedtægter, bestyrelse og generalforsamling", "Betale retsafgift", "Ansætte en advokat"],
+                    "correct": 1,
+                    "explanation": "For at opnå partsevne skal en forening have en tilstrækkelig organisatorisk struktur — typisk vedtægter, en bestyrelse og en generalforsamling — så der kan peges på organer, der kan binde foreningen."
+                },
+                {
+                    "question": "Offentlige myndigheder som kommunen har processuel partsevne. Hvad gælder for kommunale forvaltningsgrene?",
+                    "choices": ["Hver forvaltningsgren har selvstændig partsevne", "Kommunen er baseret på kommunal enhedsforvaltning, så den enkelte forvaltningsgren har IKKE selvstændig partsevne", "Kun teknisk forvaltning har partsevne", "Det afhænger af kommunens størrelse"],
+                    "correct": 1,
+                    "explanation": "Kommuner er baseret på princippet om kommunal enhedsforvaltning, hvorfor den enkelte kommunale forvaltningsgren ikke har selvstændig processuel partsevne, jf. forudsætningsvis Rpl § 239."
+                },
+                {
+                    "question": "Hvis beboerne stifter en forening, men denne anlægger sag udelukkende for at undgå personlig hæftelse for sagsomkostninger, hvad er konsekvensen?",
+                    "choices": ["Foreningen har fuld partsevne uanset formål", "Foreningen kan mangle partsevne, medmindre den stiller sikkerhed for sagsomkostningerne", "Sagen overgår automatisk til byretten", "Dommeren kan ignorere foreningen"],
+                    "correct": 1,
+                    "explanation": "En juridisk person stiftet alene for at undgå personlig hæftelse for sagsomkostninger har ikke processuel partsevne, medmindre den stiller passende sikkerhed, jf. U 2000.1575 H og U 2017.2439 H."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Advokatens karrierevej — Møderet i tre instanser",
+            "context": "Advokat Camilla Borg har netop bestået advokateksamen og retssagsprøven og fået sin advokatbeskikkelse. Hun er ansat i et mindre advokatfirma og ønsker på sigt at føre sager ved både landsretten og Højesteret. Hendes første klient er et nystiftet anpartsselskab, DataNova ApS, der endnu ikke er registreret i Erhvervsstyrelsen, men som ønsker at anlægge en civil sag ved byretten.",
+            "questions": [
+                {
+                    "question": "Camilla har lige fået sin advokatbeskikkelse. For hvilke domstole har hun møderet?",
+                    "choices": ["Alle domstole", "Kun byretten", "Byretten og landsretten", "Ingen — hun skal først bestå en yderligere prøve"],
+                    "correct": 1,
+                    "explanation": "Enhver advokat har møderet for byretten, jf. Rpl § 132. Møderet for landsretten og Højesteret kræver yderligere kvalifikationer."
+                },
+                {
+                    "question": "Hvad skal Camilla gøre for at opnå møderet for landsretten?",
+                    "choices": ["Vente 5 år og ansøge automatisk", "Bestå en procedureprøve ved tilfredsstillende udførelse af to retssager inden for højst 5 år", "Ansøge Advokatrådet om tilladelse", "Bestå en skriftlig eksamen"],
+                    "correct": 1,
+                    "explanation": "Møderet for landsretten kræver, at advokaten har bestået en procedureprøve ved tilfredsstillende udførelse af to retssager inden for højst 5 år, jf. Rpl § 133. Herefter anvender advokaten betegnelsen 'Advokat (L)'."
+                },
+                {
+                    "question": "DataNova ApS er endnu ikke registreret i Erhvervsstyrelsen. Kan selskabet anlægge sagen?",
+                    "choices": ["Ja, alle selskaber kan altid anlægge sag", "Nej, selskabet har først partsevne ved registrering, men kan dog anlægge søgsmål vedrørende tegningen af selskabskapitalen", "Ja, så snart stiftelsesdokumentet er underskrevet", "Kun med Erhvervsstyrelsens tilladelse"],
+                    "correct": 1,
+                    "explanation": "Et kapitalselskab opnår først processuel partsevne ved registrering i Erhvervsstyrelsens it-system, jf. selskabslovens § 41, stk. 1. Før registreringen kan selskabet kun være part i søgsmål vedrørende tegnet selskabskapital."
+                },
+                {
+                    "question": "Camilla bliver syg på dagen for hovedforhandlingen. Kan hun sende sin autoriserede advokatfuldmægtig i stedet?",
+                    "choices": ["Nej, aldrig", "Ja, en advokat kan i byretssager give møde ved sin autoriserede advokatfuldmægtig, jf. Rpl § 136", "Ja, men kun med dommerens forhåndsgodkendelse", "Kun hvis modparten samtykker"],
+                    "correct": 1,
+                    "explanation": "I byretssager kan en advokat give møde ved sin autoriserede advokatfuldmægtig, jf. Rpl § 136, stk. 1-3."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Konkursboet og den verserende sag — Processuel succession",
+            "context": "Under en verserende erstatningssag, hvor virksomheden TechStar ApS har sagsøgt leverandøren MetalWorks A/S for 500.000 kr. i erstatning for defekte komponenter, går TechStar ApS konkurs. Kurator for konkursboet overvejer, om boet skal indtræde i sagen. MetalWorks' advokat mener, at sagen bør afvises, fordi TechStar er gået konkurs.",
+            "questions": [
+                {
+                    "question": "TechStar ApS er gået konkurs under den verserende sag. Hvad sker der med sagen?",
+                    "choices": ["Sagen afvises automatisk", "Konkursboet kan indtræde i sagen i TechStars sted (processuel succession)", "Sagen fortsætter uændret med TechStar som part", "MetalWorks overtager sagen"],
+                    "correct": 1,
+                    "explanation": "Når sagsøger går konkurs, kan konkursboet (subsidiært en fordringshaver) indtræde i retssagen i skyldnerens sted, jf. konkurslovens §§ 136-137. Dette er et eksempel på processuel succession."
+                },
+                {
+                    "question": "Hvad sker der, hvis konkursboet vælger IKKE at indtræde i sagen?",
+                    "choices": ["Sagen fortsætter med TechStar som part", "Sagen må som udgangspunkt afvises, medmindre en fordringshaver indtræder", "MetalWorks dømmes automatisk", "Dommeren beslutter sagens udfald"],
+                    "correct": 1,
+                    "explanation": "Hvis konkursboet ikke indtræder, kan en fordringshaver subsidiært gøre det, jf. konkurslovens § 137. Sker dette heller ikke, må sagen som udgangspunkt afvises."
+                },
+                {
+                    "question": "Hvad er forskellen mellem universalsuccession og singulærsuccession i processuel sammenhæng?",
+                    "choices": ["Der er ingen forskel", "Ved universalsuccession overgår alle rettigheder/forpligtelser (fx ved konkurs/død), ved singulærsuccession kun et enkelt skyldforhold (fx overdragelse)", "Universalsuccession kræver rettens tilladelse", "Universalsuccession gælder kun fysiske personer"],
+                    "correct": 1,
+                    "explanation": "Ved universalsuccession sker en generel overgang af rettigheder og forpligtelser til en successor (fx konkursbo, dødsbo). Ved singulærsuccession overdrages kun et enkelt skyldforhold (fx overdragelse af en fordring)."
+                },
+                {
+                    "question": "Hvis boets kurator indtræder i sagen, overtager kuratoren da den samme processuelle stilling som TechStar havde?",
+                    "choices": ["Nej, sagen starter forfra", "Ja, successoren overtager samme processuelle stilling som den tidligere part ved successionen", "Kun hvis MetalWorks samtykker", "Kuratoren kan kun forlige sagen"],
+                    "correct": 1,
+                    "explanation": "Ved processuel succession overtager successoren (her konkursboet) samme processuelle stilling, som den tidligere part (TechStar) havde ved successionen."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Den sagkyndige dommer i boligretten — Inhabilitetsspørgsmål",
+            "context": "I en huslejesag ved boligretten i Aarhus medvirker to lægdommere. Den ene lægdommer, Henrik, er formand for den lokale grundejerforening og er udpeget efter forhandling med grundejerorganisationerne. Under sagen opdager lejers advokat, at Henriks grundejerforening har et formaliseret samarbejde med udlejers administrationsselskab. Lejers advokat rejser indsigelse om inhabilitet.",
+            "questions": [
+                {
+                    "question": "Hvordan udpeges lægdommere i boligretten?",
+                    "choices": ["De udnævnes af justitsministeren", "De beskikkes for en 4-årig periode af landsretspræsidenten efter forhandling med grundejer- og lejerforeninger", "De vælges af parterne i den konkrete sag", "De udpeges af Domstolsstyrelsen"],
+                    "correct": 1,
+                    "explanation": "Boligrettens lægdommere beskikkes for en 4-årig periode af den relevante landsretspræsident. Den ene gruppe udpeges efter forhandling med grundejerforeninger, den anden efter forhandling med lejerforeninger, jf. boligforholdslovens §§ 93 ff."
+                },
+                {
+                    "question": "Medfører Henriks tilknytning til grundejerforeningen i sig selv inhabilitet?",
+                    "choices": ["Ja, enhver organisationstilknytning medfører inhabilitet", "Nej, en sagkyndig dommers tilknytning til en branche eller organisation medfører ikke i sig selv inhabilitet, men der kan foreligge inhabilitet i en konkret sag", "Nej, lægdommere kan aldrig være inhabile", "Ja, men kun hvis grundejerforeningen er part"],
+                    "correct": 1,
+                    "explanation": "En sagkyndig dommers tilknytning til en branche eller organisation medfører ikke i sig selv inhabilitet. Men der kan foreligge inhabilitet i en konkret sag efter Rpl § 66, jf. § 61."
+                },
+                {
+                    "question": "Lejers advokat rejser indsigelse om inhabilitet. Hvornår bør en habilitetsindsigelse så vidt muligt rejses?",
+                    "choices": ["Under domsafsigelsen", "Inden den mundtlige forhandlings påbegyndelse, jf. Rpl § 63", "Inden for 4 uger efter dommen", "Kun ved anke"],
+                    "correct": 1,
+                    "explanation": "En indsigelse mod en dommers habilitet bør så vidt muligt rejses inden den mundtlige forhandlings påbegyndelse, jf. Rpl § 63."
+                },
+                {
+                    "question": "Hvad er kravet for at blive beskikket som lægdommer i boligretten?",
+                    "choices": ["Juridisk kandidateksamen", "Kendskab til bolig- og huslejeforhold, dansk indfødsret, myndighed og uberygtethed", "Mindst 10 års erfaring med ejendomsadministration", "Bestået en særlig dommeruddannelse"],
+                    "correct": 1,
+                    "explanation": "Beskikkelse som lægdommer i boligretten kræver ingen juridisk uddannelse, men at vedkommende er bekendt med bolig- og huslejeforhold, har dansk indfødsret, er myndig og uberygtet, jf. boligforholdslovens § 95."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Selvmøderen og advokatpålægget",
+            "context": "Pernille Hansen har anlagt en erstatningssag mod sin tidligere arbejdsgiver for 800.000 kr. ved byretten. Pernille har valgt at føre sagen selv uden advokat ('selvmøder'). Under forberedelsen viser det sig, at sagen er juridisk kompliceret med komplekse bevisspørgsmål om arbejdsmiljølovgivning. Dommeren overvejer at give Pernille et advokatpålæg efter Rpl § 259.",
+            "questions": [
+                {
+                    "question": "Er Pernille som fysisk person forpligtet til at have advokat?",
+                    "choices": ["Ja, alle parter skal have advokat", "Nej, en part er som udgangspunkt ikke forpligtet til at antage advokat, jf. Rpl § 259, stk. 1", "Kun i sager over 100.000 kr.", "Kun ved landsretten"],
+                    "correct": 1,
+                    "explanation": "En part er som udgangspunkt ikke forpligtet til at antage en advokat til at føre sin sag, jf. Rpl § 259, stk. 1. Pernille kan som myndig fysisk person selv møde i retten."
+                },
+                {
+                    "question": "Dommeren giver Pernille et advokatpålæg. Hvad er konsekvensen, hvis hun ikke efterkommer det?",
+                    "choices": ["Sagen fortsætter uændret", "Der bortses fra processkrifter, hun personligt indgiver, og hun anses for udeblevet fra retsmøder uden advokat", "Hun pålægges en bøde", "Sagen overgår til landsretten"],
+                    "correct": 1,
+                    "explanation": "Efterkommer en part ikke et advokatpålæg, bortses der fra processkrifter, som parten herefter personligt indgiver, og parten anses for udeblevet fra retsmøder, hvis vedkommende møder uden advokat, jf. Rpl § 259, stk. 4."
+                },
+                {
+                    "question": "Kan advokatpålægget opfyldes ved, at Pernilles søster, der er jurist men ikke advokat, møder som rettergangsfuldmægtig?",
+                    "choices": ["Ja, enhver jurist kan opfylde pålægget", "Nej, et advokatpålæg kan kun opfyldes ved en advokat med fornøden møderet eller dennes advokatfuldmægtig", "Ja, hvis søsteren er over 25 år", "Ja, familiemedlemmer kan altid repræsentere en part"],
+                    "correct": 1,
+                    "explanation": "Et advokatpålæg kan ikke opfyldes ved, at parten giver møde ved en anden rettergangsfuldmægtig end en advokat med fornøden møderet (eller dennes advokatfuldmægtig)."
+                },
+                {
+                    "question": "Hvad er virkningen af advokatpålægget for Pernilles proceshabilitet?",
+                    "choices": ["Pernille mister permanent sin proceshabilitet", "Pålægget medfører reelt tab af proceshabilitet i den konkrete sag, men ikke i andre sager", "Pernille bevarer fuld proceshabilitet", "Pålægget gælder for alle fremtidige sager"],
+                    "correct": 1,
+                    "explanation": "Et advokatpålæg har reelt den virkning, at parten mister sin proceshabilitet i den konkrete sag, hvor pålægget er meddelt, men ikke i andre sager."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Fuldmagtens grænser — Advokaten der forligte",
+            "context": "Advokat Jens Larsen repræsenterer sin klient, Marie Skov, i en erstatningssag mod et forsikringsselskab. Marie har nedlagt påstand om 300.000 kr. Under forberedelsen tilbyder forsikringsselskabet et forlig på 150.000 kr. Uden at konsultere Marie accepterer Jens forliget, fordi han mener, at chancerne for at vinde sagen er små. Marie er vred og mener ikke, at Jens havde ret til dette.",
+            "questions": [
+                {
+                    "question": "Var advokat Jens legitimeret til at acceptere forliget uden Maries samtykke i kraft af den almindelige procesfuldmagt?",
+                    "choices": ["Ja, den almindelige procesfuldmagt omfatter alle handlinger", "Nej, den almindelige procesfuldmagt omfatter ikke forlig, medmindre det fuldt ud imødekommer partens principale påstand", "Ja, men kun i sager under 200.000 kr.", "Nej, men kun fordi Jens er advokat"],
+                    "correct": 1,
+                    "explanation": "Den almindelige procesfuldmagt omfatter ikke dispositioner over sagens genstand, herunder forlig, medmindre forliget fuldt ud imødekommer partens principale påstand. Da 150.000 kr. er under Maries påstand om 300.000 kr., var Jens ikke legitimeret."
+                },
+                {
+                    "question": "Hvad er konsekvensen af, at Jens accepterede forliget uden bemyndigelse?",
+                    "choices": ["Forliget er bindende for Marie", "Forliget binder ikke Marie, da handlingen lå uden for den almindelige procesfuldmagts legitimation", "Marie skal betale en bøde", "Sagen afvises automatisk"],
+                    "correct": 1,
+                    "explanation": "Når en rettergangsfuldmægtig foretager en proceshandling uden bemyndigelse, og handlingen ligger uden for den almindelige procesfuldmagts legitimation, binder dette ikke parten, jf. princippet i U 2006.1187 H."
+                },
+                {
+                    "question": "Hvilke handlinger er IKKE omfattet af den almindelige procesfuldmagt?",
+                    "choices": ["Indgivelse af processkrifter og deltagelse i retsmøder", "Forlig, anke, ankefkald, modtagelse af idømt beløb og indgåelse af voldgiftsaftale", "Fremsættelse af påstande og anbringender", "Bevisførelse og proceserklæringer"],
+                    "correct": 1,
+                    "explanation": "Den almindelige procesfuldmagt omfatter ikke dispositioner over sagens genstand: forlig (medmindre det fuldt imødekommer påstanden), anke, ankefkald, modtagelse af idømt beløb eller indgåelse af voldgiftsaftale."
+                },
+                {
+                    "question": "Marie kunne i princippet have givet Jens særlig bemyndigelse til at forlige. Hvad er grundlaget for en sådan udvidet fuldmagt?",
+                    "choices": ["Retsplejelovens § 263", "Almindelige formueretlige regler om fuldmagt", "Advokatnævnets godkendelse", "Rettens tilladelse"],
+                    "correct": 1,
+                    "explanation": "En part kan efter almindelige formueretlige regler bemyndige sin rettergangsfuldmægtig til at foretage handlinger, der ikke er omfattet af den almindelige procesfuldmagt, fx at forlige sagen."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Fagforeningen som mandatar — Repræsentation i retten",
+            "context": "Fagforeningen Dansk Metal fører en løntvistssag for sit medlem, svejser Kim Jensen, mod hans arbejdsgiver, StaalTek A/S. Fagforeningen optræder som mandatar for Kim og har antaget en advokat til at føre sagen ved byretten. StaalTek bestrider, at fagforeningen kan optræde som mandatar, og Kim overvejer, om han til enhver tid kan tilbagekalde fuldmagten.",
+            "questions": [
+                {
+                    "question": "Kan Dansk Metal optræde som mandatar for Kim?",
+                    "choices": ["Nej, kun advokater kan føre retssager", "Ja, foreninger og interesseorganisationer kan som mandatar repræsentere og støtte deres medlemmer i retssager", "Kun med rettens tilladelse", "Kun i Arbejdsretten"],
+                    "correct": 1,
+                    "explanation": "Foreninger og interesseorganisationer, herunder fagforeninger, kan som mandatar repræsentere og støtte deres medlemmer i retssager inden for foreningens interesseområde."
+                },
+                {
+                    "question": "Dansk Metal er mandatar for Kim, men hvem er part i sagen?",
+                    "choices": ["Dansk Metal er part", "Kim Jensen er part — mandataren bliver ikke selv part i sagen", "Begge er parter", "Hverken Kim eller fagforeningen er part"],
+                    "correct": 1,
+                    "explanation": "En mandatar bliver ikke selv part i sagen. Kim Jensen forbliver part, og mandatarfuldmagten giver alene Dansk Metal ret til at repræsentere og støtte Kim."
+                },
+                {
+                    "question": "Dansk Metal har antaget en advokat til at føre sagen. Hvorfor er dette nødvendigt?",
+                    "choices": ["Fordi fagforeninger ikke har processuel partsevne", "Fordi en mandatar, der ikke selv opfylder kravene til rettergangsfuldmægtig, skal antage en", "Fordi sagen vedrører mere end 100.000 kr.", "Det er ikke nødvendigt"],
+                    "correct": 1,
+                    "explanation": "En mandatar, der ikke selv opfylder kravene til at optræde som rettergangsfuldmægtig, må antage en rettergangsfuldmægtig (typisk en advokat). Mandatarfuldmagten kan ikke bruges til at omgå reglerne om rettergangsfuldmægtige."
+                },
+                {
+                    "question": "Kan Kim til enhver tid tilbagekalde mandatarfuldmagten og fortsætte sagen selv?",
+                    "choices": ["Nej, fuldmagten er uigenkaldelig", "Ja, fuldmagtsgiveren kan når som helst tilbagekalde mandatarfuldmagten og fortsætte sagen på egen hånd", "Kun med rettens tilladelse", "Kun med fagforeningens samtykke"],
+                    "correct": 1,
+                    "explanation": "Det antages, at fuldmagtsgiveren når som helst kan tilbagekalde mandatarfuldmagten og fortsætte sagen på egen hånd, selv om der i det interne forhold kan være aftalt begrænsninger."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Den tidligere advokat på dommersædet — Konstitution og inhabilitet",
+            "context": "Advokat Michael Friis, der har drevet advokatvirksomhed i 15 år, ønsker at skifte karriere og blive dommer. Han ansøger om en uddannelseskonstitution ved Østre Landsret. Under konstitutionsperioden opdager han, at en af hans tidligere store klienter, FinansBank A/S, er part i en sag, han nu skal dømme i. Desuden er en af hans tidligere kolleger fra advokatfirmaet rettergangsfuldmægtig for den anden part.",
+            "questions": [
+                {
+                    "question": "Hvad kræves der, for at Michael kan opnå en uddannelseskonstitution ved landsretten?",
+                    "choices": ["At han er udnævnt dommer i forvejen", "At han har juridisk kandidateksamen og konstitueres efter indstilling fra Dommerudnævnelsesrådet, jf. Rpl § 44 b", "At han har mindst 20 års erfaring", "At Justitsministeriet giver dispensation"],
+                    "correct": 1,
+                    "explanation": "Uddannelseskonstitution ved landsretten kræver juridisk kandidateksamen og konstitution efter indstilling fra Dommerudnævnelsesrådet for en tidsbegrænset periode, jf. Rpl § 44 b."
+                },
+                {
+                    "question": "Michael skal deponere sin advokatbeskikkelse under konstitutionen. Hvad indebærer det?",
+                    "choices": ["Han mister permanent sin advokatbeskikkelse", "Han kan ikke udøve advokatvirksomhed og må ikke betegne sig som advokat i forretningsforhold, men kan få bestallelsen igen senere", "Han beholder alle advokatrettigheder", "Han kan stadig tage klienter ved siden af"],
+                    "correct": 1,
+                    "explanation": "Deponering af advokatbestallelsen i Justitsministeriet indebærer, at advokaten ikke kan udøve advokatvirksomhed og ikke må betegne sig som advokat i forretningsforhold, jf. Rpl §§ 120 og 141. Bestallelsen kan udleveres igen."
+                },
+                {
+                    "question": "Michael opdager, at FinansBank A/S, hans tidligere store klient, er part i en sag. Er han inhabil?",
+                    "choices": ["Ja, altid — en tidligere advokatrelation medfører automatisk inhabilitet", "Det bedømmes konkret efter Rpl § 61, og udgangspunktet er, at en tidligere arbejdsmæssig relation ikke medfører inhabilitet", "Nej, aldrig — kun aktuelle relationer tæller", "Kun hvis FinansBank protesterer"],
+                    "correct": 1,
+                    "explanation": "En dommers tidligere arbejdsmæssige relation til en part bedømmes efter Rpl § 61, og udgangspunktet er, at der IKKE foreligger inhabilitet, jf. U 2016.724 H. Det beror på en konkret vurdering af omstændighederne."
+                },
+                {
+                    "question": "Under konstitutionen nyder Michael beskyttelse mod afskedigelse og forflyttelse. Hvorfor er det vigtigt?",
+                    "choices": ["For at sikre ham en fast ansættelse", "For at sikre tilliden til, at også konstituerede dommere alene retter sig efter loven", "For at beskytte ham mod kritik fra advokater", "For at sikre, at han gennemfører konstitutionsperioden"],
+                    "correct": 1,
+                    "explanation": "Konstituerede dommere nyder efter Rpl § 44, stk. 4, i vidt omfang beskyttelse mod afskedigelse og forflyttelse for at sikre tilliden til, at domstolene alene retter sig efter loven."
+                }
+            ]
+        },
+        {
+            "level": 5,
+            "title": "Nævnsmedlemmet på dommersædet — Inhabilitet og appearance",
+            "context": "Højesteretsdommer Anne Kristensen er udpeget som suppleant for formanden i Teleklagenævnet. En sag fra Teleklagenævnet er nu indbragt for Højesteret, og Anne skal dømme i sagen. Den ene part mener, at Anne er inhabil, fordi hun er tilknyttet nævnet — selv om hun aldrig har deltaget i nævnets arbejde eller været i funktion som suppleant.",
+            "questions": [
+                {
+                    "question": "Er en dommer, der har medvirket ved sagens afgørelse i nævnet, inhabil til at dømme i sagen ved domstolene?",
+                    "choices": ["Nej, aldrig", "Ja, en dommer der har medvirket ved nævnsafgørelsen er inhabil; for andre nævnsmedlemmer beror det på en konkret vurdering", "Ja, men kun i Højesteret", "Kun hvis begge parter protesterer"],
+                    "correct": 1,
+                    "explanation": "En dommer, der har medvirket ved nævnsafgørelsen, er inhabil. For andre dommere tilknyttet nævnet følges en 'forsigtighedspraksis', men det beror i sidste ende på en konkret vurdering efter Rpl § 61."
+                },
+                {
+                    "question": "Anne er kun suppleant og har aldrig fungeret. Hvad er retsstillingen ifølge Højesterets praksis?",
+                    "choices": ["Suppleanter er altid inhabile", "Suppleanter der aldrig har fungeret er ikke nødvendigvis inhabile — det beror på sagens konkrete omstændigheder", "Suppleanter er aldrig inhabile", "Kun formanden kan være inhabil"],
+                    "correct": 1,
+                    "explanation": "I U 2016.685/1 H fandt Højesteret, at suppleanter der aldrig havde fungeret ikke var inhabile, da der ikke forelå særlige forhold. I U 2016.217/1 H forelå der derimod sådanne særlige forhold."
+                },
+                {
+                    "question": "Hvad er det afgørende kriterium efter Rpl § 61, når inhabiliteten vurderes?",
+                    "choices": ["Om dommeren personligt kender parterne", "Om der foreligger omstændigheder, som er egnede til at rejse tvivl om dommerens fuldstændige upartiskhed", "Om dommeren har juridisk ekspertise i sagens emne", "Om sagen vedrører et stort beløb"],
+                    "correct": 1,
+                    "explanation": "Rpl § 61 fastslår, at ingen må handle som dommer, når der foreligger omstændigheder, som er egnede til at rejse tvivl om dommerens fuldstændige upartiskhed."
+                },
+                {
+                    "question": "Sagen er indbragt direkte for Højesteret, fordi nævnsafgørelsen er truffet med en landsdommer som formand. Er det korrekt?",
+                    "choices": ["Ja, sager med landsdommere som nævnsformænd behandles af Højesteret", "Nej, nævnsafgørelser behandles som udgangspunkt ved byret, boligret eller Sø- og Handelsretten i 1. instans, uanset nævnsformandens status", "Det afhænger af sagens værdi", "Det bestemmes af Procesbevillingsnævnet"],
+                    "correct": 1,
+                    "explanation": "Sager om domstolsprøvelse af nævnsafgørelser behandles som udgangspunkt ved byret, boligret eller Sø- og Handelsretten i 1. instans, også når nævnsafgørelsen er afsagt med en lands- eller højesteretsdommer som formand."
                 }
             ]
         },
@@ -863,6 +1907,285 @@
             ]
         },
         {
+            "level": 6,
+            "title": "Klageren og den overskredet frist — Udtømning af retsmidler",
+            "context": "Henrik Andersen tabte en erstatningssag i landsretten om fejlslagen renovering af sit hus. Hans advokat glemte at ansøge Procesbevillingsnævnet om tredjeinstansbevilling inden fire-ugers-fristen i Rpl § 371, stk. 2. Henrik vil nu klage til EMD over, at landsretten ikke tillod fremlæggelse af et centralt bevis under hovedforhandlingen.",
+            "questions": [
+                {
+                    "question": "Har Henrik udtømt nationale retsmidler, når hans advokat ikke har ansøgt om tredjeinstansbevilling inden fristens udløb?",
+                    "choices": ["Ja, landsrettens dom er tilstrækkelig", "Nej, overskredet appelfrist medfører som udgangspunkt, at nationale retsmidler ikke er udtømt", "Det afhænger af sagens værdi", "Kun hvis advokaten var beskikket"],
+                    "correct": 1,
+                    "explanation": "En overskredet appelfrist medfører som udgangspunkt, at nationale retsmidler ikke er udtømt, jf. Steglich-Petersen mod Danmark (1998). 'There is no exhaustion of domestic remedies where a domestic appeal is not admitted because of a procedural mistake.'"
+                },
+                {
+                    "question": "Kan der foreligge 'særlige omstændigheder', der fritager Henrik fra kravet om udtømning?",
+                    "choices": ["Nej, kravet er absolut", "Ja, men kun helt undtagelsesvist — fx ved uforudsigelige hindringer, der har forhindret rettidig appel", "Ja, hvis sagen vedrører mere end 500.000 kr.", "Ja, hvis advokaten bærer skylden"],
+                    "correct": 1,
+                    "explanation": "EMD har anerkendt, at 'special circumstances' undtagelsesvist kan fritage klageren, men i Steglich-Petersen-sagen forelå der ikke sådanne omstændigheder."
+                },
+                {
+                    "question": "Fra hvilket tidspunkt beregnes klagefristen til EMD, når Henrik ikke har søgt tredjeinstansbevilling?",
+                    "choices": ["Fra stævningens indlevering", "Fra landsrettens dom, da tredjeinstansbevilling ikke er søgt — landsrettens dom er dermed den 'endelige afgørelse'", "Fra advokatens fristoverskridelse", "Fra datoen for Henrik opdager fejlen"],
+                    "correct": 1,
+                    "explanation": "Klagefristen på fire måneder beregnes fra den 'endelige afgørelse' i forbindelse med det sidste nationale retsmiddel. Da Henrik ikke har søgt tredjeinstansbevilling, er landsrettens dom den endelige afgørelse."
+                },
+                {
+                    "question": "Kan Henrik anmode om genoptagelse efter Rpl § 399 for at 'genåbne' sine nationale retsmidler?",
+                    "choices": ["Ja, genoptagelse suspenderer klagefristen", "Nej, det er ikke nødvendigt at anmode om genoptagelse, og en genoptagelsesanmodning suspenderer ikke klagefristen til EMD", "Ja, men kun inden 6 måneder", "Genoptagelse er altid nødvendig"],
+                    "correct": 1,
+                    "explanation": "Det er ikke nødvendigt at anmode om genoptagelse efter Rpl § 399 for at opfylde kravet om udtømning, og en genoptagelsesanmodning suspenderer ikke klagefristen. Det kan derfor være nødvendigt at klage sideløbende med en anmodning om genoptagelse."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Den digitale portal — Advokaten og den manglende funktion",
+            "context": "Advokat Mette Poulsen repræsenterer en klient, der vil have tilsidesat en voldgiftskendelse efter voldgiftslovens § 37. Sagen skal indbringes inden en bestemt frist via sagssportalen, men portalen mangler en specifik funktion for tilsidesættelsessager. Mette er i tvivl om den rigtige fremgangsmåde og sender i stedet et skriftligt brev til retten inden fristens udløb. Retten afviser sagen med den begrundelse, at den ikke er indbragt digitalt via portalen.",
+            "questions": [
+                {
+                    "question": "Hvad indebærer princippet om 'access to court' i denne situation?",
+                    "choices": ["At alle sager skal indgives digitalt", "At retten til domstolsprøvelse skal være reel og effektiv ('practical and effective'), ikke blot teoretisk eller illusorisk", "At retten frit kan afvise sager", "At advokater har ubetinget adgang til domstolene"],
+                    "correct": 1,
+                    "explanation": "Princippet om 'access to court' kræver, at retten til domstolsprøvelse er 'practical and effective, not theoretical or illusory'. Begrænsninger må ikke i praksis afskære domstolsprøvelse."
+                },
+                {
+                    "question": "Hvad forstås ved 'excessive formalism' i EMD's praksis, og er rettens afvisning udtryk herfor?",
+                    "choices": ["Excessive formalism vedrører kun stævningens udformning", "At afvise en sag på rent formalistisk grundlag, når parten reelt har forsøgt at udøve sin ret — her kan afvisningen udgøre overdreven formalisme, da portalen manglede den nødvendige funktion", "Overdreven formalisme foreligger kun i straffesager", "Formalisme er aldrig problematisk efter EMK"],
+                    "correct": 1,
+                    "explanation": "Overdreven formalisme foreligger, når en sag afvises på formelt grundlag, selv om parten reelt har forsøgt at udøve sin ret. Jf. Xavier Lucas v. France, hvor afvisning pga. manglende digital indgivelse var en krænkelse, da portalen ikke klart kunne håndtere det pågældende retsskridt."
+                },
+                {
+                    "question": "Hvilke kriterier indgår i EMD's proportionalitetsvurdering af processuelle begrænsninger for domstolsprøvelse?",
+                    "choices": ["Kun sagens økonomiske værdi", "Om begrænsningen er forudberegnelig, hvem der bærer risikoen for fejl, og om begrænsningen bygger på 'excessive formalism'", "Kun om advokaten har handlet forsvarligt", "Kun om fristen er overholdt"],
+                    "correct": 1,
+                    "explanation": "EMD's proportionalitetsvurdering (jf. Zubac v. Croatia) bygger på: Om begrænsningen er forudberegnelig (er lovgrundlaget klart), hvem der bør bære risikoen for fejl, og om begrænsningen bygger på overdreven formalisme."
+                },
+                {
+                    "question": "Finder EMK art. 6 anvendelse på en sag om tilsidesættelse af en voldgiftskendelse?",
+                    "choices": ["Nej, voldgift falder helt uden for EMK", "Ja, EMK art. 6 finder anvendelse, når der anlægges sag om en voldgiftskendelses tilsidesættelse ved de ordinære domstole", "Kun hvis voldgiftskendelsen vedrører en straffesag", "Kun hvis begge parter samtykker"],
+                    "correct": 1,
+                    "explanation": "Såfremt der efter voldgiftslovens § 37 anlægges sag om en voldgiftskendelses tilsidesættelse ved de ordinære domstole, finder EMK art. 6 anvendelse, jf. Xavier Lucas v. France, præmis 31-33."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Sportsudøveren og den tvungne voldgift",
+            "context": "Den professionelle svømmer Katrine Holm er kontraktligt forpligtet til at underkaste sig voldgift ved en idrættens voldgiftsret, da hun ellers ikke kan deltage i konkurrencer. Under en voldgiftssag om en dopingsanktion opdager hun, at formanden for voldgiftstribunalet tidligere har været advokat for svømmeforbundet. Katrine gør indsigelse om inhabilitet under voldgiftssagen, men tribunalet afviser indsigelsen.",
+            "questions": [
+                {
+                    "question": "Er Katrines voldgiftsaftale frivillig i EMK's forstand, når hun kun kan konkurrere ved at acceptere den?",
+                    "choices": ["Ja, hun har selv underskrevet kontrakten", "Nej, hun er 'tvunget ind i' aftalen, da deltagelse i konkurrencer er betinget af accept — afkaldet er ikke 'free'", "Det afhænger af kontraktens værdi", "Frivillighed er ikke relevant for EMK"],
+                    "correct": 1,
+                    "explanation": "Jf. Mutu and Pechstein v. Switzerland var en professionel sportsudøver 'tvunget ind i' voldgiftsaftalen, da hun kun kunne deltage i konkurrencer ved at acceptere den. Afkaldet var derfor ikke 'free' i EMK's forstand."
+                },
+                {
+                    "question": "Hvad er konsekvensen af, at voldgiftsaftalen anses for 'tvungen' efter EMD's praksis?",
+                    "choices": ["Voldgiftsaftalen er automatisk ugyldig", "Voldgiftsretten skal sikre retssikkerhedsgarantierne i EMK art. 6, herunder retten til en upartisk domstol", "Sagen skal overgå til de ordinære domstole", "Der er ingen konsekvens"],
+                    "correct": 1,
+                    "explanation": "Når en part er 'tvunget ind i' voldgiftsaftalen, skal voldgiftsretten sikre retssikkerhedsgarantierne i EMK art. 6, jf. Mutu and Pechstein, præmis 95."
+                },
+                {
+                    "question": "Katrine gjorde indsigelse om inhabilitet under voldgiftssagen. Hvad kræves for at hun ikke anses for at have givet afkald på indsigelsen?",
+                    "choices": ["Indsigelsen skal være skriftlig", "Afkaldet på en indsigelse om inhabilitet skal være utvetydigt — at Katrine har rejst indsigelsen under sagen betyder, at hun ikke utvetydigt har givet afkald", "Indsigelsen skal godkendes af EMD", "Indsigelsen skal fremsættes inden sagens start"],
+                    "correct": 1,
+                    "explanation": "EMD stiller strenge krav til afkaldets utvetydighed i forbindelse med inhabilitet. I Mutu and Pechstein havde klageren rejst inhabilitetsindsigelsen under voldgiftssagen og havde derfor ikke utvetydigt givet afkald, jf. præmis 121-123."
+                },
+                {
+                    "question": "Hvad er forskellen på kravene til utvetydighed ved afkald på offentlighed og ved afkald på indsigelse om inhabilitet?",
+                    "choices": ["Der er ingen forskel", "Der stilles strenge krav ved inhabilitet, mens der ikke stilles store krav ved offentlighed — parterne kan lettere give afkald på offentlighed", "Offentlighed kræver strengere krav", "Ingen af delene kan der gives afkald på"],
+                    "correct": 1,
+                    "explanation": "Kravene til afkaldets utvetydighed afhænger af den retssikkerhedsgaranti, der påberåbes. Der stilles ikke store krav ved retten til offentlighed, mens der stilles strenge krav til utvetydighed ved inhabilitetsindsigelser."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Den fortrolige lægeerklæring — Kontradiktion under pres",
+            "context": "I en erstatningssag om arbejdsbetinget lungesygdom har den ansatte Niels Bech fremlagt en lægeerklæring, der dokumenterer sammenhængen mellem hans arbejde og sygdommen. Arbejdsgiveren, FlexIndustri A/S, kræver adgang til Niels' fulde lægejournal for at kunne bestride årsagssammenhængen. Niels' advokat protesterer med henvisning til privatlivets fred og de følsomme helbredsoplysninger i journalen.",
+            "questions": [
+                {
+                    "question": "Hvad kræver kontradiktionsprincippet af arbejdsgiverens muligheder i denne sag?",
+                    "choices": ["Intet — lægeerklæringen er endelig", "Arbejdsgiveren skal have mulighed for at gøre sig bekendt med og kommentere de beviser, der fremlægges med henblik på at påvirke rettens afgørelse", "Arbejdsgiveren skal acceptere lægeerklæringen", "Kun dommeren kan vurdere lægeerklæringen"],
+                    "correct": 1,
+                    "explanation": "Kontradiktionsprincippet kræver, at enhver part har mulighed for at 'have knowledge of and comment on all evidence adduced or observations filed with a view to influencing the court's decision.'"
+                },
+                {
+                    "question": "Hvordan skal konflikten mellem Niels' ret til fortrolighed og FlexIndustris ret til kontradiktion løses?",
+                    "choices": ["Fortrolighed trumfer altid", "Der foretages en afvejning set i forhold til den samlede proces — retfærdigheden af hele processen vurderes", "Kontradiktion trumfer altid", "EMD afgør ikke sådanne konflikter"],
+                    "correct": 1,
+                    "explanation": "Ifølge EMD's praksis (jf. Eternit mod Frankrig) foretages en afvejning mellem hensynet til fortrolighed og hensynet til kontradiktion, set i forhold til den samlede proces."
+                },
+                {
+                    "question": "Hvilken praktisk løsning kan tilgodese begge hensyn, baseret på EMD's praksis?",
+                    "choices": ["At destruere lægeerklæringen", "At udpege en uafhængig medicinsk ekspert til at gennemgå de fortrolige dokumenter og udarbejde en erklæring til brug for sagen", "At lade dommeren gennemgå dokumenterne uden parternes viden", "At afvise sagen"],
+                    "correct": 1,
+                    "explanation": "I Eternit mod Frankrig var det ikke en krænkelse, at arbejdsgiveren ikke fik adgang til lægejournalen, da han havde mulighed for at få udpeget en uafhængig medicinsk ekspert til at gennemgå erklæringen med henblik på at udarbejde en erklæring til brug for sagen."
+                },
+                {
+                    "question": "Er det afgørende, om lægeerklæringens indhold faktisk påvirker rettens endelige afgørelse?",
+                    "choices": ["Ja, kun relevante beviser er omfattet af kontradiktion", "Nej, det er op til parten selv at vurdere, om beviser og bemærkninger skal kommenteres — uanset om de faktisk påvirker afgørelsen", "Ja, dommeren afgør relevansen", "Det afhænger af sagens karakter"],
+                    "correct": 1,
+                    "explanation": "Det er ifølge EMD's praksis ikke afgørende, om bemærkningerne eller beviserne har indflydelse på rettens afgørelse eller indeholder noget nyt. Det er op til parten selv at vurdere, om de skal kommenteres."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Udlejeren og den umulige fuldbyrdelse",
+            "context": "Udlejeren Karl Madsen har opnået en retskraftig dom om udsættelse af lejeren Jonas Berg fra en lejlighed i København. Jonas nægter at flytte. Karl henvendte sig til fogedretten, som fastsatte en udsættelsesforretning, men politiet aflyste gentagne gange udsættelsen med henvisning til risiko for social uro i kvarteret. Der er nu gået over tre år, og Karl har stadig ikke fået sin dom fuldbyrdet.",
+            "questions": [
+                {
+                    "question": "Er retten til at få en dom fuldbyrdet beskyttet af EMK art. 6?",
+                    "choices": ["Nej, fuldbyrdelse falder uden for art. 6", "Ja, 'the right to a court' omfatter retten til at få en dom tvangsfuldbyrdet — ellers bliver domstolsprøvelse illusorisk", "Kun for pengekrav", "Kun i straffesager"],
+                    "correct": 1,
+                    "explanation": "EMD har fastslået, at 'the right to a court' omfatter ret til fuldbyrdelse. Det er en krænkelse, hvis en part har fået dom, men ikke kan få den fuldbyrdet — domstolsprøvelse bliver ellers illusorisk."
+                },
+                {
+                    "question": "Hvornår kan vedvarende manglende fuldbyrdelse af en udsættelsesdom udgøre en krænkelse af EMK art. 6?",
+                    "choices": ["Kun efter 10 år", "Når fuldbyrdelsen ikke har fundet sted efter ca. fire år, jf. EMD's praksis i sagerne mod Italien", "Kun hvis lejeren har midler til at betale", "Aldrig, da udsættelse er en national kompetence"],
+                    "correct": 1,
+                    "explanation": "EMD har i en række sager mod Italien statueret krænkelse, når udlejere med retskraftige udsættelsesafgørelser ikke kunne få politiets hjælp til selve udsættelsen, og fuldbyrdelsen ikke havde fundet sted efter ca. fire år."
+                },
+                {
+                    "question": "Hvad er forholdet mellem 'access to court' og det bredere begreb 'the right to a court'?",
+                    "choices": ["De er identiske begreber", "'The right to a court' er det bredere begreb, der omfatter 'access to court' og stiller krav om, at domstolsprøvelse ikke bliver illusorisk — herunder ret til fuldbyrdelse", "'Access to court' er det bredere begreb", "De vedrører helt forskellige rettigheder"],
+                    "correct": 1,
+                    "explanation": "'The right to a court' er det mere overordnede begreb, der omfatter 'access to court' og stiller supplerende krav til staterne med henblik på at sikre, at domstolsprøvelse ikke bliver illusorisk — herunder ret til at få domme fuldbyrdet."
+                },
+                {
+                    "question": "Kan risikoen for social uro retfærdiggøre, at staten ikke fuldbyrder Karls dom?",
+                    "choices": ["Ja, offentlig orden trumfer altid private rettigheder", "I et vist omfang, men langvarig manglende fuldbyrdelse er efter omstændighederne en krænkelse af 'the right to a court'", "Nej, social uro er aldrig en gyldig grund", "Det afhænger af kvarterets størrelse"],
+                    "correct": 1,
+                    "explanation": "Staten kan i en periode tage hensyn til fx risiko for social uro, men langvarig manglende fuldbyrdelse af en retskraftig dom er efter omstændighederne en krænkelse af 'the right to a court', jf. sagerne mod Italien."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Forligspresset — Dommeren der gik for langt",
+            "context": "Under forberedelsen af en erstatningssag på 350.000 kr. opfordrede dommer Lise Thomsen kraftigt sagsøgte til at indgå forlig. Hun udtalte under et forberedende møde: 'Hvis I ikke accepterer dette rimelige forlig, vil I efter min vurdering tabe sagen, og det vil koste jer tre gange så meget i sagsomkostninger.' Sagsøgte følte sig presset og indgik forliget, men ønsker nu at anfægte det med henvisning til dommerens adfærd.",
+            "questions": [
+                {
+                    "question": "Er en dommer som udgangspunkt inhabil, fordi vedkommende foreslår forlig under sagens forberedelse?",
+                    "choices": ["Ja, dommere må aldrig foreslå forlig", "Nej, forligsforslag gør som udgangspunkt ikke dommeren inhabil, men en håndfast forhåndsvurdering kan medføre inhabilitet", "Kun hvis forligsforslaget er skriftligt", "Kun i sager over 1 mio. kr."],
+                    "correct": 1,
+                    "explanation": "Forligsforslag gør som udgangspunkt ikke dommeren inhabil, jf. Søren Erik Jensen mod Danmark (1991). Men en håndfast forhåndsvurdering af sagens udfald kan efter omstændighederne medføre inhabilitet."
+                },
+                {
+                    "question": "Hvad fastslog EMD i Vardanyan and Nanushyan v. Armenia om dommere, der opfordrer til forlig?",
+                    "choices": ["At dommere aldrig må opfordre til forlig", "At dommere skal udvise forsigtighed og undgå sprog, der objektivt kan skabe berettiget frygt for manglende upartiskhed", "At forligsopfordringer altid er uproblematiske", "At EMD ikke prøver forligssituationer"],
+                    "correct": 1,
+                    "explanation": "I Vardanyan and Nanushyan v. Armenia udtalte EMD, at dommere 'must exercise caution and refrain from using language that may, assessed objectively, justify that either of the parties legitimately fears that the judge in question lacks impartiality.'"
+                },
+                {
+                    "question": "Hvad er den subjektive test for inhabilitet, og hvorfor spiller den en begrænset rolle i praksis?",
+                    "choices": ["Den vurderer lovgrundlaget og er den vigtigste test", "Den vurderer, om dommeren personligt er forudindtaget — men der er en formodning for upartiskhed, som er vanskelig at afkræfte, hvorfor den objektive test er vigtigst", "Den vurderer parternes opfattelse og er altid afgørende", "Den er afskaffet af EMD"],
+                    "correct": 1,
+                    "explanation": "Den subjektive test vurderer, om 'a judge has displayed hostility or ill will'. Der er en formodning for upartiskhed, som er vanskelig for klageren at afkræfte. Derfor spiller den objektive test i praksis den største rolle."
+                },
+                {
+                    "question": "Hvad er forholdet mellem Rpl §§ 60-61 og EMK art. 6 i habilitetsspørgsmål?",
+                    "choices": ["De regulerer helt forskellige forhold", "Rpl §§ 60-61 skal fortolkes i lyset af EMK art. 6, men retsplejelovens bestemmelser kan i visse tilfælde føre til inhabilitet i videre omfang end EMK", "EMK art. 6 erstatter Rpl §§ 60-61", "Rpl §§ 60-61 har altid forrang"],
+                    "correct": 1,
+                    "explanation": "Højesteret har i U 2011.3373/3 H udtalt, at Rpl §§ 60-61 skal fortolkes i lyset af EMK art. 6 og EMD's praksis. Bestemmelserne omfatter i almindelighed inhabilitet efter EMK art. 6, men retsplejelovens regler kan føre til inhabilitet i videre omfang."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "De ulige ressourcer — Equality of Arms i praksis",
+            "context": "Den lille landbrugsejendom Vestergård I/S (ejet af ægteparret Pia og Jens Hansen) er i tvist med det store energiselskab WindPower A/S om erstatning for skader på afgrøder forårsaget af vindmøller. WindPower har hyret tre advokater, to vindeksperter og en professor i miljøret. Vestergård har én advokat og har ikke råd til sagkyndige erklæringer. Retten afslår Vestergårds anmodning om at stille spørgsmål til WindPowers eksperter.",
+            "questions": [
+                {
+                    "question": "Hvad indebærer princippet om 'equality of arms' i denne situation?",
+                    "choices": ["At parterne skal have lige mange advokater", "At hver part skal have rimelig mulighed for at føre sin sag under vilkår, der ikke stiller vedkommende 'at a substantial disadvantage vis-à-vis his opponent'", "At staten skal betale for sagkyndige", "At dommeren skal udligne forskelle"],
+                    "correct": 1,
+                    "explanation": "'Equality of arms' kræver, at 'each party must be afforded a reasonable opportunity to present his case — including his evidence — under conditions that do not place him at a substantial disadvantage vis-à-vis his opponent.'"
+                },
+                {
+                    "question": "Kræver 'equality of arms'-princippet, at parterne har lige økonomiske ressourcer til at føre sagen?",
+                    "choices": ["Ja, staten skal sikre økonomisk ligestilling", "Nej, princippet kræver ikke lige økonomiske ressourcer, men lige processuelle muligheder", "Kun i sager mod offentlige myndigheder", "Ja, altid"],
+                    "correct": 1,
+                    "explanation": "Jf. Handölsdalen Sami Village m.fl. mod Sverige indebærer 'equality of arms' ikke nødvendigvis en forpligtelse for staterne til at sikre, at parterne har samme økonomiske ressourcer til at føre sagen."
+                },
+                {
+                    "question": "Er det afgørende for en krænkelse af 'equality of arms', om parterne formelt har de samme processuelle muligheder?",
+                    "choices": ["Ja, det formelle er altid afgørende", "Nej, det afgørende er, om forskellige muligheder har haft en reel betydning — en 'substantial disadvantage' — for klageren", "Ja, kun formelle rettigheder tæller", "Nej, det er aldrig relevant"],
+                    "correct": 1,
+                    "explanation": "Det er ikke afgørende, om parterne formelt har de samme muligheder, men om forskellen har haft en reel betydning ('substantial disadvantage') for klageren, jf. Dombo Beheer B.V. mod Holland smh. Ankerl mod Schweiz."
+                },
+                {
+                    "question": "Parterne skal ifølge EMD have 'samme mulighed' for hvad i forbindelse med bevisførelse?",
+                    "choices": ["At betale retsafgifter", "At føre vidner og øve indflydelse på sagkyndige erklæringer", "At vælge dommer", "At anke dommen"],
+                    "correct": 1,
+                    "explanation": "Parterne skal bl.a. have samme mulighed for at føre fx vidner og øve indflydelse på sagkyndige erklæringer, jf. EMD's praksis om 'equality of arms' i forbindelse med bevisførelse."
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Den civile sag med strafferetligt tilsnit — EMK's rækkevidde",
+            "context": "Virksomhedsejer Martin Olsen er sigtet i en verserende straffesag for overtrædelse af miljølovgivningen. Sideløbende har naboerne anlagt en civil erstatningssag mod ham for forurening af deres grundvand. I den civile sag vil Martins advokat påberåbe sig princippet om selvinkriminering fra EMK art. 6, da Martin mener, at hans forklaring i den civile sag kan bruges mod ham i straffesagen. Naboernes advokat anfører, at EMK giver staterne et større spillerum i civile sager.",
+            "questions": [
+                {
+                    "question": "Gælder forbuddet mod selvinkriminering i civile sager på samme måde som i straffesager?",
+                    "choices": ["Ja, det gælder fuldt ud i begge sagstyper", "Princippet knytter sig primært til straffesager, og EMD overlader som udgangspunkt et større spillerum til staterne i civile sager", "Nej, det gælder slet ikke i civile sager", "Det afhænger af sagens værdi"],
+                    "correct": 1,
+                    "explanation": "Forbuddet mod selvinkriminering knytter sig primært til straffesager. EMK art. 6, stk. 2 og 3, er særligt rettet mod straffesager, og EMD overlader som udgangspunkt et større spillerum til medlemsstaterne i civile sager, jf. Dombo Beheer B.V. mod Holland."
+                },
+                {
+                    "question": "Hvad indebærer forbuddet mod selvinkriminering mere præcist?",
+                    "choices": ["En ret til at lyve i retten", "En ret til at forholde sig tavs (passiv) og ikke bidrage til sin egen domfældelse — men det forhindrer ikke, at oplysninger fremskaffes gennem tvang, fx bevissikring", "En ret til at nægte at møde i retten", "En ret til at destruere beviser"],
+                    "correct": 1,
+                    "explanation": "Princippet indebærer alene en ret til tavshed (ret til at forholde sig passiv). Det forhindrer derimod ikke, at der fx i forbindelse med bevissikring fremskaffes oplysninger gennem tvang. Princippet blev indfortolket i Funke mod Frankrig (1993)."
+                },
+                {
+                    "question": "Kan EMD's praksis udviklet i straffesager bruges i civile sager?",
+                    "choices": ["Nej, praksis fra straffesager er aldrig relevant", "Ja, EMD søger efter omstændighederne inspiration i straffesagspraksis, jf. fx López Ribalda-sagen om ulovligt tilvejebragte beviser", "Kun med parternes samtykke", "Kun i Storkammersager"],
+                    "correct": 1,
+                    "explanation": "EMD søger efter omstændighederne inspiration i praksis udviklet i forbindelse med straffesager, jf. fx López Ribalda and others v. Spain (2019), der i en ansættelsesretlig sag byggede på straffesagspraksis om ulovligt tilvejebragte beviser."
+                },
+                {
+                    "question": "Hvad fastslog EMD i Dombo Beheer B.V. mod Holland om forskellen mellem civile sager og straffesager under EMK art. 6?",
+                    "choices": ["At der ingen forskel er", "At kravene til 'fair hearing' ikke nødvendigvis er de samme i civile sager som i straffesager, og at staterne har 'greater latitude' i civile sager", "At straffesager har færre garantier", "At civile sager altid skal behandles hurtigere"],
+                    "correct": 1,
+                    "explanation": "EMD fastslog, at 'the requirements inherent in the concept of fair hearing are not necessarily the same in cases concerning civil rights and obligations as they are in cases concerning a criminal charge' og at staterne har 'greater latitude when dealing with civil cases.'"
+                }
+            ]
+        },
+        {
+            "level": 6,
+            "title": "Sagsøgeren der ikke kunne betale — Access to Court og retsafgifter",
+            "context": "Pensionisten Grethe Andersen vil anlægge erstatningssag mod et hospital for en fejlslagen operation, der har efterladt hende med kroniske smerter. Hendes sagsgenstand er opgjort til 500.000 kr. Retsafgiften udgør et beløb, som Grethe med sin folkepension ikke kan betale. Hendes ansøgning om fri proces er afslået, og hun har ingen retshjælpsforsikring. Grethe mener, at hun reelt er afskåret fra at få prøvet sin sag ved domstolene.",
+            "questions": [
+                {
+                    "question": "Er det i strid med EMK art. 6, at retsafgifter reelt afskærer Grethe fra domstolsprøvelse?",
+                    "choices": ["Nej, retsafgifter er altid lovlige", "Ja, staterne har i et vist omfang pligt til at fjerne økonomiske forhindringer for domstolsprøvelse — fx kan meget høje retsafgifter stride mod 'access to court'", "Kun hvis retsafgiften overstiger 100.000 kr.", "Nej, EMK regulerer ikke retsafgifter"],
+                    "correct": 1,
+                    "explanation": "Det er ikke tilstrækkeligt, at der efter loven er mulighed for domstolsprøvelse, hvis borgeren i praksis ikke kan benytte den. Staterne har i et vist omfang pligt til at fjerne økonomiske forhindringer, fx meget høje retsafgifter."
+                },
+                {
+                    "question": "Hvad kræver princippet om 'access to court' af rettens reelle karakter?",
+                    "choices": ["At retten er billig", "At retten skal være 'practical and effective, not theoretical or illusory'", "At alle får advokat", "At retsafgifter afskaffes"],
+                    "correct": 1,
+                    "explanation": "Princippet om 'access to court' kræver, at retten til domstolsprøvelse er 'practical and effective, not theoretical or illusory'. En formel ret til at anlægge sag er ikke tilstrækkelig, hvis borgeren i praksis ikke kan benytte den."
+                },
+                {
+                    "question": "Hvornår kan der foreligge en positiv forpligtelse for staten til at sikre fri proces?",
+                    "choices": ["Altid", "I særlige tilfælde, fx når en borger ellers reelt er afskåret fra domstolsprøvelse", "Aldrig i civile sager", "Kun for juridiske personer"],
+                    "correct": 1,
+                    "explanation": "Der kan i særlige tilfælde være en positiv forpligtelse for staten til at sikre adgang til fri proces, jf. EMD's praksis om 'access to court'. Forpligtelsen opstår, når borgeren ellers reelt afskæres fra domstolsprøvelse."
+                },
+                {
+                    "question": "Hvad fastslog EMD om vindende parters ret til dækning af advokatomkostninger i Cernius and Rinkevicius v. Lithuania?",
+                    "choices": ["At vindende parter aldrig har krav på sagsomkostninger", "At det kan være en krænkelse af art. 6, at en vindende part ikke får tilkendt omkostninger, der kan dække faktiske advokatomkostninger — da domstolsprøvelse ellers bliver meningsløs", "At kun tabende parter kan klage over sagsomkostninger", "At EMD ikke prøver spørgsmål om sagsomkostninger"],
+                    "correct": 1,
+                    "explanation": "I Cernius and Rinkevicius v. Lithuania fastslog EMD, at det var en krænkelse, at en vindende sagsøger ikke fik tilkendt omkostninger trods faktiske advokatomkostninger: 'going to court to defend their rights is pointless if in the end they are in a worse situation than they were before litigating.'"
+                }
+            ]
+        },
+        {
             "level": 7,
             "title": "Gasselskabet og den manglende forelæggelse",
             "context": "Det danske energiselskab NordGas A/S har anlagt sag mod den danske stat ved Østre Landsret. NordGas hævder, at statens implementering af et EU-gasdirektiv er mangelfuld og har påført selskabet et tab på 45 mio. kr. i mistet adgang til gasnettet. Under sagen opstår spørgsmål om fortolkningen af direktivet. NordGas anmoder landsretten om at forelægge et præjudicielt spørgsmål for EU-Domstolen, men landsretten afslår med henvisning til, at fortolkningen er klar. NordGas kærer afgørelsen til Højesteret og overvejer desuden at søge om fri proces, da selskabet er i økonomiske vanskeligheder.",
@@ -890,6 +2213,285 @@
                     "choices": ["Princippet om direkte virkning", "Ækvivalensprincippet — nationale regler for EU-retlige krav må ikke være mindre gunstige end for tilsvarende nationale krav", "Princippet om acte éclairé", "Subsidiaritetsprincippet"],
                     "correct": 1,
                     "explanation": "Ækvivalensprincippet kræver, at nationale processuelle regler for håndhævelse af EU-retlige krav ikke er mindre gunstige end reglerne for tilsvarende nationale krav."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Stråmanden og den administrative rekurs — Effektiv domstolsbeskyttelse",
+            "context": "Den danske erhvervsdrivende Jens Krogh opdager, at SKAT har opført hans navn på en intern liste over personer, der mistænkes for at fungere som stråmand for reelle selskabsejere. Jens har aldrig fungeret som stråmand og vil anlægge sag mod SKAT med påstand om sletning, da opførelsen er baseret på EU's persondataforordning. SKAT afviser at fjerne hans navn og oplyser, at Jens først skal udtømme mulighederne for administrativ klage til Datatilsynet, inden han kan gå til domstolene.",
+            "questions": [
+                {
+                    "question": "Er kravet om, at Jens først skal klage til Datatilsynet, i strid med EUC art. 47?",
+                    "choices": ["Ja, krav om administrativ rekurs er altid ugyldige", "Kravet begrænser retten til et effektivt retsmiddel, men kan opretholdes efter en proportionalitetsvurdering — det må fx ikke medføre væsentlig forsinkelse eller store udgifter", "Nej, administrative klagemuligheder er altid obligatoriske", "EUC art. 47 finder ikke anvendelse"],
+                    "correct": 1,
+                    "explanation": "Jf. Puskár-sagen fastslog EU-Domstolen, at krav om administrativ rekurs begrænser retten til effektive retsmidler (art. 47, stk. 1), men kan opretholdes efter art. 52, stk. 1, forudsat at det bl.a. ikke medfører væsentlig forsinkelse eller betydelige udgifter."
+                },
+                {
+                    "question": "Hvilken bestemmelse i EU-chartret regulerer begrænsninger af retten til effektive retsmidler?",
+                    "choices": ["EUC art. 47, stk. 3", "EUC art. 52, stk. 1 — begrænsninger skal være lovfæstede, respektere rettighedens væsentligste indhold og forfølge et legitimt formål proportionalt", "EUC art. 51, stk. 1", "TEUF art. 267"],
+                    "correct": 1,
+                    "explanation": "EUC art. 52, stk. 1, fastslår, at begrænsninger af rettigheder i chartret — herunder art. 47 — skal være fastsat ved lov, respektere rettighedens væsentligste indhold og under iagttagelse af proportionalitetsprincippet forfølge et legitimt formål."
+                },
+                {
+                    "question": "Finder EU-chartret overhovedet anvendelse i Jens' sag?",
+                    "choices": ["Ja, chartret gælder altid", "Ja, fordi sagen vedrører EU-retten (persondataforordningen) — chartret finder anvendelse, når medlemsstaterne handler inden for EU-rettens anvendelsesområde", "Nej, chartret gælder kun for EU-institutioner", "Kun hvis Jens er EU-borger i et andet land"],
+                    "correct": 1,
+                    "explanation": "EUC finder ifølge art. 51 anvendelse, når medlemsstaterne gennemfører EU-retten. Da Jens' sag vedrører EU's persondataforordning, handler SKAT inden for EU-rettens anvendelsesområde, jf. sag C-617/10 (Åkerberg Fransson)."
+                },
+                {
+                    "question": "Hvad er det overordnede formål med kravet om administrativ rekurs, der kan gøre det legitimt?",
+                    "choices": ["At spare staten penge", "At aflaste domstolene for tvister, der kan løses i det administrative system — et legitimt hensyn, der skal afvejes mod Jens' ret til domstolsprøvelse", "At forhindre alle retssager", "At beskytte SKATs omdømme"],
+                    "correct": 1,
+                    "explanation": "Jf. Puskár hviler kravet om administrativ rekurs bl.a. på en legitim interesse i at aflaste retterne for de tvister, der kan løses i det administrative system. Dette hensyn skal afvejes proportionalt mod partens ret til domstolsprøvelse."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Voldgiftskendelsen og EU-konkurrenceretten — Eco Swiss i praksis",
+            "context": "Det danske selskab GreenEnergy A/S og det tyske selskab SolarTech GmbH har fået afgjort en tvist om en distributionsaftale ved voldgift i København. Voldgiftskendelsen tilkendte SolarTech erstatning. GreenEnergy's advokat opdager efterfølgende, at distributionsaftalen indeholder en konkurrencebegrænsende klausul, der er i strid med TEUF art. 101 (EU-konkurrenceret). GreenEnergy vil have voldgiftskendelsen tilsidesat ved de danske domstole efter voldgiftslovens § 37.",
+            "questions": [
+                {
+                    "question": "Skal den danske domstol under tilsidesættelsessagen prøve, om voldgiftskendelsen strider mod EU-konkurrenceretlige regler?",
+                    "choices": ["Nej, voldgiftskendelser er endelige", "Ja, jf. Eco Swiss-dommen skal domstolen prøve kendelsen mod EU-konkurrenceretlige regler, hvis den efter nationale regler prøver mod nationale ufravigelige retsprincipper", "Kun hvis parterne anmoder om det", "Kun EU-Domstolen kan prøve dette"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-126/97 (Eco Swiss) skal nationale domstole under en tilsidesættelsessag prøve, om kendelsen strider mod præceptive EU-konkurrenceretlige regler, såfremt de efter nationale procesregler skal tilsidesætte kendelser i strid med nationale ufravigelige retsprincipper."
+                },
+                {
+                    "question": "Hvilket EU-retligt princip begrunder, at domstolen skal prøve EU-konkurrenceretten i denne sammenhæng?",
+                    "choices": ["Princippet om direkte virkning", "Ækvivalensprincippet — EU-retlige regler skal behandles mindst lige så gunstigt som tilsvarende nationale regler", "Princippet om acte clair", "Princippet om processuel autonomi"],
+                    "correct": 1,
+                    "explanation": "Ækvivalensprincippet kræver, at nationale domstole prøver voldgiftskendelsen mod EU-konkurrenceretlige regler, når de efter nationale regler prøver mod nationale ufravigelige retsprincipper — EU-retten må ikke behandles mindre gunstigt."
+                },
+                {
+                    "question": "Kunne GreenEnergy's voldgiftsret selv have stillet et præjudicielt spørgsmål til EU-Domstolen under voldgiftssagen?",
+                    "choices": ["Ja, alle tvistløsningsorganer kan stille spørgsmål", "Nej, en privat voldgiftsret er ikke en 'ret' i TEUF art. 267's forstand, men den kan anmode de almindelige domstole om at forelægge på dens vegne", "Ja, med parternes samtykke", "Nej, og der er ingen alternativ mulighed"],
+                    "correct": 1,
+                    "explanation": "En privat voldgiftsret er ikke en 'ret' i TEUF art. 267's forstand og kan ikke selv stille præjudicielle spørgsmål. Men efter voldgiftslovens § 27, stk. 2, kan den anmode de almindelige domstole om at forelægge på dens vegne."
+                },
+                {
+                    "question": "Kan den danske domstol anvende den lempeligere prøvelsesstandard i voldgiftslovens § 37 i stedet for en fuldstændig materiel prøvelse af EU-konkurrenceretten?",
+                    "choices": ["Nej, domstolen skal foretage en fuldstændig materiel prøvelse", "Ja, Højesteret har foretaget prøvelsen efter den lempelige standard i voldgiftslovens § 37, stk. 2, nr. 2, litra b — men med inddragelse af EU-konkurrenceretten", "Domstolen skal slet ikke prøve EU-retten", "Kun EU-Domstolen kan foretage prøvelsen"],
+                    "correct": 1,
+                    "explanation": "Jf. U 2016.1558/2 H foretog Højesteret prøvelsen efter den lempelige standard i voldgiftslovens § 37, stk. 2, nr. 2, litra b, men med inddragelse af EU-konkurrenceretten — bl.a. med henvisning til Eco Swiss."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Forbrugerlånet og de urimelige vilkår — Rettens ex officio-pligt",
+            "context": "Forbrugeren Anna Vestergaard har optaget et forbrugslån hos FinansNu A/S. Låneaftalen indeholder en klausul, der giver FinansNu ret til ensidigt at forhøje renten med op til 5 procentpoint uden varsel. Anna kan ikke betale, og FinansNu anlægger sag ved byretten. Under sagen bemærker dommeren, at renteklausulen muligvis er urimelig efter EU's forbrugeraftaledirektiv, men ingen af parterne har rejst spørgsmålet.",
+            "questions": [
+                {
+                    "question": "Skal den danske dommer af egen drift (ex officio) prøve, om renteklausulen er urimelig efter EU's forbrugeraftaledirektiv?",
+                    "choices": ["Nej, det er parternes ansvar efter forhandlingsprincippet", "Ja, nationale domstole har efter EU-Domstolens praksis pligt til ex officio at påse forbuddet mod urimelige kontraktvilkår i forbrugerforhold", "Kun hvis Anna anmoder om det", "Kun i sager over 100.000 kr."],
+                    "correct": 1,
+                    "explanation": "EU-Domstolen har fastslået, at nationale domstole ex officio skal påse forbuddet mod urimelige kontraktvilkår i forbrugerforhold — dette fraviger det nationale forhandlingsprincip, jf. bl.a. Banif Plus Bank-sagen."
+                },
+                {
+                    "question": "Hvis dommeren rejser spørgsmålet om urimelige vilkår ex officio, hvad kræver kontradiktionsprincippet da?",
+                    "choices": ["Intet — dommeren kan straks erklære vilkåret ugyldigt", "Dommeren skal forelægge spørgsmålet for parterne og give dem mulighed for at kommentere, inden der træffes afgørelse", "Kun FinansNu skal høres", "Spørgsmålet skal forelægges EU-Domstolen"],
+                    "correct": 1,
+                    "explanation": "Jf. Banif Plus Bank (sag C-472/11) udstrakte EU-Domstolen kontradiktionsprincippet til ex officio-indsigelser: Parterne har ret til at få kendskab til og kontradiktorisk drøfte de retlige forhold, der er afgørende for udfaldet — herunder indsigelser rejst af retten selv."
+                },
+                {
+                    "question": "Hvorfor er det vigtigt, at Anna selv får mulighed for at tage stilling til dommerens ex officio-indsigelse?",
+                    "choices": ["For at forsinke sagen", "Fordi den kontradiktoriske proces giver forbrugeren mulighed for at frafalde indsigelsen om ugyldighed, hvis forbrugeren ønsker at opretholde vilkåret", "For at sikre dommerens neutralitet", "For at undgå anke"],
+                    "correct": 1,
+                    "explanation": "Den kontradiktoriske proces giver ifølge Banif Plus Bank (præmis 35) forbrugeren mulighed for at frafalde indsigelsen om ugyldighed — forbrugeren kan således vælge at opretholde et vilkår, selv om dommeren finder det urimeligt."
+                },
+                {
+                    "question": "Hvad er forholdet mellem denne EU-retlige ex officio-pligt og det danske forhandlingsprincip?",
+                    "choices": ["De er i fuld overensstemmelse", "EU-retten kan efter omstændighederne fravige det nationale forhandlingsprincip — EU-Domstolen har været mere aktiv i forhold til dette princip end mange andre processuelle principper", "Forhandlingsprincippet trumfer altid EU-retten", "Der er ingen sammenhæng"],
+                    "correct": 1,
+                    "explanation": "EU-Domstolen har været mere aktiv i forhold til forhandlingsprincippet end i forhold til mange andre processuelle principper. Forbrugeraftaledirektivets krav om ex officio-prøvelse fraviger det nationale forhandlingsprincip, der ellers overlader sagens retlige grundlag til parterne."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Den ubegrundede udeblivelsesdom — Fuldbyrdelse på tværs af grænser",
+            "context": "Det danske selskab NordImport A/S har købt varer af det engelske selskab BritGoods Ltd. NordImport betalte ikke, og BritGoods anlagde sag i England. NordImport indleverede ikke et svarskrift, og den engelske domstol afsagde en udeblivelsesdom, der alene var begrundet med, at sagsøgte ikke havde svaret. BritGoods ønsker nu at tvangsfuldbyrde dommen i Danmark efter domsforordningen. NordImport protesterer og hævder, at dommen er i strid med grundlæggende retsprincipper, fordi den mangler enhver begrundelse.",
+            "questions": [
+                {
+                    "question": "Hvad kræver EUC art. 47 med hensyn til begrundelse af domstolsafgørelser?",
+                    "choices": ["Ingen krav om begrundelse", "At afgørelsen skal være begrundet, så parterne kan forstå den med henblik på eventuelt at appellere", "At kun Højesteretsdomme skal begrundes", "At begrundelse kun kræves i straffesager"],
+                    "correct": 1,
+                    "explanation": "Det er et led i retten til en retfærdig rettergang (EUC art. 47), at rettens afgørelse skal være begrundet, så parterne kan forstå den med henblik på eventuelt at appellere, jf. sag C-619/10 (Trade Agency Ltd), præmis 53."
+                },
+                {
+                    "question": "Kan den danske domstol nægte at tvangsfuldbyrde den engelske udeblivelsesdom?",
+                    "choices": ["Nej, domme fra EU-lande skal altid fuldbyrdes automatisk", "Ja, men kun efter en samlet vurdering — den kan nægte, hvis den manglende begrundelse udgør et åbenbart og uforholdsmæssigt indgreb i sagsøgtes rettigheder", "Ja, Danmark anerkender aldrig udenlandske domme", "Kun EU-Domstolen kan afgøre dette"],
+                    "correct": 1,
+                    "explanation": "Jf. Trade Agency kan retten nægte tvangsfuldbyrdelse efter domsforordningen (art. 45, stk. 1), men kun efter en samlet vurdering, herunder om den manglende begrundelse udgør et 'åbenbart og uforholdsmæssigt indgreb' i sagsøgtes mulighed for at forstå og anfægte afgørelsen."
+                },
+                {
+                    "question": "Er rettighederne i EUC art. 47 absolutte, eller kan de begrænses?",
+                    "choices": ["De er absolutte og kan aldrig begrænses", "De er ikke absolutte — de kan begrænses efter kriterierne i EUC art. 52, stk. 1", "Kun i nødsituationer", "De kan kun begrænses af EU-Domstolen"],
+                    "correct": 1,
+                    "explanation": "Rettighederne i EUC art. 47 er ikke absolutte. De kan begrænses efter art. 52, stk. 1, forudsat at begrænsningen er lovfæstet, respekterer rettighedens væsentligste indhold og forfølger et legitimt formål med proportionale midler."
+                },
+                {
+                    "question": "Hvilke konkrete forhold kan den danske domstol inddrage i sin samlede vurdering af, om dommen skal fuldbyrdes?",
+                    "choices": ["Kun dommens ordlyd", "Sagsøgtes kendskab til stævningens indhold, muligheden for genoptagelse efter engelsk ret og den manglende begrundelses reelle betydning for sagsøgtes rettigheder", "Kun om sagen vedrører et stort beløb", "Kun om dommeren var habil"],
+                    "correct": 1,
+                    "explanation": "Jf. Trade Agency (præmis 59-62) skal den nationale ret foretage en samlet vurdering, der bl.a. inddrager sagsøgtes kendskab til stævningens indhold, muligheden for genoptagelse efter den oprindelige stats ret og den manglende begrundelses reelle betydning."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Landmandens EU-støtte og den overskredet frist",
+            "context": "Landmanden Erik Skov har fået afslag på EU-landbrugsstøtte af Landbrugsstyrelsen. Han mener, at afslaget er i strid med EU's landbrugsforordning. Eriks advokat opdager først muligheden for at anlægge sag fire måneder efter afgørelsen, men den nationale søgsmålsfrist på tre måneder er udløbet. Erik hævder, at fristen er i strid med EU-rettens effektivitetsprincip, fordi den gør det praktisk umuligt at håndhæve hans EU-retlige rettigheder.",
+            "questions": [
+                {
+                    "question": "Er den nationale søgsmålsfrist på tre måneder i sig selv i strid med EU-rettens effektivitetsprincip?",
+                    "choices": ["Ja, alle frister strider mod effektivitetsprincippet", "Nej, medlemsstaterne kan som udgangspunkt fastsætte rimelige søgsmålsfrister — EU-Domstolen er tilbageholdende på dette område", "Kun frister under 30 dage er tilladte", "Effektivitetsprincippet regulerer ikke søgsmålsfrister"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-63/08 (Virginie Pontin) tilkommer det medlemsstaterne at fastsætte rimelige søgsmålsfrister. EU-Domstolen har generelt været tilbageholdende med at gribe ind over for søgsmålsfrister under princippet om effektivitet."
+                },
+                {
+                    "question": "Hvilke momenter kan indgå i vurderingen af, om en søgsmålsfrist er rimelig?",
+                    "choices": ["Kun fristens længde", "Hvor afgørende beslutningen er for den berørte, procedurernes kompleksitet, den gældende lovgivning og antallet af berørte personer", "Kun om advokaten har handlet forsvarligt", "Kun EU-Domstolens seneste praksis"],
+                    "correct": 1,
+                    "explanation": "Jf. Virginie Pontin kan der tages hensyn til bl.a. 'hvor afgørende den beslutning, der skal træffes, er for de berørte, kompleksiteten af de procedurer og den lovgivning, der finder anvendelse, antallet af personer, der kan være berørte, og andre offentlige eller private hensyn.'"
+                },
+                {
+                    "question": "Hvad er den overordnede afvejning, som Van Schijndel-testen kræver, når en national procesregel prøves mod effektivitetsprincippet?",
+                    "choices": ["Kun EU-rettens effektivitet tæller", "En afvejning mellem hensynet til EU-rettens effektivitet og hensynet til nationale processuelle principper som kontradiktionsprincippet, retssikkerhedsprincippet og hensigtsmæssig sagsbehandling", "Kun retssikkerhed tæller", "Der foretages ingen afvejning"],
+                    "correct": 1,
+                    "explanation": "Van Schijndel-testen (sag C-430/93) kræver en afvejning, der tager hensyn til 'de principper, der ligger til grund for den nationale retspleje, bl.a. kontradiktionsprincippet, retssikkerhedsprincippet og princippet om en hensigtsmæssig sagsbehandling.'"
+                },
+                {
+                    "question": "Kan Erik pådrage den danske stat erstatningsansvar, hvis Landbrugsstyrelsen har anvendt EU-forordningen forkert?",
+                    "choices": ["Nej, staten kan aldrig blive erstatningsansvarlig", "Ja, medlemsstaten kan pådrage sig erstatningsansvar, hvis en domstol i sidste instans åbenbart tilsidesætter gældende EU-ret", "Kun hvis EU-Kommissionen anlægger sag", "Kun EU-Domstolen kan tilkende erstatning"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-224/01 (Köbler) og C-173/03 (Traghetti del Mediterraneo) kan en medlemsstat pådrage sig erstatningsansvar, hvis en domstol i sidste instans åbenbart tilsidesætter gældende EU-ret — det indgår i vurderingen, om forelæggelsespligten er opfyldt."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Dommernes uafhængighed — EU-rettens krav",
+            "context": "I en dansk sag om statsstøtte efter EU-retten gør sagsøgeren, en dansk virksomhed, indsigelse mod dommeren. Dommeren er udnævnt på en midlertidig konstitution og har tidligere arbejdet i det ministerium, der administrerer den pågældende statsstøtteordning. Virksomhedens advokat påberåber sig EU-Domstolens praksis om domstoles uafhængighed, herunder de principper, der er udviklet i forbindelse med sagerne om polske domstole.",
+            "questions": [
+                {
+                    "question": "Hvad er den 'eksterne betingelse' for domstoles uafhængighed efter EU-Domstolens praksis?",
+                    "choices": ["At domstolen har et stort budget", "At organet ikke modtager ordrer eller instrukser udefra — det skal være beskyttet mod indgreb og pres udefra", "At dommeren har lang erfaring", "At domstolen er beliggende i hovedstaden"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-503/15 (Margarit Panicello) er den eksterne betingelse, at organet ikke modtager ordrer eller instrukser fra nogen — det skal være beskyttet mod indgreb og pres udefra."
+                },
+                {
+                    "question": "Hvad er den 'interne betingelse' for domstoles uafhængighed?",
+                    "choices": ["At dommeren har bestået en prøve", "At der foreligger objektivitet og fuldstændig mangel på interesse i sagens udfald ud over den strikte anvendelse af retsregler", "At dommeren er fastansat", "At dommeren ikke kender parterne"],
+                    "correct": 1,
+                    "explanation": "Den interne betingelse hænger sammen med begrebet upartiskhed: Der skal foreligge objektivitet og en fuldstændig mangel på interesse i sagens udfald ud over den strikte anvendelse af retsregler, jf. Margarit Panicello."
+                },
+                {
+                    "question": "Hvad kræves ifølge EU-Domstolens praksis om polske domstole (sag C-619/18) for at sikre domstoles uafhængighed?",
+                    "choices": ["At dommere vælges demokratisk", "At der findes regler om organets sammensætning, udnævnelse, funktionsperiode, vige-pligt og afsættelse, som fjerner enhver rimelig tvivl om uimodtagelighed for påvirkninger udefra", "At dommerne har mindst 10 års erfaring", "At domstolene selv fastsætter deres budget"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-619/18 (Kommissionen mod Polen) forudsætter uafhængighed, at der findes regler om bl.a. organets sammensætning, udnævnelse, funktionsperiode, vige-pligt og afsættelse, som gør det muligt at fjerne enhver rimelig tvivl om organets uimodtagelighed for påvirkninger."
+                },
+                {
+                    "question": "Finder EU-chartrets krav om uafhængighed anvendelse i denne sag?",
+                    "choices": ["Nej, chartret gælder kun for EU-institutioner", "Ja, da sagen vedrører statsstøtte efter EU-retten, handler den nationale domstol inden for EU-rettens anvendelsesområde, og EUC art. 47 finder derfor anvendelse", "Kun hvis parterne påberåber sig chartret", "Kun i grænseoverskridende sager"],
+                    "correct": 1,
+                    "explanation": "Da sagen vedrører statsstøtte efter EU-retten, handler den nationale domstol inden for EU-rettens anvendelsesområde, og EUC art. 47 — herunder kravet om en uafhængig og upartisk domstol — finder anvendelse, jf. EUC art. 51."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Virksomheden der ville prøve myndighedsafgørelsen — Retlig interesse",
+            "context": "Spillevirksomheden BetDanmark A/S mener, at Spillemyndighedens fortolkning af en EU-forordning om onlinespil er forkert og skader BetDanmarks konkurrenceposition. BetDanmark vil anlægge sag mod Spillemyndigheden med påstand om, at myndighedens administrative praksis er i strid med EU-retten. Spillemyndigheden gør gældende, at BetDanmark ikke har retlig interesse, da virksomheden ikke er direkte berørt af en konkret afgørelse — den ønsker blot en abstrakt prøvelse af myndighedens generelle praksis.",
+            "questions": [
+                {
+                    "question": "Kræver EU-rettens effektivitetsprincip, at BetDanmark kan anlægge et abstrakt anerkendelsessøgsmål mod myndighedens praksis?",
+                    "choices": ["Ja, der skal altid være adgang til abstrakt prøvelse", "Nej, jf. Unibet-sagen kræver effektivitetsprincippet ikke et abstrakt anerkendelsessøgsmål — men EU-retlige spørgsmål skal kunne prøves på en anden måde", "Nej, EU-retten regulerer ikke retlig interesse", "Ja, men kun for store virksomheder"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-432/05 (Unibet) kræver effektivitetsprincippet ikke, at der kan anlægges et abstrakt anerkendelsessøgsmål. Men det er en betingelse, at EU-retlige spørgsmål kan prøves på en anden måde."
+                },
+                {
+                    "question": "På hvilke andre måder kan BetDanmark opnå prøvelse af det EU-retlige spørgsmål?",
+                    "choices": ["Kun ved at klage til EU-Kommissionen", "Fx præjudicielt i forbindelse med et erstatningssøgsmål eller som led i domstolenes prøvelse af en konkret myndighedsafgørelse", "Kun ved at anlægge sag direkte ved EU-Domstolen", "Der er ingen alternative muligheder"],
+                    "correct": 1,
+                    "explanation": "Jf. Unibet kan EU-retlige spørgsmål prøves fx præjudicielt i forbindelse med et erstatningssøgsmål eller som led i domstolenes prøvelse af en myndigheds konkrete afgørelse — der kræves blot, at prøvelse er mulig ad en eller anden vej."
+                },
+                {
+                    "question": "Hvad fastslog EU-Domstolen om forholdet mellem risiko for straf og retten til domstolsprøvelse?",
+                    "choices": ["At man altid skal risikere straf for at opnå prøvelse", "At det eneste retsmiddel ikke må være at udsætte sig for risiko for strafferetlige sanktioner — man må ikke tvinges til en strafbar handling for at opnå domstolsprøvelse", "At strafferisiko er irrelevant", "At kun erhvervsdrivende er beskyttet mod dette"],
+                    "correct": 1,
+                    "explanation": "Jf. Unibet (præmis 64) må det eneste retsmiddel ikke være at udsætte sig for risiko for sanktioner. Den, der ønsker prøvelse, må ikke gennem nationale krav om retlig interesse tvinges til at foretage en strafbar handling for at opnå domstolsprøvelse."
+                },
+                {
+                    "question": "Hvad fastslog Højesteret i U 2013.3295 H om afvisning af en sag og effektiv domstolsbeskyttelse?",
+                    "choices": ["At afvisning altid strider mod EU-retten", "At afvisningen ikke gjorde indgreb i retten til effektiv domstolsbeskyttelse, da sagsøger efter andre regler kunne håndhæve sin eventuelle ret", "At effektivitetsprincippet ikke gælder i Danmark", "At Højesteret aldrig afviser EU-retlige sager"],
+                    "correct": 1,
+                    "explanation": "Højesteret afviste sagen med tilføjelsen, at afgørelsen ikke 'gjorde indgreb i retten til en effektiv domstolsbeskyttelse', idet sagsøger efter markedsføringslovens regler kunne håndhæve sin eventuelle ret gennem et søgsmål mod adressaten for myndighedsafgørelsen."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Parallelaftalen og forkyndelsen — Danmarks særlige stilling",
+            "context": "Det danske selskab NordFish A/S har anlagt sag mod det franske selskab MerPoisson S.A. ved byretten i Esbjerg. Stævningen skal forkyndes for MerPoisson i Frankrig. NordFish's advokat er i tvivl om, hvordan forkyndelsen skal ske, da Danmark har taget forbehold for EU's civilretlige samarbejde. MerPoisson gør gældende, at forkyndelsen er ugyldig, fordi Danmark ikke er omfattet af EU's forkyndelsesforordning.",
+            "questions": [
+                {
+                    "question": "Er Danmark omfattet af EU's forkyndelsesforordning trods det danske forbehold?",
+                    "choices": ["Nej, Danmark er helt udenfor", "Ja, Danmark deltager via en parallelaftale med EU — på folkeretligt grundlag deltager Danmark i praksis på lige fod med de andre medlemslande", "Kun delvist", "Kun i straffesager"],
+                    "correct": 1,
+                    "explanation": "Danmark har taget forbehold for det civilretlige samarbejde, men deltager i forkyndelsesforordningen via en parallelaftale mellem EU og Danmark. Danmark deltager dermed i praksis — på folkeretligt grundlag — på lige fod med andre medlemslande."
+                },
+                {
+                    "question": "Hvad er den retlige karakter af parallelaftalen — har forordningen direkte virkning i dansk ret?",
+                    "choices": ["Nej, den skal implementeres ved dansk lov", "Ja, forordningen har direkte virkning efter dansk ret og indgår som et almindeligt led i det processuelle regelsæt", "Den har kun vejledende karakter", "Kun Højesteret kan anvende den"],
+                    "correct": 1,
+                    "explanation": "Parallelaftalen indebærer, at forkyndelsesforordningen har direkte virkning efter dansk ret og indgår i fremstillingen som et almindeligt led i det processuelle regelsæt."
+                },
+                {
+                    "question": "Hvilke EU-retsakter om civilproces deltager Danmark i via parallelaftaler?",
+                    "choices": ["Alle EU-retsakter om civilproces", "Forkyndelsesforordningen og domsforordningen", "Kun insolvensforordningen", "Ingen — Danmark er helt udenfor"],
+                    "correct": 1,
+                    "explanation": "Danmark deltager via parallelaftaler i forkyndelsesforordningen og domsforordningen, men ikke i andre processuelle retsakter som insolvensforordningen og bevisoptagelsesforordningen."
+                },
+                {
+                    "question": "Hvilken betydning har det for NordFish's sag, at EU også gennemfører direktiver med processuelle regler knyttet til særlige materielle områder?",
+                    "choices": ["Ingen betydning", "Det kan have betydning, da der i stigende omfang gennemføres direktiver med processuelle regler — fx om gruppesøgsmål, konkurrenceretlig edition og retshåndhævelse i immaterialret", "Det gælder kun straffesager", "Det gælder kun for store virksomheder"],
+                    "correct": 1,
+                    "explanation": "I stigende omfang gennemføres EU-direktiver med processuelle regler knyttet til særlige materielle områder — fx direktiver om gruppesøgsmål, konkurrenceretlig edition og retshåndhævelse i immaterialret. Disse kan have betydning for processuelle spørgsmål i konkrete sager."
+                }
+            ]
+        },
+        {
+            "level": 7,
+            "title": "Retskraften der stod i vejen — EU-ret vs. national retskraft",
+            "context": "Den danske virksomhed CleanTech ApS tabte for to år siden en sag mod Miljøstyrelsen ved Højesteret om retten til miljøgodkendelse. Sagen var baseret på et EU-miljødirektiv. EU-Domstolen afsiger efterfølgende en præjudiciel afgørelse i en lignende sag fra Tyskland, der viser, at Højesterets fortolkning af direktivet var forkert. CleanTech vil genoptage sagen og hævder, at den danske dom ikke kan opretholdes, fordi den er i strid med EU-retten.",
+            "questions": [
+                {
+                    "question": "Er Højesteret forpligtet til at tilsidesætte sin retskraftige dom, fordi den viser sig at stride mod EU-retten?",
+                    "choices": ["Ja, EU-retten trumfer altid retskraft", "Nej, nationale domstole er som udgangspunkt ikke forpligtet til at tilsidesætte retskraft — retskraft sikrer stabil retstilstand og stabile retlige relationer", "Det afhænger af sagens værdi", "Kun EU-Domstolen kan tilsidesætte retskraft"],
+                    "correct": 1,
+                    "explanation": "Jf. sag C-69/14 (Tarsia) er nationale domstole som udgangspunkt ikke forpligtede til at undlade at anvende regler om retskraft, da retskraft bl.a. 'sikrer en stabil retstilstand og stabile retlige relationer'. EU-Domstolen har været tilbageholdende på dette område."
+                },
+                {
+                    "question": "Hvorfor er EU-Domstolen tilbageholdende med at kræve tilsidesættelse af national retskraft?",
+                    "choices": ["Fordi EU-retten ikke er vigtig nok", "Fordi retskraft er et udtryk for retssikkerhedsprincippet, som EU-Domstolen tillægger stor vægt i afvejningen mellem EU-rettens effektivitet og national procesautonomi", "Fordi EU-Domstolen ikke har kompetence", "Fordi retskraft ikke findes i EU-retten"],
+                    "correct": 1,
+                    "explanation": "Retskraft er et udtryk for retssikkerhedsprincippet, som EU-Domstolen tillægger stor vægt. I Van Schijndel-testen afvejes EU-rettens effektivitet mod nationale processuelle principper — herunder retssikkerhed — og Domstolen er generelt tilbageholdende med at gribe ind i retskraft."
+                },
+                {
+                    "question": "Kan CleanTech i stedet anlægge et erstatningssøgsmål mod den danske stat?",
+                    "choices": ["Nej, staten er beskyttet af retskraft", "Ja, staten kan pådrage sig erstatningsansvar, hvis en sidsteinstansdomstol åbenbart har tilsidesat EU-retten — og det indgår i vurderingen, om forelæggelsespligten var opfyldt", "Kun ved EU-Domstolen", "Kun med Procesbevillingsnævnets tilladelse"],
+                    "correct": 1,
+                    "explanation": "Jf. Köbler-dommen (sag C-224/01) kan medlemsstaten pådrage sig erstatningsansvar, hvis en sidsteinstansdomstol åbenbart har tilsidesat EU-retten. Det indgår i ansvarsvurderingen, om den nationale domstol har opfyldt forelæggelsespligten efter TEUF art. 267."
+                },
+                {
+                    "question": "Kan principperne om ækvivalens og effektivitet anvendes i forhold til retskraft?",
+                    "choices": ["Nej, retskraft falder helt uden for EU-rettens rækkevidde", "Ja, principperne kan som udgangspunkt anvendes i forhold til hele den civile proces — fra betingelser for sagsanlæg til retskraft — men EU-Domstolen er tilbageholdende på netop dette område", "Kun ækvivalens, ikke effektivitet", "Kun i grænseoverskridende sager"],
+                    "correct": 1,
+                    "explanation": "Principperne om effektiv domstolsbeskyttelse, ligebehandling og effektivitet kan anvendes i forhold til hele den civile proces, herunder retskraft. Men EU-Domstolen har netop i forhold til retskraft været tilbageholdende med at gribe ind i national procesautonomi."
                 }
             ]
         }
