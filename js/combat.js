@@ -223,9 +223,10 @@ export class CombatSystem {
         this._wrapText(ctx, this.question.question,
             panelX + 20, panelY + 160, panelW - 40, 24);
 
-        // Answer buttons
+        // Answer buttons (compute best font size for all choices)
+        const answerSize = this._computeAnswerFontSize(ctx);
         for (let i = 0; i < this.question.choices.length; i++) {
-            this._drawAnswerButton(ctx, i);
+            this._drawAnswerButton(ctx, i, answerSize);
         }
 
         // Countdown bar (timed mode, question active)
@@ -318,7 +319,7 @@ export class CombatSystem {
         }
     }
 
-    _drawAnswerButton(ctx, index) {
+    _drawAnswerButton(ctx, index, answerSize) {
         const rect = this._answerRect(index);
         const isSelected = this.selectedAnswer === index;
         const isCorrect = index === this.question.correct;
@@ -359,15 +360,15 @@ export class CombatSystem {
 
         // Number prefix
         ctx.fillStyle = '#8888aa';
-        ctx.font = 'bold 14px monospace';
+        ctx.font = `bold ${answerSize.font}px monospace`;
         ctx.textAlign = 'left';
-        ctx.fillText(`${index + 1}.`, rect.x + 10, rect.y + 22);
+        ctx.fillText(`${index + 1}.`, rect.x + 10, rect.y + answerSize.startY);
 
         // Answer text
         ctx.fillStyle = '#d8d0c8';
-        ctx.font = '14px "Palatino Linotype", "Book Antiqua", Palatino, serif';
+        ctx.font = `${answerSize.font}px "Palatino Linotype", "Book Antiqua", Palatino, serif`;
         this._wrapText(ctx, this.question.choices[index],
-            rect.x + 32, rect.y + 18, rect.w - 44, 18, 2);
+            rect.x + 32, rect.y + answerSize.startY, rect.w - 44, answerSize.lineH, answerSize.maxLines);
     }
 
     _drawResult(ctx, px, py, pw, ph) {
@@ -464,6 +465,48 @@ export class CombatSystem {
     }
 
     // ── Text helpers ───────────────────────────────────────────────────
+
+    _computeAnswerFontSize(ctx) {
+        const rect = this._answerRect(0);
+        const maxW = rect.w - 44;
+        const sizes = [
+            { font: 14, lineH: 18, maxLines: 2, startY: 18 },
+            { font: 13, lineH: 16, maxLines: 2, startY: 16 },
+            { font: 12, lineH: 15, maxLines: 3, startY: 14 },
+            { font: 11, lineH: 14, maxLines: 3, startY: 13 },
+        ];
+
+        for (const size of sizes) {
+            ctx.font = `${size.font}px "Palatino Linotype", "Book Antiqua", Palatino, serif`;
+            let allFit = true;
+            for (const choice of this.question.choices) {
+                if (!this._textFits(ctx, choice, maxW, size.maxLines)) {
+                    allFit = false;
+                    break;
+                }
+            }
+            if (allFit) return size;
+        }
+        return sizes[sizes.length - 1];
+    }
+
+    _textFits(ctx, text, maxWidth, maxLines) {
+        const words = text.split(' ');
+        let line = '';
+        let lineCount = 1;
+
+        for (const word of words) {
+            const testLine = line + word + ' ';
+            if (ctx.measureText(testLine).width > maxWidth && line !== '') {
+                lineCount++;
+                if (lineCount > maxLines) return false;
+                line = word + ' ';
+            } else {
+                line = testLine;
+            }
+        }
+        return true;
+    }
 
     _wrapText(ctx, text, x, y, maxWidth, lineHeight, maxLines, align) {
         const words = text.split(' ');
