@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: List remote directory
+      - name: Deploy via SFTP
         run: |
-          sshpass -p "${{ secrets.FTP_PASSWORD }}" ssh -o StrictHostKeyChecking=no -p 22 "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}" "ls -la webroots/ && ls -la webroots/*/"
+          sudo apt-get install -y sshpass
+          sshpass -p "${{ secrets.FTP_PASSWORD }}" ssh -o StrictHostKeyChecking=no "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}" "mkdir -p webroots/www/subjectquiz"
+          sshpass -p "${{ secrets.FTP_PASSWORD }}" scp -o StrictHostKeyChecking=no -r index.html css js data assets "${{ secrets.FTP_USERNAME }}@${{ secrets.FTP_SERVER }}:webroots/www/subjectquiz/"
