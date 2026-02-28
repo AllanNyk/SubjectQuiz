@@ -2,6 +2,7 @@ export class QuestionLoader {
     constructor() {
         this.data = null;        // loaded JSON
         this.usedIndices = {};   // track used questions per level: { 1: Set, 2: Set, ... }
+        this.usedCaseIndices = {}; // track used cases per level: { 1: Set, 2: Set, ... }
         this.availableSubjects = [];
     }
 
@@ -23,6 +24,7 @@ export class QuestionLoader {
         if (!resp.ok) throw new Error(`Failed to load ${subject.file}`);
         this.data = await resp.json();
         this.usedIndices = {};
+        this.usedCaseIndices = {};
         return this.data;
     }
 
@@ -77,7 +79,23 @@ export class QuestionLoader {
         if (!this.data?.cases) return null;
         const matching = this.data.cases.filter(c => c.level === level);
         if (!matching.length) return null;
-        const c = matching[Math.floor(Math.random() * matching.length)];
+
+        if (!this.usedCaseIndices[level]) {
+            this.usedCaseIndices[level] = new Set();
+        }
+
+        const used = this.usedCaseIndices[level];
+        if (used.size >= matching.length) {
+            used.clear();
+        }
+
+        let idx;
+        do {
+            idx = Math.floor(Math.random() * matching.length);
+        } while (used.has(idx));
+
+        used.add(idx);
+        const c = matching[idx];
         return { title: c.title, context: c.context, questions: c.questions.map(q => this._shuffleChoices({...q})) };
     }
 
