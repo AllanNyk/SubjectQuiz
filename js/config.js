@@ -106,6 +106,7 @@ export const LEVEL_DISPLAY_NAMES = {
     5: 'Kapitel 2 - Domstolssystemets opbygning',
     6: 'Kapitel 3 - EMK',
     7: 'Kapitel 4 - EU-ret',
+    8: 'Kapitel 5 - Grundlæggende principper',
 };
 
 // Boss colors per level

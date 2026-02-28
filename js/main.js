@@ -198,7 +198,7 @@ class Game {
 
             case STATE_SETTINGS: {
                 const lang = this.subjects[this.selectedSubject]?.lang || 'en';
-                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, GameMap.totalLevels(), this.difficulty, this.gameMode);
+                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, this.questionLoader.maxLevel(), this.difficulty, this.gameMode);
                 break;
             }
 
@@ -273,7 +273,7 @@ class Game {
                 this._updateVictoryParticles(dt, timestamp);
                 this.ui.renderVictory(
                     this.currentLevel,
-                    this.currentLevel >= (this.gameMode === 'quiz' ? this.questionLoader.maxLevel() : Math.min(GameMap.totalLevels(), this.questionLoader.maxLevel())),
+                    this.currentLevel >= this.questionLoader.maxLevel(),
                     this.stats.currentScore,
                     this.victoryParticles,
                     timestamp,
@@ -331,8 +331,10 @@ class Game {
             } else if (action === 'BACKWARD') {
                 this.selectedSubject = Math.min(this.subjects.length - 1, this.selectedSubject + 1);
             } else if (action === 'CONFIRM') {
-                this.state = STATE_SETTINGS;
                 this.input.flush();
+                this.questionLoader.loadSubject(this.subjects[this.selectedSubject].id).then(() => {
+                    this.state = STATE_SETTINGS;
+                });
                 return;
             } else if (action === 'LOG') {
                 this.logPage = 0;
@@ -378,7 +380,7 @@ class Game {
     }
 
     _adjustStartLevel(direction) {
-        const maxLevel = GameMap.totalLevels();
+        const maxLevel = this.questionLoader.maxLevel();
         this.startLevel = Math.max(1, Math.min(maxLevel, this.startLevel + direction));
     }
 
@@ -916,9 +918,7 @@ class Game {
         const action = this.input.poll();
         if (action === 'CONFIRM') {
             if (this.state === STATE_VICTORY) {
-                const maxLvl = this.gameMode === 'quiz'
-                    ? this.questionLoader.maxLevel()
-                    : Math.min(GameMap.totalLevels(), this.questionLoader.maxLevel());
+                const maxLvl = this.questionLoader.maxLevel();
                 if (this.currentLevel < maxLvl) {
                     this.currentLevel++;
                     if (this.gameMode === 'quiz') {
@@ -1080,8 +1080,10 @@ class Game {
             if (result.type === 'subject') {
                 this.selectedSubject = result.index;
             } else if (result.type === 'start') {
-                this.state = STATE_SETTINGS;
                 this.input.flush();
+                this.questionLoader.loadSubject(this.subjects[this.selectedSubject].id).then(() => {
+                    this.state = STATE_SETTINGS;
+                });
             } else if (result.type === 'log') {
                 this.logPage = 0;
                 this.state = STATE_LOG;

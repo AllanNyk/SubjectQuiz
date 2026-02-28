@@ -20,7 +20,7 @@ export class QuestionLoader {
         const subject = this.availableSubjects.find(s => s.id === subjectId);
         if (!subject) throw new Error(`Unknown subject: ${subjectId}`);
 
-        const resp = await fetch(subject.file);
+        const resp = await fetch(subject.file + '?v=' + Date.now());
         if (!resp.ok) throw new Error(`Failed to load ${subject.file}`);
         this.data = await resp.json();
         this.usedIndices = {};
