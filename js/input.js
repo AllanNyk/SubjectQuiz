@@ -41,6 +41,7 @@ export class InputHandler {
             case 'KeyT': return 'TOGGLE_TIMER';
             case 'KeyM': return 'MINIMAP';
             case 'KeyG': return 'TOGGLE_DIFFICULTY';
+            case 'KeyF': return 'TOGGLE_GAME_MODE';
             case 'Backspace': return 'BACK';
             case 'F1': return 'DEBUG_LEVEL1';
             case 'F2': return 'DEBUG_LEVEL2';

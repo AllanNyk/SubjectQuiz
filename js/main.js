@@ -1,4 +1,4 @@
-import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, CASE_SCORE_MULTIPLIER, HARD_KEYS_TO_WIN, HARD_REGULAR_COUNT, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN, DEFAULT_TIMER_MS, TIMER_PRESETS, LEVEL_DISPLAY_NAMES } from './config.js';
+import { CANVAS_W, CANVAS_H, CORRECT_ANSWERS_TO_WIN, LOG_PER_PAGE, SCORE_BASE, BOSS_SCORE_MULTIPLIER, CASE_SCORE_MULTIPLIER, HARD_KEYS_TO_WIN, HARD_REGULAR_COUNT, TWEEN_MOVE_MS, TWEEN_TURN_MS, TWEEN_MOVE_PX, TWEEN_TURN_PX, FLYING_KEY_MS, FLYING_KEY_GLOW_MS, FLYING_KEY_SCALE, MINIMAP_SIZE, MINIMAP_MARGIN, DEFAULT_TIMER_MS, TIMER_PRESETS, LEVEL_DISPLAY_NAMES, PLAYER_MAX_HP, QUIZ_NORMAL_QUESTIONS, QUIZ_NORMAL_CASES, QUIZ_HARD_QUESTIONS, QUIZ_HARD_CASES } from './config.js';
 import { GameMap } from './map.js';
 import { Player } from './player.js';
 import { EnemyManager } from './enemy.js';
@@ -52,6 +52,9 @@ class Game {
         this.startLevel = 1;
         this.subjects = [];
         this.selectedSubject = 0;
+        this.gameMode = 'dungeon';   // 'dungeon' | 'quiz'
+        this.quizQueue = [];
+        this.quizIndex = 0;
 
         // Log pagination
         this.logPage = 0;
@@ -195,7 +198,7 @@ class Game {
 
             case STATE_SETTINGS: {
                 const lang = this.subjects[this.selectedSubject]?.lang || 'en';
-                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, GameMap.totalLevels(), this.difficulty);
+                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, GameMap.totalLevels(), this.difficulty, this.gameMode);
                 break;
             }
 
@@ -255,15 +258,22 @@ class Game {
 
             case STATE_COMBAT:
             case STATE_BOSS_COMBAT:
-                this.renderer.renderDungeon(this.map, this.player, this.enemies, this.visited, timestamp, this.currentLevel);
+                if (this.gameMode === 'quiz') {
+                    this._renderQuizBackground(ctx);
+                } else {
+                    this.renderer.renderDungeon(this.map, this.player, this.enemies, this.visited, timestamp, this.currentLevel);
+                }
                 this.combat.render(ctx);
+                if (this.gameMode === 'quiz') {
+                    this._renderQuizHUD(ctx);
+                }
                 break;
 
             case STATE_VICTORY:
                 this._updateVictoryParticles(dt, timestamp);
                 this.ui.renderVictory(
                     this.currentLevel,
-                    this.currentLevel >= Math.min(GameMap.totalLevels(), this.questionLoader.maxLevel()),
+                    this.currentLevel >= (this.gameMode === 'quiz' ? this.questionLoader.maxLevel() : Math.min(GameMap.totalLevels(), this.questionLoader.maxLevel())),
                     this.stats.currentScore,
                     this.victoryParticles,
                     timestamp,
@@ -341,7 +351,9 @@ class Game {
     _updateSettings() {
         let action = this.input.poll();
         while (action) {
-            if (action === 'TOGGLE_DIFFICULTY') {
+            if (action === 'TOGGLE_GAME_MODE') {
+                this.gameMode = this.gameMode === 'dungeon' ? 'quiz' : 'dungeon';
+            } else if (action === 'TOGGLE_DIFFICULTY') {
                 this.difficulty = this.difficulty === 'normal' ? 'hard' : 'normal';
             } else if (action === 'TOGGLE_TIMER') {
                 this.timedMode = !this.timedMode;
@@ -386,7 +398,12 @@ class Game {
         this.currentLevel = this.startLevel;
         this.correctAnswers = 0;
         this.stats.startSession(this.subjects[this.selectedSubject].id);
-        this._initLevel();
+
+        if (this.gameMode === 'quiz') {
+            this._startQuizMode();
+        } else {
+            this._initLevel();
+        }
     }
 
     _initLevel() {
@@ -575,6 +592,7 @@ class Game {
     }
 
     _resolveCombat(result) {
+        if (this.gameMode === 'quiz') { this._resolveQuizCombat(result); return; }
         if (result === 'correct') {
             this.enemies.kill(this.combat.enemy);
             this._pendingKeyIncrement = true;
@@ -649,6 +667,7 @@ class Game {
     }
 
     _resolveBossCombat(result) {
+        if (this.gameMode === 'quiz') { this._resolveQuizBossCombat(result); return; }
         const enemy = this.combat.enemy;
         const isCase = enemy.isCase;
 
@@ -698,6 +717,147 @@ class Game {
         this._initVictoryParticles();
         this.state = STATE_VICTORY;
         this.input.flush();
+    }
+
+    // ── Quiz mode ───────────────────────────────────────────────────────
+
+    _startQuizMode() {
+        this.player = new Player(0, 0, 0); // just for HP tracking
+        this.quizQueue = [];
+
+        if (this.difficulty === 'hard') {
+            // Interleaved: Q, C, Q, C, Q, C, Q, C
+            for (let i = 0; i < QUIZ_HARD_QUESTIONS; i++) {
+                this.quizQueue.push({ type: 'question' });
+                if (i < QUIZ_HARD_CASES) {
+                    this.quizQueue.push({ type: 'case' });
+                }
+            }
+        } else {
+            // Normal: 10 questions then 1 case
+            for (let i = 0; i < QUIZ_NORMAL_QUESTIONS; i++) {
+                this.quizQueue.push({ type: 'question' });
+            }
+            for (let i = 0; i < QUIZ_NORMAL_CASES; i++) {
+                this.quizQueue.push({ type: 'case' });
+            }
+        }
+
+        this.quizIndex = 0;
+        this.correctAnswers = 0;
+        this.input.flush();
+        this._startQuizEncounter();
+    }
+
+    _startQuizEncounter() {
+        const encounter = this.quizQueue[this.quizIndex];
+        const lang = this.questionLoader.getLanguage();
+
+        if (encounter.type === 'question') {
+            const question = this.questionLoader.getQuestion(this.currentLevel);
+            if (!question) { console.error('No questions available!'); return; }
+            const dummyEnemy = { isCase: false, isBoss: false };
+            this.combat.start(question, dummyEnemy, this.currentLevel, this.timedMode, lang, this.timerDurationMs);
+            this.state = STATE_COMBAT;
+        } else {
+            const bossCase = this.questionLoader.getBossCase(this.currentLevel);
+            if (!bossCase) { console.error('No case available!'); return; }
+            const dummyEnemy = { isCase: true, isBoss: false };
+            this.combat.startBoss(bossCase, dummyEnemy, this.currentLevel, this.timedMode, lang, this.timerDurationMs);
+            this.state = STATE_BOSS_COMBAT;
+        }
+        this.input.flush();
+    }
+
+    _resolveQuizCombat(result) {
+        if (result === 'correct') {
+            this.correctAnswers++;
+            this.stats.recordAnswer(true, this.currentLevel);
+            this.flashType = 'correct';
+            this.flashAlpha = 0.35;
+        } else {
+            this.stats.recordAnswer(false, this.currentLevel);
+            this.stats.logWrongAnswer(this.combat.question, this.combat.selectedAnswer);
+            const dead = this.player.takeDamage();
+            this.flashType = 'damage';
+            this.flashAlpha = 0.5;
+            this.shakeTime = 200;
+            this.shakeIntensity = 6;
+            if (dead) {
+                this.stats.endSession(this.currentLevel - 1);
+                this.state = STATE_GAME_OVER;
+                this.input.flush();
+                return;
+            }
+        }
+        this.quizIndex++;
+        this._advanceQuiz();
+    }
+
+    _resolveQuizBossCombat(result) {
+        if (result === 'boss_defeated') {
+            this.correctAnswers++;
+            this.stats.addScore(SCORE_BASE * this.currentLevel * CASE_SCORE_MULTIPLIER);
+            this.flashType = 'correct';
+            this.flashAlpha = 0.5;
+        } else if (result === 'boss_failed') {
+            this.stats.logWrongAnswer(this.combat.question, this.combat.selectedAnswer);
+            const dead = this.player.takeDamage();
+            this.flashType = 'damage';
+            this.flashAlpha = 0.5;
+            this.shakeTime = 300;
+            this.shakeIntensity = 8;
+            if (dead) {
+                this.stats.endSession(this.currentLevel - 1);
+                this.state = STATE_GAME_OVER;
+                this.input.flush();
+                return;
+            }
+        }
+        this.quizIndex++;
+        this._advanceQuiz();
+    }
+
+    _advanceQuiz() {
+        if (this.quizIndex >= this.quizQueue.length) {
+            this.stats.endSession(this.currentLevel);
+            this._initVictoryParticles();
+            this.state = STATE_VICTORY;
+            this.input.flush();
+        } else {
+            this._startQuizEncounter();
+        }
+    }
+
+    _renderQuizBackground(ctx) {
+        // Dark background (drawn BEFORE combat overlay)
+        ctx.fillStyle = '#0d0d1a';
+        ctx.fillRect(0, 0, CANVAS_W, CANVAS_H);
+    }
+
+    _renderQuizHUD(ctx) {
+        // Drawn AFTER combat panel so it's visible on top
+        const lang = this.questionLoader.getLanguage();
+
+        // Progress text (top center)
+        ctx.fillStyle = '#aaaacc';
+        ctx.font = 'bold 14px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(
+            `${t('quiz.progress', lang)} ${this.quizIndex + 1} ${t('quiz.of', lang)} ${this.quizQueue.length}`,
+            CANVAS_W / 2, 20
+        );
+
+        // HP hearts (top-left)
+        for (let i = 0; i < PLAYER_MAX_HP; i++) {
+            const hx = 40 + i * 28;
+            const hy = 14;
+            if (i < this.player.hp) {
+                this.ui._drawHeart(ctx, hx, hy, 8, '#ff3344');
+            } else {
+                this.ui._drawHeart(ctx, hx, hy, 8, '#333');
+            }
+        }
     }
 
     // ── Flying key animation ──────────────────────────────────────────
@@ -756,10 +916,16 @@ class Game {
         const action = this.input.poll();
         if (action === 'CONFIRM') {
             if (this.state === STATE_VICTORY) {
-                const maxLvl = Math.min(GameMap.totalLevels(), this.questionLoader.maxLevel());
+                const maxLvl = this.gameMode === 'quiz'
+                    ? this.questionLoader.maxLevel()
+                    : Math.min(GameMap.totalLevels(), this.questionLoader.maxLevel());
                 if (this.currentLevel < maxLvl) {
                     this.currentLevel++;
-                    this._initLevel();
+                    if (this.gameMode === 'quiz') {
+                        this._startQuizMode();
+                    } else {
+                        this._initLevel();
+                    }
                 } else {
                     this.state = STATE_MENU;
                 }
@@ -929,7 +1095,9 @@ class Game {
             const result = this.ui.getSettingsClickedAction(x, y, this.timedMode);
             if (!result) return;
 
-            if (result.type === 'toggle_difficulty') {
+            if (result.type === 'toggle_game_mode') {
+                this.gameMode = this.gameMode === 'dungeon' ? 'quiz' : 'dungeon';
+            } else if (result.type === 'toggle_difficulty') {
                 this.difficulty = this.difficulty === 'normal' ? 'hard' : 'normal';
             } else if (result.type === 'toggle_timer') {
                 this.timedMode = !this.timedMode;

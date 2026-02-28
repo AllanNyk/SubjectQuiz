@@ -68,6 +68,12 @@ export const CASE_SCORE_MULTIPLIER = 2;
 export const HARD_KEYS_TO_WIN = 10;
 export const HARD_REGULAR_COUNT = 6;
 
+// Quiz mode encounter counts
+export const QUIZ_NORMAL_QUESTIONS = 10;
+export const QUIZ_NORMAL_CASES = 1;
+export const QUIZ_HARD_QUESTIONS = 4;
+export const QUIZ_HARD_CASES = 4;
+
 // Flying key animation
 export const FLYING_KEY_MS       = 450;   // flight duration
 export const FLYING_KEY_GLOW_MS  = 300;   // glow pulse after arrival

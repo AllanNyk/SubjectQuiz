@@ -74,6 +74,12 @@ const STRINGS = {
         'settings.difficulty': 'Difficulty:',
         'settings.diffNormal': 'Normal',
         'settings.diffHard':   'Hard \u2014 More Cases',
+        'settings.gameMode':   'Mode:',
+        'settings.modeDungeon': 'Dungeon',
+        'settings.modeQuiz':   'Quiz Only',
+        'settings.objectiveQuiz': 'Answer questions directly \u2014 no dungeon. Test your knowledge in a focused quiz format.',
+        'quiz.progress':       'Question',
+        'quiz.of':             'of',
 
         // Game Over
         'gameover.title':      'Defeated!',
@@ -155,6 +161,12 @@ const STRINGS = {
         'settings.difficulty': 'Sv\u00E6rhedsgrad:',
         'settings.diffNormal': 'Normal',
         'settings.diffHard':   'Sv\u00E6r \u2014 Flere sager',
+        'settings.gameMode':   'Tilstand:',
+        'settings.modeDungeon': 'Dungeon',
+        'settings.modeQuiz':   'Kun quiz',
+        'settings.objectiveQuiz': 'Besvar sp\u00F8rgsm\u00E5l direkte \u2014 ingen labyrint. Test din viden i et fokuseret quizformat.',
+        'quiz.progress':       'Sp\u00F8rgsm\u00E5l',
+        'quiz.of':             'af',
 
         // Game Over
         'gameover.title':      'Besejret!',

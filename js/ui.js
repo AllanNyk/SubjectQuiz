@@ -260,7 +260,7 @@ export class UI {
 
     // ── Settings screen ────────────────────────────────────────────────
 
-    renderSettings(timedMode, timerDurationMs, lang = 'en', startLevel = 1, maxLevel = 7, difficulty = 'normal') {
+    renderSettings(timedMode, timerDurationMs, lang = 'en', startLevel = 1, maxLevel = 7, difficulty = 'normal', gameMode = 'dungeon') {
         const ctx = this.ctx;
 
         // Background
@@ -281,35 +281,62 @@ export class UI {
         ctx.textAlign = 'center';
         ctx.fillText(t('settings.title', lang), CANVAS_W / 2, 90);
 
-        // Objective description
+        // Objective description — changes based on game mode
         ctx.fillStyle = '#8888aa';
         ctx.font = `14px ${SERIF}`;
         ctx.textAlign = 'center';
-        this._wrapText(ctx, t('settings.objective', lang), CANVAS_W / 2, 118, CANVAS_W - 100, 18);
+        const objectiveKey = gameMode === 'quiz' ? 'settings.objectiveQuiz' : 'settings.objective';
+        this._wrapText(ctx, t(objectiveKey, lang), CANVAS_W / 2, 118, CANVAS_W - 100, 18);
 
-        // Difficulty toggle button
-        const diffW = 280;
-        const diffH = 36;
-        const diffX = (CANVAS_W - diffW) / 2;
-        const diffY = 160;
+        // Side-by-side buttons: Game Mode (left) + Difficulty (right)
+        const btnW = 230;
+        const btnH = 36;
+        const gap = 20;
+        const totalW = btnW * 2 + gap;
+        const startX = (CANVAS_W - totalW) / 2;
+        const rowY = 160;
+
+        // Game Mode button (left)
+        const isQuiz = gameMode === 'quiz';
+        const modeX = startX;
+
+        ctx.fillStyle = isQuiz ? '#1a2a2a' : '#1a1a2e';
+        ctx.fillRect(modeX, rowY, btnW, btnH);
+        ctx.strokeStyle = isQuiz ? '#44aaaa' : '#3a3a5a';
+        ctx.lineWidth = isQuiz ? 2 : 1;
+        ctx.strokeRect(modeX, rowY, btnW, btnH);
+
+        const modeLabel = isQuiz ? t('settings.modeQuiz', lang) : t('settings.modeDungeon', lang);
+        ctx.fillStyle = isQuiz ? '#88cccc' : '#aaaacc';
+        ctx.font = `bold 15px ${SERIF}`;
+        ctx.textAlign = 'center';
+        ctx.fillText(`${t('settings.gameMode', lang)} ${modeLabel}`, modeX + btnW / 2, rowY + 24);
+
+        // [F] hint
+        ctx.fillStyle = '#666688';
+        ctx.font = '11px monospace';
+        ctx.fillText('[F]', modeX + btnW / 2, rowY + btnH + 12);
+
+        // Difficulty button (right)
+        const diffX = startX + btnW + gap;
         const isHard = difficulty === 'hard';
 
         ctx.fillStyle = isHard ? '#2a1a2a' : '#1a1a2e';
-        ctx.fillRect(diffX, diffY, diffW, diffH);
+        ctx.fillRect(diffX, rowY, btnW, btnH);
         ctx.strokeStyle = isHard ? '#cc44cc' : '#3a3a5a';
         ctx.lineWidth = isHard ? 2 : 1;
-        ctx.strokeRect(diffX, diffY, diffW, diffH);
+        ctx.strokeRect(diffX, rowY, btnW, btnH);
 
         const diffLabel = isHard ? t('settings.diffHard', lang) : t('settings.diffNormal', lang);
         ctx.fillStyle = isHard ? '#cc88cc' : '#aaaacc';
         ctx.font = `bold 15px ${SERIF}`;
         ctx.textAlign = 'center';
-        ctx.fillText(`${t('settings.difficulty', lang)} ${diffLabel}`, CANVAS_W / 2, diffY + 24);
+        ctx.fillText(`${t('settings.difficulty', lang)} ${diffLabel}`, diffX + btnW / 2, rowY + 24);
 
         // [G] hint
         ctx.fillStyle = '#666688';
         ctx.font = '11px monospace';
-        ctx.fillText('[G]', CANVAS_W / 2, diffY + diffH + 12);
+        ctx.fillText('[G]', diffX + btnW / 2, rowY + btnH + 12);
 
         // Timer toggle button
         const toggleW = 220;
@@ -455,8 +482,7 @@ export class UI {
         const startH = 40;
         const backW = 120;
         const backH = 40;
-        const gap = 20;
-        const totalBtnW = startW + gap + backW;
+        const totalBtnW = startW + 20 + backW;
         const btnStartX = (CANVAS_W - totalBtnW) / 2;
 
         // Start Game button (green-tinted)
@@ -489,16 +515,27 @@ export class UI {
         ctx.fillText(t('settings.hintKeys', lang), CANVAS_W / 2, bottomY + startH + 20);
     }
 
-    // Returns { type: 'toggle_difficulty' | 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'level_minus' | 'level_plus' | 'start' | 'back' } or null
+    // Returns { type: 'toggle_game_mode' | 'toggle_difficulty' | 'toggle_timer' | 'timer_minus' | 'timer_plus' | 'level_minus' | 'level_plus' | 'start' | 'back' } or null
     getSettingsClickedAction(canvasX, canvasY, timedMode) {
-        // Difficulty toggle button
-        const diffW = 280;
-        const diffH = 36;
-        const diffX = (CANVAS_W - diffW) / 2;
-        const diffY = 160;
+        // Side-by-side buttons: Game Mode (left) + Difficulty (right)
+        const btnW = 230;
+        const btnH = 36;
+        const gap = 20;
+        const totalW = btnW * 2 + gap;
+        const startX = (CANVAS_W - totalW) / 2;
+        const rowY = 160;
 
-        if (canvasX >= diffX && canvasX <= diffX + diffW &&
-            canvasY >= diffY && canvasY <= diffY + diffH) {
+        // Game Mode button (left)
+        const modeX = startX;
+        if (canvasX >= modeX && canvasX <= modeX + btnW &&
+            canvasY >= rowY && canvasY <= rowY + btnH) {
+            return { type: 'toggle_game_mode' };
+        }
+
+        // Difficulty button (right)
+        const diffX = startX + btnW + gap;
+        if (canvasX >= diffX && canvasX <= diffX + btnW &&
+            canvasY >= rowY && canvasY <= rowY + btnH) {
             return { type: 'toggle_difficulty' };
         }
 
@@ -559,8 +596,7 @@ export class UI {
         const startH = 40;
         const backW = 120;
         const backH = 40;
-        const gap = 20;
-        const totalBtnW = startW + gap + backW;
+        const totalBtnW = startW + 20 + backW;
         const btnStartX = (CANVAS_W - totalBtnW) / 2;
 
         if (canvasX >= btnStartX && canvasX <= btnStartX + startW &&
