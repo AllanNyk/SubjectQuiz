@@ -585,6 +585,11 @@ class Game {
         // Check for keyboard input
         const action = this.input.poll();
         if (action) {
+            if (action === 'ESCAPE' && this.gameMode === 'quiz') {
+                this.state = STATE_MENU;
+                this.input.flush();
+                return;
+            }
             if (this.combat.result !== null) {
                 // Any key dismisses the result screen
                 this.combat.dismiss();
@@ -660,6 +665,11 @@ class Game {
     _updateBossCombat() {
         const action = this.input.poll();
         if (action) {
+            if (action === 'ESCAPE' && this.gameMode === 'quiz') {
+                this.state = STATE_MENU;
+                this.input.flush();
+                return;
+            }
             if (this.combat.showingCaseIntro) {
                 this.combat.dismissIntro();
             } else if (this.combat.result !== null) {
