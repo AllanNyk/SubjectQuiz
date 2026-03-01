@@ -454,10 +454,17 @@ export class UI {
         ctx.lineWidth = 1;
         ctx.strokeRect(levelDispX, levelRowY, levelDisplayW, levelDisplayH);
         const levelName = LEVEL_DISPLAY_NAMES[startLevel] || `Level ${startLevel}`;
+        const levelText = `${startLevel}: ${levelName}`;
+        const maxTextW = levelDisplayW - 16;
+        let fontSize = 18;
+        ctx.font = `bold ${fontSize}px ${SERIF}`;
+        while (fontSize > 11 && ctx.measureText(levelText).width > maxTextW) {
+            fontSize--;
+            ctx.font = `bold ${fontSize}px ${SERIF}`;
+        }
         ctx.fillStyle = '#cc9944';
-        ctx.font = `bold 18px ${SERIF}`;
         ctx.textAlign = 'center';
-        ctx.fillText(`${startLevel}: ${levelName}`, levelDispX + levelDisplayW / 2, levelRowY + 29);
+        ctx.fillText(levelText, levelDispX + levelDisplayW / 2, levelRowY + 22 + fontSize / 2);
 
         // Plus button
         const levelPlusX = levelDispX + levelDisplayW + 10;
