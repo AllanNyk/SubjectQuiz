@@ -92,6 +92,37 @@ Depth-based pseudo-3D: precomputed perspective frames define corridor rectangles
 - `language` tells the UI what language the questions are in
 - Each level should have 15+ questions to avoid repetition
 
+## Adding a New Level (Chapter) to a Question File
+
+When adding a new chapter (e.g. from `civilretspleje_book/KapitelX.txt`):
+
+### 1. Generate content
+Read the source chapter text and generate questions + cases in parallel batches:
+- **Questions**: Split into 2 batches (e.g. 15+15 for 30 total). Each question needs `question`, `choices` (4 strings), `correct` (0-based index), `explanation`. All in the subject's language.
+- **Cases**: 10 boss cases, each with `title`, `level` (the new level number), `context` (fictional scenario, 100-200 words), and `questions` (exactly 4 per case, same format as regular questions).
+
+### 2. Merge into the JSON file
+Write batch outputs to temp files, then merge into the question JSON (e.g. `data/questions/civilprocesret.json`):
+- Add a new entry to the `levels` array: `{ "level": N, "name": "Chapter Name", "questions": [...] }`
+- Append cases to the `cases` array (each case already has `"level": N`)
+- Use `JSON.stringify(data, null, 4)` for consistent formatting
+- Verify counts after merge (e.g. `node -e "const d=require('./data/questions/file.json'); ..."`)
+
+### 3. Update config.js
+Add the new level to `LEVEL_DISPLAY_NAMES`:
+```js
+N: 'Kapitel X - Chapter Title',
+```
+
+### 4. Clean up
+Delete temp batch files and merge scripts.
+
+### Notes
+- The level selector automatically picks up new levels via `questionLoader.maxLevel()`
+- Dungeon mode reuses the last map layout (level 7) for levels beyond 7 — no map changes needed
+- The `questionLoader.js` fetch uses cache-busting (`?v=Date.now()`), so updated JSON is picked up immediately
+- Long level names auto-shrink in the settings UI (down to 11px font)
+
 ## Ad Integration (Future)
 The HTML layout has placeholder slots for Google AdSense:
 - `#ad-top`: Banner above game

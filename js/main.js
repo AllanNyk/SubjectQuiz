@@ -198,7 +198,7 @@ class Game {
 
             case STATE_SETTINGS: {
                 const lang = this.subjects[this.selectedSubject]?.lang || 'en';
-                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, this.questionLoader.maxLevel(), this.difficulty, this.gameMode);
+                this.ui.renderSettings(this.timedMode, this.timerDurationMs, lang, this.startLevel, this.questionLoader.availableLevels(), this.difficulty, this.gameMode);
                 break;
             }
 
@@ -271,9 +271,10 @@ class Game {
 
             case STATE_VICTORY:
                 this._updateVictoryParticles(dt, timestamp);
+                const avail = this.questionLoader.availableLevels();
                 this.ui.renderVictory(
                     this.currentLevel,
-                    this.currentLevel >= this.questionLoader.maxLevel(),
+                    avail.indexOf(this.currentLevel) >= avail.length - 1,
                     this.stats.currentScore,
                     this.victoryParticles,
                     timestamp,
@@ -333,6 +334,10 @@ class Game {
             } else if (action === 'CONFIRM') {
                 this.input.flush();
                 this.questionLoader.loadSubject(this.subjects[this.selectedSubject].id).then(() => {
+                    const levels = this.questionLoader.availableLevels();
+                    if (levels.length && levels.indexOf(this.startLevel) === -1) {
+                        this.startLevel = levels[0];
+                    }
                     this.state = STATE_SETTINGS;
                 });
                 return;
@@ -380,8 +385,11 @@ class Game {
     }
 
     _adjustStartLevel(direction) {
-        const maxLevel = this.questionLoader.maxLevel();
-        this.startLevel = Math.max(1, Math.min(maxLevel, this.startLevel + direction));
+        const levels = this.questionLoader.availableLevels();
+        if (!levels.length) return;
+        const idx = levels.indexOf(this.startLevel);
+        const newIdx = Math.max(0, Math.min(levels.length - 1, (idx === -1 ? 0 : idx) + direction));
+        this.startLevel = levels[newIdx];
     }
 
     _adjustTimerDuration(direction) {
@@ -918,9 +926,10 @@ class Game {
         const action = this.input.poll();
         if (action === 'CONFIRM') {
             if (this.state === STATE_VICTORY) {
-                const maxLvl = this.questionLoader.maxLevel();
-                if (this.currentLevel < maxLvl) {
-                    this.currentLevel++;
+                const levels = this.questionLoader.availableLevels();
+                const idx = levels.indexOf(this.currentLevel);
+                if (idx < levels.length - 1) {
+                    this.currentLevel = levels[idx + 1];
                     if (this.gameMode === 'quiz') {
                         this._startQuizMode();
                     } else {
@@ -1082,6 +1091,10 @@ class Game {
             } else if (result.type === 'start') {
                 this.input.flush();
                 this.questionLoader.loadSubject(this.subjects[this.selectedSubject].id).then(() => {
+                    const levels = this.questionLoader.availableLevels();
+                    if (levels.length && levels.indexOf(this.startLevel) === -1) {
+                        this.startLevel = levels[0];
+                    }
                     this.state = STATE_SETTINGS;
                 });
             } else if (result.type === 'log') {

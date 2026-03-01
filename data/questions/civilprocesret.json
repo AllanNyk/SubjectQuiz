@@ -4,519 +4,6 @@
     "levels": [
         {
             "level": 1,
-            "name": "Grundlæggende begreber",
-            "questions": [
-                {
-                    "question": "Hvilken domstol behandler civile sager i første instans som udgangspunkt?",
-                    "choices": [
-                        "Byretten",
-                        "Landsretten",
-                        "Højesteret",
-                        "Sø- og Handelsretten"
-                    ],
-                    "correct": 0,
-                    "explanation": "Byretten er den almindelige førsteinstans for civile sager, jf. retsplejelovens § 224."
-                },
-                {
-                    "question": "Hvad hedder den lov, der primært regulerer den civile retspleje i Danmark?",
-                    "choices": [
-                        "Grundloven",
-                        "Retsplejeloven",
-                        "Forvaltningsloven",
-                        "Straffeloven"
-                    ],
-                    "correct": 1,
-                    "explanation": "Retsplejeloven (lov om rettens pleje) er hovedloven for civil- og straffeproces."
-                },
-                {
-                    "question": "Hvad betyder begrebet 'værneting'?",
-                    "choices": [
-                        "Rettens sammensætning",
-                        "Stedet hvor en sag skal anlægges",
-                        "Bevisførelse",
-                        "Appelinstans"
-                    ],
-                    "correct": 1,
-                    "explanation": "Værneting angiver, ved hvilken ret en sag skal anlægges (den stedlige kompetence)."
-                },
-                {
-                    "question": "Hvad er en 'stævning' i civilprocesretlig forstand?",
-                    "choices": [
-                        "En dom",
-                        "Et processkrift der indleder en retssag",
-                        "En vidneindkaldelse",
-                        "En anke"
-                    ],
-                    "correct": 1,
-                    "explanation": "En stævning er det processkrift, hvormed sagsøgeren indleder en civil retssag."
-                },
-                {
-                    "question": "Hvad kaldes det skrift, som sagsøgte indgiver som svar på stævningen?",
-                    "choices": [
-                        "Duplik",
-                        "Replik",
-                        "Svarskrift",
-                        "Påstandsdokument"
-                    ],
-                    "correct": 2,
-                    "explanation": "Svarskriftet er sagsøgtes svar på stævningen og indeholder sagsøgtes påstand og anbringender."
-                },
-                {
-                    "question": "Hvem har som udgangspunkt bevisbyrden i en civil sag?",
-                    "choices": [
-                        "Dommeren",
-                        "Sagsøgte",
-                        "Sagsøgeren",
-                        "Vidnerne"
-                    ],
-                    "correct": 2,
-                    "explanation": "Hovedreglen er, at sagsøgeren bærer bevisbyrden for sine påstande."
-                },
-                {
-                    "question": "Hvad indebærer princippet om 'fri bevisbedømmelse'?",
-                    "choices": [
-                        "Parterne vælger selv dommer",
-                        "Dommeren vurderer frit bevisernes værdi",
-                        "Alle beviser er gratis",
-                        "Beviser kan fremlægges uden begrænsning"
-                    ],
-                    "correct": 1,
-                    "explanation": "Fri bevisbedømmelse betyder, at dommeren ikke er bundet af lovfæstede bevisregler, men frit vurderer beviserne."
-                },
-                {
-                    "question": "Hvad betyder 'forhandlingsprincippet' (forhandlingsmaksimen)?",
-                    "choices": [
-                        "Parterne skal forhandle inden retssag",
-                        "Det er parterne, der styrer sagens faktiske grundlag",
-                        "Dommeren leder forhandlingerne",
-                        "Sagen afgøres ved forlig"
-                    ],
-                    "correct": 1,
-                    "explanation": "Forhandlingsprincippet indebærer, at det er parterne, der bestemmer sagens faktiske grundlag og fremlægger beviser."
-                },
-                {
-                    "question": "Hvor mange dommere sidder der normalt i en civil sag i byretten?",
-                    "choices": [
-                        "1",
-                        "3",
-                        "5",
-                        "7"
-                    ],
-                    "correct": 0,
-                    "explanation": "Civile sager i byretten behandles som udgangspunkt af én dommer."
-                },
-                {
-                    "question": "Hvad er 'mundtlighedsprincippet'?",
-                    "choices": [
-                        "Dommen afsiges mundtligt",
-                        "Sagens behandling foregår mundtligt i retten",
-                        "Stævningen skal fremsættes mundtligt",
-                        "Vidner må kun afgive mundtlig forklaring"
-                    ],
-                    "correct": 1,
-                    "explanation": "Mundtlighedsprincippet indebærer, at sagens behandling foregår mundtligt under hovedforhandlingen."
-                },
-                {
-                    "question": "Hvad er 'retskraft'?",
-                    "choices": [
-                        "Dommerens autoritet",
-                        "En doms bindende virkning (res judicata)",
-                        "Politiets magtanvendelse",
-                        "Rettens åbningstider"
-                    ],
-                    "correct": 1,
-                    "explanation": "Retskraft (res judicata) betyder, at en endelig dom er bindende, så samme tvist ikke kan behandles igen."
-                },
-                {
-                    "question": "Hvad er 'anke'?",
-                    "choices": [
-                        "En ny retssag",
-                        "Appel af en dom til højere instans",
-                        "En klage til politiet",
-                        "En begæring om aktindsigt"
-                    ],
-                    "correct": 1,
-                    "explanation": "Anke er appel af en byretsdom til landsretten med henblik på ny prøvelse af sagen."
-                },
-                {
-                    "question": "Hvad er den beløbsmæssige grænse for småsagsprocessen?",
-                    "choices": [
-                        "25.000 kr.",
-                        "50.000 kr.",
-                        "100.000 kr.",
-                        "10.000 kr."
-                    ],
-                    "correct": 2,
-                    "explanation": "Småsagsprocessen anvendes for sager med en sagsgenstand på højst 100.000 kr."
-                },
-                {
-                    "question": "Hvad er 'kumulation'?",
-                    "choices": [
-                        "Ophobning af beviser",
-                        "Sammenlægning af krav i én retssag",
-                        "En type dom",
-                        "Forældelse af krav"
-                    ],
-                    "correct": 1,
-                    "explanation": "Kumulation betyder, at flere krav forenes i én retssag, enten objektiv (flere krav) eller subjektiv (flere parter)."
-                },
-                {
-                    "question": "Hvad er 'kære'?",
-                    "choices": [
-                        "En appel af en kendelse til højere instans",
-                        "En mundtlig protest i retten",
-                        "En erklæring fra en sagkyndig",
-                        "En begæring om genoptagelse"
-                    ],
-                    "correct": 0,
-                    "explanation": "Kære er appel af kendelser og beslutninger (modsat anke, som vedrører domme)."
-                }
-            ]
-        },
-        {
-            "level": 2,
-            "name": "Procesregler og retsmidler",
-            "questions": [
-                {
-                    "question": "Hvilken domstol er den almindelige appelinstans for byretsdomme i civile sager?",
-                    "choices": [
-                        "Højesteret",
-                        "Procesbevillingsnævnet",
-                        "Landsretten",
-                        "Sø- og Handelsretten"
-                    ],
-                    "correct": 2,
-                    "explanation": "Byretsdomme ankes som udgangspunkt til landsretten."
-                },
-                {
-                    "question": "Hvad er 'procesforudsætninger'?",
-                    "choices": [
-                        "Betingelser for at blive advokat",
-                        "Betingelser der skal være opfyldt for at retten kan behandle sagen",
-                        "Regler om bevisførelse",
-                        "Krav til stævningens form"
-                    ],
-                    "correct": 1,
-                    "explanation": "Procesforudsætninger er de betingelser, der skal være opfyldt, for at retten kan realitetsbehandle sagen."
-                },
-                {
-                    "question": "Hvad indebærer 'litispendens'?",
-                    "choices": [
-                        "En sag er forældet",
-                        "En verserende sag hindrer anlæggelse af ny sag om samme tvist",
-                        "Parterne skal mægle",
-                        "Sagen udsættes"
-                    ],
-                    "correct": 1,
-                    "explanation": "Litispendens betyder, at der ikke kan anlægges ny sag om samme krav, så længe den første sag verserer."
-                },
-                {
-                    "question": "Hvad betyder 'editionspligt'?",
-                    "choices": [
-                        "Pligt til at udgive retspraksis",
-                        "Pligt til at fremlægge dokumenter efter rettens pålæg",
-                        "Pligt til at møde i retten",
-                        "Pligt til at lade sig repræsentere af advokat"
-                    ],
-                    "correct": 1,
-                    "explanation": "Editionspligt er en parts eller tredjeparts pligt til at fremlægge dokumenter, som retten pålægger."
-                },
-                {
-                    "question": "Hvad er 'arrest' i civilprocesretlig sammenhæng?",
-                    "choices": [
-                        "Anholdelse af en person",
-                        "Foreløbig sikring af et pengekrav i skyldnerens aktiver",
-                        "En strafferetlig sanktion",
-                        "Varetægtsfængsling"
-                    ],
-                    "correct": 1,
-                    "explanation": "Arrest er et foreløbigt retsmiddel, der sikrer et pengekrav ved at beslaglægge skyldnerens aktiver midlertidigt."
-                },
-                {
-                    "question": "Hvad er 'fri proces'?",
-                    "choices": [
-                        "En uformel retssag",
-                        "Offentlig betaling af sagsomkostninger for økonomisk trængte parter",
-                        "Proces uden advokat",
-                        "En særlig hurtig sagsbehandling"
-                    ],
-                    "correct": 1,
-                    "explanation": "Fri proces indebærer, at staten betaler sagens omkostninger, herunder advokatbistand, for parter der opfylder betingelserne."
-                },
-                {
-                    "question": "Hvilken rolle spiller Procesbevillingsnævnet?",
-                    "choices": [
-                        "Det udnævner dommere",
-                        "Det giver tilladelse til appel til Højesteret m.v.",
-                        "Det fører tilsyn med advokater",
-                        "Det behandler klager over politiet"
-                    ],
-                    "correct": 1,
-                    "explanation": "Procesbevillingsnævnet meddeler bl.a. tilladelse til at anke landsretsdomme til Højesteret (tredjeinstansbevilling)."
-                },
-                {
-                    "question": "Hvad er 'retsmægling'?",
-                    "choices": [
-                        "En bindende afgørelse af en dommer",
-                        "Mægling faciliteret af retten som alternativ til dom",
-                        "En ny form for bevisoptagelse",
-                        "Retshjælp til udenlandske parter"
-                    ],
-                    "correct": 1,
-                    "explanation": "Retsmægling er en frivillig ordning, hvor en retsmægler hjælper parterne med at finde en løsning uden dom."
-                },
-                {
-                    "question": "Hvad kræves der for at have 'søgsmålskompetence' (retlig interesse)?",
-                    "choices": [
-                        "Man skal være dansk statsborger",
-                        "Man skal have en aktuel, individuel og retlig interesse i sagens udfald",
-                        "Man skal have en advokat",
-                        "Man skal bo i den retskreds, sagen anlægges i"
-                    ],
-                    "correct": 1,
-                    "explanation": "Retlig interesse kræver, at parten har en aktuel og individuel interesse i sagens udfald."
-                },
-                {
-                    "question": "Hvad er en 'udeblivelsesdom'?",
-                    "choices": [
-                        "En dom afsagt i partens fravær",
-                        "En dom der gives uden bevisførelse",
-                        "En foreløbig dom",
-                        "En dom afsagt af en enkelt dommer"
-                    ],
-                    "correct": 0,
-                    "explanation": "En udeblivelsesdom afsiges, når en part udebliver fra hovedforhandlingen uden lovligt forfald."
-                },
-                {
-                    "question": "Hvad er 'retshjælp' (via forsikring)?",
-                    "choices": [
-                        "Gratis advokatvagt",
-                        "Forsikringsdækning af sagsomkostninger",
-                        "Statens betaling af retsafgift",
-                        "En særlig retssagsform"
-                    ],
-                    "correct": 1,
-                    "explanation": "Retshjælpsforsikring dækker en del af omkostningerne ved en retssag, typisk som del af en indboforsikring."
-                },
-                {
-                    "question": "Hvad er 'hovedforhandlingen' i en civil sag?",
-                    "choices": [
-                        "Den indledende samtale mellem parterne",
-                        "Det retsmøde hvor sagen procederes og bevis føres",
-                        "Domsafsigelsen",
-                        "Forberedelsen af sagen"
-                    ],
-                    "correct": 1,
-                    "explanation": "Hovedforhandlingen er det centrale retsmøde, hvor sagen procederes, vidner afhøres, og beviserne fremlægges."
-                },
-                {
-                    "question": "Hvad er 'dispositionsprincippet'?",
-                    "choices": [
-                        "Dommeren bestemmer sagens udfald",
-                        "Parterne råder over sagens genstand og kan forlige sagen",
-                        "Beviserne skal fremlægges i en bestemt rækkefølge",
-                        "Retten kan afvise sager af egen drift"
-                    ],
-                    "correct": 1,
-                    "explanation": "Dispositionsprincippet indebærer, at parterne råder over sagens genstand, herunder mulighed for at forlige."
-                },
-                {
-                    "question": "Kan der ske 'bevissikring' inden en retssag er anlagt?",
-                    "choices": [
-                        "Nej, aldrig",
-                        "Ja, hvis der er risiko for at beviset ellers går tabt",
-                        "Kun i straffesager",
-                        "Kun efter tilladelse fra Højesteret"
-                    ],
-                    "correct": 1,
-                    "explanation": "Retsplejeloven giver mulighed for bevissikring inden sagsanlæg, hvis beviset ellers risikerer at gå tabt."
-                },
-                {
-                    "question": "Hvad er forskellen på 'objektiv' og 'subjektiv' kumulation?",
-                    "choices": [
-                        "Objektiv vedrører flere krav; subjektiv vedrører flere parter",
-                        "Objektiv er bindende; subjektiv er frivillig",
-                        "Objektiv angår kendsgerninger; subjektiv angår holdninger",
-                        "Der er ingen forskel"
-                    ],
-                    "correct": 0,
-                    "explanation": "Objektiv kumulation: flere krav mellem samme parter. Subjektiv kumulation: flere parter i samme sag."
-                }
-            ]
-        },
-        {
-            "level": 3,
-            "name": "Avancerede emner",
-            "questions": [
-                {
-                    "question": "Under hvilke betingelser kan Højesteret give tredjeinstansbevilling?",
-                    "choices": [
-                        "Sagen skal have principiel karakter",
-                        "Sagsøger skal være repræsenteret af en højesteretsadvokat",
-                        "Sagen skal omhandle et beløb over 1 mio. kr.",
-                        "Landsretten skal have anbefalet det"
-                    ],
-                    "correct": 0,
-                    "explanation": "Tredjeinstansbevilling gives, når sagen er af principiel karakter, jf. RPL § 371."
-                },
-                {
-                    "question": "Hvad er den civilprocessuelle bevisstandard i Danmark?",
-                    "choices": [
-                        "Ud over enhver rimelig tvivl",
-                        "Overvejende sandsynlighed",
-                        "Absolut sikkerhed",
-                        "Klar og overbevisende bevisførelse"
-                    ],
-                    "correct": 1,
-                    "explanation": "I civile sager er bevisstandarden overvejende sandsynlighed (sandsynlighedsovervægt)."
-                },
-                {
-                    "question": "Hvad regulerer retsplejelovens § 93?",
-                    "choices": [
-                        "Bevisoptagelse",
-                        "Værneting i kontraktsager",
-                        "Ankefrist",
-                        "Dommerhabilitet"
-                    ],
-                    "correct": 1,
-                    "explanation": "RPL § 93 omhandler opfyldelsesværneting — sager kan anlægges, hvor forpligtelsen skal opfyldes."
-                },
-                {
-                    "question": "Hvad er 'genoptagelse' af en civil sag?",
-                    "choices": [
-                        "At sagen overgår til en anden dommer",
-                        "At en afsluttet sag genoptages pga. nye oplysninger",
-                        "At sagen flyttes til en anden retskreds",
-                        "At sagen udsættes på ubestemt tid"
-                    ],
-                    "correct": 1,
-                    "explanation": "Genoptagelse (RPL § 399) tillader, at en afgjort sag genoptages, fx hvis nye beviser fremkommer."
-                },
-                {
-                    "question": "Kan retten i en civil sag dømme 'ultra petita' (ud over partens påstand)?",
-                    "choices": [
-                        "Ja, hvis dommeren finder det rimeligt",
-                        "Nej, retten er bundet af parternes påstande",
-                        "Kun i familieretlige sager",
-                        "Kun med parternes samtykke"
-                    ],
-                    "correct": 1,
-                    "explanation": "Pga. dispositionsprincippet kan retten ikke tilkende mere end hvad parterne har nedlagt påstand om."
-                },
-                {
-                    "question": "Hvad er en 'sagkyndig erklæring' i retsplejelovens forstand?",
-                    "choices": [
-                        "En parts egen vurdering",
-                        "En udtalelse fra en sagkyndig person indhentet via Søren eller retten",
-                        "En advokats juridiske analyse",
-                        "En vidneforklaring fra en ekspert"
-                    ],
-                    "correct": 1,
-                    "explanation": "En sagkyndig erklæring er en skriftlig udtalelse fra en uvildig ekspert, der belyser tekniske eller faglige spørgsmål."
-                },
-                {
-                    "question": "Hvad er betydningen af 'passivitet' i civilprocessen?",
-                    "choices": [
-                        "At parterne er enige",
-                        "At manglende handling kan medføre rettighedstab",
-                        "At sagen afgøres hurtigere",
-                        "At dommeren er inhabil"
-                    ],
-                    "correct": 1,
-                    "explanation": "Passivitet kan medføre, at en part mister retten til at gøre indsigelser eller retsmidler gældende."
-                },
-                {
-                    "question": "Hvad er et 'retsforlig'?",
-                    "choices": [
-                        "En dom afsagt ved flertal",
-                        "Et forlig indgået for retten med bindende virkning som en dom",
-                        "En aftale mellem advokater",
-                        "En foreløbig afgørelse"
-                    ],
-                    "correct": 1,
-                    "explanation": "Et retsforlig er et forlig indgået under retssagen med samme bindende virkning som en dom."
-                },
-                {
-                    "question": "Hvad kræves for at en dom kan tvangsfuldbyres?",
-                    "choices": [
-                        "Dommen skal være endelig og eksigibel",
-                        "Dommen skal være afsagt i Højesteret",
-                        "Skyldneren skal samtykke",
-                        "Der skal foreligge en politianmeldelse"
-                    ],
-                    "correct": 0,
-                    "explanation": "Tvangsfuldbyrdelse kræver et tvangsfuldbyrdelsesgrundlag, typisk en endelig og eksigibel dom."
-                },
-                {
-                    "question": "Hvad er betingelserne for et 'midlertidigt forbud' (foreløbigt forbud)?",
-                    "choices": [
-                        "Sandsynliggjort krav, nødvendighed og proportionalitet",
-                        "Dommerens skøn alene",
-                        "Politiets godkendelse",
-                        "Sagsøgtes samtykke"
-                    ],
-                    "correct": 0,
-                    "explanation": "Et foreløbigt forbud kræver, at rekvirenten sandsynliggør sit krav, at der er nødvendighed, og at forbuddet er proportionalt."
-                },
-                {
-                    "question": "Hvad er 'gensøgsmål' (modkrav)?",
-                    "choices": [
-                        "En ny selvstændig sag",
-                        "Et krav rejst af sagsøgte mod sagsøger inden for samme sag",
-                        "En klage over dommeren",
-                        "En begæring om syn og skøn"
-                    ],
-                    "correct": 1,
-                    "explanation": "Gensøgsmål er sagsøgtes selvstændige krav mod sagsøger, der behandles i forbindelse med hovedsagen."
-                },
-                {
-                    "question": "Hvad er 'adcitation' (tredjemandsinddragelse)?",
-                    "choices": [
-                        "Inddragelse af en tredjemand som part i sagen",
-                        "En citation fra en lærebog",
-                        "En erklæring fra anklagemyndigheden",
-                        "En form for vidneforklaring"
-                    ],
-                    "correct": 0,
-                    "explanation": "Adcitation (RPL § 250) er inddragelse af en tredjemand som part, fx for at gøre regres gældende."
-                },
-                {
-                    "question": "Hvornår kan en byretsdom ankes direkte til Højesteret (spring over landsretten)?",
-                    "choices": [
-                        "Aldrig — anke skal altid gå igennem landsretten",
-                        "Når Procesbevillingsnævnet giver tilladelse pga. principiel karakter",
-                        "Kun i straffesager",
-                        "Når sagsøger er en offentlig myndighed"
-                    ],
-                    "correct": 1,
-                    "explanation": "I særlige tilfælde kan Procesbevillingsnævnet give tilladelse til direkte anke til Højesteret (leapfrogging)."
-                },
-                {
-                    "question": "Hvad er 'deldomme'?",
-                    "choices": [
-                        "Domme der kun afgør en del af sagen",
-                        "Domme afsagt af dommerfuldmægtige",
-                        "Domme i småsager",
-                        "Foreløbige domme"
-                    ],
-                    "correct": 0,
-                    "explanation": "En deldom afgør kun en del af de rejste krav, mens resten af sagen fortsætter."
-                },
-                {
-                    "question": "Hvad er 'nova' i ankeprocessen?",
-                    "choices": [
-                        "Nye påstande og anbringender fremsat under anken",
-                        "Nye dommere",
-                        "Nye love vedtaget efter byretsdommen",
-                        "Nye vidner indkaldt af retten"
-                    ],
-                    "correct": 0,
-                    "explanation": "Nova er nye faktiske omstændigheder, beviser eller anbringender, der fremføres under anken."
-                }
-            ]
-        },
-        {
-            "level": 4,
             "name": "Indledning og emneafgrænsning",
             "questions": [
                 {
@@ -907,7 +394,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "name": "Domstolssystemet og aktører",
             "questions": [
                 {
@@ -1298,7 +785,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "name": "EMK og retsgarantier",
             "questions": [
                 {
@@ -1700,7 +1187,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "name": "EU-ret og civilproces",
             "questions": [
                 {
@@ -2091,7 +1578,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "name": "Den civile retsplejes grundlæggende principper",
             "questions": [
                 {
@@ -2647,7 +2134,7 @@
             ]
         },
         {
-            "level": 9,
+            "level": 6,
             "name": "Offentlighed og mundtlighed",
             "questions": [
                 {
@@ -2981,11 +2468,524 @@
                     "explanation": "Sagsportalen giver parterne løbende adgang til materialet under sagens forløb, hvorfor § 255a i praksis kun har selvstændig betydning efter sagens afslutning."
                 }
             ]
+        },
+        {
+            "level": 30,
+            "name": "Grundlæggende begreber",
+            "questions": [
+                {
+                    "question": "Hvilken domstol behandler civile sager i første instans som udgangspunkt?",
+                    "choices": [
+                        "Byretten",
+                        "Landsretten",
+                        "Højesteret",
+                        "Sø- og Handelsretten"
+                    ],
+                    "correct": 0,
+                    "explanation": "Byretten er den almindelige førsteinstans for civile sager, jf. retsplejelovens § 224."
+                },
+                {
+                    "question": "Hvad hedder den lov, der primært regulerer den civile retspleje i Danmark?",
+                    "choices": [
+                        "Grundloven",
+                        "Retsplejeloven",
+                        "Forvaltningsloven",
+                        "Straffeloven"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejeloven (lov om rettens pleje) er hovedloven for civil- og straffeproces."
+                },
+                {
+                    "question": "Hvad betyder begrebet 'værneting'?",
+                    "choices": [
+                        "Rettens sammensætning",
+                        "Stedet hvor en sag skal anlægges",
+                        "Bevisførelse",
+                        "Appelinstans"
+                    ],
+                    "correct": 1,
+                    "explanation": "Værneting angiver, ved hvilken ret en sag skal anlægges (den stedlige kompetence)."
+                },
+                {
+                    "question": "Hvad er en 'stævning' i civilprocesretlig forstand?",
+                    "choices": [
+                        "En dom",
+                        "Et processkrift der indleder en retssag",
+                        "En vidneindkaldelse",
+                        "En anke"
+                    ],
+                    "correct": 1,
+                    "explanation": "En stævning er det processkrift, hvormed sagsøgeren indleder en civil retssag."
+                },
+                {
+                    "question": "Hvad kaldes det skrift, som sagsøgte indgiver som svar på stævningen?",
+                    "choices": [
+                        "Duplik",
+                        "Replik",
+                        "Svarskrift",
+                        "Påstandsdokument"
+                    ],
+                    "correct": 2,
+                    "explanation": "Svarskriftet er sagsøgtes svar på stævningen og indeholder sagsøgtes påstand og anbringender."
+                },
+                {
+                    "question": "Hvem har som udgangspunkt bevisbyrden i en civil sag?",
+                    "choices": [
+                        "Dommeren",
+                        "Sagsøgte",
+                        "Sagsøgeren",
+                        "Vidnerne"
+                    ],
+                    "correct": 2,
+                    "explanation": "Hovedreglen er, at sagsøgeren bærer bevisbyrden for sine påstande."
+                },
+                {
+                    "question": "Hvad indebærer princippet om 'fri bevisbedømmelse'?",
+                    "choices": [
+                        "Parterne vælger selv dommer",
+                        "Dommeren vurderer frit bevisernes værdi",
+                        "Alle beviser er gratis",
+                        "Beviser kan fremlægges uden begrænsning"
+                    ],
+                    "correct": 1,
+                    "explanation": "Fri bevisbedømmelse betyder, at dommeren ikke er bundet af lovfæstede bevisregler, men frit vurderer beviserne."
+                },
+                {
+                    "question": "Hvad betyder 'forhandlingsprincippet' (forhandlingsmaksimen)?",
+                    "choices": [
+                        "Parterne skal forhandle inden retssag",
+                        "Det er parterne, der styrer sagens faktiske grundlag",
+                        "Dommeren leder forhandlingerne",
+                        "Sagen afgøres ved forlig"
+                    ],
+                    "correct": 1,
+                    "explanation": "Forhandlingsprincippet indebærer, at det er parterne, der bestemmer sagens faktiske grundlag og fremlægger beviser."
+                },
+                {
+                    "question": "Hvor mange dommere sidder der normalt i en civil sag i byretten?",
+                    "choices": [
+                        "1",
+                        "3",
+                        "5",
+                        "7"
+                    ],
+                    "correct": 0,
+                    "explanation": "Civile sager i byretten behandles som udgangspunkt af én dommer."
+                },
+                {
+                    "question": "Hvad er 'mundtlighedsprincippet'?",
+                    "choices": [
+                        "Dommen afsiges mundtligt",
+                        "Sagens behandling foregår mundtligt i retten",
+                        "Stævningen skal fremsættes mundtligt",
+                        "Vidner må kun afgive mundtlig forklaring"
+                    ],
+                    "correct": 1,
+                    "explanation": "Mundtlighedsprincippet indebærer, at sagens behandling foregår mundtligt under hovedforhandlingen."
+                },
+                {
+                    "question": "Hvad er 'retskraft'?",
+                    "choices": [
+                        "Dommerens autoritet",
+                        "En doms bindende virkning (res judicata)",
+                        "Politiets magtanvendelse",
+                        "Rettens åbningstider"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retskraft (res judicata) betyder, at en endelig dom er bindende, så samme tvist ikke kan behandles igen."
+                },
+                {
+                    "question": "Hvad er 'anke'?",
+                    "choices": [
+                        "En ny retssag",
+                        "Appel af en dom til højere instans",
+                        "En klage til politiet",
+                        "En begæring om aktindsigt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Anke er appel af en byretsdom til landsretten med henblik på ny prøvelse af sagen."
+                },
+                {
+                    "question": "Hvad er den beløbsmæssige grænse for småsagsprocessen?",
+                    "choices": [
+                        "25.000 kr.",
+                        "50.000 kr.",
+                        "100.000 kr.",
+                        "10.000 kr."
+                    ],
+                    "correct": 2,
+                    "explanation": "Småsagsprocessen anvendes for sager med en sagsgenstand på højst 100.000 kr."
+                },
+                {
+                    "question": "Hvad er 'kumulation'?",
+                    "choices": [
+                        "Ophobning af beviser",
+                        "Sammenlægning af krav i én retssag",
+                        "En type dom",
+                        "Forældelse af krav"
+                    ],
+                    "correct": 1,
+                    "explanation": "Kumulation betyder, at flere krav forenes i én retssag, enten objektiv (flere krav) eller subjektiv (flere parter)."
+                },
+                {
+                    "question": "Hvad er 'kære'?",
+                    "choices": [
+                        "En appel af en kendelse til højere instans",
+                        "En mundtlig protest i retten",
+                        "En erklæring fra en sagkyndig",
+                        "En begæring om genoptagelse"
+                    ],
+                    "correct": 0,
+                    "explanation": "Kære er appel af kendelser og beslutninger (modsat anke, som vedrører domme)."
+                }
+            ]
+        },
+        {
+            "level": 31,
+            "name": "Procesregler og retsmidler",
+            "questions": [
+                {
+                    "question": "Hvilken domstol er den almindelige appelinstans for byretsdomme i civile sager?",
+                    "choices": [
+                        "Højesteret",
+                        "Procesbevillingsnævnet",
+                        "Landsretten",
+                        "Sø- og Handelsretten"
+                    ],
+                    "correct": 2,
+                    "explanation": "Byretsdomme ankes som udgangspunkt til landsretten."
+                },
+                {
+                    "question": "Hvad er 'procesforudsætninger'?",
+                    "choices": [
+                        "Betingelser for at blive advokat",
+                        "Betingelser der skal være opfyldt for at retten kan behandle sagen",
+                        "Regler om bevisførelse",
+                        "Krav til stævningens form"
+                    ],
+                    "correct": 1,
+                    "explanation": "Procesforudsætninger er de betingelser, der skal være opfyldt, for at retten kan realitetsbehandle sagen."
+                },
+                {
+                    "question": "Hvad indebærer 'litispendens'?",
+                    "choices": [
+                        "En sag er forældet",
+                        "En verserende sag hindrer anlæggelse af ny sag om samme tvist",
+                        "Parterne skal mægle",
+                        "Sagen udsættes"
+                    ],
+                    "correct": 1,
+                    "explanation": "Litispendens betyder, at der ikke kan anlægges ny sag om samme krav, så længe den første sag verserer."
+                },
+                {
+                    "question": "Hvad betyder 'editionspligt'?",
+                    "choices": [
+                        "Pligt til at udgive retspraksis",
+                        "Pligt til at fremlægge dokumenter efter rettens pålæg",
+                        "Pligt til at møde i retten",
+                        "Pligt til at lade sig repræsentere af advokat"
+                    ],
+                    "correct": 1,
+                    "explanation": "Editionspligt er en parts eller tredjeparts pligt til at fremlægge dokumenter, som retten pålægger."
+                },
+                {
+                    "question": "Hvad er 'arrest' i civilprocesretlig sammenhæng?",
+                    "choices": [
+                        "Anholdelse af en person",
+                        "Foreløbig sikring af et pengekrav i skyldnerens aktiver",
+                        "En strafferetlig sanktion",
+                        "Varetægtsfængsling"
+                    ],
+                    "correct": 1,
+                    "explanation": "Arrest er et foreløbigt retsmiddel, der sikrer et pengekrav ved at beslaglægge skyldnerens aktiver midlertidigt."
+                },
+                {
+                    "question": "Hvad er 'fri proces'?",
+                    "choices": [
+                        "En uformel retssag",
+                        "Offentlig betaling af sagsomkostninger for økonomisk trængte parter",
+                        "Proces uden advokat",
+                        "En særlig hurtig sagsbehandling"
+                    ],
+                    "correct": 1,
+                    "explanation": "Fri proces indebærer, at staten betaler sagens omkostninger, herunder advokatbistand, for parter der opfylder betingelserne."
+                },
+                {
+                    "question": "Hvilken rolle spiller Procesbevillingsnævnet?",
+                    "choices": [
+                        "Det udnævner dommere",
+                        "Det giver tilladelse til appel til Højesteret m.v.",
+                        "Det fører tilsyn med advokater",
+                        "Det behandler klager over politiet"
+                    ],
+                    "correct": 1,
+                    "explanation": "Procesbevillingsnævnet meddeler bl.a. tilladelse til at anke landsretsdomme til Højesteret (tredjeinstansbevilling)."
+                },
+                {
+                    "question": "Hvad er 'retsmægling'?",
+                    "choices": [
+                        "En bindende afgørelse af en dommer",
+                        "Mægling faciliteret af retten som alternativ til dom",
+                        "En ny form for bevisoptagelse",
+                        "Retshjælp til udenlandske parter"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsmægling er en frivillig ordning, hvor en retsmægler hjælper parterne med at finde en løsning uden dom."
+                },
+                {
+                    "question": "Hvad kræves der for at have 'søgsmålskompetence' (retlig interesse)?",
+                    "choices": [
+                        "Man skal være dansk statsborger",
+                        "Man skal have en aktuel, individuel og retlig interesse i sagens udfald",
+                        "Man skal have en advokat",
+                        "Man skal bo i den retskreds, sagen anlægges i"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retlig interesse kræver, at parten har en aktuel og individuel interesse i sagens udfald."
+                },
+                {
+                    "question": "Hvad er en 'udeblivelsesdom'?",
+                    "choices": [
+                        "En dom afsagt i partens fravær",
+                        "En dom der gives uden bevisførelse",
+                        "En foreløbig dom",
+                        "En dom afsagt af en enkelt dommer"
+                    ],
+                    "correct": 0,
+                    "explanation": "En udeblivelsesdom afsiges, når en part udebliver fra hovedforhandlingen uden lovligt forfald."
+                },
+                {
+                    "question": "Hvad er 'retshjælp' (via forsikring)?",
+                    "choices": [
+                        "Gratis advokatvagt",
+                        "Forsikringsdækning af sagsomkostninger",
+                        "Statens betaling af retsafgift",
+                        "En særlig retssagsform"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retshjælpsforsikring dækker en del af omkostningerne ved en retssag, typisk som del af en indboforsikring."
+                },
+                {
+                    "question": "Hvad er 'hovedforhandlingen' i en civil sag?",
+                    "choices": [
+                        "Den indledende samtale mellem parterne",
+                        "Det retsmøde hvor sagen procederes og bevis føres",
+                        "Domsafsigelsen",
+                        "Forberedelsen af sagen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Hovedforhandlingen er det centrale retsmøde, hvor sagen procederes, vidner afhøres, og beviserne fremlægges."
+                },
+                {
+                    "question": "Hvad er 'dispositionsprincippet'?",
+                    "choices": [
+                        "Dommeren bestemmer sagens udfald",
+                        "Parterne råder over sagens genstand og kan forlige sagen",
+                        "Beviserne skal fremlægges i en bestemt rækkefølge",
+                        "Retten kan afvise sager af egen drift"
+                    ],
+                    "correct": 1,
+                    "explanation": "Dispositionsprincippet indebærer, at parterne råder over sagens genstand, herunder mulighed for at forlige."
+                },
+                {
+                    "question": "Kan der ske 'bevissikring' inden en retssag er anlagt?",
+                    "choices": [
+                        "Nej, aldrig",
+                        "Ja, hvis der er risiko for at beviset ellers går tabt",
+                        "Kun i straffesager",
+                        "Kun efter tilladelse fra Højesteret"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejeloven giver mulighed for bevissikring inden sagsanlæg, hvis beviset ellers risikerer at gå tabt."
+                },
+                {
+                    "question": "Hvad er forskellen på 'objektiv' og 'subjektiv' kumulation?",
+                    "choices": [
+                        "Objektiv vedrører flere krav; subjektiv vedrører flere parter",
+                        "Objektiv er bindende; subjektiv er frivillig",
+                        "Objektiv angår kendsgerninger; subjektiv angår holdninger",
+                        "Der er ingen forskel"
+                    ],
+                    "correct": 0,
+                    "explanation": "Objektiv kumulation: flere krav mellem samme parter. Subjektiv kumulation: flere parter i samme sag."
+                }
+            ]
+        },
+        {
+            "level": 32,
+            "name": "Avancerede emner",
+            "questions": [
+                {
+                    "question": "Under hvilke betingelser kan Højesteret give tredjeinstansbevilling?",
+                    "choices": [
+                        "Sagen skal have principiel karakter",
+                        "Sagsøger skal være repræsenteret af en højesteretsadvokat",
+                        "Sagen skal omhandle et beløb over 1 mio. kr.",
+                        "Landsretten skal have anbefalet det"
+                    ],
+                    "correct": 0,
+                    "explanation": "Tredjeinstansbevilling gives, når sagen er af principiel karakter, jf. RPL § 371."
+                },
+                {
+                    "question": "Hvad er den civilprocessuelle bevisstandard i Danmark?",
+                    "choices": [
+                        "Ud over enhver rimelig tvivl",
+                        "Overvejende sandsynlighed",
+                        "Absolut sikkerhed",
+                        "Klar og overbevisende bevisførelse"
+                    ],
+                    "correct": 1,
+                    "explanation": "I civile sager er bevisstandarden overvejende sandsynlighed (sandsynlighedsovervægt)."
+                },
+                {
+                    "question": "Hvad regulerer retsplejelovens § 93?",
+                    "choices": [
+                        "Bevisoptagelse",
+                        "Værneting i kontraktsager",
+                        "Ankefrist",
+                        "Dommerhabilitet"
+                    ],
+                    "correct": 1,
+                    "explanation": "RPL § 93 omhandler opfyldelsesværneting — sager kan anlægges, hvor forpligtelsen skal opfyldes."
+                },
+                {
+                    "question": "Hvad er 'genoptagelse' af en civil sag?",
+                    "choices": [
+                        "At sagen overgår til en anden dommer",
+                        "At en afsluttet sag genoptages pga. nye oplysninger",
+                        "At sagen flyttes til en anden retskreds",
+                        "At sagen udsættes på ubestemt tid"
+                    ],
+                    "correct": 1,
+                    "explanation": "Genoptagelse (RPL § 399) tillader, at en afgjort sag genoptages, fx hvis nye beviser fremkommer."
+                },
+                {
+                    "question": "Kan retten i en civil sag dømme 'ultra petita' (ud over partens påstand)?",
+                    "choices": [
+                        "Ja, hvis dommeren finder det rimeligt",
+                        "Nej, retten er bundet af parternes påstande",
+                        "Kun i familieretlige sager",
+                        "Kun med parternes samtykke"
+                    ],
+                    "correct": 1,
+                    "explanation": "Pga. dispositionsprincippet kan retten ikke tilkende mere end hvad parterne har nedlagt påstand om."
+                },
+                {
+                    "question": "Hvad er en 'sagkyndig erklæring' i retsplejelovens forstand?",
+                    "choices": [
+                        "En parts egen vurdering",
+                        "En udtalelse fra en sagkyndig person indhentet via Søren eller retten",
+                        "En advokats juridiske analyse",
+                        "En vidneforklaring fra en ekspert"
+                    ],
+                    "correct": 1,
+                    "explanation": "En sagkyndig erklæring er en skriftlig udtalelse fra en uvildig ekspert, der belyser tekniske eller faglige spørgsmål."
+                },
+                {
+                    "question": "Hvad er betydningen af 'passivitet' i civilprocessen?",
+                    "choices": [
+                        "At parterne er enige",
+                        "At manglende handling kan medføre rettighedstab",
+                        "At sagen afgøres hurtigere",
+                        "At dommeren er inhabil"
+                    ],
+                    "correct": 1,
+                    "explanation": "Passivitet kan medføre, at en part mister retten til at gøre indsigelser eller retsmidler gældende."
+                },
+                {
+                    "question": "Hvad er et 'retsforlig'?",
+                    "choices": [
+                        "En dom afsagt ved flertal",
+                        "Et forlig indgået for retten med bindende virkning som en dom",
+                        "En aftale mellem advokater",
+                        "En foreløbig afgørelse"
+                    ],
+                    "correct": 1,
+                    "explanation": "Et retsforlig er et forlig indgået under retssagen med samme bindende virkning som en dom."
+                },
+                {
+                    "question": "Hvad kræves for at en dom kan tvangsfuldbyres?",
+                    "choices": [
+                        "Dommen skal være endelig og eksigibel",
+                        "Dommen skal være afsagt i Højesteret",
+                        "Skyldneren skal samtykke",
+                        "Der skal foreligge en politianmeldelse"
+                    ],
+                    "correct": 0,
+                    "explanation": "Tvangsfuldbyrdelse kræver et tvangsfuldbyrdelsesgrundlag, typisk en endelig og eksigibel dom."
+                },
+                {
+                    "question": "Hvad er betingelserne for et 'midlertidigt forbud' (foreløbigt forbud)?",
+                    "choices": [
+                        "Sandsynliggjort krav, nødvendighed og proportionalitet",
+                        "Dommerens skøn alene",
+                        "Politiets godkendelse",
+                        "Sagsøgtes samtykke"
+                    ],
+                    "correct": 0,
+                    "explanation": "Et foreløbigt forbud kræver, at rekvirenten sandsynliggør sit krav, at der er nødvendighed, og at forbuddet er proportionalt."
+                },
+                {
+                    "question": "Hvad er 'gensøgsmål' (modkrav)?",
+                    "choices": [
+                        "En ny selvstændig sag",
+                        "Et krav rejst af sagsøgte mod sagsøger inden for samme sag",
+                        "En klage over dommeren",
+                        "En begæring om syn og skøn"
+                    ],
+                    "correct": 1,
+                    "explanation": "Gensøgsmål er sagsøgtes selvstændige krav mod sagsøger, der behandles i forbindelse med hovedsagen."
+                },
+                {
+                    "question": "Hvad er 'adcitation' (tredjemandsinddragelse)?",
+                    "choices": [
+                        "Inddragelse af en tredjemand som part i sagen",
+                        "En citation fra en lærebog",
+                        "En erklæring fra anklagemyndigheden",
+                        "En form for vidneforklaring"
+                    ],
+                    "correct": 0,
+                    "explanation": "Adcitation (RPL § 250) er inddragelse af en tredjemand som part, fx for at gøre regres gældende."
+                },
+                {
+                    "question": "Hvornår kan en byretsdom ankes direkte til Højesteret (spring over landsretten)?",
+                    "choices": [
+                        "Aldrig — anke skal altid gå igennem landsretten",
+                        "Når Procesbevillingsnævnet giver tilladelse pga. principiel karakter",
+                        "Kun i straffesager",
+                        "Når sagsøger er en offentlig myndighed"
+                    ],
+                    "correct": 1,
+                    "explanation": "I særlige tilfælde kan Procesbevillingsnævnet give tilladelse til direkte anke til Højesteret (leapfrogging)."
+                },
+                {
+                    "question": "Hvad er 'deldomme'?",
+                    "choices": [
+                        "Domme der kun afgør en del af sagen",
+                        "Domme afsagt af dommerfuldmægtige",
+                        "Domme i småsager",
+                        "Foreløbige domme"
+                    ],
+                    "correct": 0,
+                    "explanation": "En deldom afgør kun en del af de rejste krav, mens resten af sagen fortsætter."
+                },
+                {
+                    "question": "Hvad er 'nova' i ankeprocessen?",
+                    "choices": [
+                        "Nye påstande og anbringender fremsat under anken",
+                        "Nye dommere",
+                        "Nye love vedtaget efter byretsdommen",
+                        "Nye vidner indkaldt af retten"
+                    ],
+                    "correct": 0,
+                    "explanation": "Nova er nye faktiske omstændigheder, beviser eller anbringender, der fremføres under anken."
+                }
+            ]
         }
     ],
     "cases": [
         {
-            "level": 1,
+            "level": 30,
             "title": "Hansen mod Jensen — Nabostridigheden",
             "context": "Peter Hansen ejer en villa i Roskilde. Hans nabo, Mette Jensen, har et stort egetræ, hvis rødder har vokset ind under Hansens grund og beskadiget hans terrasse og kloakrør. Hansen har forgæves bedt Jensen om at fælde træet. Skaderne er opgjort til 85.000 kr. Hansen vil nu anlægge retssag mod Jensen for at få erstatning og kræve træet fjernet.",
             "questions": [
@@ -3036,7 +3036,7 @@
             ]
         },
         {
-            "level": 2,
+            "level": 31,
             "title": "Byggesagen — Andersen Byg mod Kommune X",
             "context": "Andersen Byg A/S vandt et udbud om at bygge et nyt kulturhus for Kommune X til 12 mio. kr. Efter at byggeriet var påbegyndt, annullerede kommunen kontrakten med henvisning til budgetoverskridelser. Andersen Byg har allerede afholdt udgifter på 3,2 mio. kr. og kræver erstatning for tabt fortjeneste på 1,8 mio. kr. Kommunen bestrider, at der foreligger kontraktbrud, og hævder, at Andersen Byg selv har misligholdt kontrakten ved forsinkelser.",
             "questions": [
@@ -3087,7 +3087,7 @@
             ]
         },
         {
-            "level": 3,
+            "level": 32,
             "title": "Den Internationale Handelsaftale",
             "context": "Det danske selskab Nordic Tech ApS har indgået en kontrakt med den italienske leverandør Milano Components S.r.l. om levering af elektroniske komponenter til 2,4 mio. EUR. Kontrakten indeholder en jurisdiktionsklausul, der henviser til 'domstolene i EU.' Milano Components leverede defekte komponenter, og Nordic Tech har lidt et tab på 800.000 EUR. Nordic Tech ønsker at sagsøge Milano Components.",
             "questions": [
@@ -3138,7 +3138,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Lejeren og den lukkede dør — Retssikkerhed i praksis",
             "context": "Sofie Larsen lejer en lejlighed i Aarhus. Hendes udlejer, Jeppe Holm, har uden varsel udskiftet låsen og nægter hende adgang til lejligheden, fordi han mener, at hun skylder tre måneders husleje. Sofie bestrider huslejekravet og hævder, at hun har betalt via MobilePay. Sofie overvejer at gå til fogedretten, men hendes ven foreslår i stedet mediation. Hun er i tvivl om sine rettigheder og mulighederne i det danske retssystem.",
             "questions": [
@@ -3189,7 +3189,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Håndværkerens dilemma — Tvistløsning eller tvangsfuldbyrdelse",
             "context": "Tømrermester Lars Møller har udført renovering af et badeværelse for privatpersonen Anne Frederiksen til en pris af 78.000 kr. Anne nægter at betale, fordi hun mener, at arbejdet er mangelfuldt — fliserne sidder skævt, og afløbet har dårligt fald. Lars har sendt tre rykkere uden resultat. Han overvejer sine muligheder: skal han anlægge civilt søgsmål, sende et betalingspåkrav eller forsøge mediation?",
             "questions": [
@@ -3240,7 +3240,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "IT-kontrakten med voldgiftsklausul",
             "context": "Virksomheden DataStream A/S har indgået en kontrakt med softwareleverandøren CodeHouse ApS om udvikling af et kundestyringssystem til 1,2 mio. kr. Kontrakten indeholder en voldgiftsklausul, der bestemmer, at enhver tvist skal afgøres ved voldgift efter reglerne i den danske voldgiftslov. Da systemet ikke fungerer efter specifikationerne, vil DataStream anlægge sag ved byretten i stedet for at anvende voldgift.",
             "questions": [
@@ -3291,7 +3291,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Forbrugerklagen — Fra nævn til domstol",
             "context": "Forbrugeren Karen Holm har købt en ny sofa til 15.000 kr. fra møbelforretningen SofaLux. Sofaen begynder at knirke efter to uger, og betrækket falmer hurtigt. Karen har klaget til Forbrugerklagenævnet, som har givet SofaLux medhold i, at sofaen ikke var mangelfuld. Karen er utilfreds med nævnets afgørelse og overvejer at gå til domstolene. SofaLux mener, at nævnets afgørelse er endelig.",
             "questions": [
@@ -3342,7 +3342,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Patentkrænkelsen — Bevissikring inden sagsanlæg",
             "context": "Virksomheden BioTech Solutions A/S opdager, at konkurrenten PharmaCopy ApS tilsyneladende fremstiller et produkt, der krænker BioTechs patent på en ny type medicinsk sensor. BioTech frygter, at PharmaCopy vil destruere produktionsdokumentation og lagerbeholdning, hvis de opdager, at der er en sag på vej. BioTechs advokat anbefaler at søge om bevissikring, inden der anlægges sag.",
             "questions": [
@@ -3393,7 +3393,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Huslejetvisten — Fra huslejenævn til boligret",
             "context": "Lejeren Morten Berg bor til leje i en etageejendom i København. Udlejeren varsler en huslejestigning på 25 %, som Morten finder urimelig. Morten indbringer sagen for huslejenævnet, som reducerer stigningen til 10 %. Udlejeren, Henrik Skov, er utilfreds og vil have sagen prøvet ved domstolene. Morten er usikker på, hvilken domstol der er den rette.",
             "questions": [
@@ -3444,7 +3444,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Retsmæglingen — Parterne søger forlig",
             "context": "Under en verserende erstatningssag ved byretten om 200.000 kr. i forbindelse med en trafikskade foreslår dommeren, at parterne deltager i retsmægling. Sagsøgeren, Thomas Winther, er interesseret, men sagsøgte, forsikringsselskabet TrygSikker A/S, er skeptisk og mener, at retsmægling er spild af tid. Under mæglingen finder parterne overraskende en løsning og ønsker at indgå forlig.",
             "questions": [
@@ -3495,7 +3495,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Retsplejerådets reformforslag — Fleksibilitet på spil",
             "context": "Retsplejerådet har afgivet en ny betænkning med forslag om at forenkle den civile retspleje for sager under 250.000 kr. ved at indføre stramme procesfrister og begrænse antallet af processkrifter. En gruppe advokater er bekymret for, at reformen vil gøre processen for rigid og fjerne domstolenes mulighed for at tilpasse behandlingen til den enkelte sag. Justitsministeriet overvejer at gennemføre forslaget ved lov.",
             "questions": [
@@ -3546,7 +3546,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Den internationale handelstvist — Konventioner i spil",
             "context": "Det danske rederi NordicShipping A/S har en tvist med en schweizisk speditør, AlpenLogistik AG, om en fragtskade på 3 mio. DKK. Kontrakten indeholder en værnetingsaftale om danske domstole, men ingen voldgiftsklausul. AlpenLogistik hævder, at sagen bør afgøres i Schweiz, og påberåber sig Værnetingsaftalekonventionen. NordicShipping overvejer, om Lugano-konventionen kan spille ind, da Schweiz ikke er EU-medlem.",
             "questions": [
@@ -3597,7 +3597,7 @@
             ]
         },
         {
-            "level": 4,
+            "level": 1,
             "title": "Entreprenøren og trappestigen — ADR i flere lag",
             "context": "Byggeselskabet SolidBuild A/S har udført et byggeprojekt for boligforeningen GrønneHjem. Der opstår tvist om mangler til en værdi af 450.000 kr. Kontrakten indeholder en 'trappestige-klausul': tvister skal først søges løst ved mediation, dernæst ved Voldgiftsnævnet for Byggeri og Anlæg, og kun i sidste instans ved de almindelige domstole. GrønneHjem vil springe mediation over og gå direkte til domstolene.",
             "questions": [
@@ -3648,7 +3648,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Den inhabile dommer — Habilitet og partsevne",
             "context": "Virksomheden GreenTech ApS sagsøger en konkurrent, BlueWave A/S, for krænkelse af et patent ved Sø- og Handelsretten. Under forberedelsen opdager GreenTechs advokat, at den udpegede dommer ejer aktier i BlueWave A/S' moderselskab. Samtidig rejser BlueWave spørgsmål om, hvorvidt GreenTech ApS overhovedet har processuel partsevne, da selskabet er under tvangsopløsning. GreenTechs bestyrelsesformand ønsker selv at føre sagen uden advokat.",
             "questions": [
@@ -3699,7 +3699,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Foreningens dag i retten — Har gruppen partsevne?",
             "context": "En gruppe beboere i et kvarter i Odense har dannet 'Beboergruppen Grønne Veje' for at protestere mod et kommunalt vejprojekt. Gruppen har ikke vedtægter, ingen bestyrelse og ingen formel struktur — de kommunikerer via en Facebook-gruppe. De ønsker at sagsøge kommunen for at standse projektet. Kommunens advokat bestrider, at gruppen har processuel partsevne.",
             "questions": [
@@ -3750,7 +3750,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Advokatens karrierevej — Møderet i tre instanser",
             "context": "Advokat Camilla Borg har netop bestået advokateksamen og retssagsprøven og fået sin advokatbeskikkelse. Hun er ansat i et mindre advokatfirma og ønsker på sigt at føre sager ved både landsretten og Højesteret. Hendes første klient er et nystiftet anpartsselskab, DataNova ApS, der endnu ikke er registreret i Erhvervsstyrelsen, men som ønsker at anlægge en civil sag ved byretten.",
             "questions": [
@@ -3801,7 +3801,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Konkursboet og den verserende sag — Processuel succession",
             "context": "Under en verserende erstatningssag, hvor virksomheden TechStar ApS har sagsøgt leverandøren MetalWorks A/S for 500.000 kr. i erstatning for defekte komponenter, går TechStar ApS konkurs. Kurator for konkursboet overvejer, om boet skal indtræde i sagen. MetalWorks' advokat mener, at sagen bør afvises, fordi TechStar er gået konkurs.",
             "questions": [
@@ -3852,7 +3852,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Den sagkyndige dommer i boligretten — Inhabilitetsspørgsmål",
             "context": "I en huslejesag ved boligretten i Aarhus medvirker to lægdommere. Den ene lægdommer, Henrik, er formand for den lokale grundejerforening og er udpeget efter forhandling med grundejerorganisationerne. Under sagen opdager lejers advokat, at Henriks grundejerforening har et formaliseret samarbejde med udlejers administrationsselskab. Lejers advokat rejser indsigelse om inhabilitet.",
             "questions": [
@@ -3903,7 +3903,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Selvmøderen og advokatpålægget",
             "context": "Pernille Hansen har anlagt en erstatningssag mod sin tidligere arbejdsgiver for 800.000 kr. ved byretten. Pernille har valgt at føre sagen selv uden advokat ('selvmøder'). Under forberedelsen viser det sig, at sagen er juridisk kompliceret med komplekse bevisspørgsmål om arbejdsmiljølovgivning. Dommeren overvejer at give Pernille et advokatpålæg efter Rpl § 259.",
             "questions": [
@@ -3954,7 +3954,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Fuldmagtens grænser — Advokaten der forligte",
             "context": "Advokat Jens Larsen repræsenterer sin klient, Marie Skov, i en erstatningssag mod et forsikringsselskab. Marie har nedlagt påstand om 300.000 kr. Under forberedelsen tilbyder forsikringsselskabet et forlig på 150.000 kr. Uden at konsultere Marie accepterer Jens forliget, fordi han mener, at chancerne for at vinde sagen er små. Marie er vred og mener ikke, at Jens havde ret til dette.",
             "questions": [
@@ -4005,7 +4005,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Fagforeningen som mandatar — Repræsentation i retten",
             "context": "Fagforeningen Dansk Metal fører en løntvistssag for sit medlem, svejser Kim Jensen, mod hans arbejdsgiver, StaalTek A/S. Fagforeningen optræder som mandatar for Kim og har antaget en advokat til at føre sagen ved byretten. StaalTek bestrider, at fagforeningen kan optræde som mandatar, og Kim overvejer, om han til enhver tid kan tilbagekalde fuldmagten.",
             "questions": [
@@ -4056,7 +4056,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Den tidligere advokat på dommersædet — Konstitution og inhabilitet",
             "context": "Advokat Michael Friis, der har drevet advokatvirksomhed i 15 år, ønsker at skifte karriere og blive dommer. Han ansøger om en uddannelseskonstitution ved Østre Landsret. Under konstitutionsperioden opdager han, at en af hans tidligere store klienter, FinansBank A/S, er part i en sag, han nu skal dømme i. Desuden er en af hans tidligere kolleger fra advokatfirmaet rettergangsfuldmægtig for den anden part.",
             "questions": [
@@ -4107,7 +4107,7 @@
             ]
         },
         {
-            "level": 5,
+            "level": 2,
             "title": "Nævnsmedlemmet på dommersædet — Inhabilitet og appearance",
             "context": "Højesteretsdommer Anne Kristensen er udpeget som suppleant for formanden i Teleklagenævnet. En sag fra Teleklagenævnet er nu indbragt for Højesteret, og Anne skal dømme i sagen. Den ene part mener, at Anne er inhabil, fordi hun er tilknyttet nævnet — selv om hun aldrig har deltaget i nævnets arbejde eller været i funktion som suppleant.",
             "questions": [
@@ -4158,7 +4158,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Den langsomme retssag — EMK art. 6 i praksis",
             "context": "Maria Sørensen anlagde for tre år siden en erstatningssag mod sin tidligere arbejdsgiver, DataSoft A/S, ved byretten. Sagen har trukket ud pga. gentagne udsættelser: først ventede retten på en sagkyndig erklæring fra Retslægerådet i 14 måneder, dernæst blev hovedforhandlingen udsat to gange pga. dommerens sygdom. Maria har nu ventet over tre år uden dom. Hendes advokat opdager desuden, at den nye dommer, der er sat på sagen, tidligere har været bestyrelsesmedlem i DataSofts moderselskab. Maria overvejer at klage til Menneskerettighedsdomstolen.",
             "questions": [
@@ -4209,7 +4209,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Klageren og den overskredet frist — Udtømning af retsmidler",
             "context": "Henrik Andersen tabte en erstatningssag i landsretten om fejlslagen renovering af sit hus. Hans advokat glemte at ansøge Procesbevillingsnævnet om tredjeinstansbevilling inden fire-ugers-fristen i Rpl § 371, stk. 2. Henrik vil nu klage til EMD over, at landsretten ikke tillod fremlæggelse af et centralt bevis under hovedforhandlingen.",
             "questions": [
@@ -4260,7 +4260,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Den digitale portal — Advokaten og den manglende funktion",
             "context": "Advokat Mette Poulsen repræsenterer en klient, der vil have tilsidesat en voldgiftskendelse efter voldgiftslovens § 37. Sagen skal indbringes inden en bestemt frist via sagssportalen, men portalen mangler en specifik funktion for tilsidesættelsessager. Mette er i tvivl om den rigtige fremgangsmåde og sender i stedet et skriftligt brev til retten inden fristens udløb. Retten afviser sagen med den begrundelse, at den ikke er indbragt digitalt via portalen.",
             "questions": [
@@ -4311,7 +4311,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Sportsudøveren og den tvungne voldgift",
             "context": "Den professionelle svømmer Katrine Holm er kontraktligt forpligtet til at underkaste sig voldgift ved en idrættens voldgiftsret, da hun ellers ikke kan deltage i konkurrencer. Under en voldgiftssag om en dopingsanktion opdager hun, at formanden for voldgiftstribunalet tidligere har været advokat for svømmeforbundet. Katrine gør indsigelse om inhabilitet under voldgiftssagen, men tribunalet afviser indsigelsen.",
             "questions": [
@@ -4362,7 +4362,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Den fortrolige lægeerklæring — Kontradiktion under pres",
             "context": "I en erstatningssag om arbejdsbetinget lungesygdom har den ansatte Niels Bech fremlagt en lægeerklæring, der dokumenterer sammenhængen mellem hans arbejde og sygdommen. Arbejdsgiveren, FlexIndustri A/S, kræver adgang til Niels' fulde lægejournal for at kunne bestride årsagssammenhængen. Niels' advokat protesterer med henvisning til privatlivets fred og de følsomme helbredsoplysninger i journalen.",
             "questions": [
@@ -4413,7 +4413,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Udlejeren og den umulige fuldbyrdelse",
             "context": "Udlejeren Karl Madsen har opnået en retskraftig dom om udsættelse af lejeren Jonas Berg fra en lejlighed i København. Jonas nægter at flytte. Karl henvendte sig til fogedretten, som fastsatte en udsættelsesforretning, men politiet aflyste gentagne gange udsættelsen med henvisning til risiko for social uro i kvarteret. Der er nu gået over tre år, og Karl har stadig ikke fået sin dom fuldbyrdet.",
             "questions": [
@@ -4464,7 +4464,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Forligspresset — Dommeren der gik for langt",
             "context": "Under forberedelsen af en erstatningssag på 350.000 kr. opfordrede dommer Lise Thomsen kraftigt sagsøgte til at indgå forlig. Hun udtalte under et forberedende møde: 'Hvis I ikke accepterer dette rimelige forlig, vil I efter min vurdering tabe sagen, og det vil koste jer tre gange så meget i sagsomkostninger.' Sagsøgte følte sig presset og indgik forliget, men ønsker nu at anfægte det med henvisning til dommerens adfærd.",
             "questions": [
@@ -4515,7 +4515,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "De ulige ressourcer — Equality of Arms i praksis",
             "context": "Den lille landbrugsejendom Vestergård I/S (ejet af ægteparret Pia og Jens Hansen) er i tvist med det store energiselskab WindPower A/S om erstatning for skader på afgrøder forårsaget af vindmøller. WindPower har hyret tre advokater, to vindeksperter og en professor i miljøret. Vestergård har én advokat og har ikke råd til sagkyndige erklæringer. Retten afslår Vestergårds anmodning om at stille spørgsmål til WindPowers eksperter.",
             "questions": [
@@ -4566,7 +4566,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Den civile sag med strafferetligt tilsnit — EMK's rækkevidde",
             "context": "Virksomhedsejer Martin Olsen er sigtet i en verserende straffesag for overtrædelse af miljølovgivningen. Sideløbende har naboerne anlagt en civil erstatningssag mod ham for forurening af deres grundvand. I den civile sag vil Martins advokat påberåbe sig princippet om selvinkriminering fra EMK art. 6, da Martin mener, at hans forklaring i den civile sag kan bruges mod ham i straffesagen. Naboernes advokat anfører, at EMK giver staterne et større spillerum i civile sager.",
             "questions": [
@@ -4617,7 +4617,7 @@
             ]
         },
         {
-            "level": 6,
+            "level": 3,
             "title": "Sagsøgeren der ikke kunne betale — Access to Court og retsafgifter",
             "context": "Pensionisten Grethe Andersen vil anlægge erstatningssag mod et hospital for en fejlslagen operation, der har efterladt hende med kroniske smerter. Hendes sagsgenstand er opgjort til 500.000 kr. Retsafgiften udgør et beløb, som Grethe med sin folkepension ikke kan betale. Hendes ansøgning om fri proces er afslået, og hun har ingen retshjælpsforsikring. Grethe mener, at hun reelt er afskåret fra at få prøvet sin sag ved domstolene.",
             "questions": [
@@ -4668,7 +4668,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Gasselskabet og den manglende forelæggelse",
             "context": "Det danske energiselskab NordGas A/S har anlagt sag mod den danske stat ved Østre Landsret. NordGas hævder, at statens implementering af et EU-gasdirektiv er mangelfuld og har påført selskabet et tab på 45 mio. kr. i mistet adgang til gasnettet. Under sagen opstår spørgsmål om fortolkningen af direktivet. NordGas anmoder landsretten om at forelægge et præjudicielt spørgsmål for EU-Domstolen, men landsretten afslår med henvisning til, at fortolkningen er klar. NordGas kærer afgørelsen til Højesteret og overvejer desuden at søge om fri proces, da selskabet er i økonomiske vanskeligheder.",
             "questions": [
@@ -4719,7 +4719,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Stråmanden og den administrative rekurs — Effektiv domstolsbeskyttelse",
             "context": "Den danske erhvervsdrivende Jens Krogh opdager, at SKAT har opført hans navn på en intern liste over personer, der mistænkes for at fungere som stråmand for reelle selskabsejere. Jens har aldrig fungeret som stråmand og vil anlægge sag mod SKAT med påstand om sletning, da opførelsen er baseret på EU's persondataforordning. SKAT afviser at fjerne hans navn og oplyser, at Jens først skal udtømme mulighederne for administrativ klage til Datatilsynet, inden han kan gå til domstolene.",
             "questions": [
@@ -4770,7 +4770,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Voldgiftskendelsen og EU-konkurrenceretten — Eco Swiss i praksis",
             "context": "Det danske selskab GreenEnergy A/S og det tyske selskab SolarTech GmbH har fået afgjort en tvist om en distributionsaftale ved voldgift i København. Voldgiftskendelsen tilkendte SolarTech erstatning. GreenEnergy's advokat opdager efterfølgende, at distributionsaftalen indeholder en konkurrencebegrænsende klausul, der er i strid med TEUF art. 101 (EU-konkurrenceret). GreenEnergy vil have voldgiftskendelsen tilsidesat ved de danske domstole efter voldgiftslovens § 37.",
             "questions": [
@@ -4821,7 +4821,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Forbrugerlånet og de urimelige vilkår — Rettens ex officio-pligt",
             "context": "Forbrugeren Anna Vestergaard har optaget et forbrugslån hos FinansNu A/S. Låneaftalen indeholder en klausul, der giver FinansNu ret til ensidigt at forhøje renten med op til 5 procentpoint uden varsel. Anna kan ikke betale, og FinansNu anlægger sag ved byretten. Under sagen bemærker dommeren, at renteklausulen muligvis er urimelig efter EU's forbrugeraftaledirektiv, men ingen af parterne har rejst spørgsmålet.",
             "questions": [
@@ -4872,7 +4872,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Den ubegrundede udeblivelsesdom — Fuldbyrdelse på tværs af grænser",
             "context": "Det danske selskab NordImport A/S har købt varer af det engelske selskab BritGoods Ltd. NordImport betalte ikke, og BritGoods anlagde sag i England. NordImport indleverede ikke et svarskrift, og den engelske domstol afsagde en udeblivelsesdom, der alene var begrundet med, at sagsøgte ikke havde svaret. BritGoods ønsker nu at tvangsfuldbyrde dommen i Danmark efter domsforordningen. NordImport protesterer og hævder, at dommen er i strid med grundlæggende retsprincipper, fordi den mangler enhver begrundelse.",
             "questions": [
@@ -4923,7 +4923,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Landmandens EU-støtte og den overskredet frist",
             "context": "Landmanden Erik Skov har fået afslag på EU-landbrugsstøtte af Landbrugsstyrelsen. Han mener, at afslaget er i strid med EU's landbrugsforordning. Eriks advokat opdager først muligheden for at anlægge sag fire måneder efter afgørelsen, men den nationale søgsmålsfrist på tre måneder er udløbet. Erik hævder, at fristen er i strid med EU-rettens effektivitetsprincip, fordi den gør det praktisk umuligt at håndhæve hans EU-retlige rettigheder.",
             "questions": [
@@ -4974,7 +4974,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Dommernes uafhængighed — EU-rettens krav",
             "context": "I en dansk sag om statsstøtte efter EU-retten gør sagsøgeren, en dansk virksomhed, indsigelse mod dommeren. Dommeren er udnævnt på en midlertidig konstitution og har tidligere arbejdet i det ministerium, der administrerer den pågældende statsstøtteordning. Virksomhedens advokat påberåber sig EU-Domstolens praksis om domstoles uafhængighed, herunder de principper, der er udviklet i forbindelse med sagerne om polske domstole.",
             "questions": [
@@ -5025,7 +5025,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Virksomheden der ville prøve myndighedsafgørelsen — Retlig interesse",
             "context": "Spillevirksomheden BetDanmark A/S mener, at Spillemyndighedens fortolkning af en EU-forordning om onlinespil er forkert og skader BetDanmarks konkurrenceposition. BetDanmark vil anlægge sag mod Spillemyndigheden med påstand om, at myndighedens administrative praksis er i strid med EU-retten. Spillemyndigheden gør gældende, at BetDanmark ikke har retlig interesse, da virksomheden ikke er direkte berørt af en konkret afgørelse — den ønsker blot en abstrakt prøvelse af myndighedens generelle praksis.",
             "questions": [
@@ -5076,7 +5076,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Parallelaftalen og forkyndelsen — Danmarks særlige stilling",
             "context": "Det danske selskab NordFish A/S har anlagt sag mod det franske selskab MerPoisson S.A. ved byretten i Esbjerg. Stævningen skal forkyndes for MerPoisson i Frankrig. NordFish's advokat er i tvivl om, hvordan forkyndelsen skal ske, da Danmark har taget forbehold for EU's civilretlige samarbejde. MerPoisson gør gældende, at forkyndelsen er ugyldig, fordi Danmark ikke er omfattet af EU's forkyndelsesforordning.",
             "questions": [
@@ -5127,7 +5127,7 @@
             ]
         },
         {
-            "level": 7,
+            "level": 4,
             "title": "Retskraften der stod i vejen — EU-ret vs. national retskraft",
             "context": "Den danske virksomhed CleanTech ApS tabte for to år siden en sag mod Miljøstyrelsen ved Højesteret om retten til miljøgodkendelse. Sagen var baseret på et EU-miljødirektiv. EU-Domstolen afsiger efterfølgende en præjudiciel afgørelse i en lignende sag fra Tyskland, der viser, at Højesterets fortolkning af direktivet var forkert. CleanTech vil genoptage sagen og hævder, at den danske dom ikke kan opretholdes, fordi den er i strid med EU-retten.",
             "questions": [
@@ -5178,7 +5178,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Retsforliget — Kristensen mod Borg Entreprise",
             "context": "Bygherren Anja Kristensen indgik under en retssag mod Borg Entreprise ApS et forlig om udbedring af mangler ved et nybyggeri til en værdi af 320.000 kr. Forliget blev tilført retsbogen som et retsforlig, jf. § 270. Det var Anjas advokat, Morten Friis, der accepterede forligsvilkårene under et telefonisk retsmøde, uden forudgående at konsultere Anja. Da Borg Entreprise ikke udbedrer manglerne, ønsker Anja at tvangsfuldbyrde forliget, men Borg Entreprise gør nu indsigelse mod forligets gyldighed i fogedretten.",
             "questions": [
@@ -5229,7 +5229,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Ne ultra petita — Boligretten der gik for vidt",
             "context": "Udlejer Henrik Dall sagsøger lejer Camilla Winther ved boligretten i Vejle. Henrik nedlægger påstand om, at Camilla skal anerkende, at ophævelsen af hendes lejemål er berettiget. Boligretten giver Henrik medhold, men tilføjer af egen drift til domskonklusionen, at Camilla skal fraflytte lejligheden inden en bestemt dato. Camilla anker dommen til landsretten. Under ankesagen opdager landsretten desuden, at den entrepriseaftale, som Henriks krav om istandsættelse bygger på, indeholder elementer af sort arbejde.",
             "questions": [
@@ -5280,7 +5280,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Forhandlingsprincippet — Madsen mod TechSupply",
             "context": "Virksomheden Madsen Produktion A/S sagsøger leverandøren TechSupply ApS for 450.000 kr. i erstatning for defekte maskinkomponenter. Som anbringende gør Madsen gældende, at komponenterne var mangelfulde, og at TechSupply er erstatningsansvarlig. TechSupply påstår frifindelse. Under hovedforhandlingen fremkommer det, at Madsen også har et konnekst modregningskrav mod TechSupply på 120.000 kr. fra en tidligere leverance, men dette er ikke gjort gældende som anbringende. Desuden overvejer retten, om sagen kunne løses via fuldmagtssynspunkter.",
             "questions": [
@@ -5331,7 +5331,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Materiel procesledelse og EU-forpligtelser — Sørensen mod KreditNemt",
             "context": "Forbrugeren Lars Sørensen har optaget et forbrugslån hos KreditNemt A/S. Låneaftalen indeholder en klausul om, at KreditNemt ensidigt kan ændre tilbagebetalingsvilkårene og pålægge et gebyr på 1.500 kr. ved enhver henvendelse fra låntager. Lars kan ikke betale, og KreditNemt anlægger sag ved byretten for 87.000 kr. Lars møder uden advokat og gør kun gældende, at han har betalt noget af gælden. Dommeren bemærker, at gebyrklausulen muligvis er urimelig efter EU's direktiv 93/13 om urimelige kontraktvilkår, men ingen af parterne har rejst spørgsmålet.",
             "questions": [
@@ -5382,7 +5382,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Forligsmægling og inhabilitet — Thomsen mod NordByg",
             "context": "Under forberedelsen af en entreprisesag mellem entreprenøren Poul Thomsen og NordByg A/S om mangler for 580.000 kr. mægler byretsdommer Inge Holm forlig efter § 268. Under det forberedende møde udtaler dommer Holm: 'Efter min vurdering vil Thomsen højst sandsynligt tabe sagen på bevisgrundlaget og blive pålagt betydelige sagsomkostninger. Jeg anbefaler kraftigt et forlig på 150.000 kr.' Thomsen føler sig presset og indgår forliget som retsforlig, men ønsker nu at anfægte det. NordByg påpeger, at Thomsen slet ikke havde undersøgt forligsmuligheder inden sagens anlæg.",
             "questions": [
@@ -5433,7 +5433,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Kontradiktion og overraskende retsanvendelse — Petersen mod Holm Finans",
             "context": "I en sag ved byretten i Odense sagsøger Karen Petersen sin bank, Holm Finans A/S, for 220.000 kr. i erstatning for fejlagtig investeringsrådgivning. Begge parter procederer udelukkende på grundlag af de finansretlige regler om rådgiveransvar. Under voteringen overvejer dommeren at afgøre sagen på grundlag af de almindelige erstatningsretlige regler om egen skyld, som ingen af parterne har berørt. Dommeren overvejer desuden at inddrage en ugyldighedsgrund, som Karen ikke har gjort gældende, men som angår et indispositivt forhold.",
             "questions": [
@@ -5484,7 +5484,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Koncentrationsprincippet og nova i anken — Berg mod DataSoft",
             "context": "Konsulentvirksomheden Berg IT ApS tabte i byretten en sag mod DataSoft A/S om betaling af 380.000 kr. for konsulentydelser. Berg IT anker dommen til landsretten. Under anken ønsker Berg IT at fremsætte et nyt anbringende om, at DataSoft var i misligholdelse af en sideaftale, hvilket ikke blev gjort gældende i byretten. Berg ITs advokat havde allerede i byretten overvejet dette anbringende, men valgte bevidst at frafalde det. Desuden ønsker Berg IT at fremlægge nye beviser, som var tilgængelige allerede under byretssagen.",
             "questions": [
@@ -5535,7 +5535,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Proceserklæringers bindende virkning — Lund mod ForsikringsGruppen",
             "context": "I en erstatningssag ved byretten i Aalborg har Martin Lund sagsøgt ForsikringsGruppen A/S for 650.000 kr. efter en trafikskade. Under sagens forberedelse afgiver parterne en fælles proceserklæring om, at erstatningen skal opgøres efter en bestemt beregningsmetode, og at forældelse ikke gøres gældende. Kort efter afsiger Højesteret i en anden sag en dom, der fastlægger nye retningslinjer for erstatningsopgørelsen, som ville give Martin et væsentligt højere krav. Martin ønsker nu at frigøre sig fra proceserklæringen.",
             "questions": [
@@ -5586,7 +5586,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Processproget og fremmed ret — NordicParts mod Schäfer GmbH",
             "context": "Det danske selskab NordicParts A/S har anlagt sag ved byretten i København mod det tyske selskab Schäfer GmbH om erstatning for kontraktbrud. Kontrakten er affattet på tysk, og en række bilag er på engelsk. Schäfers advokat ønsker at afhøre et tysk vidne på tysk uden tolk. Desuden gør Schäfer gældende, at tvisten skal afgøres efter tysk ret, og Schäfers advokat har indhentet et responsum fra en tysk professor om tysk kontraktret. NordicParts bestrider, at tysk ret finder anvendelse.",
             "questions": [
@@ -5637,7 +5637,7 @@
             ]
         },
         {
-            "level": 8,
+            "level": 5,
             "title": "Dispositionsprincippets grænser — Nielsen mod Vang Ejendomme",
             "context": "Ejendomsinvestoren Jens Nielsen sagsøger Vang Ejendomme ApS for betaling af 1,2 mio. kr. i henhold til en købsaftale om en erhvervsejendom. Under sagens forberedelse fremkommer det, at købsaftalen er en proformaaftale, der er konstrueret for at simulere en højere købesum end den reelle med henblik på at opnå større banklån. Ingen af parterne ønsker aftalen tilsidesat. Desuden gør Nielsen gældende et krav, der reelt har til formål at unddrage midler fra sine kreditorer i et forestående konkursbo.",
             "questions": [
@@ -5689,7 +5689,7 @@
         },
         {
             "title": "Journalisten i retssalen — Offentlig hovedforhandling",
-            "level": 9,
+            "level": 6,
             "context": "Journalist Ida Kofoed fra Dagbladet Retten ønsker at overvære en civil sag ved Retten i Kolding mellem to lokale virksomheder om en kontrakttvist på 2,3 mio. kr. Da hun ankommer til retslokalet, bliver hun stoppet af en retsbetjent, som oplyser, at den ene part har anmodet om, at retsmødet holdes for lukkede døre af hensyn til parternes privatliv. Ida mener, at hun har ret til at overvære sagen som journalist og repræsentant for offentligheden. Sagsøgers advokat argumenterer for, at offentlig rettergang vil skade hans klients omdømme, mens sagsøgtes advokat ikke har nogen indvendinger mod offentlighed. Retten skal nu tage stilling til, om sagen skal være offentlig eller ej.",
             "questions": [
                 {
@@ -5740,7 +5740,7 @@
         },
         {
             "title": "Det skriftlige vidneudsagn — Mundtlighed og bevisumiddelbarhed",
-            "level": 9,
+            "level": 6,
             "context": "I en erstatningssag ved Retten i Odense kræver sagsøger Martin Bredahl 450.000 kr. i erstatning fra entreprenørfirmaet GrundByg A/S for skader på hans ejendom under et nabobyggeri. Martins nøglevidne, den pensionerede ingeniør Henning Voss, er for syg til at møde op i retten. Martins advokat fremlægger derfor en skriftlig vidneerklæring, som Henning har underskrevet, hvori han detaljeret beskriver de rystelser, han observerede under byggeriet. GrundBygs advokat protesterer og kræver mundtlig vidneforklaring. Retten skal nu tage stilling til, om den skriftlige erklæring kan tillades som bevis.",
             "questions": [
                 {
@@ -5791,7 +5791,7 @@
         },
         {
             "title": "Den glemte sagsportal — Digital sagsbehandling",
-            "level": 9,
+            "level": 6,
             "context": "Advokat Camilla Elberg repræsenterer klienten Jørgen Wiese i en sag om mangler ved et huskøb. Kravet er på 320.000 kr. mod sælgeren, Torben Nørgaard. Camilla er ny i faget og sender ved en fejl stævningen til byretten med almindelig post i stedet for at indgive den via sagsportalen. Retten returnerer stævningen og oplyser, at den er uden retsvirkning. Camilla er frustreret og mener, at retten burde have accepteret stævningen, da indholdet er korrekt. Samtidig undrer Jørgen sig over, om hans ansøgning om appeltilladelse til Procesbevillingsnævnet også skal indgives via sagsportalen.",
             "questions": [
                 {
@@ -5842,7 +5842,7 @@
         },
         {
             "title": "Det forberedende retsmøde — Offentlighed under forberedelsen",
-            "level": 9,
+            "level": 6,
             "context": "I en sag om erstatning for personskade mellem cyklist Anna Mølgaard og bilist Erik Damgaard ved Retten i Aarhus afholder dommeren et forberedende retsmøde efter retsplejelovens § 353. Annas advokat har bedt om, at der allerede under det forberedende retsmøde afhøres et vidne, som snart skal rejse til udlandet i længere tid. Eriks advokat ønsker desuden, at et familiemedlem til Anna får lov at overvære det forberedende retsmøde som tilhører. Dommeren skal nu tage stilling til, om det forberedende retsmøde er offentligt, og om vidneafhøringen påvirker dette spørgsmål.",
             "questions": [
                 {
@@ -5893,7 +5893,7 @@
         },
         {
             "title": "Hemmeligheden bag lukkede døre — Erhvervshemmeligheder i retten",
-            "level": 9,
+            "level": 6,
             "context": "Medicinalvirksomheden PharmaVita A/S har anlagt sag mod den tidligere medarbejder Lars Hedegaard ved Retten i København. PharmaVita hævder, at Lars har videregivet fortrolige oplysninger om virksomhedens nye lægemiddelformel til en konkurrent, BioNova ApS. Formlen er resultatet af fem års forskning og repræsenterer en investering på 40 mio. kr. Under hovedforhandlingen vil PharmaVita nødvendigvis skulle fremlægge detaljer om formlen som bevis. PharmaVitas advokat anmoder derfor om, at sagen behandles for lukkede døre, så formlens detaljer ikke bliver offentligt tilgængelige. Lars' advokat mener, at offentlighed bør fastholdes af hensyn til retssikkerheden.",
             "questions": [
                 {
@@ -5944,7 +5944,7 @@
         },
         {
             "title": "Journalistens aktindsigt i dommen — Offentlige og private hensyn",
-            "level": 9,
+            "level": 6,
             "context": "Journalist Peter Holm fra et regionalt dagblad ønsker aktindsigt i en dom fra Retten i Esbjerg i en sag mellem to privatpersoner om forældremyndighed, der også indeholdt økonomiske krav. Dommen indeholder detaljerede oplysninger om parternes personlige forhold, herunder psykologvurderinger, oplysninger om børnenes trivsel og detaljerede økonomiske opgørelser over parternes indkomst og formue. Peter begrunder sin anmodning med, at sagen har principiel interesse for offentligheden, fordi den vedrører rettens fortolkning af nye regler om samvær og bopæl efter en lovændring. Han vil bruge dommen som grundlag for en artikelserie. Dommerkontoret er i tvivl om, hvordan anmodningen skal håndteres, da dommen indeholder meget følsomme personoplysninger, og begge parter har anmodet om, at dommen ikke udleveres til pressen.",
             "questions": [
                 {
@@ -5995,7 +5995,7 @@
         },
         {
             "title": "Naboens nysgerrighed — Tredjemands aktindsigt i dokumenter",
-            "level": 9,
+            "level": 6,
             "context": "Dorthe Friis er nabo til byggefirmaet StålByg ApS, som er part i en civil sag ved Retten i Randers mod en underentreprenør om mangelfuldt fundamentarbejde. Dorthe er bekymret for, at de samme fundamentproblemer kan påvirke hendes ejendom, og hun ønsker aktindsigt i sagens dokumenter — herunder de tekniske rapporter og skønserklæringer — for at vurdere, om hun selv bør anlægge sag. Dorthe er ikke part i sagen og har ingen advokat. StålBygs advokat modsætter sig aktindsigt og mener, at dokumenterne er fortrolige. Dorthe henvender sig til retten med sin anmodning.",
             "questions": [
                 {
@@ -6046,7 +6046,7 @@
         },
         {
             "title": "Forretningshemmeligheden i aktindsigten — Balance mellem åbenhed og fortrolighed",
-            "level": 9,
+            "level": 6,
             "context": "Softwarevirksomheden CodeShield ApS har sagsøgt en tidligere samarbejdspartner, TechFlow IVS, ved Retten i Lyngby for brud på en fortrolighedsaftale. Under sagen er der fremlagt detaljerede tekniske beskrivelser af CodeShields proprietære algoritme samt interne kalkulationer af algoritmens kommercielle værdi. Sagen er afsluttet med dom til fordel for CodeShield. Brancheforeningen DanskIT anmoder nu om aktindsigt i dommen, da den har principiel betydning for fortolkningen af fortrolighedsklausuler i IT-branchen. CodeShield frygter dog, at de tekniske detaljer i dommen vil afsløre algoritmens hemmeligheder for konkurrenter.",
             "questions": [
                 {
@@ -6097,7 +6097,7 @@
         },
         {
             "title": "Journalistens udvidede adgang — Meroffentlighed i praksis",
-            "level": 9,
+            "level": 6,
             "context": "Undersøgende journalist Katrine Lindqvist arbejder på en artikelserie om forbrugerbeskyttelse i Danmark for DR. Hun ønsker aktindsigt i en række dokumenter fra en civil sag ved Retten i Glostrup mellem en gruppe forbrugere og elektronikfirmaet SmartHome A/S vedrørende defekte smarthome-produkter. Katrine ønsker ikke kun aktindsigt i dommen, men også i parternes processkrifter, de tekniske ekspertrapporter og korrespondancen mellem parterne og retten. Hun argumenterer for, at sagen har stor samfundsmæssig interesse, da tusindvis af forbrugere kan være berørt. SmartHome A/S modsætter sig og mener, at Katrines ønske rækker langt ud over, hvad loven tillader.",
             "questions": [
                 {
@@ -6148,7 +6148,7 @@
         },
         {
             "title": "Partens blinde plet — Kontradiktionsprincippet og aktindsigt",
-            "level": 9,
+            "level": 6,
             "context": "I en kompliceret erhvervssag ved Retten i København har sagsøger Nordic Ventures A/S anlagt sag mod GreenEnergy ApS om misligholdelse af en investeringsaftale. Under sagens forberedelse har GreenEnergys advokat fremsendt en omfattende skønserklæring og flere bilag til retten, som Nordic Ventures' advokat mener ikke at have modtaget kopi af. Nordic Ventures' advokat anmoder retten om aktindsigt i samtlige dokumenter i sagens arkiv, herunder alle bilag fremsendt af modparten. GreenEnergys advokat hævder, at visse bilag er interne arbejdsdokumenter, som Nordic Ventures ikke har krav på at se. Retten skal tage stilling til omfanget af partens aktindsigt og kontradiktionsprincippets rækkevidde.",
             "questions": [
                 {

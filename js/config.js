@@ -99,15 +99,15 @@ export const ENEMY_COLORS = [
 
 // Level display names (for level selector UI)
 export const LEVEL_DISPLAY_NAMES = {
-    1: 'Generel viden',
-    2: 'Generel viden',
-    3: 'Generel viden',
-    4: 'Kapitel 1 - Indledning',
-    5: 'Kapitel 2 - Domstolssystemets opbygning',
-    6: 'Kapitel 3 - EMK',
-    7: 'Kapitel 4 - EU-ret',
-    8: 'Kapitel 5 - Grundlæggende principper',
-    9: 'Kapitel 6 - Offentlighed og mundtlighed',
+    1: 'Kapitel 1 - Indledning',
+    2: 'Kapitel 2 - Domstolssystemets opbygning',
+    3: 'Kapitel 3 - EMK',
+    4: 'Kapitel 4 - EU-ret',
+    5: 'Kapitel 5 - Grundlæggende principper',
+    6: 'Kapitel 6 - Offentlighed og mundtlighed',
+    30: 'Generel viden',
+    31: 'Generel viden',
+    32: 'Generel viden',
 };
 
 // Boss colors per level

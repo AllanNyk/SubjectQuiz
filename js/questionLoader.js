@@ -75,6 +75,11 @@ export class QuestionLoader {
         return Math.max(...this.data.levels.map(l => l.level));
     }
 
+    availableLevels() {
+        if (!this.data) return [];
+        return this.data.levels.map(l => l.level).sort((a, b) => a - b);
+    }
+
     getBossCase(level) {
         if (!this.data?.cases) return null;
         const matching = this.data.cases.filter(c => c.level === level);

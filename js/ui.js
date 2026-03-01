@@ -260,7 +260,7 @@ export class UI {
 
     // ── Settings screen ────────────────────────────────────────────────
 
-    renderSettings(timedMode, timerDurationMs, lang = 'en', startLevel = 1, maxLevel = 7, difficulty = 'normal', gameMode = 'dungeon') {
+    renderSettings(timedMode, timerDurationMs, lang = 'en', startLevel = 1, availableLevels = [1], difficulty = 'normal', gameMode = 'dungeon') {
         const ctx = this.ctx;
 
         // Background
@@ -425,8 +425,8 @@ export class UI {
         const levelTotalW = levelBtnSize + 10 + levelDisplayW + 10 + levelBtnSize;
         const levelRowStartX = (CANVAS_W - levelTotalW) / 2;
 
-        const atMinLevel = startLevel <= 1;
-        const atMaxLevel = startLevel >= maxLevel;
+        const atMinLevel = availableLevels.length === 0 || startLevel <= availableLevels[0];
+        const atMaxLevel = availableLevels.length === 0 || startLevel >= availableLevels[availableLevels.length - 1];
 
         // Label
         ctx.fillStyle = '#aaaacc';
