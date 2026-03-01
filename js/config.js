@@ -107,6 +107,7 @@ export const LEVEL_DISPLAY_NAMES = {
     6: 'Kapitel 3 - EMK',
     7: 'Kapitel 4 - EU-ret',
     8: 'Kapitel 5 - Grundlæggende principper',
+    9: 'Kapitel 6 - Offentlighed og mundtlighed',
 };
 
 // Boss colors per level

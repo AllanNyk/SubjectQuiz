@@ -2645,6 +2645,342 @@
                     "explanation": "Hvis en sag afsluttes med forlig, er retsafgiften lavere end ved dom. Dette er et incitament til at indgå forlig og bidrager til at fremme forligsmæssige løsninger."
                 }
             ]
+        },
+        {
+            "level": 9,
+            "name": "Offentlighed og mundtlighed",
+            "questions": [
+                {
+                    "question": "Hvad fastslår Grundlovens § 65, stk. 1, om retsplejen?",
+                    "choices": [
+                        "At alle retssager skal behandles skriftligt",
+                        "At offentlighed og mundtlighed i videst muligt omfang skal gennemføres i retsplejen",
+                        "At retssager altid skal foregå for lukkede døre",
+                        "At kun parter og advokater har adgang til retsmøder"
+                    ],
+                    "correct": 1,
+                    "explanation": "Grundlovens § 65, stk. 1, fastslår, at der i videst muligt omfang skal gennemføres offentlighed og mundtlighed i retsplejen."
+                },
+                {
+                    "question": "Hvad er hovedformålet med offentlighedsprincippet i retsplejen?",
+                    "choices": [
+                        "At sikre hurtigere sagsbehandling",
+                        "At reducere antallet af retssager",
+                        "At styrke offentlighedens viden om, tillid til og kontrol med retsvæsenet og beskytte parterne mod hemmelig retspleje",
+                        "At give medierne eksklusiv adgang til retssager"
+                    ],
+                    "correct": 2,
+                    "explanation": "Offentlighedsprincippet har særligt til formål at styrke offentlighedens viden om, tillid til og kontrol med retsvæsenet samt at beskytte parterne mod en hemmelig retspleje."
+                },
+                {
+                    "question": "Hvad bestemmer Retsplejelovens § 148, stk. 1?",
+                    "choices": [
+                        "At retssager altid skal afgøres på skriftligt grundlag",
+                        "At retssager forhandles mundtligt, og skrift kun anvendes, hvor loven særligt bestemmer det",
+                        "At parterne frit kan vælge mellem mundtlig og skriftlig behandling",
+                        "At dommeren bestemmer, om sagen skal behandles mundtligt eller skriftligt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Rpl § 148, stk. 1, fastslår hovedreglen om mundtlighed: 'Retssager forhandles mundtligt. Skrift anvendes kun i det omfang, i hvilket loven særligt bestemmer det.'"
+                },
+                {
+                    "question": "Hvad er sammenhængen mellem mundtlighedsprincippet og bevisumiddelbarhed?",
+                    "choices": [
+                        "Bevisumiddelbarhed kræver, at alle beviser fremlægges skriftligt",
+                        "Mundtlighed har en tæt sammenhæng med bevisumiddelbarhed, da dommeren skal kunne 'sidde overfor' vidnet",
+                        "Bevisumiddelbarhed og mundtlighed er uafhængige principper uden indbyrdes sammenhæng",
+                        "Bevisumiddelbarhed betyder, at alle beviser skal indleveres på sagsportalen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Hovedreglen om mundtlighed har tæt sammenhæng med bevisumiddelbarhed. En skriftlig vidneerklæring fraviger mundtlighedsprincippet og fratager dommeren muligheden for at 'sidde overfor' vidnet."
+                },
+                {
+                    "question": "Hvornår blev reglerne om aktindsigt indført, som skabte øget offentlighed omkring skriftligt materiale?",
+                    "choices": [
+                        "1999",
+                        "2001",
+                        "2004",
+                        "2007"
+                    ],
+                    "correct": 2,
+                    "explanation": "Reglerne om aktindsigt blev indført i 2004, hvilket skabte øget mulighed for offentlighed omkring skriftligt materiale."
+                },
+                {
+                    "question": "Hvad kræves der ifølge Rpl § 148a, stk. 1, vedrørende borgerlige sager?",
+                    "choices": [
+                        "At borgerlige sager skal behandles ved voldgift",
+                        "At borgerlige sager skal anlægges og behandles på sagsportalen",
+                        "At borgerlige sager kun kan anlægges mundtligt",
+                        "At borgerlige sager skal indleveres som fysiske dokumenter til retten"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge Rpl § 148a, stk. 1, skal borgerlige sager anlægges og behandles på sagsportalen, og samtlige processkrifter, breve og andre dokumenter skal indlæses dér."
+                },
+                {
+                    "question": "Hvad er retsvirkningen af en henvendelse til retten på anden måde end via sagsportalen?",
+                    "choices": [
+                        "Henvendelsen behandles med forsinkelse",
+                        "Henvendelsen er uden retsvirkning og har fx ikke fristafbrydende virkning",
+                        "Henvendelsen videresendes automatisk til sagsportalen",
+                        "Retten skal tage stilling til, om henvendelsen kan accepteres"
+                    ],
+                    "correct": 1,
+                    "explanation": "Henvendelse til retten på anden måde end via sagsportalen er uden retsvirkning — den vil fx ikke have fristafbrydende virkning."
+                },
+                {
+                    "question": "Hvordan kan parternes påstande ifølge bekendtgørelsen om sagsportalen gyldigt ændres?",
+                    "choices": [
+                        "Ved mundtlig tilkendegivelse under hovedforhandlingen",
+                        "Ved at sende en e-mail til retten",
+                        "Kun i det relevante felt på sagsportalen, jf. bekendtgørelsens § 3, stk. 5",
+                        "Ved at indlevere et nyt processkrift i papirform"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge § 3, stk. 5, i bekendtgørelsen om sagsportalen kan parternes påstande kun gyldigt ændres i det relevante felt på sagsportalen."
+                },
+                {
+                    "question": "Hvad kan retten bestemme med parternes samtykke ifølge Rpl § 366, stk. 1?",
+                    "choices": [
+                        "At sagen afgøres uden bevisførelse",
+                        "At sagen afgøres på skriftligt grundlag",
+                        "At sagen afvises",
+                        "At sagen henskydes til voldgift"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retten kan med parternes samtykke bestemme, at sagen afgøres på skriftligt grundlag, jf. Rpl § 366, stk. 1."
+                },
+                {
+                    "question": "Hvordan behandles anke i småsager som udgangspunkt?",
+                    "choices": [
+                        "Mundtligt med fuld hovedforhandling",
+                        "Skriftligt, jf. Rpl § 410, stk. 4",
+                        "Ved telefonmøde med parterne",
+                        "Ved nævningebehandling"
+                    ],
+                    "correct": 1,
+                    "explanation": "Anke i småsager behandles som udgangspunkt skriftligt, jf. Rpl § 410, stk. 4."
+                },
+                {
+                    "question": "Er forberedende retsmøder efter Rpl § 353 som udgangspunkt offentlige?",
+                    "choices": [
+                        "Ja, alle retsmøder er altid offentlige",
+                        "Ja, men kun hvis parterne samtykker",
+                        "Nej, de er som udgangspunkt ikke offentlige, jf. Rpl § 339a",
+                        "Nej, men de bliver offentlige, hvis medierne anmoder om adgang"
+                    ],
+                    "correct": 2,
+                    "explanation": "Forberedende retsmøder efter Rpl § 353 er som udgangspunkt IKKE offentlige, jf. Rpl § 339a. De afholdes typisk som telefonmøder med henblik på at tilskære sagen."
+                },
+                {
+                    "question": "Hvornår er forberedende retsmøder undtagelsesvis offentlige?",
+                    "choices": [
+                        "Når sagen drejer sig om en offentlig myndighed",
+                        "Når der sker bevisførelse til brug for hovedforhandlingen, eller retten bestemmer andet",
+                        "Når begge parter er repræsenteret ved advokat",
+                        "Når sagen har principiel karakter"
+                    ],
+                    "correct": 1,
+                    "explanation": "Forberedende retsmøder er kun offentlige, hvis der sker bevisførelse til brug for hovedforhandlingen, eller retten bestemmer andet — enten efter parternes begæring eller ex officio."
+                },
+                {
+                    "question": "Hvad gælder ifølge Rpl § 28a om hovedforhandlingen?",
+                    "choices": [
+                        "Hovedforhandlingen er altid lukket for offentligheden",
+                        "Hovedforhandlingen er som hovedregel offentlig, og enhver kan overvære retsmødet",
+                        "Kun parter og deres advokater har adgang til hovedforhandlingen",
+                        "Offentligheden har kun adgang, hvis retten giver tilladelse"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge Rpl § 28a er retsmøder, herunder hovedforhandlingen, som hovedregel offentlige. Enhver kan overvære retsmødet og mundtligt og skriftligt referere."
+                },
+                {
+                    "question": "Hvornår kan retten bestemme lukkede døre efter Rpl § 29, stk. 1, nr. 3?",
+                    "choices": [
+                        "Når sagen omhandler personfølsomme oplysninger om børn",
+                        "Når der skal afgives forklaring om erhvervshemmeligheder",
+                        "Når en part anmoder om det af personlige årsager",
+                        "Når sagen drejer sig om strafbare forhold"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retten kan efter Rpl § 29, stk. 1, nr. 3, bestemme lukkede døre, hvis der skal afgives forklaring om erhvervshemmeligheder."
+                },
+                {
+                    "question": "Hvilken vægt skal en parts begæring om offentlighed ved forberedende retsmøder tillægges?",
+                    "choices": [
+                        "Begæringen har ingen betydning — det er alene rettens afgørelse",
+                        "Begæringen skal tillægges betydelig vægt",
+                        "Begæringen er bindende for retten",
+                        "Begæringen skal kun tillægges vægt, hvis modparten samtykker"
+                    ],
+                    "correct": 1,
+                    "explanation": "En begæring fra en part om offentlighed ved forberedende retsmøder skal tillægges betydelig vægt. Retten kan også bestemme offentlighed ex officio."
+                },
+                {
+                    "question": "Hvem har som hovedregel ret til aktindsigt i domme og kendelser efter retsplejelovens § 41c?",
+                    "choices": [
+                        "Kun sagens parter",
+                        "Enhver",
+                        "Kun journalister med pressekort",
+                        "Kun personer med retlig interesse"
+                    ],
+                    "correct": 1,
+                    "explanation": "Efter Rpl § 41c har enhver som hovedregel ret til aktindsigt i domme, kendelser og beslutninger om sagsomkostninger efter hovedforhandlingen."
+                },
+                {
+                    "question": "Hvornår har enhver ret til aktindsigt i et påstandsdokument eller sammenfattende processkrift, jf. Rpl § 41b?",
+                    "choices": [
+                        "Fra sagens anlæg",
+                        "Fra to dage før hovedforhandlingens begyndelse",
+                        "Først efter dommens afsigelse",
+                        "Fra det tidspunkt, hvor processkriftet indleveres til retten"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge Rpl § 41b har enhver ret til aktindsigt i påstandsdokumentet eller det sammenfattende processkrift fra to dage før hovedforhandlingens begyndelse."
+                },
+                {
+                    "question": "Hvilke af følgende oplysninger kan begrunde begrænsning af aktindsigt efter § 41b stk. 3, nr. 5?",
+                    "choices": [
+                        "Oplysninger om ansættelsesforhold og boligforhold",
+                        "Oplysninger om rent private forhold eller erhvervshemmeligheder",
+                        "Oplysninger om parternes økonomiske forhold generelt",
+                        "Oplysninger om parternes arbejdsforhold"
+                    ],
+                    "correct": 1,
+                    "explanation": "Efter § 41b stk. 3, nr. 5 kan aktindsigt begrænses, hvis dommen indeholder oplysninger om rent private forhold eller erhvervshemmeligheder. Økonomiske, arbejds-, ansættelses- eller boligforhold falder ikke under 'rent private forhold'."
+                },
+                {
+                    "question": "Hvad forstås IKKE ved 'rent private forhold' i § 41b stk. 3, nr. 5's forstand?",
+                    "choices": [
+                        "Seksuelle forhold",
+                        "Væsentlige sociale problemer",
+                        "Misbrug af rusmidler",
+                        "Boligforhold"
+                    ],
+                    "correct": 3,
+                    "explanation": "Boligforhold anses ikke for 'rent private forhold' i bestemmelsens forstand. Det samme gælder økonomiske, arbejds- og ansættelsesforhold. Derimod kan seksuelle forhold, væsentlige sociale problemer og misbrug være omfattet."
+                },
+                {
+                    "question": "Hvad er tilstrækkeligt for at begrænse aktindsigt med henvisning til erhvervshemmeligheder?",
+                    "choices": [
+                        "At der blot foreligger en erhvervshemmelighed i dokumentet",
+                        "At parten påberåber sig forretningshemmeligheder",
+                        "At det konkret vurderes, at hensynet til offentlighedens indsigt bør vige, og at offentliggørelse vil have betydelige skadevirkninger",
+                        "At virksomheden har en generel politik om fortrolighed"
+                    ],
+                    "correct": 2,
+                    "explanation": "Det er ikke tilstrækkeligt, at der blot foreligger en erhvervshemmelighed. Der skal foretages en konkret vurdering af, om hensynet til offentlighedens indsigt bør vige, og offentliggørelse skal have betydelige skadevirkninger."
+                },
+                {
+                    "question": "Hvad kan retten gøre i stedet for at nægte aktindsigt helt, når en dom indeholder oplysninger om erhvervshemmeligheder, jf. § 41e stk. 4?",
+                    "choices": [
+                        "Henvise til Datatilsynet",
+                        "Anonymisere dommen ved at udelade virksomhedsnavn, adresser m.v.",
+                        "Kræve at den aktindsigtssøgende betaler erstatning",
+                        "Lade erhvervsvirksomheden selv redigere dommen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Hensynet til beskyttelse af erhvervshemmeligheder kan eventuelt varetages gennem anonymisering, fx ved at udelade virksomhedsnavn og adresser, jf. § 41e stk. 4."
+                },
+                {
+                    "question": "Hvad kræves der for at opnå aktindsigt i sagens øvrige dokumenter efter § 41d?",
+                    "choices": [
+                        "Man skal være part i sagen",
+                        "Man skal have en individuel, væsentlig interesse i et konkret retsspørgsmål, og dokumenterne skal have betydning for dette spørgsmål",
+                        "Man skal være journalist",
+                        "Man skal have en generel interesse i sagstypen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Aktindsigt i øvrige dokumenter efter § 41d kræver en individuel, væsentlig interesse i et konkret retsspørgsmål, og dokumenterne skal have betydning for dette spørgsmål (retlig interesse)."
+                },
+                {
+                    "question": "Hvad fastslog landsretten i U 2006.916 Ø om bygherrens begæring om aktindsigt i et forligsbrev?",
+                    "choices": [
+                        "Bygherren fik ikke aktindsigt, da forliget var fortroligt",
+                        "Bygherren fik aktindsigt, da bygherren havde konkret retlig interesse",
+                        "Bygherren fik kun aktindsigt i anonymiseret form",
+                        "Sagen blev afvist, da bygherren ikke var part i forliget"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2006.916 Ø gav landsretten bygherren aktindsigt i forligsbrevet, da bygherren havde en konkret retlig interesse i forliget mellem entreprenøren og underentreprenøren."
+                },
+                {
+                    "question": "Hvilke dokumenter er IKKE omfattet af aktindsigt efter § 41d?",
+                    "choices": [
+                        "Processkrifter indleveret af parterne",
+                        "Skønserklæringer",
+                        "Rettens interne arbejdsdokumenter såsom notater og referater udarbejdet til brug for retten selv",
+                        "Korrespondance mellem parterne og retten"
+                    ],
+                    "correct": 2,
+                    "explanation": "Rettens interne arbejdsdokumenter, herunder notater og referater udarbejdet til brug for retten selv, er ikke omfattet af aktindsigten efter § 41d."
+                },
+                {
+                    "question": "Hvad er formålet med meroffentlighedsreglen i § 41h?",
+                    "choices": [
+                        "At sikre, at alle dokumenter i enhver sag offentliggøres",
+                        "At give et signal om, at retten bør imødekomme rimeligt begrundede anmodninger om aktindsigt i videre omfang end §§ 41a-41g kræver",
+                        "At give journalister ubegrænset aktindsigt",
+                        "At fjerne alle undtagelser til aktindsigtsreglerne"
+                    ],
+                    "correct": 1,
+                    "explanation": "Formålet med § 41h er at give et signal om, at retten bør imødekomme rimeligt begrundede anmodninger om meroffentlighed, dvs. aktindsigt i videre omfang end det, som §§ 41a-41g forpligter retten til."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2008.839 V, hvor en sportsjournalist begærede aktindsigt i en sponsorkontraktsag?",
+                    "choices": [
+                        "Avisen fik fuld aktindsigt i alle dokumenter efter § 41h",
+                        "Avisen fik aktindsigt i påstandsdokumenter (bortset fra beløb), men IKKE i øvrige processkrifter og bilag",
+                        "Avisen fik ingen aktindsigt overhovedet",
+                        "Avisen fik kun aktindsigt i dommen"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2008.839 V fik avisen aktindsigt i påstandsdokumenter (bortset fra beløb) efter § 41b stk. 3, nr. 5-afvejningen, men ikke i øvrige processkrifter og bilag, da der manglede retlig interesse (§ 41d), og der heller ikke var grundlag for meroffentlighed (§ 41h)."
+                },
+                {
+                    "question": "Hvem har efter Rpl § 255a krav på aktindsigt i materiale indgået i rettens arkiv?",
+                    "choices": [
+                        "Enhver med retlig interesse",
+                        "Kun sagsøger og sagsøgte",
+                        "Parter, herunder sagsøger, sagsøgte, adciterede og hovedintervenienter",
+                        "Kun parternes advokater"
+                    ],
+                    "correct": 2,
+                    "explanation": "Parter — herunder sagsøger, sagsøgte, adciterede og hovedintervenienter — har efter § 255a krav på aktindsigt i materiale, der er indgået i rettens arkiv, jf. § 39."
+                },
+                {
+                    "question": "Hvad fastslog Højesteret i U 2015.922 H (TV2-råbåndssagen) om kontradiktionsprincippet?",
+                    "choices": [
+                        "Kontradiktionsprincippet indebærer altid ret til kopi af alt bevismateriale",
+                        "Kontradiktionsprincippet indebærer ikke nødvendigvis adgang til kopi af alt bevismateriale, og Rpl § 39 kan fraviges ved aftale",
+                        "Kontradiktionsprincippet gælder kun for skriftlige beviser",
+                        "Kontradiktionsprincippet kræver, at alle beviser skal fremlægges digitalt via sagsportalen"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2015.922 H fastslog Højesteret, at kontradiktionsprincippet ikke nødvendigvis indebærer adgang til kopi af alt bevismateriale. Den aftalte ordning (råbånd til rådighed men ikke i kopi) stred ikke mod kontradiktionsprincippet, og § 39 kan fraviges ved aftale."
+                },
+                {
+                    "question": "Hvad blev resultatet i U 2006.383 om en sagsøger, der sendte journalkopi til Retslægerådet uden at sende den til sagsøgte?",
+                    "choices": [
+                        "Retten afviste sagen",
+                        "Landsretten fandt, at det ikke var i strid med kontradiktionsprincippet",
+                        "Landsretten pålagde udlevering af journalkopien til sagsøgte under henvisning til kontradiktionsprincippet",
+                        "Sagsøgte fik erstatning for manglende aktindsigt"
+                    ],
+                    "correct": 2,
+                    "explanation": "I U 2006.383 pålagde landsretten sagsøgeren at udlevere journalkopien til sagsøgte under henvisning til kontradiktionsprincippet, da begge parter skal have adgang til det materiale, der indgår i sagen."
+                },
+                {
+                    "question": "Hvorfor har Rpl § 255a i praksis begrænset betydning under en verserende sag?",
+                    "choices": [
+                        "Fordi parter ikke har ret til aktindsigt under sagen",
+                        "Fordi sagsportalen allerede giver parterne løbende adgang til sagsmaterialet",
+                        "Fordi aktindsigt kun kan gives efter domsafsigelse",
+                        "Fordi advokater automatisk modtager alle dokumenter per post"
+                    ],
+                    "correct": 1,
+                    "explanation": "Sagsportalen giver parterne løbende adgang til materialet under sagens forløb, hvorfor § 255a i praksis kun har selvstændig betydning efter sagens afslutning."
+                }
+            ]
         }
     ],
     "cases": [
@@ -5348,6 +5684,516 @@
                     ],
                     "correct": 1,
                     "explanation": "Dispositionsprincippet opretholder — men udvider ikke — parternes dispositionsfrihed over sagens genstand efter den materielle ret. Hvis parterne søger at råde i videre omfang, skal retten i nogle tilfælde gribe ind af egen drift."
+                }
+            ]
+        },
+        {
+            "title": "Journalisten i retssalen — Offentlig hovedforhandling",
+            "level": 9,
+            "context": "Journalist Ida Kofoed fra Dagbladet Retten ønsker at overvære en civil sag ved Retten i Kolding mellem to lokale virksomheder om en kontrakttvist på 2,3 mio. kr. Da hun ankommer til retslokalet, bliver hun stoppet af en retsbetjent, som oplyser, at den ene part har anmodet om, at retsmødet holdes for lukkede døre af hensyn til parternes privatliv. Ida mener, at hun har ret til at overvære sagen som journalist og repræsentant for offentligheden. Sagsøgers advokat argumenterer for, at offentlig rettergang vil skade hans klients omdømme, mens sagsøgtes advokat ikke har nogen indvendinger mod offentlighed. Retten skal nu tage stilling til, om sagen skal være offentlig eller ej.",
+            "questions": [
+                {
+                    "question": "Hvilket grundlæggende princip i dansk ret sikrer, at retssager som udgangspunkt er offentlige?",
+                    "choices": [
+                        "Forhandlingsprincippet, jf. retsplejelovens § 338",
+                        "Offentlighedsprincippet, jf. grundlovens § 65, stk. 1",
+                        "Dispositionsprincippet, jf. retsplejelovens § 338",
+                        "Kontradiktionsprincippet, jf. EMRK art. 6"
+                    ],
+                    "correct": 1,
+                    "explanation": "Grundlovens § 65, stk. 1, fastslår, at offentlighed og mundtlighed i videst muligt omfang skal gennemføres i retsplejen. Dette er det forfatningsmæssige grundlag for, at retssager som udgangspunkt er offentlige."
+                },
+                {
+                    "question": "Er hovedforhandlingen i denne civile sag som udgangspunkt offentlig?",
+                    "choices": [
+                        "Nej, civile sager er altid lukkede for offentligheden",
+                        "Kun hvis begge parter samtykker til offentlighed",
+                        "Ja, hovedforhandlingen er offentlig, jf. retsplejelovens § 28a",
+                        "Kun hvis retten træffer særskilt beslutning om offentlighed"
+                    ],
+                    "correct": 2,
+                    "explanation": "Hovedforhandlingen i civile sager er offentlig, jf. retsplejelovens § 28a. Offentlighed er udgangspunktet, og det kræver en særlig hjemmel at afvige herfra."
+                },
+                {
+                    "question": "Sagsøgers advokat anmoder om lukkede døre med den begrundelse, at offentlighed kan skade klientens omdømme. Er dette tilstrækkeligt til at lukke dørene?",
+                    "choices": [
+                        "Ja, en parts anmodning om lukkede døre skal altid imødekommes",
+                        "Ja, hensynet til en parts omdømme er altid tilstrækkeligt grundlag",
+                        "Nej, almindelige omdømmehensyn er ikke tilstrækkeligt — der kræves særlig hjemmel, f.eks. hensyn til erhvervshemmeligheder, jf. § 29, stk. 1",
+                        "Nej, lukkede døre kan kun besluttes i straffesager"
+                    ],
+                    "correct": 2,
+                    "explanation": "Lukkede døre kræver hjemmel i retsplejelovens § 29, stk. 1. Almindelige omdømmehensyn er ikke tilstrækkeligt — der skal foreligge særlige grunde, f.eks. hensynet til erhvervshemmeligheder (nr. 3) eller statens sikkerhed (nr. 1)."
+                },
+                {
+                    "question": "Hvad er formålet med offentlighedsprincippet i retsplejen?",
+                    "choices": [
+                        "At sikre, at medierne får stof til artikler",
+                        "At styrke offentlighedens viden om, tillid til og kontrol med retsvæsenet samt beskytte parterne mod hemmelig retspleje",
+                        "At gøre det lettere for advokater at forberede deres sager",
+                        "At sikre, at alle borgere kan deltage som vidner"
+                    ],
+                    "correct": 1,
+                    "explanation": "Offentlighedsprincippet har til formål at styrke offentlighedens viden om, tillid til og kontrol med retsvæsenet. Derudover beskytter det parterne mod en hemmelig retspleje, hvor ingen udenforstående kan kontrollere, hvad der foregår."
+                }
+            ]
+        },
+        {
+            "title": "Det skriftlige vidneudsagn — Mundtlighed og bevisumiddelbarhed",
+            "level": 9,
+            "context": "I en erstatningssag ved Retten i Odense kræver sagsøger Martin Bredahl 450.000 kr. i erstatning fra entreprenørfirmaet GrundByg A/S for skader på hans ejendom under et nabobyggeri. Martins nøglevidne, den pensionerede ingeniør Henning Voss, er for syg til at møde op i retten. Martins advokat fremlægger derfor en skriftlig vidneerklæring, som Henning har underskrevet, hvori han detaljeret beskriver de rystelser, han observerede under byggeriet. GrundBygs advokat protesterer og kræver mundtlig vidneforklaring. Retten skal nu tage stilling til, om den skriftlige erklæring kan tillades som bevis.",
+            "questions": [
+                {
+                    "question": "Hvad fastslår retsplejelovens § 148, stk. 1, om formen for sagens behandling?",
+                    "choices": [
+                        "Retssager behandles skriftligt, medmindre parterne begærer mundtlig forhandling",
+                        "Retssager forhandles mundtligt, og skrift anvendes kun i det omfang, loven særligt bestemmer det",
+                        "Parterne kan frit vælge mellem mundtlig og skriftlig behandling",
+                        "Retten bestemmer suverænt, om sagen behandles mundtligt eller skriftligt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 148, stk. 1, fastslår klart: 'Retssager forhandles mundtligt. Skrift anvendes kun i det omfang, i hvilket loven særligt bestemmer det.' Mundtlighed er altså hovedreglen."
+                },
+                {
+                    "question": "Hvorfor er en skriftlig vidneerklæring problematisk set i lyset af bevisumiddelbarhedsprincippet?",
+                    "choices": [
+                        "Fordi skriftlige erklæringer altid er falske",
+                        "Fordi skriftlige erklæringer er dyrere at fremstille end mundtlig forklaring",
+                        "Fordi en skriftlig erklæring fratager dommeren muligheden for at vurdere vidnets troværdighed ved at se og høre vidnet",
+                        "Fordi skriftlige erklæringer altid er forældede"
+                    ],
+                    "correct": 2,
+                    "explanation": "Bevisumiddelbarhed hænger tæt sammen med mundtlighed. En skriftlig vidneerklæring fratager dommeren muligheden for at vurdere vidnets troværdighed direkte — dommeren kan ikke se vidnets adfærd, tøven eller kropssprog, som er vigtige elementer i bevisvurderingen."
+                },
+                {
+                    "question": "Kan retten med parternes samtykke afgøre sagen på rent skriftligt grundlag?",
+                    "choices": [
+                        "Nej, mundtlighed er altid et ufravigeligt krav",
+                        "Ja, retten kan med parternes samtykke afgøre sagen på skriftligt grundlag, jf. § 366, stk. 1",
+                        "Kun i småsager under 50.000 kr.",
+                        "Kun i appelsager"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 366, stk. 1, åbner mulighed for, at retten med parternes samtykke kan afgøre sagen på skriftligt grundlag. Mundtlighed er altså udgangspunktet, men ikke absolut ufravigeligt."
+                },
+                {
+                    "question": "Hvad er den korrekte sammenhæng mellem mundtlighed og bevisumiddelbarhed?",
+                    "choices": [
+                        "De to principper er uafhængige af hinanden",
+                        "Bevisumiddelbarhed gælder kun i straffesager",
+                        "Mundtlighed er en forudsætning for bevisumiddelbarhed — dommeren skal umiddelbart kunne bedømme beviserne, herunder se og høre vidner",
+                        "Bevisumiddelbarhed kræver, at alle beviser skal være fysiske genstande"
+                    ],
+                    "correct": 2,
+                    "explanation": "Mundtlighed og bevisumiddelbarhed hænger tæt sammen. Mundtlighedsprincippet sikrer, at beviserne præsenteres direkte for den dømmende ret, så dommeren umiddelbart kan bedømme bevisernes troværdighed og vægt — det er kernen i bevisumiddelbarhed."
+                }
+            ]
+        },
+        {
+            "title": "Den glemte sagsportal — Digital sagsbehandling",
+            "level": 9,
+            "context": "Advokat Camilla Elberg repræsenterer klienten Jørgen Wiese i en sag om mangler ved et huskøb. Kravet er på 320.000 kr. mod sælgeren, Torben Nørgaard. Camilla er ny i faget og sender ved en fejl stævningen til byretten med almindelig post i stedet for at indgive den via sagsportalen. Retten returnerer stævningen og oplyser, at den er uden retsvirkning. Camilla er frustreret og mener, at retten burde have accepteret stævningen, da indholdet er korrekt. Samtidig undrer Jørgen sig over, om hans ansøgning om appeltilladelse til Procesbevillingsnævnet også skal indgives via sagsportalen.",
+            "questions": [
+                {
+                    "question": "Hvad kræver retsplejelovens § 148a, stk. 1, om anlæggelse af borgerlige sager?",
+                    "choices": [
+                        "Sager kan anlægges ved personlig henvendelse til retten",
+                        "Borgerlige sager skal anlægges og behandles på sagsportalen",
+                        "Sager kan anlægges enten digitalt eller pr. post",
+                        "Sager skal anlægges ved anbefalet brev til retten"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 148a, stk. 1, bestemmer, at borgerlige sager skal anlægges og behandles på sagsportalen. Digital indgivelse er ikke blot en mulighed — det er et krav."
+                },
+                {
+                    "question": "Hvad er retsvirkningen af, at Camilla sendte stævningen pr. post i stedet for via sagsportalen?",
+                    "choices": [
+                        "Retten skal behandle stævningen alligevel, da den er materielt korrekt",
+                        "Stævningen er gyldig, men forsinket",
+                        "Henvendelse på anden måde end via sagsportalen er uden retsvirkning",
+                        "Retten kan pålægge en bøde, men stævningen er gyldig"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge retsplejelovens § 148a er henvendelse på anden måde end via sagsportalen uden retsvirkning. Det betyder, at poststævningen simpelthen ikke har nogen juridisk virkning — uanset at indholdet måtte være korrekt."
+                },
+                {
+                    "question": "Skal Jørgens ansøgning om appeltilladelse til Procesbevillingsnævnet indgives via sagsportalen?",
+                    "choices": [
+                        "Ja, alle procesretlige henvendelser skal indgives via sagsportalen",
+                        "Nej, Procesbevillingsnævnet behandler ansøgninger om appeltilladelse IKKE på sagsportalen",
+                        "Kun hvis ansøgningen vedrører en sag over 100.000 kr.",
+                        "Ja, men kun hvis begge parter er repræsenteret ved advokat"
+                    ],
+                    "correct": 1,
+                    "explanation": "Procesbevillingsnævnet behandler ansøgninger om appeltilladelse ikke på sagsportalen. Sagsportalen er til anlæggelse og behandling af borgerlige sager ved domstolene, men Procesbevillingsnævnet har sin egen procedure."
+                },
+                {
+                    "question": "Hvordan forholder sagsportalen sig til mundtlighedsprincippet?",
+                    "choices": [
+                        "Sagsportalen erstatter mundtlighed fuldstændigt — alle sager afgøres digitalt",
+                        "Sagsportalen er kun til skriftlig kommunikation og ændrer ikke ved, at hovedforhandlingen som udgangspunkt er mundtlig",
+                        "Sagsportalen betyder, at parterne altid kan vælge skriftlig behandling",
+                        "Mundtlighedsprincippet er ophævet med indførelsen af sagsportalen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Sagsportalen er et digitalt værktøj til anlæggelse og skriftlig sagsbehandling. Den ændrer ikke ved mundtlighedsprincippet — hovedforhandlingen foregår stadig mundtligt, jf. § 148, stk. 1. Sagsportalen vedrører den skriftlige forberedelse, ikke den mundtlige forhandling."
+                }
+            ]
+        },
+        {
+            "title": "Det forberedende retsmøde — Offentlighed under forberedelsen",
+            "level": 9,
+            "context": "I en sag om erstatning for personskade mellem cyklist Anna Mølgaard og bilist Erik Damgaard ved Retten i Aarhus afholder dommeren et forberedende retsmøde efter retsplejelovens § 353. Annas advokat har bedt om, at der allerede under det forberedende retsmøde afhøres et vidne, som snart skal rejse til udlandet i længere tid. Eriks advokat ønsker desuden, at et familiemedlem til Anna får lov at overvære det forberedende retsmøde som tilhører. Dommeren skal nu tage stilling til, om det forberedende retsmøde er offentligt, og om vidneafhøringen påvirker dette spørgsmål.",
+            "questions": [
+                {
+                    "question": "Er forberedende retsmøder som udgangspunkt offentlige efter retsplejeloven?",
+                    "choices": [
+                        "Ja, alle retsmøder er offentlige uden undtagelse",
+                        "Nej, forberedende retsmøder er som udgangspunkt IKKE offentlige, jf. § 339a",
+                        "Kun hvis begge parter samtykker",
+                        "Ja, men kun for sager med en sagsgenstand over 500.000 kr."
+                    ],
+                    "correct": 1,
+                    "explanation": "Forberedende retsmøder er som udgangspunkt ikke offentlige, jf. retsplejelovens § 339a. Dette skyldes, at forberedelsen primært handler om processuel tilrettelæggelse, hvor offentlighed ikke har samme begrundelse som under hovedforhandlingen."
+                },
+                {
+                    "question": "Annas advokat ønsker at afhøre et vidne under det forberedende retsmøde til brug for hovedforhandlingen. Påvirker dette, om retsmødet er offentligt?",
+                    "choices": [
+                        "Nej, forberedende retsmøder er altid lukkede uanset indholdet",
+                        "Ja, et forberedende retsmøde er offentligt, hvis der optages bevisførelse til brug for hovedforhandlingen, jf. § 339a",
+                        "Kun hvis vidnet selv ønsker offentlighed",
+                        "Vidneafhøring kan aldrig finde sted under forberedende retsmøder"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge § 339a er et forberedende retsmøde offentligt, hvis der optages bevisførelse til brug for hovedforhandlingen. Da vidneafhøringen netop er bevisførelse til brug for hovedforhandlingen, bliver retsmødet offentligt i det omfang, afhøringen finder sted."
+                },
+                {
+                    "question": "Kan retten i øvrigt bestemme, at et forberedende retsmøde skal være offentligt, selv om der ikke optages beviser?",
+                    "choices": [
+                        "Nej, kun bevisførelse kan udløse offentlighed i forberedende retsmøder",
+                        "Ja, retten kan bestemme, at et forberedende retsmøde er offentligt, jf. § 339a",
+                        "Kun med Justitsministeriets godkendelse",
+                        "Kun i sager af principiel karakter"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 339a fastslår, at forberedende retsmøder er offentlige, hvis der optages bevisførelse til brug for hovedforhandlingen, ELLER hvis retten bestemmer det. Retten har altså en skønsmæssig kompetence til at åbne forberedende retsmøder for offentligheden."
+                },
+                {
+                    "question": "Hvad er forskellen på offentlighedsreglen for forberedende retsmøder og for hovedforhandlingen?",
+                    "choices": [
+                        "Der er ingen forskel — begge er altid offentlige",
+                        "Hovedforhandlingen er offentlig som udgangspunkt (§ 28a), mens forberedende retsmøder som udgangspunkt IKKE er offentlige (§ 339a)",
+                        "Forberedende retsmøder er altid offentlige, mens hovedforhandlingen kan lukkes",
+                        "Hverken forberedende retsmøder eller hovedforhandling er offentlige"
+                    ],
+                    "correct": 1,
+                    "explanation": "Hovedforhandlingen er som udgangspunkt offentlig, jf. § 28a, mens forberedende retsmøder som udgangspunkt ikke er offentlige, jf. § 339a. Offentlighed ved forberedende retsmøder kræver enten bevisførelse til brug for hovedforhandlingen eller en beslutning fra retten."
+                }
+            ]
+        },
+        {
+            "title": "Hemmeligheden bag lukkede døre — Erhvervshemmeligheder i retten",
+            "level": 9,
+            "context": "Medicinalvirksomheden PharmaVita A/S har anlagt sag mod den tidligere medarbejder Lars Hedegaard ved Retten i København. PharmaVita hævder, at Lars har videregivet fortrolige oplysninger om virksomhedens nye lægemiddelformel til en konkurrent, BioNova ApS. Formlen er resultatet af fem års forskning og repræsenterer en investering på 40 mio. kr. Under hovedforhandlingen vil PharmaVita nødvendigvis skulle fremlægge detaljer om formlen som bevis. PharmaVitas advokat anmoder derfor om, at sagen behandles for lukkede døre, så formlens detaljer ikke bliver offentligt tilgængelige. Lars' advokat mener, at offentlighed bør fastholdes af hensyn til retssikkerheden.",
+            "questions": [
+                {
+                    "question": "Hvilken bestemmelse i retsplejeloven hjemler lukkede døre af hensyn til erhvervshemmeligheder?",
+                    "choices": [
+                        "§ 29, stk. 1, nr. 1 — hensynet til statens sikkerhed",
+                        "§ 29, stk. 1, nr. 2 — hensynet til ro og orden i retslokalet",
+                        "§ 29, stk. 1, nr. 3 — hensynet til erhvervshemmeligheder",
+                        "§ 28a — hovedreglen om offentlighed"
+                    ],
+                    "correct": 2,
+                    "explanation": "Retsplejelovens § 29, stk. 1, nr. 3, giver retten mulighed for at beslutte, at sagen behandles for lukkede døre, når hensynet til erhvervshemmeligheder kræver det. Dette er den relevante hjemmel for PharmaVitas anmodning."
+                },
+                {
+                    "question": "Hvem træffer beslutningen om, hvorvidt sagen skal behandles for lukkede døre?",
+                    "choices": [
+                        "Sagsøger bestemmer det ensidigt",
+                        "Parterne aftaler det indbyrdes, og retten skal følge aftalen",
+                        "Retten træffer beslutningen efter en konkret vurdering",
+                        "Justitsministeriet skal godkende lukkede døre"
+                    ],
+                    "correct": 2,
+                    "explanation": "Det er retten, der træffer beslutning om lukkede døre efter en konkret afvejning. Selv om PharmaVita anmoder om det, er det retten, der vurderer, om betingelserne i § 29, stk. 1, er opfyldt."
+                },
+                {
+                    "question": "Kan retten beslutte at lukke dørene for kun en del af hovedforhandlingen?",
+                    "choices": [
+                        "Nej, enten er hele sagen offentlig eller hele sagen lukket",
+                        "Ja, retten kan begrænse dørlukningen til de dele af forhandlingen, hvor erhvervshemmelighederne behandles",
+                        "Kun hvis begge parter samtykker til delvis lukning",
+                        "Nej, lukkede døre gælder altid hele sagen inklusive domsafsigelsen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retten kan begrænse dørlukningen til de dele af forhandlingen, hvor det er nødvendigt — f.eks. den del, hvor formlens detaljer gennemgås. Princippet om offentlighed tilsiger, at indgreb heri skal begrænses til det nødvendige."
+                },
+                {
+                    "question": "Selve dommen afsiges — skal den også holdes hemmelig, når sagen har været ført for lukkede døre?",
+                    "choices": [
+                        "Ja, dommen er fuldstændig hemmelig og kan aldrig udleveres",
+                        "Nej, domskonklusionen afsiges altid offentligt, men dommens præmisser kan begrænses af hensyn til de oplysninger, der begrundede dørlukningen",
+                        "Dommen er kun tilgængelig for parterne i 10 år",
+                        "Dommen offentliggøres automatisk i Ugeskrift for Retsvæsen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Selv når en sag har været ført for lukkede døre, afsiges domskonklusionen offentligt. Offentlighedsprincippet kræver, at resultatet af retssagen er tilgængeligt, men dommens præmisser kan tilpasses, så fortrolige oplysninger ikke afsløres unødigt."
+                }
+            ]
+        },
+        {
+            "title": "Journalistens aktindsigt i dommen — Offentlige og private hensyn",
+            "level": 9,
+            "context": "Journalist Peter Holm fra et regionalt dagblad ønsker aktindsigt i en dom fra Retten i Esbjerg i en sag mellem to privatpersoner om forældremyndighed, der også indeholdt økonomiske krav. Dommen indeholder detaljerede oplysninger om parternes personlige forhold, herunder psykologvurderinger, oplysninger om børnenes trivsel og detaljerede økonomiske opgørelser over parternes indkomst og formue. Peter begrunder sin anmodning med, at sagen har principiel interesse for offentligheden, fordi den vedrører rettens fortolkning af nye regler om samvær og bopæl efter en lovændring. Han vil bruge dommen som grundlag for en artikelserie. Dommerkontoret er i tvivl om, hvordan anmodningen skal håndteres, da dommen indeholder meget følsomme personoplysninger, og begge parter har anmodet om, at dommen ikke udleveres til pressen.",
+            "questions": [
+                {
+                    "question": "Hvad er hovedreglen om aktindsigt i domme efter retsplejeloven?",
+                    "choices": [
+                        "Kun parterne kan få aktindsigt i domme",
+                        "Enhver har ret til aktindsigt i domme og kendelser, jf. §§ 41b og 41c",
+                        "Aktindsigt i domme kræver rettens særlige tilladelse",
+                        "Kun advokater og journalister kan få aktindsigt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens §§ 41b og 41c fastslår, at enhver har ret til aktindsigt i domme, kendelser m.v. Dette er et udtryk for offentlighedsprincippet — retssystemets afgørelser skal som udgangspunkt være tilgængelige."
+                },
+                {
+                    "question": "Kan retten nægte Peter aktindsigt i dommen med henvisning til de følsomme personoplysninger?",
+                    "choices": [
+                        "Nej, retten til aktindsigt i domme er absolut og uden undtagelser",
+                        "Ja, § 41b, stk. 3, nr. 5, undtager aktindsigt, når hensynet til rent private forhold eller erhvervshemmeligheder vejer tungere",
+                        "Kun hvis parterne begge protesterer mod aktindsigt",
+                        "Ja, men kun i de første 5 år efter dommen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 41b, stk. 3, nr. 5, giver mulighed for at undtage aktindsigt, når hensynet til rent private forhold eller erhvervshemmeligheder taler afgørende imod. De detaljerede psykologvurderinger og oplysninger om børnene kan udgøre sådanne private forhold."
+                },
+                {
+                    "question": "Kan retten imødekomme Peters anmodning delvist ved at anonymisere dommen?",
+                    "choices": [
+                        "Nej, domme skal enten udleveres i fuld tekst eller slet ikke",
+                        "Ja, retten kan anonymisere dommen, jf. § 41e, stk. 4, så personlige oplysninger skjules, mens den retlige analyse bevares",
+                        "Anonymisering er kun muligt for Højesteretsdomme",
+                        "Kun med begge parters skriftlige samtykke"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 41e, stk. 4, giver mulighed for anonymisering af domme. Det er en balanceret løsning, der varetager både offentlighedens interesse i at kende rettens retlige vurdering og parternes krav på beskyttelse af private forhold."
+                },
+                {
+                    "question": "Hvordan afvejes offentlighedens interesse i aktindsigt mod parternes private hensyn?",
+                    "choices": [
+                        "Offentlighed vinder altid over private hensyn",
+                        "Private hensyn vinder altid over offentlighed",
+                        "Retten foretager en konkret afvejning, hvor formålet med offentlighedsprincippet — viden om og kontrol med retsvæsenet — vejes mod beskyttelsen af private forhold",
+                        "Afvejningen foretages udelukkende af Datatilsynet"
+                    ],
+                    "correct": 2,
+                    "explanation": "Retten foretager en konkret afvejning. Offentlighedsprincippets formål — at sikre viden om og kontrol med retsvæsenet — skal vejes mod hensynet til parternes privatliv. Anonymisering kan ofte tilgodese begge hensyn."
+                }
+            ]
+        },
+        {
+            "title": "Naboens nysgerrighed — Tredjemands aktindsigt i dokumenter",
+            "level": 9,
+            "context": "Dorthe Friis er nabo til byggefirmaet StålByg ApS, som er part i en civil sag ved Retten i Randers mod en underentreprenør om mangelfuldt fundamentarbejde. Dorthe er bekymret for, at de samme fundamentproblemer kan påvirke hendes ejendom, og hun ønsker aktindsigt i sagens dokumenter — herunder de tekniske rapporter og skønserklæringer — for at vurdere, om hun selv bør anlægge sag. Dorthe er ikke part i sagen og har ingen advokat. StålBygs advokat modsætter sig aktindsigt og mener, at dokumenterne er fortrolige. Dorthe henvender sig til retten med sin anmodning.",
+            "questions": [
+                {
+                    "question": "Hvilken bestemmelse regulerer tredjemands aktindsigt i andre dokumenter end domme?",
+                    "choices": [
+                        "§ 41b — aktindsigt i domme",
+                        "§ 41d — aktindsigt i øvrige dokumenter kræver individuel, væsentlig interesse",
+                        "§ 41h — meroffentlighed",
+                        "§ 255a — parters aktindsigt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 41d regulerer tredjemands aktindsigt i andre dokumenter end domme og kendelser. I modsætning til domme, hvor enhver har ret til aktindsigt, kræver aktindsigt i øvrige dokumenter, at den pågældende har en individuel, væsentlig (retlig) interesse i dokumenterne."
+                },
+                {
+                    "question": "Hvad kræves der for, at Dorthe kan få aktindsigt i sagens tekniske rapporter efter § 41d?",
+                    "choices": [
+                        "Hun skal blot angive en saglig grund",
+                        "Hun skal dokumentere en individuel, væsentlig interesse (retlig interesse) i dokumenterne",
+                        "Hun skal være advokat eller journalist",
+                        "Hun skal have parternes samtykke"
+                    ],
+                    "correct": 1,
+                    "explanation": "§ 41d kræver, at den pågældende har en individuel, væsentlig interesse — en retlig interesse — i de pågældende dokumenter. Dorthes bekymring for, at samme fundamentproblemer kan påvirke hendes ejendom, kan potentielt udgøre en sådan retlig interesse."
+                },
+                {
+                    "question": "Kan Dorthe få aktindsigt i rettens interne arbejdsdokumenter i sagen?",
+                    "choices": [
+                        "Ja, alle dokumenter i sagen er omfattet af aktindsigt",
+                        "Nej, rettens interne arbejdsdokumenter er undtaget fra aktindsigt efter § 41d",
+                        "Kun med dommerens personlige tilladelse",
+                        "Ja, men kun i anonymiseret form"
+                    ],
+                    "correct": 1,
+                    "explanation": "Rettens interne arbejdsdokumenter er undtaget fra aktindsigt efter § 41d. Aktindsigten omfatter dokumenter, som parterne har indleveret eller fået udleveret, men ikke rettens egne interne notater og udkast."
+                },
+                {
+                    "question": "Hvad er den afgørende forskel mellem aktindsigt i domme (§ 41b) og aktindsigt i øvrige dokumenter (§ 41d)?",
+                    "choices": [
+                        "Der er ingen forskel — reglerne er identiske",
+                        "Domme kræver retlig interesse, øvrige dokumenter kræver det ikke",
+                        "Enhver har ret til aktindsigt i domme, mens aktindsigt i øvrige dokumenter kræver individuel, væsentlig interesse",
+                        "Aktindsigt i domme er gratis, mens aktindsigt i øvrige dokumenter koster et gebyr"
+                    ],
+                    "correct": 2,
+                    "explanation": "Den afgørende forskel er, at enhver har ret til aktindsigt i domme og kendelser (§ 41b), mens aktindsigt i øvrige dokumenter (§ 41d) kræver individuel, væsentlig interesse. Domme er offentlige afgørelser, mens øvrige dokumenter kan indeholde mere følsomme oplysninger."
+                }
+            ]
+        },
+        {
+            "title": "Forretningshemmeligheden i aktindsigten — Balance mellem åbenhed og fortrolighed",
+            "level": 9,
+            "context": "Softwarevirksomheden CodeShield ApS har sagsøgt en tidligere samarbejdspartner, TechFlow IVS, ved Retten i Lyngby for brud på en fortrolighedsaftale. Under sagen er der fremlagt detaljerede tekniske beskrivelser af CodeShields proprietære algoritme samt interne kalkulationer af algoritmens kommercielle værdi. Sagen er afsluttet med dom til fordel for CodeShield. Brancheforeningen DanskIT anmoder nu om aktindsigt i dommen, da den har principiel betydning for fortolkningen af fortrolighedsklausuler i IT-branchen. CodeShield frygter dog, at de tekniske detaljer i dommen vil afsløre algoritmens hemmeligheder for konkurrenter.",
+            "questions": [
+                {
+                    "question": "Hvilken undtagelse kan CodeShield påberåbe sig for at begrænse aktindsigt i dommen?",
+                    "choices": [
+                        "§ 41b, stk. 3, nr. 1 — hensynet til statens sikkerhed",
+                        "§ 41b, stk. 3, nr. 5 — hensynet til erhvervshemmeligheder",
+                        "§ 41h — meroffentlighed",
+                        "§ 255a — partens aktindsigt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 41b, stk. 3, nr. 5, giver mulighed for at undtage aktindsigt i domme, når hensynet til erhvervshemmeligheder taler afgørende imod. CodeShields proprietære algoritme er en klassisk erhvervshemmelighed, som denne bestemmelse er designet til at beskytte."
+                },
+                {
+                    "question": "Hvordan kan retten varetage både DanskITs interesse i den retlige principafgørelse og CodeShields behov for fortrolighed?",
+                    "choices": [
+                        "Retten må vælge enten fuld aktindsigt eller fuldstændigt afslag",
+                        "Retten kan anonymisere dommen, jf. § 41e, stk. 4, og fjerne de specifikke tekniske detaljer, mens den retlige analyse bevares",
+                        "Retten kan kræve, at DanskIT underskriver en fortrolighedsaftale",
+                        "Retten skal sende sagen til Datatilsynet for afgørelse"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsplejelovens § 41e, stk. 4, giver mulighed for anonymisering. Retten kan fjerne de specifikke tekniske detaljer om algoritmen, mens den retlige analyse af fortrolighedsklausulen bevares. Det tilgodeser både brancheforeningens interesse og CodeShields fortrolighed."
+                },
+                {
+                    "question": "Hvad er forholdet mellem § 41b, stk. 3, nr. 5, og anonymiseringsmuligheden i § 41e, stk. 4?",
+                    "choices": [
+                        "Det er to helt uafhængige bestemmelser uden sammenhæng",
+                        "§ 41e, stk. 4, kan bruges som et mindre indgribende alternativ til fuldt afslag efter § 41b, stk. 3, nr. 5 — anonymisering frem for nægtelse",
+                        "§ 41b går altid forud for § 41e",
+                        "Anonymisering kan kun bruges, hvis aktindsigt er nægtet fuldstændigt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Anonymisering efter § 41e, stk. 4, kan bruges som et proportionalt alternativ til fuldstændig nægtelse af aktindsigt. I stedet for at nægte aktindsigt helt med hjemmel i § 41b, stk. 3, nr. 5, kan retten anonymisere de konkrete erhvervshemmeligheder, så den retlige substans fortsat er tilgængelig."
+                },
+                {
+                    "question": "Hvis dommen offentliggøres i anonymiseret form, hvad skal da typisk anonymiseres?",
+                    "choices": [
+                        "Kun parternes navne",
+                        "Kun dommens konklusion",
+                        "Parternes navne, de specifikke tekniske detaljer om algoritmen og andre oplysninger, der kan identificere erhvervshemmelighederne",
+                        "Hele dommen skal omskrives"
+                    ],
+                    "correct": 2,
+                    "explanation": "Anonymiseringen skal omfatte de oplysninger, der begrundede begrænsningen — altså parternes navne samt de specifikke tekniske detaljer, der udgør erhvervshemmeligheder. Den retlige analyse og dommens principielle pointer skal bevares, da det netop er dem, offentligheden har interesse i."
+                }
+            ]
+        },
+        {
+            "title": "Journalistens udvidede adgang — Meroffentlighed i praksis",
+            "level": 9,
+            "context": "Undersøgende journalist Katrine Lindqvist arbejder på en artikelserie om forbrugerbeskyttelse i Danmark for DR. Hun ønsker aktindsigt i en række dokumenter fra en civil sag ved Retten i Glostrup mellem en gruppe forbrugere og elektronikfirmaet SmartHome A/S vedrørende defekte smarthome-produkter. Katrine ønsker ikke kun aktindsigt i dommen, men også i parternes processkrifter, de tekniske ekspertrapporter og korrespondancen mellem parterne og retten. Hun argumenterer for, at sagen har stor samfundsmæssig interesse, da tusindvis af forbrugere kan være berørt. SmartHome A/S modsætter sig og mener, at Katrines ønske rækker langt ud over, hvad loven tillader.",
+            "questions": [
+                {
+                    "question": "Hvilken bestemmelse giver mulighed for aktindsigt i videre omfang end de almindelige regler?",
+                    "choices": [
+                        "§ 41b — aktindsigt i domme",
+                        "§ 41d — aktindsigt i øvrige dokumenter",
+                        "§ 41h — meroffentlighed",
+                        "§ 255a — parters aktindsigt"
+                    ],
+                    "correct": 2,
+                    "explanation": "Retsplejelovens § 41h hjemler meroffentlighed — muligheden for at give aktindsigt i videre omfang end de almindelige regler kræver. Bestemmelsen er relevant, når der foreligger særlige grunde til udvidet aktindsigt, f.eks. journalistisk eller videnskabelig interesse."
+                },
+                {
+                    "question": "Hvem er typisk omfattet af meroffentlighedsbestemmelsen i § 41h?",
+                    "choices": [
+                        "Kun parter i sagen",
+                        "Alle borgere uden begrænsning",
+                        "Bl.a. journalister og forskere, der har brug for aktindsigt til journalistisk eller videnskabeligt formål",
+                        "Kun advokater med særlig tilladelse"
+                    ],
+                    "correct": 2,
+                    "explanation": "Meroffentlighed efter § 41h er bl.a. relevant for journalister og forskere med videnskabelige undersøgelser. Katrines journalistiske formål — en artikelserie af samfundsmæssig interesse — falder inden for bestemmelsens typiske anvendelsesområde."
+                },
+                {
+                    "question": "Giver § 41h Katrine et ubetinget krav på aktindsigt i alle sagens dokumenter?",
+                    "choices": [
+                        "Ja, journalister har altid ret til fuld aktindsigt",
+                        "Nej, meroffentlighed er en mulighed — retten foretager en konkret vurdering og kan afveje hensynet til f.eks. erhvervshemmeligheder",
+                        "Ja, men kun i sager af offentlig interesse",
+                        "Nej, § 41h gælder kun for domme, ikke for øvrige dokumenter"
+                    ],
+                    "correct": 1,
+                    "explanation": "Meroffentlighed efter § 41h giver ikke et ubetinget krav — det er en mulighed, hvor retten foretager en konkret vurdering. Retten kan afveje den journalistiske interesse mod andre hensyn, herunder erhvervshemmeligheder og private forhold."
+                },
+                {
+                    "question": "Hvad er forskellen mellem aktindsigt efter § 41d (individuel interesse) og § 41h (meroffentlighed)?",
+                    "choices": [
+                        "Der er ingen forskel — bestemmelserne er identiske",
+                        "§ 41d kræver individuel, væsentlig retlig interesse, mens § 41h åbner for aktindsigt i videre omfang baseret på f.eks. journalistisk eller videnskabelig interesse",
+                        "§ 41d er for journalister, § 41h er for almindelige borgere",
+                        "§ 41h giver altid mere aktindsigt end § 41d"
+                    ],
+                    "correct": 1,
+                    "explanation": "§ 41d kræver, at ansøgeren har en individuel, væsentlig retlig interesse i dokumenterne, mens § 41h åbner for aktindsigt i videre omfang — f.eks. for journalister og forskere, der ikke nødvendigvis har en personlig retlig interesse, men har et legitimt formål af bredere samfundsmæssig karakter."
+                }
+            ]
+        },
+        {
+            "title": "Partens blinde plet — Kontradiktionsprincippet og aktindsigt",
+            "level": 9,
+            "context": "I en kompliceret erhvervssag ved Retten i København har sagsøger Nordic Ventures A/S anlagt sag mod GreenEnergy ApS om misligholdelse af en investeringsaftale. Under sagens forberedelse har GreenEnergys advokat fremsendt en omfattende skønserklæring og flere bilag til retten, som Nordic Ventures' advokat mener ikke at have modtaget kopi af. Nordic Ventures' advokat anmoder retten om aktindsigt i samtlige dokumenter i sagens arkiv, herunder alle bilag fremsendt af modparten. GreenEnergys advokat hævder, at visse bilag er interne arbejdsdokumenter, som Nordic Ventures ikke har krav på at se. Retten skal tage stilling til omfanget af partens aktindsigt og kontradiktionsprincippets rækkevidde.",
+            "questions": [
+                {
+                    "question": "Hvilken bestemmelse sikrer en parts ret til aktindsigt i rettens arkiv?",
+                    "choices": [
+                        "§ 41b — enhvers ret til aktindsigt i domme",
+                        "§ 41d — tredjemands aktindsigt i øvrige dokumenter",
+                        "§ 255a — parters krav på aktindsigt i rettens arkiv",
+                        "§ 41h — meroffentlighed"
+                    ],
+                    "correct": 2,
+                    "explanation": "Retsplejelovens § 255a giver parter krav på aktindsigt i rettens arkiv. Denne bestemmelse er central for kontradiktionsprincippet — en part skal kunne se alt materiale, der kan få betydning for sagens afgørelse."
+                },
+                {
+                    "question": "Hvad indebærer kontradiktionsprincippet i forhold til en parts ret til at se modpartens materiale?",
+                    "choices": [
+                        "En part har ret til at se alt, hvad modparten sender til retten, for at kunne tage stilling til det og imødegå det",
+                        "Modpartens materiale er altid fortroligt",
+                        "En part har kun ret til at se de dokumenter, som dommeren anvender i dommen",
+                        "Kontradiktionsprincippet gælder kun i straffesager"
+                    ],
+                    "correct": 0,
+                    "explanation": "Kontradiktionsprincippet indebærer, at en part har ret til at se og forholde sig til alt materiale, som modparten fremlægger for retten. Det er et grundlæggende retssikkerhedsprincip — ingen må dømmes uden at have haft mulighed for at imødegå modpartens argumenter og beviser."
+                },
+                {
+                    "question": "Indebærer kontradiktionsprincippet nødvendigvis ret til kopi af alt bevismateriale?",
+                    "choices": [
+                        "Ja, kontradiktionsprincippet giver altid ret til kopi af alt",
+                        "Nej, U 2015.922 H fastslår, at kontradiktionsprincippet ikke nødvendigvis indebærer ret til kopi af alt bevismateriale",
+                        "Kun hvis bevismaterialet er digitalt",
+                        "Kontradiktionsprincippet gælder slet ikke for bevismateriale"
+                    ],
+                    "correct": 1,
+                    "explanation": "Højesteret fastslog i U 2015.922 H, at kontradiktionsprincippet ikke nødvendigvis indebærer ret til kopi af alt bevismateriale. Princippet kræver, at parten får mulighed for at gøre sig bekendt med materialet og tage stilling til det, men formen kan variere."
+                },
+                {
+                    "question": "Hvad er den grundlæggende forskel mellem parters aktindsigt (§ 255a) og tredjemands aktindsigt (§ 41d)?",
+                    "choices": [
+                        "Der er ingen forskel — begge bestemmelser stiller samme krav",
+                        "Parter har krav på aktindsigt som en retssikkerhedsgaranti, mens tredjemand skal godtgøre individuel, væsentlig interesse",
+                        "Tredjemand har videre adgang end parter",
+                        "Parternes aktindsigt er begrænset til domme, mens tredjemand kan se alle dokumenter"
+                    ],
+                    "correct": 1,
+                    "explanation": "Parter har krav på aktindsigt i rettens arkiv, jf. § 255a, som en grundlæggende retssikkerhedsgaranti knyttet til kontradiktionsprincippet. Tredjemand derimod skal godtgøre en individuel, væsentlig interesse efter § 41d. Parterne har altså en stærkere ret, fordi deres retssikkerhed er direkte berørt."
                 }
             ]
         }
