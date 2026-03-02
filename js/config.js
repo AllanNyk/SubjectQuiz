@@ -105,6 +105,7 @@ export const LEVEL_DISPLAY_NAMES = {
     4: 'Kapitel 4 - EU-ret',
     5: 'Kapitel 5 - Grundlæggende principper',
     6: 'Kapitel 6 - Offentlighed og mundtlighed',
+    7: 'Kapitel 7 - Hvilke sager kan behandles?',
     30: 'Generel viden',
     31: 'Generel viden',
     32: 'Generel viden',

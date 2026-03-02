@@ -2470,6 +2470,562 @@
             ]
         },
         {
+            "level": 7,
+            "name": "Kapitel 7 - Hvilke sager kan behandles af domstolene?",
+            "questions": [
+                {
+                    "question": "Hvad er domstolenes væsentligste rolle inden for den civile retspleje?",
+                    "choices": [
+                        "At udstede generelle udtalelser om retlige spørgsmål",
+                        "At håndhæve strafferetlige sanktioner",
+                        "At fungere som konfliktløsningsorgan i sager mellem private parter",
+                        "At rådgive lovgiver om ny lovgivning"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge kapitel 7, afsnit 1, er domstolenes væsentligste rolle inden for den civile retspleje at fungere som konfliktløsningsorgan i sager mellem private parter. Domstolene har endvidere en rolle som prøvelsesorgan for myndighedsafgørelser."
+                },
+                {
+                    "question": "Hvad fastslår Rpl § 255, stk. 1, om spørgsmålet om, hvem der er rette sagsøger eller sagvolder?",
+                    "choices": [
+                        "At spørgsmålet afgøres af retten efter en konkret vurdering",
+                        "At spørgsmålet afgøres af den sagsøgte selv",
+                        "At spørgsmålet afgøres af en uafhængig ombudsmand",
+                        "At spørgsmålet afgøres efter lovgivningens almindelige regler"
+                    ],
+                    "correct": 3,
+                    "explanation": "Rpl § 255, stk. 1, fastslår blot, at '[h]vo der er ret sagsøger eller sagvolder, afgøres efter lovgivningens almindelige regler'. Bestemmelsen giver ingen konkret vejledning i, hvilke sager domstolene kan behandle."
+                },
+                {
+                    "question": "Hvad er konsekvensen, hvis sagsøgeren ikke har retlig interesse i sagen?",
+                    "choices": [
+                        "Sagen vil typisk blive afvist",
+                        "Sagen udsættes automatisk i seks måneder",
+                        "Sagen hjemvises til en forvaltningsmyndighed",
+                        "Sagsøgeren pålægges en rettergangsbøde"
+                    ],
+                    "correct": 0,
+                    "explanation": "Ifølge kapitel 7, afsnit 1, vil manglende opfyldelse af betingelserne for domstolsbehandling typisk resultere i, at sagen afvises. Efter omstændighederne kan dommen dog også gå ud på frifindelse."
+                },
+                {
+                    "question": "Hvorfor stilles der generelt lempeligere krav til retlig interesse i sager anlagt mod offentlige myndigheder end mod private?",
+                    "choices": [
+                        "Fordi offentlige myndigheder aldrig tilkendes sagsomkostninger",
+                        "Fordi alle myndighedsafgørelser automatisk kan indbringes for domstolene",
+                        "Fordi Grl § 63 kræver vid adgang til prøvelse, og myndigheder forventes at yde service til borgerne",
+                        "Fordi offentlige myndigheder altid har ressourcer til at føre retssager"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge afsnit 1 forventes offentlige myndigheder at yde en vis service til borgerne, og der af retssikkerhedsmæssige grunde bør være vid adgang til at efterprøve myndighedsafgørelser, jf. princippet i Grl § 63."
+                },
+                {
+                    "question": "Hvilke delbetingelser skal en sagsøger opfylde for at have retlig interesse?",
+                    "choices": [
+                        "Påstanden er skriftlig, sagen har økonomisk værdi, og sagsøgeren har advokat",
+                        "Påstanden er lovlig og kan bedømmes retligt, påstanden er aktuel, og sagsøgeren har konkret interesse",
+                        "Sagsøgeren har partsevne, påstanden er aktuel, og der er stillet sikkerhed",
+                        "Påstanden angår et pengekrav, sagsøgeren er dansk statsborger, og sagen er anlagt rettidigt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge afsnit 2.1 opdeles kravet om retlig interesse i tre delbetingelser: a) Påstanden er lovlig og kan bedømmes retligt (afsnit 2.2), b) Påstanden er aktuel (afsnit 2.3), og c) Sagsøgeren har en konkret interesse i sagen (afsnit 2.4)."
+                },
+                {
+                    "question": "Hvad kendetegner et fuldbyrdelsessøgsmål?",
+                    "choices": [
+                        "Det er en sag, hvor påstanden efter sit indhold kan fuldbyrdes af fogedretten",
+                        "Det er en sag, der kræver forudgående forligsmægling",
+                        "Det er en sag, hvor sagsøgeren ønsker en generel retsafklaring",
+                        "Det er en sag, der udelukkende angår offentlige myndigheder"
+                    ],
+                    "correct": 0,
+                    "explanation": "Ifølge afsnit 2.1 er et fuldbyrdelsessøgsmål en sag, hvor sagsøger nedlægger en påstand, der efter sit indhold kan fuldbyrdes af fogedretten, såfremt sagsøgeren får medhold. Typisk påstand om betaling af et pengebeløb."
+                },
+                {
+                    "question": "Hvad er et eksempel på et anerkendelsessøgsmål?",
+                    "choices": [
+                        "En sag med påstand om, at sagsøgte skal anerkende, at dennes garage er ulovlig opført",
+                        "En sag med påstand om, at sagsøgte skal betale 500.000 kr.",
+                        "En sag med påstand om, at sagsøgte skal udlevere en bil",
+                        "En sag med påstand om, at sagsøgte skal undlade at foretage en bestemt handling"
+                    ],
+                    "correct": 0,
+                    "explanation": "Ifølge afsnit 2.1 er et anerkendelsessøgsmål karakteriseret ved, at påstanden ikke kan fuldbyrdes af fogedretten. Eksempler inkluderer påstand om, at sagsøgte skal anerkende, at dennes garage er ulovlig opført. De øvrige svarmuligheder (betaling, udlevering, undladelse) kan fuldbyrdes af fogedretten."
+                },
+                {
+                    "question": "Har sondringen mellem fuldbyrdelses- og anerkendelsessøgsmål principiel betydning for, om sagen kan behandles af domstolene?",
+                    "choices": [
+                        "Ja, kun fuldbyrdelsessøgsmål kan behandles af domstolene",
+                        "Nej, for begge typer gælder kravet om tilstrækkelig retlig interesse",
+                        "Ja, anerkendelsessøgsmål kræver altid forudgående administrativ behandling",
+                        "Nej, men anerkendelsessøgsmål kræver altid en advokat"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge afsnit 2.1 har sondringen principielt ikke betydning for, om sagen kan behandles. For begge typer gælder, at domstolene alene kan behandle sagen, hvis sagsøgeren har tilstrækkelig retlig interesse. Visse betingelser har dog ofte større praktisk betydning i anerkendelsessøgsmål."
+                },
+                {
+                    "question": "Kan en anerkendelsesdom om ejendomsretten til en bil fuldbyrdes af fogedretten?",
+                    "choices": [
+                        "Ja, fogedretten kan altid fuldbyrde anerkendelsesdomme",
+                        "Ja, men kun hvis sagsøgte ikke anker dommen",
+                        "Nej, og sagsøgeren kan aldrig få bilen udleveret uden et nyt fuldbyrdelsessøgsmål",
+                        "Nej, men dommen er bevis for ejendomsretten, og bilen kan udleveres via umiddelbar fogedforretning"
+                    ],
+                    "correct": 3,
+                    "explanation": "Ifølge afsnit 2.1 kan en anerkendelsesdom om ejendomsret ikke fuldbyrdes efter reglerne om fuldbyrdelse af domme. Men dommen er bevis for ejendomsretten, og sagsøgeren kan via en umiddelbar fogedforretning få bilen udleveret, hvis sagsøgte ikke kan dokumentere ret til besiddelse."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2007.213/2 H om fagforeningens krav om kønsopdelte statistikker?",
+                    "choices": [
+                        "Fagforeningen fik medhold i kravet",
+                        "Arbejdsgiverforeningen blev frifundet på det materielle grundlag",
+                        "Sagen blev afvist, fordi påstandene var så generelt udformede, at der ikke kunne tages stilling hertil",
+                        "Sagen blev henvist til et klagenævn"
+                    ],
+                    "correct": 2,
+                    "explanation": "I U 2007.213/2 H skete der afvisning af sagen, da påstandene om pligt til at udarbejde kønsopdelte statistikker var så generelt udformede, at der ikke kunne tages stilling hertil under en retssag, jf. afsnit 2.2."
+                },
+                {
+                    "question": "Hvad var begrundelsen for afvisning i U 2005.2134 H om nedgravning af metroen?",
+                    "choices": [
+                        "Sagsøgeren havde ikke partsevne",
+                        "Påstanden angik et faktisk og ikke et retligt spørgsmål, og den subsidiære påstand var for uklar",
+                        "Søgsmålsfristen var overskredet",
+                        "Sagsøgeren havde ikke udtømt administrativ rekurs"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2005.2134 H blev sagen afvist, da påstanden om, at der 'inden for budgettet' kunne ske nedgravning, angik et faktisk og ikke et retligt spørgsmål, og påstanden om at 'tilpligte' nedgravning var for uklar og ubestemt, jf. afsnit 2.2."
+                },
+                {
+                    "question": "Skal domstolene afvise en sag af egen drift (ex officio), hvis sagsøgerens påstand ikke kan bedømmes retligt?",
+                    "choices": [
+                        "Ja, da domstolene ikke bør tvinges til at tage stilling til spørgsmål, der ikke kan bedømmes retligt",
+                        "Nej, afvisning kræver altid indsigelse fra sagsøgte",
+                        "Kun hvis sagsøgte udtrykkeligt anmoder herom inden for en bestemt frist",
+                        "Nej, retten skal altid forsøge at omformulere påstanden"
+                    ],
+                    "correct": 0,
+                    "explanation": "Ifølge afsnit 2.2 må afvisning af et anerkendelsessøgsmål, der ikke kan bedømmes retligt, ske af egen drift (ex officio), da domstolene, uanset om sagsøgte ikke gør indsigelse, ikke bør tvinges til at tage stilling til sådanne spørgsmål."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2014.2434 H om betaling for 'sort arbejde'?",
+                    "choices": [
+                        "Sagen blev afvist, da den angik en ulovlig aftale",
+                        "Sagsøgeren fik medhold i kravet om betaling",
+                        "Sagen blev henvist til voldgift",
+                        "Sagen blev ikke afvist, men sagsøgte blev frifundet, da aftalen var ugyldig efter DL 5-1-2"
+                    ],
+                    "correct": 3,
+                    "explanation": "I U 2014.2434 H blev sagen med påstand om betaling for 'sort arbejde' ikke afvist, men sagsøgte blev frifundet for kravet om betaling, da aftalen om 'sort arbejde' måtte anses for ugyldig efter DL 5-1-2. Domstolene kan godt behandle retsvirkningerne af en ugyldig aftale."
+                },
+                {
+                    "question": "Hvad er den principielle forskel mellem afvisning og frifindelse i sager om ulovlige aftaler efter U 2014.2434 H?",
+                    "choices": [
+                        "Der er ingen forskel; begge dele medfører, at sagsøgeren taber sagen",
+                        "Frifindelse kræver, at sagsøgeren har handlet i ond tro",
+                        "Afvisning indebærer, at domstolene slet ikke tager materiel stilling; frifindelse indebærer, at kravet bedømmes, men afslås",
+                        "Afvisning kan kun ske efter sagsøgtes anmodning, mens frifindelse kan ske af egen drift"
+                    ],
+                    "correct": 2,
+                    "explanation": "Forskellen er, at afvisning indebærer, at domstolene ikke tager materiel stilling til sagen, mens frifindelse indebærer, at sagen behandles, men kravet afslås. U 2014.2434 H viser, at sager om retsvirkningerne af ulovlige aftaler ikke nødvendigvis skal afvises, da ugyldighed kan medføre andre krav, f.eks. erstatning."
+                },
+                {
+                    "question": "Kan domstolene behandle et erstatningskrav for skatte- eller afgiftsunddragelse begået mod en udenlandsk myndighed?",
+                    "choices": [
+                        "Nej, domstolene har aldrig kompetence i sager vedrørende udenlandske myndigheder",
+                        "Ja, da et sådant erstatningskrav har civilretlig karakter, jf. U 2020.1697 H",
+                        "Kun hvis der foreligger en mellemstatslig aftale herom",
+                        "Kun hvis den udenlandske myndighed samtykker"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge afsnit 2.2 har domstolene kompetence til at behandle en sag, hvor der påstås erstatning for skatte- eller afgiftsunddragelse begået mod en udenlandsk myndighed, da et sådant erstatningskrav har civilretlig karakter, jf. U 2020.1697 H."
+                },
+                {
+                    "question": "Hvad er begrundelsen for kravet om aktuel interesse?",
+                    "choices": [
+                        "Hensynet til domstolenes ressourcer og sagsbehandlingstider",
+                        "Hensynet til retssikkerheden i samfundet generelt",
+                        "Hensynet til sagsøgte, der ikke bør tvinges til at deltage i en proces om et uaktuelt spørgsmål",
+                        "Hensynet til at beskytte sagsøgerens egne interesser"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge afsnit 2.3.1 taler hensynet til sagsøgte imod, at denne tvinges til at deltage i en tids- og omkostningskrævende proces om et spørgsmål, der er uaktuelt. Kravet om aktualitet er begrundet i hensynet til sagsøgte, ikke til domstolene."
+                },
+                {
+                    "question": "Hvad sker der, hvis den manglende aktualitet alene skyldes, at forfaldstiden for sagsøgerens krav ikke er kommet?",
+                    "choices": [
+                        "Sagen afvises altid",
+                        "Retten udsætter sagen til forfaldstidspunktet",
+                        "Retten vil oftest frifinde sagsøgte 'for tiden' for at tydeliggøre, at sagen kan behandles, når kravet forfalder",
+                        "Sagsøgeren pålægges at stille sikkerhed og afvente forfaldstiden"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge afsnit 2.3.1 vil retten, hvis den manglende aktualitet alene skyldes, at forfaldstiden ikke er kommet, oftest afsige dom, hvorefter 'sagsøgte frifindes for tiden', for at tydeliggøre, at sagen kan behandles, når forfaldstiden er indtrådt."
+                },
+                {
+                    "question": "Bør retten af egen drift afvise en sag som følge af manglende aktualitet, hvis sagsøgte ikke gør indsigelse?",
+                    "choices": [
+                        "Ja, retten skal altid afvise sager uden aktualitet af egen drift",
+                        "Ja, men kun i anerkendelsessøgsmål",
+                        "Nej, retten må aldrig afvise en sag af egen drift",
+                        "Nej, retten bør næppe af egen drift afvise sagen, da kravet om aktualitet er begrundet i hensynet til sagsøgte"
+                    ],
+                    "correct": 3,
+                    "explanation": "Ifølge afsnit 2.3.1 bør retten næppe af egen drift afvise sagen som følge af manglende aktualitet, da kravet om aktualitet må anses for begrundet i hensynet til den sagsøgte og ikke til domstolene. Dog kan retten trods manglende indsigelse afvise, hvis påstandene er for upræcise, jf. afsnit 2.2."
+                },
+                {
+                    "question": "Hvornår har et fuldbyrdelsessøgsmål ikke aktualitet?",
+                    "choices": [
+                        "Når sagsøgte allerede har opfyldt den forpligtelse, som sagsøgeren påstår dom for",
+                        "Når sagsøgeren ikke har råd til at betale sagsomkostninger",
+                        "Når sagsøgeren ikke har en advokat",
+                        "Når kravet overstiger 1 million kroner"
+                    ],
+                    "correct": 0,
+                    "explanation": "Ifølge afsnit 2.3.2 har et fuldbyrdelsessøgsmål ikke aktualitet, hvis sagsøgte allerede har opfyldt den forpligtelse, som sagsøgeren påstår dom for."
+                },
+                {
+                    "question": "Kan en sagsøger anlægge fuldbyrdelsessøgsmål om et uforfaldent krav, hvis sagsøgte har bestridt kravet inden forfaldstiden?",
+                    "choices": [
+                        "Kun hvis retten giver særlig tilladelse hertil",
+                        "Ja, det må formentlig antages, at sagsøgeren kan anlægge sag med det samme",
+                        "Nej, sagsøgeren skal altid afvente forfaldstiden",
+                        "Kun hvis kravet angår en pengeforpligtelse"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge afsnit 2.3.2 antages det, at hvis sagsøgte har bestridt sagsøgerens krav inden forfaldstiden, kan sagsøgeren anlægge fuldbyrdelsessøgsmål med det samme, uden at afvente forfaldstiden. Dommen må da gå ud på betaling på den aftalte forfaldsdato."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2007.2161 H om erstatningssagen mod Roskilde Festival?",
+                    "choices": [
+                        "Roskilde Festival blev dømt til at betale erstatning",
+                        "De pårørende fik delvist medhold i kravet",
+                        "Sagen blev afvist, da Roskilde Festival havde tilbudt og vedstod at betale de krævede beløb, hvorfor kravet ikke var aktuelt",
+                        "Sagen blev hjemvist til byretten til fornyet behandling"
+                    ],
+                    "correct": 2,
+                    "explanation": "I U 2007.2161 H afviste retten erstatningssagen, da Roskilde Festival havde tilbudt og fortsat vedstod et tilbud om at betale de krævede beløb. Det var derfor ikke aktuelt at få fastslået, om Roskilde Festival havde en erstatningsretlig pligt hertil, jf. afsnit 2.3.3."
+                },
+                {
+                    "question": "Har en person, der har opgivet et krav, aktuel interesse i at få anerkendt de faktiske forhold bag kravet?",
+                    "choices": [
+                        "Ja, den faktiske interesse består altid uafhængigt af kravet",
+                        "Nej, en person der har opgivet et krav, har ikke aktuel interesse, jf. U 2018.2373 V",
+                        "Kun hvis der er tale om et arbejdsretligt krav",
+                        "Ja, men kun i sager mod offentlige myndigheder"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ifølge afsnit 2.3.3 og U 2018.2373 V har en person, der har opgivet et krav, ikke nogen aktuel interesse i at få anerkendt de forhold, som kravet kunne støttes på. I den pågældende sag havde en ansat, der var bortvist men ikke ville fremsætte økonomiske krav, ikke aktuel interesse i at få prøvet en forflyttelse."
+                },
+                {
+                    "question": "Kan en asylansøger, der har fået humanitær opholdstilladelse, stadig få prøvet afslaget på asyl?",
+                    "choices": [
+                        "Ja, der gælder en videre adgang til prøvelse af myndighedsafgørelser, jf. U 2008.2587/2 H",
+                        "Nej, den humanitære opholdstilladelse gør sagen uaktuel",
+                        "Kun hvis den humanitære opholdstilladelse er tidsbegrænset",
+                        "Nej, medmindre afslaget var åbenbart ulovligt"
+                    ],
+                    "correct": 0,
+                    "explanation": "Ifølge afsnit 2.3.3 og U 2008.2587/2 H kunne en asylansøger få behandlet en sag om prøvelse af afslag på asyl, selv om han i mellemtiden havde fået humanitær opholdstilladelse. Der gælder en videre adgang til prøvelse af myndighedsafgørelser."
+                },
+                {
+                    "question": "Kan en person anlægge sag mod en myndighed for at få anerkendt lovligheden af en påtænkt handling, når der ikke kræves forudgående tilladelse?",
+                    "choices": [
+                        "Ja, det er altid muligt at få bindende forhåndsafklaring fra domstolene",
+                        "Nej, domstolene behandler aldrig sager om påtænkte handlinger",
+                        "Som udgangspunkt nej, men formentlig ja, hvis myndigheden konkret har tilkendegivet, at handlingen anses for ulovlig, jf. U 1986.652/2 H",
+                        "Kun hvis den påtænkte handling angår skatteret"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge afsnit 2.3.3 er udgangspunktet, at en person ikke kan få behandlet en sag om lovligheden af en påtænkt handling. Dog gøres undtagelse, hvis myndigheden konkret har tilkendegivet, at den anser handlingen for ulovlig, jf. U 1986.652/2 H om Forbrugerombudsmandens tilkendegivelse om et værdikuponsystem."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2010.2109 H om fortolkning af ophavsretslovens § 19?",
+                    "choices": [
+                        "Sagen blev afvist, da den angik abstrakt lovfortolkning uden baggrund i nogen konkret retstvist",
+                        "Kulturministeriet blev dømt til at anerkende sagsøgerens fortolkning",
+                        "Sagen blev hjemvist til Kulturministeriet til fornyet behandling",
+                        "Sagsøgeren fik delvist medhold"
+                    ],
+                    "correct": 0,
+                    "explanation": "I U 2010.2109 H afviste Højesteret sagen, da den angik abstrakt lovfortolkning uden baggrund i nogen konkret retstvist. Der kan ikke anlægges sag med påstand om, at myndighederne skal anerkende en bestemt generel fortolkning af en lovbestemmelse, jf. afsnit 2.3.3."
+                },
+                {
+                    "question": "Hvad er det grundlæggende krav til sagsøgerens konkrete interesse i en sag?",
+                    "choices": [
+                        "At en afgørelse af sagen vil have betydning for sagsøgerens retsstilling",
+                        "At sagsøgeren har en moralsk interesse i sagens udfald",
+                        "At sagsøgeren kan dokumentere et økonomisk tab",
+                        "At sagsøgeren er dansk statsborger"
+                    ],
+                    "correct": 0,
+                    "explanation": "En sagsøger kan alene få behandlet en sag ved domstolene, hvis sagsøgeren har en konkret interesse i sagen, dvs. hvis en afgørelse af sagen vil have betydning for sagsøgerens retsstilling. Sagsøgeren skal have en tilstrækkelig individuel interesse i sagen."
+                },
+                {
+                    "question": "Hvad sker der, hvis en person overdrager en fordring til en erhverver i relation til retlig interesse?",
+                    "choices": [
+                        "Overdrageren beholder den retlige interesse i at anlægge sag",
+                        "Erhververen erhverver også den retlige interesse i at anlægge sag om kravet",
+                        "Ingen af parterne har herefter retlig interesse",
+                        "Det kræver en særlig domstolsgodkendelse for at overføre den retlige interesse"
+                    ],
+                    "correct": 1,
+                    "explanation": "Hvis en person overdrager en fordring til en erhverver, vil erhververen herved også erhverve den retlige interesse i at anlægge sag om kravet mod fordringens debitor. Se f.eks. U 2021.4522 V om overdragelse af ophavsretskrænkelseskrav."
+                },
+                {
+                    "question": "Hvad er en mandatarfuldmagt i procesretlig forstand?",
+                    "choices": [
+                        "En fuldmagt til at handle på vegne af en virksomhed i kommercielle forhold",
+                        "En bemyndigelse fra en person med konkret interesse til, at en anden anlægger sagen i eget navn eller på fuldmagtsgiverens vegne",
+                        "En fuldmagt givet af retten til en procesadvokat",
+                        "En automatisk fuldmagt, der følger af et ansættelsesforhold"
+                    ],
+                    "correct": 1,
+                    "explanation": "En mandatarfuldmagt omfatter tilfælde, hvor en person med konkret interesse bemyndiger en anden til at anlægge sagen i eget navn (mandataren er part) eller på fuldmagtsgiverens vegne (fuldmagtsgiveren er part, mandataren er procesfælle), jf. U 1999.20 H og U 2010.937 Ø."
+                },
+                {
+                    "question": "Kan en mandatarfuldmagt, hvor mandataren anlægger sagen i eget navn, anses for ugyldig?",
+                    "choices": [
+                        "Nej, en mandatarfuldmagt er altid gyldig",
+                        "Ja, hvis fuldmagten i væsentlig grad strider mod hensynet til den sagsøgte",
+                        "Ja, hvis mandataren ikke er advokat",
+                        "Ja, hvis sagen vedrører et beløb over 100.000 kr."
+                    ],
+                    "correct": 1,
+                    "explanation": "Det må formentlig antages, at en bemyndigelse til, at en mandatar anlægger sagen i eget navn, kan anses for ugyldig, hvis fuldmagten i væsentlig grad strider mod hensynet til den sagsøgte, jf. U 2010.937 Ø forudsætningsvis. Der må dog kræves ganske meget for at antage ugyldighed."
+                },
+                {
+                    "question": "I en konkurs: Hvem har retlig interesse i at anlægge sag vedrørende et individuelt tab lidt af en bestemt kreditor?",
+                    "choices": [
+                        "Konkursboet har altid den retlige interesse",
+                        "Alene den individuelle kreditor har retlig interesse",
+                        "Skifteretten har den retlige interesse",
+                        "Kurator har den retlige interesse på vegne af alle kreditorer"
+                    ],
+                    "correct": 1,
+                    "explanation": "Er kravet mod tredjemand begrundet i forhold, der har bevirket et individuelt tab for en bestemt kreditor, er det alene denne kreditor (og ikke konkursboet), der har den retlige interesse i at anlægge sag, jf. U 2014.1346 H, U 2014.2918 H og U 2015.2075 H."
+                },
+                {
+                    "question": "Hvad fastslog Højesteret i U 1996.1300 H om konkret interesse ved prøvelse af EU-traktatens grundlovsmæssighed?",
+                    "choices": [
+                        "At ingen enkeltpersoner havde retlig interesse i sagen",
+                        "At kun Folketingets medlemmer kunne anlægge sag om traktatens grundlovsmæssighed",
+                        "At 11 enkeltpersoner havde tilstrækkelig konkret interesse, da tiltrædelsen var af indgribende betydning for den danske befolkning i almindelighed",
+                        "At sagen skulle afvises, fordi den ikke var aktuel"
+                    ],
+                    "correct": 2,
+                    "explanation": "I U 1996.1300 H antog Højesteret, at 11 enkeltpersoner havde tilstrækkelig konkret interesse, fordi tiltrædelsen af EU-traktaten indebar overførsel af lovgivningskompetence inden for almene og væsentlige livsområder og derfor var af indgribende betydning for den danske befolkning i almindelighed."
+                },
+                {
+                    "question": "Hvilken afgørelse bekræftede princippet fra U 1996.1300 H med tilsvarende begrundelse vedrørende Lissabon-traktaten?",
+                    "choices": [
+                        "U 2001.2065 H",
+                        "U 2010.1547 H",
+                        "U 2011.984 H",
+                        "U 2014.3309 H"
+                    ],
+                    "correct": 2,
+                    "explanation": "Højesteret fastslog i U 2011.984 H med en tilsvarende begrundelse som i U 1996.1300 H, at en række enkeltpersoner havde tilstrækkelig konkret interesse til at kunne få behandlet en sag om, hvorvidt Danmarks tiltrædelse af Lissabon-traktaten var i strid med Grl § 20."
+                },
+                {
+                    "question": "I sager om grundlovsmæssighed af love, hvad kræves der ifølge U 1996.1300 H og U 2011.984 H af sagsøgeren?",
+                    "choices": [
+                        "At sagsøgeren kan påvise konkrete retsakter, der berører dennes personlige forhold",
+                        "At sagsøgeren er direkte og individuelt berørt af loven",
+                        "At sagen har indgribende betydning for den danske befolkning i almindelighed — der stilles ikke krav om konkret/aktuel individuel interesse",
+                        "At sagsøgeren er medlem af Folketinget eller en politisk organisation"
+                    ],
+                    "correct": 2,
+                    "explanation": "U 1996.1300 H og U 2011.984 H kan læses således, at der i sager om grundlovsmæssighed ikke stilles krav om, at sagsøgeren har en konkret eller aktuel interesse, men alene om, at sagen har indgribende betydning for den danske befolkning i almindelighed."
+                },
+                {
+                    "question": "Hvad angår naboers retlige interesse i byggesager: Hvem har formentlig tilstrækkelig konkret interesse til at anlægge sag om ugyldighed af en byggetilladelse?",
+                    "choices": [
+                        "Kun naboer, der har haft partsstatus under kommunens behandling af byggesagen",
+                        "Enhver nabo, der konkret påvirkes af byggeriet, f.eks. ved forringet udsigt eller øget støj",
+                        "Kun grundejerforeningen i det pågældende område",
+                        "Enhver borger i kommunen"
+                    ],
+                    "correct": 1,
+                    "explanation": "I byggesager må begrebet 'væsentlig individuel interesse' formentlig omfatte enhver nabo, der får forringet sin udsigt, udsættes for øget støj, eller som på anden måde konkret påvirkes af byggeriet, uanset om naboen ikke har haft partsstatus under kommunens behandling af byggesagen."
+                },
+                {
+                    "question": "Hvad er udgangspunktet for foreningers søgsmålsret i sager mod offentlige myndigheder?",
+                    "choices": [
+                        "Alle foreninger har automatisk søgsmålsret inden for deres formål",
+                        "Kun foreninger med over 100 medlemmer har søgsmålsret",
+                        "Søgsmålsret haves kun, hvis foreningen ved lov udtrykkeligt er tillagt klage- eller søgsmålsret",
+                        "Søgsmålsret haves, hvis foreningen har eksisteret i mindst 5 år"
+                    ],
+                    "correct": 2,
+                    "explanation": "Udgangspunktet er, at en forening alene har søgsmålsret, hvis foreningen ved lov udtrykkeligt er tillagt klage- eller søgsmålsret, jf. U 2013.3295 H og U 2019.437 H. En forening uden lovbestemt søgsmålsret kan kun under særlige omstændigheder antages at have fornøden retlig interesse."
+                },
+                {
+                    "question": "Hvilken betydning har Århus-konventionen for foreningers søgsmålsret?",
+                    "choices": [
+                        "Konventionen afskærer foreninger fra at anlægge miljøsager",
+                        "Konventionen fastsætter, at foreninger inden for miljøområdet generelt skal anses for at have fornøden retlig interesse",
+                        "Konventionen begrænser søgsmålsretten til statslige organisationer",
+                        "Konventionen har ingen betydning for foreningers søgsmålsret i Danmark"
+                    ],
+                    "correct": 1,
+                    "explanation": "Gennemførelsen af Århus-konventionen, der er tiltrådt af EU, har medført en forøgelse af, hvilke foreninger m.v. der har klage- og søgsmålsret efter reglerne i miljøbeskyttelsesloven m.v., idet konventionens art. 9, stk. 2, fastsætter, at sådanne foreninger inden for miljøområdet generelt skal anses for at have fornøden retlig interesse."
+                },
+                {
+                    "question": "Hvad er udgangspunktet for en underordnet myndigheds mulighed for at anlægge sag mod en overordnet myndighed, der har ændret den underordnedes afgørelse?",
+                    "choices": [
+                        "Den underordnede myndighed kan altid anlægge sag i medfør af Grl § 63",
+                        "Den underordnede myndighed kan ikke anlægge sag — den må acceptere den overordnedes afgørelse som følge af det lovbestemte klagesystem",
+                        "Den underordnede myndighed kan anlægge sag, hvis den har en planlægningsmæssig interesse",
+                        "Den underordnede myndighed kan altid anlægge sag inden 6 måneder"
+                    ],
+                    "correct": 1,
+                    "explanation": "Udgangspunktet er, at en myndighed, der har truffet afgørelse som 1. instans, ikke kan anlægge sag mod en myndighed, der som klageinstans har ændret afgørelsen. Når lovgiver har indført et administrativt klagesystem, må den underordnede myndighed acceptere den overordnede myndigheds afgørelse."
+                },
+                {
+                    "question": "Hvad fastslog Højesteret i U 2004.1513 H om en kommunes søgsmål mod Naturklagenævnet?",
+                    "choices": [
+                        "At kommunen havde tilstrækkelig planlægningsmæssig interesse",
+                        "At kommunen ikke havde påvist nogen økonomisk interesse og heller ikke nogen anden fornøden konkret interesse, hvorfor sagen blev afvist",
+                        "At kommunen havde søgsmålsret i medfør af Grl § 63",
+                        "At kommunen kunne anlægge sagen som biintervenient"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2004.1513 H fandt Højesterets flertal, at en kommune ikke havde påvist nogen økonomisk interesse i en sag mod Naturklagenævnet om nedrivning af en carport, og at kommunen heller ikke havde godtgjort nogen anden fornøden konkret interesse, hvorfor sagen blev afvist."
+                },
+                {
+                    "question": "I U 2007.1074 H nåede Højesterets flertal et andet resultat end i U 2004.1513 H. Hvad var begrundelsen?",
+                    "choices": [
+                        "At kommunen havde en direkte økonomisk interesse i sagen",
+                        "At kommunen havde en væsentlig planlægningsmæssig interesse, da sagen måtte antages at kunne få betydning for et ikke ubetydeligt antal ejendomme",
+                        "At Naturklagenævnet havde begået sagsbehandlingsfejl",
+                        "At der forelå ekspropriation i strid med Grl § 73"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2007.1074 H fandt Højesterets flertal, at en kommunes sag mod Naturklagenævnet kunne behandles på grund af kommunens væsentlige planlægningsmæssige interesse, med henvisning til at sagen måtte antages at kunne få betydning for et ikke ubetydeligt antal ejendomme (konkret under 40 villaer)."
+                },
+                {
+                    "question": "Hvad er forfatterens vurdering af, om en myndigheds planlægningsmæssige interesse udgør tilstrækkelig konkret interesse til domstolsprøvelse?",
+                    "choices": [
+                        "Det er klart fastslået i retspraksis, at planlægningsmæssig interesse er tilstrækkelig",
+                        "Det er tvivlsomt, og forfatteren mener, at resultatet i U 2004.1513 H (afvisning) bør foretrækkes",
+                        "Det er tvivlsomt, og forfatteren mener, at resultatet i U 2007.1074 H (behandling) bør foretrækkes",
+                        "Planlægningsmæssig interesse er kun tilstrækkelig for regioner, ikke kommuner"
+                    ],
+                    "correct": 1,
+                    "explanation": "Forfatteren anfører, at det er tvivlsomt, om en planlægningsmæssig interesse udgør tilstrækkelig konkret interesse, og at resultatet i U 2004.1513 H (afvisning) bør foretrækkes. Det synes betænkeligt at åbne for søgsmål, der alene støttes på planlægningsmæssige interesser, da det kan føre til generel søgsmålsret for underordnede myndigheder."
+                },
+                {
+                    "question": "I U 2009.58 Ø anlagde Beskæftigelsesministeriet sag mod Arbejdsmarkedets Ankenævn. Hvorfor blev sagen afvist?",
+                    "choices": [
+                        "Fordi ministeriet ikke havde processuel partsevne",
+                        "Fordi ministeriets økonomiske interesse var baseret på et frivilligt tilsagn om friholdelse af A-kasserne, og ministeriet ikke havde været retligt forpligtet hertil",
+                        "Fordi sagen var forældet",
+                        "Fordi ministeriet var overordnet myndighed i forhold til ankenævnet"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2009.58 Ø blev sagen afvist, fordi ministeriets økonomiske interesse (400-600 mio. kr.) skyldtes et kulancetilsagn om at friholde A-kasserne for udgifterne, og ministeriet ikke havde været retligt forpligtet til at friholde dem. En person kan ikke 'overtage' en andens retlige interesse ved frivilligt at påtage sig tab."
+                },
+                {
+                    "question": "Hvad er den tilstrækkelige interesse for en myndighed, der vil anlægge sag mod en overordnet myndighed ifølge forfatteren?",
+                    "choices": [
+                        "En planlægningsmæssig eller administrativ interesse",
+                        "En indirekte økonomisk interesse, f.eks. forventede skatteindtægter ved tilflytning",
+                        "En umiddelbar økonomisk interesse, f.eks. at sagen angår udnyttelse af en ejendom, som myndigheden ejer",
+                        "Enhver interesse, der vedrører myndighedens ressortområde"
+                    ],
+                    "correct": 2,
+                    "explanation": "Ifølge forfatteren bør udgangspunktet være, at en underordnet myndighed må påvise en umiddelbar økonomisk interesse i sagen, f.eks. at sagen angår udnyttelse af en ejendom, som den underordnede myndighed ejer. Indirekte økonomisk interesse (f.eks. forventede skatteindtægter) bør ikke være tilstrækkeligt ved sagsanlæg mod en overordnet myndighed."
+                },
+                {
+                    "question": "Hvad sker der, hvis en myndighed ikke har tilstrækkelig retlig interesse i en sag mod en anden myndighed, og sagen har umiddelbar betydning for en privatperson?",
+                    "choices": [
+                        "Sagen behandles alligevel af hensyn til privatpersonen",
+                        "Domstolene må formentlig afvise sagen af egen drift (ex officio)",
+                        "Privatpersonen indtræder automatisk som part i sagen",
+                        "Sagen udsættes, indtil privatpersonen har givet samtykke"
+                    ],
+                    "correct": 1,
+                    "explanation": "Selv om den sagsøgte myndighed ikke nedlægger påstand om afvisning, må domstolene formentlig afvise sagen af egen drift, hvis sagen har umiddelbar betydning for tredjemand, jf. f.eks. U 1997.1304 Ø, hvor retten af egen drift afviste en kommunes sag mod Naturklagenævnet."
+                },
+                {
+                    "question": "I en sag, hvor en myndighed har truffet afgørelse i en tvist mellem to parter (f.eks. Pressenævnet), hvem skal den utilfredse part sagsøge?",
+                    "choices": [
+                        "Myndigheden (f.eks. Pressenævnet)",
+                        "Den anden part i tvisten (f.eks. mediet), medmindre der gøres sagsbehandlingsfejl gældende",
+                        "Justitsministeriet",
+                        "Både myndigheden og den anden part"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2003.71 H udtalte Højesteret, at en person, der er uenig i en afgørelse fra Pressenævnet, må sagsøge mediet (og ikke Pressenævnet), medmindre det gøres gældende, at nævnets afgørelse er ugyldig som følge af sagsbehandlingsfejl eller lignende."
+                },
+                {
+                    "question": "Hvordan indbringes Advokatnævnets afgørelser i disciplinærsager for domstolene?",
+                    "choices": [
+                        "Ved at sagsøge den pågældende advokat",
+                        "Ved at sagsøge Advokatsamfundet",
+                        "Ved at anlægge sag mod Advokatnævnet, jf. Rpl § 147 e, stk. 3",
+                        "Ved at klage til Justitsministeriet"
+                    ],
+                    "correct": 2,
+                    "explanation": "Hvad angår Advokatnævnets afgørelse i disciplinærsager, er det i Rpl § 147 e, stk. 3, udtrykkeligt bestemt, at sagen skal anlægges mod Advokatnævnet. Dette er en undtagelse fra hovedreglen om, at man sagsøger modparten."
+                },
+                {
+                    "question": "En udlejer er uenig i en afgørelse fra huslejenævnet. Hvem skal udlejeren sagsøge?",
+                    "choices": [
+                        "Huslejenævnet",
+                        "Kommunen",
+                        "Lejeren",
+                        "Huslejeankenævnet"
+                    ],
+                    "correct": 2,
+                    "explanation": "En udlejer, der er uenig i en afgørelse fra huslejenævnet, må anlægge sag mod lejeren (og ikke huslejenævnet), da huslejenævnet har truffet afgørelse i en tvist mellem udlejer og lejer."
+                },
+                {
+                    "question": "Hvis en sag har været behandlet af både en underordnet og en overordnet myndighed, hvem skal sagen da som udgangspunkt anlægges mod?",
+                    "choices": [
+                        "Den underordnede myndighed, der traf den oprindelige afgørelse",
+                        "Den overordnede myndighed",
+                        "Begge myndigheder som sagsøgte",
+                        "Den myndighed, sagsøgeren vælger"
+                    ],
+                    "correct": 1,
+                    "explanation": "Udgangspunktet er, at indbringelse af sagen for domstolene sker ved sagsanlæg mod den overordnede myndighed, jf. U 1997.1411 V, hvor direktoratet blev frifundet, da ministeriet havde prøvet direktoratets afgørelse."
+                },
+                {
+                    "question": "Kan en sag afvises med den begrundelse, at sagsøgeren er insolvent?",
+                    "choices": [
+                        "Ja, insolvens er altid en afvisningsgrund",
+                        "Nej, en sag kan ikke afvises alene med henvisning til, at sagsøgeren er insolvent",
+                        "Ja, men kun hvis sagsøgeren er en juridisk person",
+                        "Ja, hvis den sagsøgte begærer det senest i svarskriftet"
+                    ],
+                    "correct": 1,
+                    "explanation": "Den sagsøgte kan som hovedregel ikke kræve sagen afvist med henvisning til, at sagsøgeren ikke vil være i stand til at betale de pålagte sagsomkostninger. En sag kan ikke afvises med henvisning til insolvens, jf. U 2005.1199 H og U 2018.805/2 H."
+                },
+                {
+                    "question": "Hvad fastslog Højesteret i U 2000.1575 H om en forening, der var stiftet med det formål at anlægge sag?",
+                    "choices": [
+                        "At foreningens sag kunne fremmes, da enhver juridisk person har søgsmålsret",
+                        "At sagen blev afvist, da foreningen var oprettet med det formål at fritage medlemmerne for personlig, ubegrænset hæftelse for eventuelle sagsomkostninger",
+                        "At sagen kunne fremmes mod betaling af forhøjet retsafgift",
+                        "At foreningen ikke havde processuel partsevne"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2000.1575 H blev sagen afvist, da foreningen var oprettet med det formål at fritage medlemmerne for deres personlige, ubegrænsede hæftelse for de eventuelle pålagte sagsomkostninger til den sagsøgte. En juridisk person med begrænset hæftelse stiftet alene for at anlægge sag kan afvises."
+                },
+                {
+                    "question": "Hvornår kan en sagsøger med bopæl uden for EØS-området pålægges at stille sikkerhed for sagsomkostninger efter Rpl § 321?",
+                    "choices": [
+                        "Altid, uanset om den sagsøgte begærer det",
+                        "Hvis den sagsøgte senest i svarskriftet eller det i Rpl § 352, stk. 3, omhandlede møde fremsætter begæring herom, og sagsøgerens hjemland ikke har indgået aftale om fritagelse",
+                        "Kun i sager med en sagsgenstand over 500.000 kr.",
+                        "Kun hvis sagsøgeren er en juridisk person"
+                    ],
+                    "correct": 1,
+                    "explanation": "Afvisning efter Rpl § 321 kræver, at den sagsøgte senest i svarskriftet eller det i Rpl § 352, stk. 3, omhandlede møde har fremsat begæring om sikkerhedsstillelse. Desuden kan sikkerhedsstillelse ikke kræves, hvis sagsøgerens hjemland ikke kræver det af danske sagsøgere, jf. Rpl § 321, stk. 2, herunder lande tilsluttet 1954 Haagercivilproceskonventionen."
+                }
+            ]
+        },
+        {
             "level": 30,
             "name": "Grundlæggende begreber",
             "questions": [
@@ -6194,6 +6750,771 @@
                     ],
                     "correct": 1,
                     "explanation": "Parter har krav på aktindsigt i rettens arkiv, jf. § 255a, som en grundlæggende retssikkerhedsgaranti knyttet til kontradiktionsprincippet. Tredjemand derimod skal godtgøre en individuel, væsentlig interesse efter § 41d. Parterne har altså en stærkere ret, fordi deres retssikkerhed er direkte berørt."
+                }
+            ]
+        },
+        {
+            "title": "Retlig interesse — Arvetvisten om sommerhuset",
+            "level": 7,
+            "context": "Søskendeparret Erik og Hanne Mortensen er uenige om ejerskabet til et sommerhus i Gilleleje efter deres far Knuds død. Erik mener, at han i henhold til et mundtligt løfte fra faderen har ret til sommerhuset. Hanne, der er udpeget som bobestyrer, afviser dette og vil sælge sommerhuset som led i boets deling. Erik overvejer at anlægge sag ved byretten. Han har hørt, at han skal have 'retlig interesse' for at få sagen behandlet af domstolene, men er usikker på, hvad det egentlig kræver. Sommerhuset er vurderet til 2,4 mio. kr., og Erik har ikke andre beviser end sin egen forklaring og et vidne, der hørte faderen omtale løftet.",
+            "questions": [
+                {
+                    "question": "Hvilke tre delbetingelser skal Erik opfylde for at have den fornødne retlige interesse i sagen?",
+                    "choices": [
+                        "Partsevne, procesevne og proceshabiliering",
+                        "Påstanden kan bedømmes retligt, påstanden er aktuel, og sagsøgeren har en konkret interesse",
+                        "Saglig kompetence, stedlig kompetence og funktionel kompetence",
+                        "Søgsmålsfrist overholdt, administrativ rekurs udtømt og fri proces bevilget"
+                    ],
+                    "correct": 1,
+                    "explanation": "Kravet om retlig interesse opdeles i tre delbetingelser: a) sagsøgerens påstand er lovlig og kan bedømmes retligt (afsnit 2.2), b) sagsøgerens påstand er aktuel (afsnit 2.3), og c) sagsøgeren har en konkret interesse i sagen (afsnit 2.4)."
+                },
+                {
+                    "question": "Er Eriks sag et fuldbyrdelses- eller anerkendelsessøgsmål, hvis han nedlægger påstand om, at Hanne skal udlevere sommerhuset?",
+                    "choices": [
+                        "Anerkendelsessøgsmål, fordi det drejer sig om fast ejendom",
+                        "Fuldbyrdelsessøgsmål, fordi påstanden kan fuldbyrdes af fogedretten",
+                        "Hverken — det er en skiftesag",
+                        "Anerkendelsessøgsmål, fordi Erik endnu ikke har skøde"
+                    ],
+                    "correct": 1,
+                    "explanation": "Et fuldbyrdelsessøgsmål er en sag, hvor sagsøgerens påstand efter sit indhold kan fuldbyrdes af fogedretten. En påstand om udlevering af et bestemt aktiv (sommerhuset) kan fuldbyrdes, og der foreligger derfor et fuldbyrdelsessøgsmål."
+                },
+                {
+                    "question": "Hvad ville der ske, hvis Erik i stedet kun nedlagde påstand om, at Hanne skal anerkende, at sommerhuset tilhører ham — uden krav om udlevering?",
+                    "choices": [
+                        "Sagen ville blive afvist som ubestemt",
+                        "Der ville foreligge et anerkendelsessøgsmål, og en eventuel dom kunne ikke direkte fuldbyrdes af fogedretten",
+                        "Retten ville af egen drift ændre påstanden til et fuldbyrdelsessøgsmål",
+                        "Dommen ville automatisk kunne fuldbyrdes, fordi ejendomsret altid kan tvangsfuldbyrdes"
+                    ],
+                    "correct": 1,
+                    "explanation": "En anerkendelsesdom, der alene fastslår sagsøgerens ejendomsret, kan ikke fuldbyrdes af fogedretten efter reglerne om fuldbyrdelse af domme, da dommen ikke går ud på udlevering. Dommen er dog bevis for ejendomsretten og kan bruges under en umiddelbar fogedforretning."
+                },
+                {
+                    "question": "Hvem kan ifølge kapitlet IKKE anlægge sag mod Hanne om sommerhuset?",
+                    "choices": [
+                        "Erik selv, der påstår ejendomsret på grundlag af faderens løfte",
+                        "Eriks nabo, der mener, at det ville være rimeligt, at Erik fik sommerhuset",
+                        "En erhverver, som Erik har overdraget sit påståede krav til",
+                        "En mandatar, som Erik har bemyndiget til at anlægge sagen i eget navn"
+                    ],
+                    "correct": 1,
+                    "explanation": "Eriks nabo har ingen konkret interesse i tvisten om sommerhuset. En person kan alene få behandlet en sag, hvis afgørelsen vil have betydning for sagsøgerens egen retsstilling. Naboen har intet retskrav i sagen og ville mangle den fornødne konkrete interesse."
+                }
+            ]
+        },
+        {
+            "title": "Fuldbyrdelses- vs. anerkendelsessøgsmål — Biltvisten mellem kollegaer",
+            "level": 7,
+            "context": "Line Christensen lånte sin bil — en Volvo V60 til en værdi af 180.000 kr. — til sin kollega Rasmus Brandt i tre måneder, mens han ventede på levering af sin egen nye bil. Da de tre måneder er gået, nægter Rasmus at aflevere bilen tilbage. Han hævder, at Line mundtligt solgte ham bilen for 120.000 kr., og at han allerede har overført beløbet via MobilePay. Line bestrider ethvert salg og mener, at overførslen var tilbagebetaling af et tidligere lån. Line vil anlægge sag mod Rasmus. Hendes advokat overvejer forskellige påstandsformuleringer og diskuterer med hende, om hun skal kræve bilen udleveret (fuldbyrdelsessøgsmål) eller blot kræve anerkendelse af sin ejendomsret (anerkendelsessøgsmål).",
+            "questions": [
+                {
+                    "question": "Hvad er den afgørende forskel mellem et fuldbyrdelses- og et anerkendelsessøgsmål i Lines situation?",
+                    "choices": [
+                        "Fuldbyrdelsessøgsmål kræver fri proces, anerkendelsessøgsmål gør ikke",
+                        "Et fuldbyrdelsessøgsmål resulterer i en dom, der kan fuldbyrdes af fogedretten, mens en anerkendelsesdom ikke kan det",
+                        "Anerkendelsessøgsmål behandles hurtigere end fuldbyrdelsessøgsmål",
+                        "Fuldbyrdelsessøgsmål kan kun angå pengekrav, ikke krav om udlevering af løsøre"
+                    ],
+                    "correct": 1,
+                    "explanation": "Den afgørende forskel er, at en dom i et fuldbyrdelsessøgsmål kan fuldbyrdes af fogedretten, mens en anerkendelsesdom ikke kan det. En fuldbyrdelsespåstand kan gå ud på betaling, udlevering af et aktiv eller undladelse af visse handlinger."
+                },
+                {
+                    "question": "Kan Line anlægge både et fuldbyrdelsessøgsmål (påstand om udlevering af bilen) og et anerkendelsessøgsmål (påstand om at Rasmus skal anerkende hendes ejendomsret) i samme sag?",
+                    "choices": [
+                        "Ja, det er altid tilladt at kombinere begge typer påstande",
+                        "Nej, anerkendelsespåstanden må anses for et anbringende til støtte for udleveringspåstanden og vil blive afvist",
+                        "Ja, men kun hvis sagsøgeren betaler dobbelt retsafgift",
+                        "Nej, fordi man aldrig kan nedlægge to påstande i samme sag"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2011.2510 H, U 2017.2469 H og U 2018.1932 H kan en kreditor ikke samtidig anlægge anerkendelses- og fuldbyrdelsessøgsmål vedrørende samme fordring, idet anerkendelsespåstanden i så fald må anses for et anbringende til støtte for fuldbyrdelsespåstanden."
+                },
+                {
+                    "question": "Selv om Line vælger et anerkendelsessøgsmål og får dom for, at hun er ejer af bilen — hvordan kan hun så i praksis få bilen udleveret?",
+                    "choices": [
+                        "Hun kan slet ikke få bilen udleveret uden et nyt fuldbyrdelsessøgsmål",
+                        "Hun kan få bilen udleveret via en umiddelbar fogedforretning, da dommen er bevis for hendes ejendomsret",
+                        "Politiet vil automatisk udlevere bilen til hende",
+                        "Anerkendelsesdommen kan konverteres til en fuldbyrdelsesdom af fogedretten"
+                    ],
+                    "correct": 1,
+                    "explanation": "En anerkendelsesdom er bevis for sagsøgerens ejendomsret. Hvis Rasmus ikke kan dokumentere en ret til at besidde bilen (fx en lejeaftale), vil Line under en umiddelbar fogedforretning kunne få bilen udleveret på grundlag af sit besiddelseskrav."
+                },
+                {
+                    "question": "Har sondringen mellem fuldbyrdelses- og anerkendelsessøgsmål principiel betydning for, om sagen kan behandles af domstolene?",
+                    "choices": [
+                        "Ja, kun fuldbyrdelsessøgsmål kan behandles af domstolene",
+                        "Ja, anerkendelsessøgsmål kræver altid en særlig tilladelse",
+                        "Nej, for begge typer søgsmål gælder, at domstolene alene kan behandle sagen, hvis sagsøgeren har tilstrækkelig retlig interesse",
+                        "Ja, fuldbyrdelsessøgsmål kræver strengere retlig interesse"
+                    ],
+                    "correct": 2,
+                    "explanation": "Principielt har sondringen ikke betydning for, om sagen kan behandles. For begge typer søgsmål gælder, at domstolene alene kan behandle sagen, hvis sagsøgeren har tilstrækkelig retlig interesse. Dog har mange betingelser for retlig interesse størst relevans ved anerkendelsessøgsmål."
+                }
+            ]
+        },
+        {
+            "title": "Den uklare påstand — Foreningens krav om kønsopdelt statistik",
+            "level": 7,
+            "context": "Fagforeningen Ligeløn Danmark anlægger sag mod Arbejdsgiverforeningen DanskeVirksomheder med påstand om, at foreningen 'skal anerkende pligt til at udarbejde kønsopdelte lønstatistikker for alle brancher'. Påstanden er formuleret i generelle vendinger uden at angive, hvilke konkrete brancher, perioder eller dataformater statistikkerne skal omfatte. Arbejdsgiverforeningen gør gældende, at påstanden er for upræcis til at kunne danne grundlag for en dom. Ligeløn Danmarks advokat overvejer at præcisere påstanden, men er usikker på, hvor langt rettens adgang til materiel procesledelse efter Rpl § 339, stk. 1, rækker. Sagen minder om et velkendt præjudikat fra Højesteret om netop upræcise påstande i forbindelse med kønsopdelte statistikker.",
+            "questions": [
+                {
+                    "question": "Hvad er den mest sandsynlige konsekvens af Ligeløn Danmarks generelt formulerede påstand?",
+                    "choices": [
+                        "Retten vil give foreningen medhold, da påstanden vedrører et lovligt formål",
+                        "Retten vil afvise sagen, da påstandene er så generelt udformede, at der ikke kan tages stilling hertil under en retssag",
+                        "Retten vil ændre påstanden af egen drift og give medhold",
+                        "Arbejdsgiverforeningen vil blive frifundet på det materielle grundlag"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2007.213/2 H skete der afvisning af en sag anlagt af en fagforening mod en arbejdsgiverforening med påstand om pligt til at udarbejde kønsopdelte statistikker, netop fordi påstandene var så generelt udformede, at der ikke kunne tages stilling hertil under en retssag."
+                },
+                {
+                    "question": "Kan retten af egen drift (ex officio) afvise en sag, hvor påstanden ikke kan bedømmes retligt?",
+                    "choices": [
+                        "Nej, afvisning kræver altid begæring fra sagsøgte",
+                        "Ja, afvisning må ske af egen drift, da domstolene uanset sagsøgtes indsigelse ikke bør tvinges til at tage stilling til spørgsmål, der ikke kan bedømmes retligt",
+                        "Kun i straffesager, ikke i civile sager",
+                        "Kun hvis sagsøgeren nægter at præcisere påstanden efter opfordring"
+                    ],
+                    "correct": 1,
+                    "explanation": "Et anerkendelsessøgsmål, der ikke kan bedømmes retligt, må afvises fra domstolene. Afvisning må ske af egen drift (ex officio), da domstolene, uanset om sagsøgte ikke gør indsigelse, ikke bør kunne tvinges til at tage stilling til spørgsmål, der ikke kan bedømmes retligt."
+                },
+                {
+                    "question": "I U 2022.2162 H afviste Højesteret en påstand om, at Justitsministeriet havde undladt at opfylde en pligt vedrørende logningsregler. Hvad var begrundelsen?",
+                    "choices": [
+                        "Sagen var anlagt for sent i forhold til søgsmålsfristen",
+                        "Justitsministeriet havde ikke processuel partsevne",
+                        "Påstanden måtte anses som et anbringende til støtte for en uvis, ikke-nedlagt påstand og ville dermed ikke i sig selv have betydning for sagsøgerens retsstilling",
+                        "Sagsøgeren manglede konkret interesse, fordi logningsreglerne ikke berørte ham personligt"
+                    ],
+                    "correct": 2,
+                    "explanation": "I U 2022.2162 H afviste Højesteret påstanden, da den måtte anses som et anbringende til støtte for en uvis, ikke-nedlagt påstand og dermed ikke i sig selv ville have betydning for sagsøgerens retsstilling. Påstanden konstaterede blot en pligtforsømmelse uden at angive den retlige konsekvens."
+                },
+                {
+                    "question": "Hvilken bestemmelse giver retten en vis mulighed for at afhjælpe uklare påstande?",
+                    "choices": [
+                        "Grl § 63 om domstolsprøvelse",
+                        "Rpl § 255 om rette sagsøger",
+                        "Rpl § 339, stk. 1, hvorefter retten kan stille spørgsmål til den part, der har nedlagt påstanden",
+                        "Rpl § 321 om sikkerhedsstillelse"
+                    ],
+                    "correct": 2,
+                    "explanation": "Domstolene har efter Rpl § 339, stk. 1, en vis mulighed for at afhjælpe uklare påstande ved at stille spørgsmål til den part, der har nedlagt påstanden. Denne procesledelse har dog sine grænser og kan ikke redde fundamentalt uklare påstande."
+                }
+            ]
+        },
+        {
+            "title": "Sort arbejde — Håndværkerens ulovlige aftale",
+            "level": 7,
+            "context": "Tømrer Jens Holm indgår en aftale med husejer Marianne Lund om at renovere hendes badeværelse for 95.000 kr., hvoraf 40.000 kr. skal betales kontant 'uden kvittering' — altså sort arbejde. Efter renoveringen opdager Marianne alvorlige fejl: fliserne sidder skævt, og afløbet er forkert installeret. Hun nægter at betale de resterende 55.000 kr. og kræver desuden udbedring af manglerne. Jens anlægger sag mod Marianne med påstand om betaling af 55.000 kr., mens Marianne fremsætter modkrav om, at Jens skal anerkende, at arbejdet er mangelfuldt, og udbedre fejlene. Begge parters advokater er opmærksomme på, at aftalen indeholder et element af sort arbejde.",
+            "questions": [
+                {
+                    "question": "Vil Jens' sag om betaling for det sorte arbejde blive afvist af domstolene?",
+                    "choices": [
+                        "Ja, domstolene skal afvise enhver sag om retsvirkningerne af en ulovlig aftale",
+                        "Nej, sagen vil ikke blive afvist, men Jens vil formentlig blive frifundet, fordi aftalen om sort arbejde er ugyldig efter DL 5-1-2",
+                        "Ja, fordi sort arbejde er strafbart",
+                        "Nej, aftalen om sort arbejde er gyldig, da begge parter var enige"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2014.2434 H blev en sag med påstand om betaling for sort arbejde ikke afvist, men sagsøgte blev frifundet som følge af, at aftalen om sort arbejde var ugyldig efter DL 5-1-2. Domstolene afviser altså ikke nødvendigvis sagen, men aftalen kan kendes ugyldig."
+                },
+                {
+                    "question": "Kan Marianne få dom for udbedring af mangler ved det sorte arbejde?",
+                    "choices": [
+                        "Ja, fordi mangler altid kan påtales uanset aftalens lovlighed",
+                        "Det er tvivlsomt — i U 2008.1799 Ø tilkendegav retten, at der ikke kunne nedlægges påstand om mangler ved sort arbejde, men det er usikkert efter U 2014.2434 H",
+                        "Nej, fordi mangelskrav kun kan fremsættes i fuldbyrdelsessøgsmål",
+                        "Ja, men kun hvis Marianne betaler den sorte del af beløbet"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2008.1799 Ø tilkendegav retten, at der ikke ved domstolene kunne nedlægges påstand om mangler ved sort arbejde. Det er dog tvivlsomt, om denne praksis kan opretholdes i lyset af U 2014.2434 H, da ugyldighed kan medføre andre krav end opfyldelse."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2000.1413 V, hvor ejeren af en motorbåd krævede båden udleveret fra en pro forma-ejer?",
+                    "choices": [
+                        "Ejeren fik medhold, da ejendomsretten bestod trods pro forma-arrangementet",
+                        "Sagen blev afvist, da pro forma-arrangementet havde til formål at unddrage båden fra kreditorerne",
+                        "Sagen blev hjemvist til fornyet behandling",
+                        "Pro forma-ejeren blev dømt til at betale erstatning"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2000.1413 V afviste retten sagen, da ejeren havde ladet den sagsøgte pro forma stå som ejer af båden for at unddrage den fra kreditorerne. Forfatteren bemærker dog, at afgørelsen 'synes af tvivlsom rigtighed' i lyset af den senere praksis."
+                },
+                {
+                    "question": "Hvad er den retlige konsekvens, hvis domstolene ikke afviser sagen om sort arbejde, men finder aftalen ugyldig?",
+                    "choices": [
+                        "Begge parter straffes, og sagen afsluttes uden dom",
+                        "Ugyldighed medfører ikke nødvendigvis, at ingen af parterne kan rejse krav — en ugyldig aftale kan efter omstændigheder resultere i et erstatningskrav",
+                        "Den part, der foreslog det sorte arrangement, skal betale alle sagsomkostninger",
+                        "Aftalen opretholdes, men det sorte beløb tilfalder statskassen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Retsvirkningen af ugyldighed er ikke nødvendigvis, at ingen af parterne kan rejse krav mod hinanden. En ugyldig aftale kan efter omstændigheder resultere i et erstatningskrav, som domstolene kan påkende, jf. kapitlets gennemgang af U 2014.2434 H."
+                }
+            ]
+        },
+        {
+            "title": "Uforfaldent krav — Kautionisten der blev sagsøgt for tidligt",
+            "level": 7,
+            "context": "Sparekassen NordFinans har ydet et erhvervslån på 800.000 kr. til iværksætteren Thomas Riis' firma TR Consulting ApS. Thomas' gamle ven, Lars Andreasen, har kautioneret for lånet som simpel kautionist. TR Consulting misligholder lånet ved ikke at betale de sidste tre afdrag. NordFinans har endnu ikke forsøgt at inddrive lånet hos TR Consulting, men anlægger straks sag direkte mod Lars med påstand om betaling af restgælden på 240.000 kr. Lars' advokat gør gældende, at sagen bør afvises, fordi NordFinans som kreditor endnu ikke forgæves har forsøgt at inddrive kravet hos hoveddebitor. Spørgsmålet er, om Lars' forpligtelse som simpel kautionist overhovedet er aktuel.",
+            "questions": [
+                {
+                    "question": "Har NordFinans' fuldbyrdelsessøgsmål mod Lars den fornødne aktualitet?",
+                    "choices": [
+                        "Ja, fordi NordFinans har et gyldigt krav mod TR Consulting",
+                        "Nej, en simpel kautionist kan som udgangspunkt først sagsøges, når kreditor forgæves har forsøgt at inddrive kravet hos hoveddebitor",
+                        "Ja, fordi kautionsforpligtelsen opstår ved lånets misligholdelse",
+                        "Nej, fordi kautionisten aldrig kan sagsøges direkte"
+                    ],
+                    "correct": 1,
+                    "explanation": "En simpel kautionist kan først sagsøges, når sagsøgeren (kreditor) forgæves har forsøgt at inddrive sit krav mod hoveddebitor. Da NordFinans endnu ikke har forsøgt inddrivelse hos TR Consulting, er Lars' forpligtelse endnu ikke aktuel."
+                },
+                {
+                    "question": "Hvad ville ændre situationen, så NordFinans allerede nu kunne sagsøge Lars?",
+                    "choices": [
+                        "Hvis Lars havde betalt den første rate for TR Consulting",
+                        "Hvis Lars forinden havde bestridt sin kautionsforpligtelse, fx ved at hævde, at kautionen var bortfaldet",
+                        "Hvis NordFinans havde sendt Lars et rykkerbrev",
+                        "Hvis TR Consulting var gået konkurs"
+                    ],
+                    "correct": 1,
+                    "explanation": "Har sagsøgte bestridt sagsøgerens krav, inden kravet forfalder, må det antages, at sagsøgeren kan anlægge fuldbyrdelsessøgsmål med det same — sagsøgeren behøver ikke afvente forfaldstiden. Hvis Lars fx hævdede, at kautionen var bortfaldet, ville sagen have aktualitet."
+                },
+                {
+                    "question": "Hvis retten finder, at Lars' forpligtelse endnu ikke er aktuel, hvad vil dommen typisk gå ud på?",
+                    "choices": [
+                        "Lars frifindes endeligt, og NordFinans kan aldrig anlægge sag igen",
+                        "Sagen afvises, og NordFinans kan anlægge ny sag, når betingelserne er opfyldt",
+                        "Retten vil typisk frifinde Lars 'for tiden', for at tydeliggøre at sagen kan behandles, når forfaldstiden er indtrådt",
+                        "Retten vil af egen drift inddrage TR Consulting som medpart"
+                    ],
+                    "correct": 2,
+                    "explanation": "Skyldes den manglende aktualitet alene, at forfaldstiden for sagsøgerens krav ikke er kommet, vil retten oftest vælge at afsige dom, hvorefter 'sagsøgte frifindes for tiden', for at tydeliggøre, at sagen kan behandles ved domstolene, når forfaldstiden er indtrådt."
+                },
+                {
+                    "question": "Kan sagsøgte (den sagsøgte i en anden sag) selv anlægge regressag mod tredjemand, før regreskravet er forfaldent?",
+                    "choices": [
+                        "Nej, regreskrav skal altid være forfaldne, før sag kan anlægges",
+                        "Ja, fra det tidspunkt hovedsagen er anlagt, kan sagsøgte anlægge sag mod tredjemand om regres, selv om regreskravet ikke er forfaldent",
+                        "Kun hvis tredjemand samtykker",
+                        "Kun via et anerkendelsessøgsmål, ikke et fuldbyrdelsessøgsmål"
+                    ],
+                    "correct": 1,
+                    "explanation": "En sagsøgt kan fra det tidspunkt, hvor sagen er anlagt mod denne, selv anlægge sag mod tredjemand om regres, selv om regreskravet ikke er forfaldent. Dette er en undtagelse begrundet i sagsøgtes aktuelle interesse i at få fastslået sine muligheder for regres."
+                }
+            ]
+        },
+        {
+            "title": "Opfyldt krav — Roskilde Festival og de efterladtes erstatningssag",
+            "level": 7,
+            "context": "Ved en stor musikfestival i Jylland omkommer en ung mand, Kasper Holm, under et koncerttrængsel. Kaspers forældre, Birgit og Flemming Holm, anlægger erstatningssag mod festivalarrangøren med påstand om betaling af 350.000 kr. i erstatning og godtgørelse. Under sagens forberedelse meddeler arrangøren skriftligt, at de fuldt ud vil betale det krævede beløb og fremsender et bindende, uigenkaldeligt tilbud herom. Familien Holm ønsker imidlertid en dom, der udtrykkeligt fastslår arrangørens erstatningsretlige ansvar, fordi de mener, at en dom vil have principiel betydning for sikkerheden ved fremtidige festivaler. Arrangøren gør gældende, at sagen bør afvises som følge af manglende aktuel interesse, da kravet er tilbudt opfyldt.",
+            "questions": [
+                {
+                    "question": "Har familien Holm stadig en aktuel interesse i sagen, efter at arrangøren har tilbudt at betale det fulde beløb?",
+                    "choices": [
+                        "Ja, der er altid en aktuel interesse i at få fastslået et erstatningsansvar",
+                        "Nej, jf. U 2007.2161 H afviste retten en tilsvarende sag, da festivalarrangøren havde tilbudt og vedstod at betale de krævede beløb",
+                        "Ja, fordi der er en principiel interesse i sagen",
+                        "Nej, men kun fordi sagen vedrører en afdød person"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2007.2161 H afviste retten en erstatningssag anlagt mod Roskilde Festival af nogle pårørende, da festivalen havde tilbudt og fortsat vedstod et tilbud om at betale de krævede beløb, hvorfor det ikke var aktuelt at få fastslået et erstatningsretligt ansvar."
+                },
+                {
+                    "question": "I hvilken situation ville en sag om et allerede opfyldt krav stadig have aktualitet?",
+                    "choices": [
+                        "Hvis sagsøgeren ønsker en principiel dom til brug for fremtidige sager",
+                        "Hvis sagens udfald kan få betydning for andre krav mellem parterne, fx et krav på renter for forsinket betaling",
+                        "Hvis sagen har offentlig interesse",
+                        "Hvis sagsøgte har tilbudt at betale pr. kulance og ikke som indrømmelse af ansvar"
+                    ],
+                    "correct": 1,
+                    "explanation": "En sag om berettigelsen af et allerede opfyldt krav har stadig aktualitet, hvis sagens udfald kan få betydning for andre krav mellem parterne, fx et krav på renter for forsinket betaling, som i sagens natur alene kan kræves, hvis fordringen bestod."
+                },
+                {
+                    "question": "Jf. U 1971.530 V: Kan en sag have aktualitet, fordi dens udfald har betydning for sagsøgerens forhold til tredjemand?",
+                    "choices": [
+                        "Nej, domme har aldrig virkning i forhold til tredjemand",
+                        "Ja, i U 1971.530 V accepterede retten at behandle en sag mellem to trafikanter, selv om sagen alene havde betydning for sagsøgerens mulighed for at undgå tab af forsikringsbonus",
+                        "Kun hvis tredjemand er indtrådt i sagen som biintervenient",
+                        "Kun i sager om myndighedsafgørelser, ikke i private tvister"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 1971.530 V accepterede retten at behandle en sag mellem to trafikanter om ansvaret for et trafikuheld, selv om sagen alene havde betydning for sagsøgerens mulighed for at undgå tab af forsikringsbonus hos tredjemand (forsikringsselskabet)."
+                },
+                {
+                    "question": "Kan en person, der har opgivet sit økonomiske krav mod modparten, stadig have aktuel interesse i at få de underliggende forhold anerkendt?",
+                    "choices": [
+                        "Ja, man har altid ret til at få fastslået faktiske forhold",
+                        "Nej, jf. U 2018.2373 V havde en ansat, der var bortvist og ikke ville fremsætte økonomiske krav, ikke aktuel interesse i at få prøvet, om en forflyttelse var en væsentlig ændring",
+                        "Ja, hvis der er en principiel interesse",
+                        "Kun i sager mod offentlige myndigheder"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2018.2373 V havde en ansat, der var bortvist, og som ikke ville fremsætte økonomiske krav mod arbejdsgiveren, ikke nogen aktuel interesse i at få prøvet, om en forflyttelse var en væsentlig ændring af ansættelsesvilkårene. Opgiver man kravet, mister man aktualiteten."
+                }
+            ]
+        },
+        {
+            "title": "Myndighedsafgørelsen — Asylansøgerens prøvelsesret",
+            "level": 7,
+            "context": "Ahmad Al-Rashid, en irakisk statsborger, fik i 2023 afslag på asyl fra Udlændingestyrelsen. Han indbragte afgørelsen for Flygtningenævnet, der stadfæstede afslaget. Mens den efterfølgende retssag verserer ved byretten, meddeler Udlændingestyrelsen ham humanitær opholdstilladelse på et andet grundlag end asyl. Kammeradvokaten gør herefter gældende, at Ahmad ikke længere har en aktuel interesse i at få prøvet asylafslaget, da han nu har lovligt ophold i Danmark. Ahmads advokat argumenterer for, at prøvelsen stadig har aktualitet, bl.a. fordi en humanitær opholdstilladelse er tidsbegrænset og giver færre rettigheder end egentlig flygtningestatus. Sagen rejser det principielle spørgsmål om, hvor langt adgangen til domstolsprøvelse af myndighedsafgørelser rækker.",
+            "questions": [
+                {
+                    "question": "Kan Ahmad stadig få prøvet asylafslaget, selv om han nu har humanitær opholdstilladelse?",
+                    "choices": [
+                        "Nej, den humanitære opholdstilladelse gør sagen uaktuel",
+                        "Ja, jf. U 2008.2587/2 H kunne en asylansøger få behandlet en sag om prøvelse af afslag på asyl, selv om han i mellemtiden havde fået humanitær opholdstilladelse",
+                        "Kun hvis den humanitære opholdstilladelse udløber inden domsafsigelsen",
+                        "Nej, medmindre Flygtningenævnet samtykker i prøvelsen"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2008.2587/2 H kunne en asylansøger få behandlet en sag om prøvelse af afslag på asyl, selv om han i mellemtiden havde fået humanitær opholdstilladelse. Der gælder en videre adgang til prøvelse af myndighedsafgørelser end i private tvister."
+                },
+                {
+                    "question": "Hvorfor stilles der generelt lempeligere krav til aktualitet i sager om myndighedsafgørelser end i private tvister?",
+                    "choices": [
+                        "Fordi offentlige myndigheder altid har råd til at føre retssager",
+                        "Fordi der af retssikkerhedsmæssige grunde bør være en vid adgang til at efterprøve myndighedsafgørelser, jf. princippet i Grl § 63",
+                        "Fordi Rpl § 255 udtrykkeligt bestemmer det",
+                        "Fordi EU-retten kræver det i alle medlemsstater"
+                    ],
+                    "correct": 1,
+                    "explanation": "Flere hensyn taler for en videre adgang til prøvelse af myndighedsafgørelser: offentlige myndigheder forventes at yde service, belastningen for det offentlige er begrænset, og det principielle synspunkt om retssikkerhed, jf. Grl § 63, taler for vid domstolsprøvelse."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2008.118/2 H, hvor spørgsmålet om enkepension og efterløn ikke længere havde økonomisk betydning for sagsøgeren?",
+                    "choices": [
+                        "Sagen blev afvist som uaktuel",
+                        "Sagsøgeren kunne stadig få behandlet spørgsmålet, selv om det på tidspunktet for domsforhandlingen i Højesteret ikke længere havde økonomisk betydning",
+                        "Sagen blev hjemvist til nævnsbehandling",
+                        "Sagsøgeren blev frifundet for tiden"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2008.118/2 H kunne sagsøgeren få behandlet spørgsmålet om, hvorvidt en enkepension medførte fradrag i efterlønnen, selv om spørgsmålet på tidspunktet for domsforhandlingen i Højesteret ikke længere havde økonomisk betydning. Dette illustrerer den vide prøvelsesadgang for myndighedsafgørelser."
+                },
+                {
+                    "question": "Kan en person, der har fået medhold hos en myndighed, anlægge sag mod myndigheden, fordi personen er uenig i begrundelsen?",
+                    "choices": [
+                        "Ja, en person har altid ret til at anfægte myndighedens begrundelse",
+                        "Nej, jf. U 2001.111 H og U 2004.1464 H har en person, der har fået medhold, ikke aktuel interesse, hvis påstanden alene angår uenighed med begrundelsen",
+                        "Kun hvis begrundelsen er i strid med EMK",
+                        "Ja, men kun ved anke til landsretten"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2001.111 H og U 2004.1464 H har en person, der har fået en tilladelse eller medhold i en klage, ikke nogen aktuel interesse i at anlægge sag, hvis påstanden alene går ud på uenighed med begrundelsen for tilladelsen."
+                }
+            ]
+        },
+        {
+            "title": "Den bindende forhåndsbesked — Iværksætterens skattemæssige dilemma",
+            "level": 7,
+            "context": "Sara Vestergaard er iværksætter og overvejer at omdanne sin personligt ejede konsulentvirksomhed til et anpartsselskab med en særlig aktiebaseret aflønningsmodel for medarbejdere. Hendes revisor advarer om, at SKAT muligvis vil anse modellen for skatteundragelse. Sara indhenter derfor en bindende forhåndsbesked fra Skatterådet, som konkluderer, at aflønningsmodellen vil blive beskattet som maskeret udbytte. Sara ønsker at indbringe denne forhåndsbesked for domstolene, selv om hun endnu ikke har gennemført omdannelsen. Samtidig overvejer hendes konkurrent, Peter Dahl, at anlægge sag mod Erhvervsstyrelsen med påstand om, at styrelsens generelle fortolkning af selskabslovens regler om medarbejderaktier er forkert — uden at der foreligger nogen konkret afgørelse.",
+            "questions": [
+                {
+                    "question": "Kan Sara indbringe den bindende forhåndsbesked for domstolene, selv om hun endnu ikke har gennemført omdannelsen?",
+                    "choices": [
+                        "Nej, påstanden mangler aktualitet, da handlingen endnu ikke er foretaget",
+                        "Ja, en bindende forhåndsbesked er en afgørelse, der kan indbringes for domstolene, uanset at den påtænkte handling endnu ikke er foretaget",
+                        "Kun hvis Sara stiller sikkerhed for sagsomkostningerne",
+                        "Kun hvis SKAT samtykker i domstolsprøvelsen"
+                    ],
+                    "correct": 1,
+                    "explanation": "I skattesager kan en person få bindende forhåndsbesked om de skattemæssige virkninger af en påtænkt, men endnu ikke foretaget, handling. En sådan bindende forhåndsbesked er en afgørelse, der kan indbringes for domstolene, uanset at den påtænkte handling endnu ikke er foretaget."
+                },
+                {
+                    "question": "Kan Peter Dahl anlægge sag mod Erhvervsstyrelsen om en generel fortolkning af selskabsloven uden baggrund i en konkret retstvist?",
+                    "choices": [
+                        "Ja, enhver har ret til at få fortolkningsspørgsmål afklaret af domstolene",
+                        "Nej, jf. U 2010.2109 H afviste Højesteret en sag om abstrakt lovfortolkning uden baggrund i nogen konkret retstvist",
+                        "Ja, hvis Peter er berørt af reglerne som erhvervsdrivende",
+                        "Kun hvis Erhvervsstyrelsen konkret har tilkendegivet, at Peters handling ville være ulovlig"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2010.2109 H afviste Højesteret en sag anlagt mod Kulturministeriet vedrørende fortolkning af ophavsretslovens § 19, da sagen angik abstrakt lovfortolkning uden baggrund i nogen konkret retstvist. Tilsvarende vil Peters sag om generel fortolkning blive afvist."
+                },
+                {
+                    "question": "Under hvilken betingelse kan en person undtagelsesvis anlægge anerkendelsessøgsmål om lovligheden af en påtænkt handling, selv uden forhåndsbesked?",
+                    "choices": [
+                        "Når handlingen har stor økonomisk værdi",
+                        "Når myndigheden konkret har tilkendegivet over for personen, at den anser den påtænkte handling for ulovlig, jf. U 1986.652/2 H",
+                        "Når der er mere end 50 % sandsynlighed for, at handlingen er lovlig",
+                        "Når personen er repræsenteret af en advokat"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 1986.652/2 H kunne der anlægges sag mod Forbrugerombudsmanden vedrørende lovligheden af et påtænkt værdikuponsystem, som Forbrugerombudsmanden havde meddelt, at han anså for ulovligt. En konkret myndighedstilkendegivelse skaber den fornødne aktualitet."
+                },
+                {
+                    "question": "Hvad er det retspolitiske argument for at tillade anerkendelsessøgsmål om påtænkte handlinger?",
+                    "choices": [
+                        "Det reducerer domstolenes arbejdsbyrde",
+                        "Det giver myndighederne mulighed for at ændre praksis",
+                        "Hensynet til at personer forudgående kan få fastlagt deres retsstilling frem for at afholde omkostninger til en handling, der senere erklæres ulovlig og måske medfører strafferetlig sanktion",
+                        "Det sikrer ensartet fortolkning af lovgivningen"
+                    ],
+                    "correct": 2,
+                    "explanation": "Der er et hensyn til, at personer forudgående kan få fastlagt deres retsstilling under en civil sag frem for at skulle afholde omkostninger til en handling, fx igangsættelse af en virksomhed, der senere erklæres ulovlig og måske ligefrem indebærer en strafferetlig sanktion."
+                }
+            ]
+        },
+        {
+            "title": "Konkursboet og kreditorens tab — Hvem har søgsmålsretten?",
+            "level": 7,
+            "context": "Byggevirksomheden NordEntreprise A/S er gået konkurs. Kurator Bo Henriksen undersøger, om selskabets direktør, Morten Vang, og revisor, statsaut. revisor Kirsten Dall, har pådraget sig erstatningsansvar over for boet og dets kreditorer. Underleverandøren Stål & Beton ApS har leveret byggematerialer på kredit for 450.000 kr. kort før konkursen, efter at Morten personligt havde forsikret dem om, at NordEntreprise var fuldt solvent. Samtidig har konkursboet lidt et generelt tab, fordi Morten fortsatte driften i 8 måneder efter det såkaldte 'håbløshedstidspunkt' og finansierede den fortsatte drift med selskabets resterende aktiver. Både Stål & Beton og kurator overvejer nu at anlægge erstatningssøgsmål mod Morten og Kirsten.",
+            "questions": [
+                {
+                    "question": "Hvem har retlig interesse i at anlægge sag vedrørende det generelle tab, som konkursboet har lidt ved Mortens fortsatte drift?",
+                    "choices": [
+                        "Enhver kreditor i konkursboet",
+                        "Formentlig alene konkursboet, da kravet er begrundet i en generel formindskelse af selskabets aktiver, jf. U 1998.1137 H",
+                        "Kun den største kreditor",
+                        "Både konkursboet og de enkelte kreditorer sideløbende"
+                    ],
+                    "correct": 1,
+                    "explanation": "Er kravet begrundet i forhold, der har bevirket en generel formindskelse af selskabets aktiver og dermed et tab for konkursboet, er det formentlig alene konkursboet, der har retlig interesse i sagen, jf. U 1998.1137 H og U 1980.825 Ø."
+                },
+                {
+                    "question": "Har Stål & Beton selvstændig ret til at anlægge sag om sit individuelle tab?",
+                    "choices": [
+                        "Nej, alle krav skal rettes gennem konkursboet",
+                        "Ja, er kravet begrundet i forhold, der har bevirket et individuelt tab for en bestemt kreditor, er det alene denne kreditor, der har retlig interesse, jf. U 2014.1346 H og U 2014.2918 H",
+                        "Kun hvis konkursboet giver samtykke",
+                        "Kun hvis Stål & Beton har anmeldt sit krav i konkursboet"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2014.1346 H og U 2014.2918 H: Er kravet begrundet i forhold, der har bevirket et individuelt tab for en bestemt kreditor (fx kreditgivning baseret på urigtige oplysninger om solvens), er det alene denne kreditor, der har retlig interesse."
+                },
+                {
+                    "question": "Kan den samme handling fra Morten give anledning til både individuelt tab for Stål & Beton og generelt tab for konkursboet?",
+                    "choices": [
+                        "Nej, det er enten det ene eller det andet",
+                        "Ja, jf. U 2015.2075 H kan den samme ansvarspådragende handling medføre både individuelt tab for en kreditor og tab for konkursboet, som kan adskille sig i relation til årsagsforbindelse og tabsopgørelse",
+                        "Kun hvis kreditoren er majoritetsaktionær",
+                        "Kun i tilfælde af grov uagtsomhed fra ledelsens side"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2015.2075 H kan den samme ansvarspådragende handling fra ledelsen medføre både individuelt tab for enkelte kreditorer og tab for konkursboet. Kreditors og konkursboets tab kan adskille sig i relation til årsagsforbindelse og tabsopgørelse."
+                },
+                {
+                    "question": "Hvad sker der, hvis konkursboet opgiver at anlægge sag om boets tab, fx på grund af manglende midler?",
+                    "choices": [
+                        "Kravet bortfalder, og ingen kan anlægge sagen",
+                        "Enhver kreditor kan selv anlægge sagen inden for en af skifteretten fastsat frist, men det indvundne beløb tilfalder konkursboet, jf. KL § 137",
+                        "Skifteretten anlægger sagen på konkursboets vegne",
+                        "Kreditorerne kan stemme om at genoptage konkursboets sag"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. KL § 137: Hvis konkursboet opgiver at anlægge sag (fx på grund af manglende midler), kan enhver kreditor selv anlægge sagen inden for en af skifteretten fastsat frist, men vinder kreditor sagen, tilfalder det indvundne beløb (med fradrag af sagsomkostninger) konkursboet."
+                }
+            ]
+        },
+        {
+            "title": "Grundlovsmæssighed — EU-traktatens indgribende betydning",
+            "level": 7,
+            "context": "En gruppe på 15 danske borgere, heriblandt professor emeritus i statsret Jørgen Albæk, anlægger sag ved Højesteret med påstand om, at Danmarks tiltrædelse af en ny EU-traktat er i strid med Grundlovens § 20, fordi traktaten overfører yderligere lovgivningskompetence til EU-institutioner inden for skattepolitik og forsvarspolitik. Kammeradvokaten gør gældende, at de 15 borgere ikke har tilstrækkelig konkret interesse i sagen, da ingen af dem personligt er direkte berørt af den nye traktat. Sagsøgerne argumenterer for, at traktatens generelle og indgribende betydning for den danske befolkning i sig selv giver dem retlig interesse, med henvisning til præjudikaterne fra Maastricht- og Lissabon-sagerne.",
+            "questions": [
+                {
+                    "question": "Hvad fastslog Højesteret i U 1996.1300 H (Maastricht-sagen) om kravene til konkret interesse?",
+                    "choices": [
+                        "At enhver borger har ret til at anfægte enhver lov ved domstolene",
+                        "At sagsøgerne havde tilstrækkelig konkret interesse, da tiltrædelsen indebar overførsel af lovgivningskompetence inden for almene og væsentlige livsområder og dermed var af indgribende betydning for den danske befolkning i almindelighed",
+                        "At kun medlemmer af Folketinget har retlig interesse i grundlovssager",
+                        "At der skal foreligge en konkret myndighedsafgørelse rettet mod sagsøgeren"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 1996.1300 H antog Højesteret, at sagsøgerne havde tilstrækkelig interesse med henvisning til, at tiltrædelsen indebar overførsel af lovgivningskompetence inden for almene og væsentlige livsområder og var af indgribende betydning for den danske befolkning i almindelighed."
+                },
+                {
+                    "question": "Hvad var resultatet i U 2010.1547 H (Irak-sagen), hvor borgere anfægtede folketingsbeslutningen om deltagelse i Irak-krigen?",
+                    "choices": [
+                        "Borgerne fik medhold i, at beslutningen var grundlovsstridig",
+                        "Højesteret afviste sagen, da folketingsbeslutningen ikke indebar forpligtelser for den danske befolkning i almindelighed, og ingen sagsøger var særligt berørt",
+                        "Sagen blev behandlet, men borgerne tabte på det materielle grundlag",
+                        "Sagen blev henvist til Den Europæiske Menneskerettighedsdomstol"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2010.1547 H afviste Højesteret sagen, da folketingsbeslutningen ikke indebar forpligtelser for den danske befolkning i almindelighed, og da ingen af sagsøgerne var særligt eller anderledes berørt end befolkningen i almindelighed."
+                },
+                {
+                    "question": "Højesteret bemærkede i U 2010.1547 H, at der ikke forelå nogen særlig uklarhed om grundlovsmæssigheden. Hvad er betydningen af denne bemærkning?",
+                    "choices": [
+                        "At Højesteret kun behandler grundlovssager, hvor resultatet er uklart",
+                        "At Højesteret reelt realitetsbehandlede spørgsmålet, selv om sagen formelt blev afvist — de vurderede, at det var klart, at Grl §§ 19-20 ikke var overtrådt",
+                        "At Højesteret altid skal udtale sig om grundlovsmæssighed, uanset afvisning",
+                        "At kun Folketingets Ombudsmand kan rejse grundlovssager"
+                    ],
+                    "correct": 1,
+                    "explanation": "Ved at bemærke, at der ikke forelå uklarhed om grundlovsmæssigheden, kan Højesteret siges reelt at have realitetsbehandlet sagen, selv om den formelt blev afvist. Højesteret signalerede, at der ikke var grundlag for at antage en overtrædelse af Grl §§ 19-20."
+                },
+                {
+                    "question": "Kan domstolene af egen drift afvise en sag om grundlovsmæssighed, hvis sagsøgeren mangler konkret interesse?",
+                    "choices": [
+                        "Nej, grundlovssager kan aldrig afvises af egen drift",
+                        "Ja, domstolene må formentlig ex officio kunne afvise en sag om grundlovsmæssighed, hvis sagsøgeren ikke har konkret interesse",
+                        "Kun hvis Justitsministeriet anmoder om det",
+                        "Kun i landsretten, ikke i Højesteret"
+                    ],
+                    "correct": 1,
+                    "explanation": "Formentlig må domstolene ex officio kunne afvise en sag om grundlovsmæssighed af en lov, hvis sagsøgeren ikke har konkret interesse i sagen. Grundlovssager adskiller sig dog ved lempeligere krav til konkret interesse, når loven er af indgribende betydning."
+                }
+            ]
+        },
+        {
+            "title": "Naboens byggetilladelse — Konkret interesse for tredjemand",
+            "level": 7,
+            "context": "Arkitekt Anne Søndergaard har fået byggetilladelse af Aarhus Kommune til at opføre et trelænget boligkompleks i tre etager på sin grund i Risskov. Hendes nabo, pensionisten Poul Fredriksen, frygter, at byggeriet vil fratage hans have al eftermiddagssol og reducere værdien af hans ejendom med op mod 500.000 kr. Poul har ikke været part i den kommunale byggesag og er ikke blevet hørt. Han overvejer nu at anlægge sag — men er usikker på, om han skal sagsøge kommunen for at anfægte byggetilladelsens gyldighed, eller om han skal sagsøge Anne direkte for erstatning. Byggeriet er endnu ikke påbegyndt, og der er ingen søgsmålsfrist fastsat ved lov for denne type afgørelser.",
+            "questions": [
+                {
+                    "question": "Har Poul en tilstrækkelig konkret interesse til at anlægge sag mod kommunen om byggetilladelsens gyldighed?",
+                    "choices": [
+                        "Nej, kun bygherren selv kan anfægte en byggetilladelse",
+                        "Ja, en nabo, der får forringet sin udsigt, udsættes for øget støj eller på anden måde konkret påvirkes af byggeriet, må formentlig anses for at have en væsentlig individuel interesse",
+                        "Kun hvis Poul har haft partsstatus i den kommunale byggesag",
+                        "Kun hvis byggeriet allerede er påbegyndt"
+                    ],
+                    "correct": 1,
+                    "explanation": "I byggesager må begrebet 'væsentlig individuel interesse' formentlig omfatte enhver nabo, der får forringet sin udsigt, udsættes for øget støj, eller som på anden måde konkret påvirkes af byggeriet, uanset om naboen ikke har haft partsstatus under kommunens behandling."
+                },
+                {
+                    "question": "Kan Poul i stedet anlægge sag direkte mod Anne om, at byggetilladelsen er ugyldig?",
+                    "choices": [
+                        "Ja, Poul kan frit vælge, om han vil sagsøge kommunen eller Anne",
+                        "Nej, udgangspunktet er, at en dom mellem to private personer ikke kan ophæve en tilladelse givet af en myndighed — sag om ugyldighed skal rettes mod myndigheden",
+                        "Kun hvis Anne har opnået tilladelsen ved urigtige oplysninger",
+                        "Ja, men kun som et anerkendelsessøgsmål"
+                    ],
+                    "correct": 1,
+                    "explanation": "Udgangspunktet er, at en sag om ugyldighed af en myndighedsafgørelse ikke kan anlægges mod den, der har fået tilladelsen, da en dom mellem to private personer ikke kan ophæve en offentligretlig tilladelse. Sag om ugyldighed skal rettes mod myndigheden."
+                },
+                {
+                    "question": "Kan Poul anlægge erstatningssag mod Anne, selv om byggetilladelsen er gyldig?",
+                    "choices": [
+                        "Nej, en gyldig byggetilladelse udelukker enhver erstatningssag",
+                        "Ja, det forhold, at en person har opnået en gyldig tilladelse, afskærer ikke erstatningssager fra naboer, jf. U 2006.1290 H og U 2017.151 Ø",
+                        "Kun hvis kommunen har begået fejl ved udstedelsen",
+                        "Kun hvis Anne har handlet i ond tro"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2006.1290 H og U 2017.151 Ø afskærer det forhold, at en person har opnået en gyldig tilladelse til fx et byggeri, ikke erstatningssager fra personer, der mener at være påført et tab. Om der kan opnås medhold afhænger af de naboretlige regler."
+                },
+                {
+                    "question": "Har Poul en aktuel interesse i sagen, selv om byggeriet endnu ikke er påbegyndt?",
+                    "choices": [
+                        "Nej, der kan ikke anlægges sag om et byggeri, der endnu ikke er udført",
+                        "Ja, når en myndighed har givet tilladelse, har spørgsmålet om tilladelsens lovlighed tilstrækkelig aktualitet, selv om den handling tilladelsen angår endnu ikke er foretaget",
+                        "Kun hvis der er fastsat en søgsmålsfrist",
+                        "Kun hvis Poul kan dokumentere et aktuelt økonomisk tab"
+                    ],
+                    "correct": 1,
+                    "explanation": "Har myndigheden givet tilladelse til en handling, har spørgsmålet om tilladelsens lovlighed tilstrækkelig aktualitet til, at der kan anlægges sag herom, selv om handlingen endnu ikke er foretaget. Naboens interesse er dermed aktualiseret ved selve tilladelsen."
+                }
+            ]
+        },
+        {
+            "title": "Foreningens søgsmålsret — Miljøsagen ved Naturklagenævnet",
+            "level": 7,
+            "context": "Den landsdækkende miljøforening Grøn Fremtid anlægger sag mod Miljø- og Fødevareklagenævnet med påstand om, at nævnets tilladelse til opførelse af en svinefarm ved Limfjorden er ugyldig. Foreningen hævder, at tilladelsen vil medføre alvorlig kvælstofforurening af fjorden. Kammeradvokaten gør gældende, at foreningen ikke har processuel søgsmålskompetence, da den hverken er part i forvaltningssagen eller direkte berørt af afgørelsen. Grøn Fremtid henviser til, at den er tillagt klageret efter miljøbeskyttelsesloven, og til Århus-konventionens art. 9, stk. 2, der sikrer foreninger inden for miljøområdet søgsmålsret. En mindre lokal forening, Limfjordens Venner, som ikke er tillagt klageret ved lov, ønsker også at deltage i sagen.",
+            "questions": [
+                {
+                    "question": "Har Grøn Fremtid søgsmålsret, selv om den ikke er part i forvaltningssagen?",
+                    "choices": [
+                        "Nej, kun parter i forvaltningssagen har søgsmålsret",
+                        "Ja, foreninger der ved lov er tillagt klageret har dermed også søgsmålsret, jf. miljøbeskyttelseslovens § 100 og planlovens § 59, stk. 2",
+                        "Kun hvis foreningens medlemmer bor i det berørte område",
+                        "Kun med tilladelse fra Procesbevillingsnævnet"
+                    ],
+                    "correct": 1,
+                    "explanation": "Planlovens § 59, stk. 2, tillægger visse landsdækkende foreninger med hovedformål om beskyttelse af natur og miljø klageret og dermed søgsmålsret. Se tillige miljøbeskyttelseslovens § 100 og naturbeskyttelseslovens § 86."
+                },
+                {
+                    "question": "Hvilken international konvention har udvidet foreningers søgsmålsret på miljøområdet?",
+                    "choices": [
+                        "Den Europæiske Menneskerettighedskonvention, art. 8",
+                        "Århus-konventionen, art. 9, stk. 2, der fastsætter, at foreninger inden for miljøområdet generelt skal anses for at have fornøden retlig interesse",
+                        "FN's Verdenserklæring om Menneskerettigheder, art. 10",
+                        "EU's Charter om Grundlæggende Rettigheder, art. 47"
+                    ],
+                    "correct": 1,
+                    "explanation": "Gennemførelsen af Århus-konventionen, tiltrådt af EU, har medført en forøgelse af foreningers klage- og søgsmålsret. Konventionens art. 9, stk. 2, fastsætter, at foreninger inden for miljøområdet generelt skal anses for at have fornøden retlig interesse."
+                },
+                {
+                    "question": "Har Limfjordens Venner, der ikke er tillagt klageret ved lov, søgsmålsret?",
+                    "choices": [
+                        "Ja, alle foreninger med et miljømæssigt formål har søgsmålsret",
+                        "Udgangspunktet er nej — en forening uden lovbestemt klage- eller søgsmålsret kan kun under særlige omstændigheder antages at have fornøden retlig interesse, jf. U 2019.437 H",
+                        "Ja, hvis foreningen har mindst 100 medlemmer",
+                        "Nej, men foreningen kan altid indtræde som biintervenient"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2019.437 H: En forening, der ikke ved lov er tillagt søgsmåls- eller klageret, kan kun under særlige omstændigheder antages at have fornøden retlig interesse. I U 2019.437 H om Patientdataforeningen forelå sådanne særlige omstændigheder ikke."
+                },
+                {
+                    "question": "Hvis Grøn Fremtid får medhold i, at tilladelsen er ugyldig, hvad vil dommen typisk gå ud på?",
+                    "choices": [
+                        "Tilladelsen ophæves med øjeblikkelig virkning, og svinefarmen lukkes",
+                        "Sagen hjemvises typisk til fornyet behandling hos myndigheden, så den person, der ikke var part i sagen, får adgang til at fremføre sine synspunkter",
+                        "Nævnet pålægges at betale erstatning til foreningen",
+                        "Dommen fastsætter nye vilkår for svinefarmen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Da det er betænkeligt at afsige en dom, hvorefter en myndighed skal påtale et ulovligt forhold over for en person, der ikke har været part i sagen, vil en dom typisk gå ud på hjemvisning til fornyet behandling, så den berørte person kan fremføre sine synspunkter."
+                }
+            ]
+        },
+        {
+            "title": "Kommunen mod Naturklagenævnet — Offentlige myndigheders retlige interesse",
+            "level": 7,
+            "context": "Silkeborg Kommune har vedtaget en lokalplan, der muliggør opførelse af et nyt boligområde med 200 boliger ved Silkeborg Langsø. Naturklagenævnet (nu Planklagenævnet) har efter klage fra en nabo truffet afgørelse om, at lokalplanen er ugyldig som følge af utilstrækkelig miljøvurdering. Kommunen ønsker at anlægge sag mod Naturklagenævnet med påstand om, at nævnets afgørelse er ugyldig. Kommunen begrunder sin interesse dels med planlægningsmæssige hensyn (afgørelsen har betydning for kommunens fremtidige planlægning), dels med økonomiske hensyn (boligområdet ville tiltrække nye skatteydere). Nævnet gør gældende, at kommunen som underordnet myndighed ikke har den fornødne retlige interesse i at anfægte den overordnede myndigheds afgørelse.",
+            "questions": [
+                {
+                    "question": "Hvad er udgangspunktet for en underordnet myndigheds mulighed for at sagsøge en overordnet myndighed?",
+                    "choices": [
+                        "Den underordnede myndighed kan altid sagsøge den overordnede myndighed",
+                        "Udgangspunktet er, at en myndighed, der som 1. instans har truffet afgørelse, ikke kan anlægge sag mod en myndighed, der som klageinstans har ændret afgørelsen",
+                        "Det afhænger udelukkende af sagens værdi",
+                        "Kun EU-retlige spørgsmål kan begrunde søgsmål mellem myndigheder"
+                    ],
+                    "correct": 1,
+                    "explanation": "Når lovgiver har indført et administrativt klagesystem, må den underordnede myndighed acceptere den overordnede myndigheds afgørelse. Det forhold, at afgørelsen er ændret, giver ikke i sig selv den underordnede myndighed retlig interesse i domstolsbehandling."
+                },
+                {
+                    "question": "Kan kommunens planlægningsmæssige interesse begrunde søgsmålsret?",
+                    "choices": [
+                        "Ja, jf. U 2007.1074 H, hvor Højesteret accepterede en kommunes planlægningsmæssige interesse som tilstrækkelig",
+                        "Det er tvivlsomt — i U 2004.1513 H afviste Højesteret en tilsvarende sag, og begge afgørelser er afsagt med dissens, hvorfor retsstillingen er usikker",
+                        "Nej, planlægningsmæssig interesse kan aldrig begrunde søgsmål",
+                        "Kun hvis kommunen har en befolkning på over 100.000"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2004.1513 H afviste Højesteret kommunens søgsmål, mens U 2007.1074 H nåede det modsatte resultat — begge med dissens. Det er derfor tvivlsomt, om planlægningsmæssig interesse er tilstrækkelig. Forfatteren foretrækker resultatet i U 2004.1513 H (afvisning)."
+                },
+                {
+                    "question": "Kan kommunens argument om øgede skatteindtægter (indirekte økonomisk interesse) begrunde søgsmålsret mod den overordnede myndighed?",
+                    "choices": [
+                        "Ja, enhver økonomisk interesse er tilstrækkelig",
+                        "Nej, en indirekte økonomisk interesse (som øgede skatteindtægter fra tilflytning) er formentlig ikke tilstrækkelig over for en overordnet myndighed — der kræves en mere umiddelbar økonomisk interesse",
+                        "Ja, hvis beløbet overstiger 1 mio. kr.",
+                        "Det afgøres af Folketingets Ombudsmand"
+                    ],
+                    "correct": 1,
+                    "explanation": "En indirekte økonomisk interesse, som fx øgede skatteindtægter fra tilflytning, bør formentlig ikke være tilstrækkelig til søgsmål mod en overordnet myndighed. Der kræves en mere umiddelbar økonomisk interesse, fx at sagen angår udnyttelse af en ejendom, kommunen ejer."
+                },
+                {
+                    "question": "Hvad kan kommunen gøre, hvis den ikke selv har tilstrækkelig retlig interesse til at anlægge sag?",
+                    "choices": [
+                        "Kommunen kan ikke gøre noget",
+                        "Kommunen kan efter omstændighederne indtræde som biintervenient, hvis en person med fornøden retlig interesse anlægger sagen — betingelserne for biintervention er lempeligere end for selvstændig søgsmålsret",
+                        "Kommunen kan klage til Folketingets Ombudsmand",
+                        "Kommunen kan anmode Justitsministeriet om at anlægge sagen"
+                    ],
+                    "correct": 1,
+                    "explanation": "Selv om en myndighed ikke har tilstrækkelig retlig interesse til selv at anlægge sag, kan den efter omstændighederne indtræde som biintervenient, hvis en person med fornøden retlig interesse anlægger sagen. Betingelserne for biintervention er lempeligere."
+                }
+            ]
+        },
+        {
+            "title": "Rette sagsøgte — Huslejenævnsafgørelsen og den forkerte modpart",
+            "level": 7,
+            "context": "Udlejer Henrik Brink ejer en lejlighed på Vesterbro i København, som han udlejer til Camilla Holst. Camilla har klaget til huslejenævnet over for høj husleje. Huslejenævnet giver Camilla medhold og nedsætter huslejen med 2.500 kr. om måneden. Henrik er uenig i afgørelsen og vil indbringe sagen for domstolene. Han anlægger sag mod huslejenævnet med påstand om, at nævnets afgørelse er ugyldig. Samtidig har grundejer Per Thomsen i en anden sag modtaget en afgørelse fra Overtaksationskommissionen i en tvist med naboen Grete Larsen om nedlæggelse af en privat fællesvej. Per anlægger sag mod Overtaksationskommissionen. Begge sager rejser spørgsmålet om, hvem der er rette sagsøgte.",
+            "questions": [
+                {
+                    "question": "Hvem er rette sagsøgte i Henriks sag om huslejenævnets afgørelse?",
+                    "choices": [
+                        "Huslejenævnet, da det er nævnet, der har truffet afgørelsen",
+                        "Lejeren Camilla Holst, da huslejenævnets afgørelse angår en tvist mellem udlejer og lejer",
+                        "Kommunen, da huslejenævnet er en kommunal myndighed",
+                        "Boligministeriet som øverste ressortmyndighed"
+                    ],
+                    "correct": 1,
+                    "explanation": "Når en myndighed træffer afgørelse i en tvist mellem to parter, skal den part, der ønsker at indbringe sagen for domstolene, sagsøge den anden part og ikke myndigheden. Henrik skal derfor sagsøge Camilla, ikke huslejenævnet."
+                },
+                {
+                    "question": "Hvad er den generelle regel, når en myndighed har truffet afgørelse i en tvist mellem to parter, jf. U 2003.71 H?",
+                    "choices": [
+                        "Sagen skal altid anlægges mod myndigheden",
+                        "Sagen skal anlægges mod den anden part, medmindre det gøres gældende, at nævnets afgørelse er ugyldig som følge af sagsbehandlingsfejl eller lignende",
+                        "Sagen kan frit anlægges mod enten myndigheden eller den anden part",
+                        "Sagen skal anlægges mod begge — både myndigheden og den anden part"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. U 2003.71 H (Pressenævnet): En person, der er uenig i en afgørelse fra et nævn, der træffer afgørelse i tvister, skal sagsøge modparten, medmindre det gøres gældende, at nævnets afgørelse er ugyldig som følge af sagsbehandlingsfejl eller lignende."
+                },
+                {
+                    "question": "Hvad var resultatet i Per Thomsens sag mod Overtaksationskommissionen, jf. U 2007.2486 V?",
+                    "choices": [
+                        "Overtaksationskommissionen blev dømt til at ændre sin afgørelse",
+                        "Retten afviste sagen, da den var anlagt mod Overtaksationskommissionen og ikke mod den anden grundejer (Grete Larsen)",
+                        "Sagen blev hjemvist til Overtaksationskommissionen",
+                        "Per fik medhold, da Overtaksationskommissionen var rette sagsøgte"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2007.2486 V havde Overtaksationskommissionen taget stilling til en tvist mellem to grundejere om nedlæggelse af en privat vej, hvorfor retten afviste sagen, der var anlagt mod Overtaksationskommissionen i stedet for mod den anden grundejer."
+                },
+                {
+                    "question": "Hvad sker der processuelt, hvis Henrik har anlagt sagen mod den forkerte sagsøgte (huslejenævnet)?",
+                    "choices": [
+                        "Retten ændrer automatisk sagsøgte til den rigtige person",
+                        "Huslejenævnet frifin des eller sagen afvises, men dette hindrer ikke Henrik i at anlægge ny sag mod Camilla",
+                        "Henrik mister retten til at anlægge sag overhovedet",
+                        "Sagen stilles i bero, indtil Henrik retter påstanden"
+                    ],
+                    "correct": 1,
+                    "explanation": "Er sagen anlagt mod forkert sagsøgte, sker der enten frifindelse eller afvisning. Dette hindrer ikke, at der efterfølgende anlægges ny sag mod den rette sagsøgte, da afgørelsen ikke har retskraft i forhold til denne. Frifindelse kræver dog påstand herom fra den sagsøgte."
+                }
+            ]
+        },
+        {
+            "title": "Sikkerhedsstillelse — Den udenlandske sagsøger og Rpl § 321",
+            "level": 7,
+            "context": "Det canadiske selskab MapleTech Inc. med hjemsted i Toronto anlægger sag ved Retten i København mod den danske virksomhed DanSoft A/S med påstand om betaling af 2,3 mio. kr. for krænkelse af MapleTechs softwarepatent. DanSofts advokat gør gældende, at MapleTech skal stille sikkerhed for de sagsomkostninger, som DanSoft kan blive tilkendt, hvis DanSoft vinder sagen, jf. Rpl § 321, stk. 1. MapleTechs advokat argumenterer for, at sikkerhedsstillelse er urimeligt, da selskabet er velkapitaliseret og har aktiver for over 100 mio. USD. Canada har ikke tiltrådt 1954 Haagercivilproceskonventionen, og der er ingen bilateral aftale om fritagelse for sikkerhedsstillelse mellem Danmark og Canada.",
+            "questions": [
+                {
+                    "question": "Hvornår kan en sagsøgte kræve, at en udenlandsk sagsøger stiller sikkerhed efter Rpl § 321?",
+                    "choices": [
+                        "Når som helst under sagens forløb",
+                        "Senest i svarskriftet eller det i Rpl § 352, stk. 3, omhandlede møde",
+                        "Først efter domsforhandlingen",
+                        "Kun hvis sagsøgeren er insolvent"
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. Rpl § 321, stk. 1, 2. pkt., kan afvisning ikke ske, hvis den sagsøgte ikke senest i svarskriftet eller det i Rpl § 352, stk. 3, omhandlede møde har fremsat begæring om sikkerhedsstillelse. DanSoft skal altså handle rettidigt."
+                },
+                {
+                    "question": "Hvornår kan sikkerhedsstillelse IKKE kræves af en udenlandsk sagsøger?",
+                    "choices": [
+                        "Når sagsøgeren er et stort velkapitaliseret selskab",
+                        "Når sagsøgeren har bopæl/hjemsted i et land, hvis domstole ikke kræver sikkerhedsstillelse fra sagsøgere med bopæl/hjemsted i Danmark, jf. Rpl § 321, stk. 2",
+                        "Når sagen angår immaterialret",
+                        "Når sagsøgerens krav overstiger 1 mio. kr."
+                    ],
+                    "correct": 1,
+                    "explanation": "Jf. Rpl § 321, stk. 2, kan sikkerhedsstillelse ikke kræves, hvis sagsøgeren har bopæl/hjemsted i et land, hvis domstole ikke kræver sikkerhedsstillelse fra danske sagsøgere. Dette gælder bl.a. lande, der har tiltrådt 1954 Haagercivilproceskonventionen, samt USA."
+                },
+                {
+                    "question": "I U 2013.3358 H om mulig tortur ved dansk militær magtudøvelse i udlandet — hvad afgjorde Højesteret om sikkerhedsstillelse?",
+                    "choices": [
+                        "Sagsøgerne blev pålagt normal sikkerhedsstillelse",
+                        "Sagsøgerne blev fritaget for sikkerhedsstillelse som følge af sagens helt særlige karakter og omstændigheder",
+                        "Sagen blev afvist, fordi sikkerhed ikke blev stillet",
+                        "Højesteret fandt, at Rpl § 321 ikke gælder i sager mod staten"
+                    ],
+                    "correct": 1,
+                    "explanation": "I U 2013.3358 H, der angik statens mulige ansvar for tortur som følge af dansk militær magtudøvelse i udlandet, blev sagsøgerne fritaget for sikkerhedsstillelse som følge af sagens helt særlige karakter og omstændigheder. Retten kan rent undtagelsesvis fritage, jf. Rpl § 321, stk. 1, 3. pkt."
+                },
+                {
+                    "question": "Hvad er det egentlige formål med Rpl § 321 om sikkerhedsstillelse?",
+                    "choices": [
+                        "At forhindre udenlandske sagsøgere i at anlægge sag i Danmark",
+                        "At sikre den sagsøgte mod vanskeligheder ved at fuldbyrde en eventuel afgørelse om tilkendelse af sagsomkostninger",
+                        "At beskytte danske virksomheder mod udenlandsk konkurrence",
+                        "At sikre, at retsafgiften bliver betalt"
+                    ],
+                    "correct": 1,
+                    "explanation": "Formålet med Rpl § 321 er ifølge Bet. 2004:1436, s. 308, alene at sikre den sagsøgte mod vanskeligheder ved at få fuldbyrdet en eventuel afgørelse om tilkendelse af sagsomkostninger til den sagsøgte — ikke at beskytte mod sagsøgere med dårlig økonomi som sådan."
                 }
             ]
         }
